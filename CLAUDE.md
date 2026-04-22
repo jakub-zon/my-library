@@ -19,9 +19,9 @@ site/           Static HTML/CSS/JS that fetches books.json and renders it
 - ~27 pages × 20 books (~531 visible anonymously; full collection is slightly larger — see "Logged-out gap" below). Data is server-rendered in HTML — **no Playwright needed**.
 - Fields to extract: `id`, `title`, `url`, `type` (`book` | `audiobook`), `authors[]`, `average_rating` (LC community), `user_rating` (only on "Przeczytane"), `shelves[]`, `cycle` (optional), `cover`.
 
-### Logged-out gap
+### Counter mismatch
 
-The anonymous shortlink hides ~2 books that the owner sees when logged in (likely books the owner marked as "hidden from others"). If full parity with the logged-in count is required, the scraper has to be authenticated — pass `lc_session` (and possibly `lc_memberId`) cookies from a browser session via env var or GitHub Secret. Otherwise accept ~99.6% coverage.
+LC's sidebar totals ("KSIĄŻKI W BIBLIOTECZCE [533]", "Posiadane 316", "Chcę przeczytać 265", etc.) are slightly off — they're inflated by ~2 relative to what the paginated list actually contains. Verified: on the `Posiadane` filter the last page has 14 entries, giving 15×20 + 14 = **314** (matches scraper), while the sidebar insists on 316. Same 2-book drift appears on `Chcę przeczytać` and `Do przeczytania`. **Treat the scraper total as ground truth, ignore the sidebar counter.** Do not chase these "missing" books — they don't exist on any visible page.
 
 ## Conventions
 
