@@ -31,7 +31,7 @@ HEADERS = {
 }
 SLEEP_BETWEEN_REQUESTS_S = 1.5
 REPO_ROOT = Path(__file__).resolve().parents[1]
-OUT_PATH = REPO_ROOT / "data" / "books.json"
+OUT_PATH = REPO_ROOT / "docs" / "books.json"
 
 
 def _parse_rating(text: str) -> float | None:

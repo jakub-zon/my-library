@@ -5,11 +5,13 @@ Static site on GitHub Pages showing my book collection from lubimyczytac.pl. Rep
 ## Architecture
 
 ```
-scraper/        Python (httpx + BeautifulSoup) — pulls data from LC
-data/books.json Scraper output, committed to the repo
-site/           Static HTML/CSS/JS that fetches books.json and renders it
-.github/workflows/update.yml  Manual trigger (workflow_dispatch): scrape → commit → Pages deploy
+scraper/scrape.py            Python (httpx + BeautifulSoup) — pulls data from LC
+docs/books.json              Scraper output, committed; served by GH Pages
+docs/{index.html,app.js,style.css}  Static site (vanilla, no build step)
+.github/workflows/update.yml Manual trigger (workflow_dispatch): scrape → commit → Pages deploy
 ```
+
+GitHub Pages is configured to serve from the `/docs` folder on `main` (built-in option, no Actions deploy required). The site is a single-page vanilla JS table that `fetch("./books.json")` — both live at the Pages root.
 
 ## Data source
 

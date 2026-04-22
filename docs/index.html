@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>my-library</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>my-library</h1>
+    <p class="stats" id="stats">Loading…</p>
+  </header>
+
+  <section class="filters">
+    <input id="f-title" type="search" placeholder="Tytuł zawiera…" autocomplete="off">
+    <input id="f-author" type="search" placeholder="Autor zawiera…" autocomplete="off">
+    <select id="f-shelf">
+      <option value="">— dowolna półka —</option>
+    </select>
+    <button id="f-clear" type="button">Wyczyść</button>
+  </section>
+
+  <main>
+    <table id="books">
+      <thead>
+        <tr>
+          <th data-sort="cover" class="no-sort">Okładka</th>
+          <th data-sort="title">Tytuł</th>
+          <th data-sort="authors">Autor</th>
+          <th data-sort="cycle">Cykl</th>
+          <th data-sort="average_rating" class="num">Śr. LC</th>
+          <th data-sort="user_rating" class="num">Moja</th>
+          <th data-sort="shelves">Półki</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
