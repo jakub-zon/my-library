@@ -12,6 +12,7 @@
     stats: document.getElementById("stats"),
     fTitle: document.getElementById("f-title"),
     fAuthor: document.getElementById("f-author"),
+    fCycle: document.getElementById("f-cycle"),
     fShelf: document.getElementById("f-shelf"),
     fClear: document.getElementById("f-clear"),
   };
@@ -74,6 +75,7 @@
   const applyFilters = () => {
     const title = normalize(el.fTitle.value.trim());
     const author = normalize(el.fAuthor.value.trim());
+    const cycle = normalize(el.fCycle.value.trim());
     const shelf = el.fShelf.value;
 
     state.filtered = state.books.filter((b) => {
@@ -82,6 +84,7 @@
         const joined = normalize((b.authors || []).join(" "));
         if (!joined.includes(author)) return false;
       }
+      if (cycle && !normalize(b.cycle).includes(cycle)) return false;
       if (shelf && !(b.shelves || []).includes(shelf)) return false;
       return true;
     });
@@ -134,10 +137,12 @@
     el.thead.addEventListener("click", onHeaderClick);
     el.fTitle.addEventListener("input", applyFilters);
     el.fAuthor.addEventListener("input", applyFilters);
+    el.fCycle.addEventListener("input", applyFilters);
     el.fShelf.addEventListener("change", applyFilters);
     el.fClear.addEventListener("click", () => {
       el.fTitle.value = "";
       el.fAuthor.value = "";
+      el.fCycle.value = "";
       el.fShelf.value = "";
       applyFilters();
     });
