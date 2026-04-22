@@ -1,10 +1,10 @@
 # my-library
 
-Mój prywatny księgozbiór z [lubimyczytac.pl](https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af), wystawiony jako statyczna strona na GitHub Pages.
+My personal book collection from [lubimyczytac.pl](https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af), published as a static site on GitHub Pages.
 
-## Struktura
+## Layout
 
-- `scraper/` — skrypt w Pythonie pobierający dane z LC
-- `data/books.json` — wyjście scrapera (commitowane)
-- `site/` — statyczna strona (HTML/CSS/JS) renderująca dane
-- `.github/workflows/` — GitHub Actions (ręczny trigger aktualizacji)
+- `scraper/` — Python script that pulls data from LC
+- `data/books.json` — scraper output (committed)
+- `site/` — static HTML/CSS/JS that renders the data
+- `.github/workflows/` — GitHub Actions (manual update trigger)
