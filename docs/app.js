@@ -5,6 +5,9 @@
     sortKey: "title",
     sortDir: 1, // 1 asc, -1 desc
     selectedShelves: new Set(),
+    details: {},
+    detailsLoaded: false,
+    expanded: new Set(),
   };
 
   const el = {
@@ -45,6 +48,30 @@
   const stripTomSuffix = (cycle) =>
     (cycle || "").replace(/\s*\([^)]*tom[^)]*\)\s*$/i, "").trim();
 
+  const renderDetailRow = (book) => {
+    const d = state.details[book.id];
+    const extLink = book.url
+      ? `<a class="ext-link" href="${escape(book.url)}" target="_blank" rel="noopener">Zobacz na lubimyczytac.pl ↗</a>`
+      : "";
+    if (!state.detailsLoaded) {
+      return `<div class="detail-empty">Szczegóły w trakcie pobierania. Odśwież za chwilę.</div>${extLink}`;
+    }
+    if (!d) {
+      return `<div class="detail-empty">Brak szczegółów dla tej pozycji.</div>${extLink}`;
+    }
+    if (d.error === "404") {
+      return `<div class="detail-empty">Strona tej książki zniknęła z LC (404).</div>${extLink}`;
+    }
+    const bits = [];
+    if (d.genre) bits.push(`<span class="detail-field"><strong>Gatunek:</strong> ${escape(d.genre)}</span>`);
+    if (d.pages) bits.push(`<span class="detail-field"><strong>Stron:</strong> ${d.pages}</span>`);
+    const header = bits.length ? `<div class="detail-meta">${bits.join(" · ")}</div>` : "";
+    const desc = d.description
+      ? `<div class="detail-desc">${escape(d.description).replace(/\n/g, "<br>")}</div>`
+      : `<div class="detail-empty">Brak opisu.</div>`;
+    return `${header}${desc}${extLink}`;
+  };
+
   const render = () => {
     const rows = state.filtered.map((b) => {
       const authors = (b.authors || [])
@@ -63,16 +90,26 @@
         : `<span class="dash">—</span>`;
       const avg = b.average_rating != null ? b.average_rating.toFixed(1) : `<span class="dash">—</span>`;
       const mine = b.user_rating != null ? b.user_rating.toFixed(1) : `<span class="dash">—</span>`;
-      return `
-        <tr>
+      const isOpen = state.expanded.has(b.id);
+      const titleCell = `
+        <button class="expand-toggle" type="button" data-book-id="${escape(b.id)}" aria-expanded="${isOpen}" aria-label="${isOpen ? "Zwiń szczegóły" : "Rozwiń szczegóły"}">▶</button>
+        <a class="title-link" href="./book.html?id=${encodeURIComponent(b.id)}" target="_blank" rel="noopener">${escape(b.title || "")}</a>
+        ${b.url ? `<a class="lc-badge" href="${escape(b.url)}" target="_blank" rel="noopener" aria-label="Otwórz na lubimyczytac.pl">LC ↗</a>` : ""}
+      `;
+      const mainRow = `
+        <tr class="book-row${isOpen ? " is-open" : ""}" data-book-id="${escape(b.id)}">
           <td class="cover">${cover}</td>
-          <td class="title"><a href="${escape(b.url || "#")}" target="_blank" rel="noopener">${escape(b.title || "")}</a></td>
+          <td class="title">${titleCell}</td>
           <td class="authors">${authors}</td>
           <td class="cycle">${cycle}</td>
           <td class="num">${avg}</td>
           <td class="num">${mine}</td>
           <td class="shelves">${shelves}</td>
         </tr>`;
+      const detailRow = isOpen
+        ? `<tr class="detail-row" data-book-id="${escape(b.id)}"><td></td><td colspan="6" class="detail-cell">${renderDetailRow(b)}</td></tr>`
+        : "";
+      return mainRow + detailRow;
     });
     el.tbody.innerHTML = rows.join("");
     el.stats.textContent = `${state.filtered.length} / ${state.books.length} książek`;
@@ -166,7 +203,18 @@
     applySort();
   };
 
+  const toggleExpanded = (bookId) => {
+    if (state.expanded.has(bookId)) state.expanded.delete(bookId);
+    else state.expanded.add(bookId);
+    render();
+  };
+
   const onBodyClick = (ev) => {
+    const toggle = ev.target.closest(".expand-toggle");
+    if (toggle) {
+      toggleExpanded(toggle.dataset.bookId);
+      return;
+    }
     const target = ev.target.closest(".clickable");
     if (!target) return;
     const filter = target.dataset.filter;
@@ -228,6 +276,18 @@
     }
   };
 
+  const loadDetails = async () => {
+    try {
+      const r = await fetch("./books-details.json", { cache: "no-cache" });
+      if (!r.ok) return;
+      state.details = await r.json();
+      state.detailsLoaded = true;
+      if (state.expanded.size > 0) render();
+    } catch {
+      // details are optional — expanded rows will show a graceful fallback
+    }
+  };
+
   const init = async () => {
     const r = await fetch("./books.json", { cache: "no-cache" });
     if (!r.ok) {
@@ -241,6 +301,7 @@
     bind();
     applySort();
     loadMeta();
+    loadDetails();
   };
 
   init();

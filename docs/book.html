@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Książka — my-library</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <nav class="topnav">
+      <a href="./index.html">Biblioteka</a>
+      <a href="./reading-plan.html">Plan czytelniczy</a>
+      <a href="./accepted.html">Zaakceptowane</a>
+      <a href="./rejected.html">Odrzucone</a>
+    </nav>
+  </header>
+
+  <main class="book-detail">
+    <p id="status" class="stats">Ładowanie…</p>
+    <article id="book" hidden>
+      <div class="book-layout">
+        <div class="book-cover-wrap">
+          <img id="b-cover" alt="" loading="eager">
+        </div>
+        <div class="book-meta">
+          <h1 id="b-title"></h1>
+          <p class="book-authors" id="b-authors"></p>
+          <p class="book-cycle" id="b-cycle"></p>
+          <div class="book-ratings">
+            <span id="b-avg"></span>
+            <span id="b-mine"></span>
+          </div>
+          <div class="book-shelves" id="b-shelves"></div>
+          <dl class="book-facts">
+            <dt>Gatunek</dt><dd id="b-genre"><span class="dash">—</span></dd>
+            <dt>Liczba stron</dt><dd id="b-pages"><span class="dash">—</span></dd>
+          </dl>
+          <p class="book-links">
+            <a id="b-lc" href="#" target="_blank" rel="noopener" hidden>Otwórz na lubimyczytac.pl ↗</a>
+          </p>
+        </div>
+      </div>
+      <section class="book-description">
+        <h2>Opis</h2>
+        <div id="b-desc"></div>
+      </section>
+    </article>
+  </main>
+
+  <script src="./book.js" defer></script>
+</body>
+</html>
