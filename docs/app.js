@@ -11,6 +11,7 @@
     tbody: document.querySelector("#books tbody"),
     thead: document.querySelector("#books thead"),
     stats: document.getElementById("stats"),
+    meta: document.getElementById("meta"),
     fTitle: document.getElementById("f-title"),
     fAuthor: document.getElementById("f-author"),
     fCycle: document.getElementById("f-cycle"),
@@ -200,6 +201,33 @@
     });
   };
 
+  const formatAge = (iso) => {
+    if (!iso) return "";
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return "";
+    const deltaMin = Math.floor((Date.now() - d.getTime()) / 60000);
+    if (deltaMin < 1) return "przed chwilą";
+    if (deltaMin < 60) return `${deltaMin} min temu`;
+    const deltaH = Math.floor(deltaMin / 60);
+    if (deltaH < 24) return `${deltaH} h temu`;
+    const deltaD = Math.floor(deltaH / 24);
+    return `${deltaD} dni temu`;
+  };
+
+  const loadMeta = async () => {
+    try {
+      const r = await fetch("./meta.json", { cache: "no-cache" });
+      if (!r.ok) return;
+      const m = await r.json();
+      const age = formatAge(m.generated_at);
+      if (age && el.meta) {
+        el.meta.textContent = `Ostatnia aktualizacja: ${age}`;
+      }
+    } catch {
+      // meta.json is optional
+    }
+  };
+
   const init = async () => {
     const r = await fetch("./books.json", { cache: "no-cache" });
     if (!r.ok) {
@@ -212,6 +240,7 @@
     buildShelfOptions();
     bind();
     applySort();
+    loadMeta();
   };
 
   init();

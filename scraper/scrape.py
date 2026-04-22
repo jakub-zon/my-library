@@ -34,6 +34,7 @@ SLEEP_BETWEEN_REQUESTS_S = 1.5
 REPO_ROOT = Path(__file__).resolve().parents[1]
 OUT_PATH = REPO_ROOT / "docs" / "books.json"
 DETAILS_PATH = REPO_ROOT / "docs" / "books-details.json"
+META_PATH = REPO_ROOT / "docs" / "meta.json"
 
 # Enrichment tunables
 SLEEP_DETAIL_S = 1.5
@@ -41,6 +42,7 @@ MAX_RETRIES = 5
 BACKOFF_START_S = 5
 BACKOFF_MAX_S = 80
 RATE_LIMIT_SLEEP_S = 60
+PROGRESS_EVERY = 25
 
 
 def _parse_rating(text: str) -> float | None:
@@ -319,21 +321,45 @@ def enrich_one(client: httpx.Client, book: dict) -> tuple[dict, str]:
     )
 
 
+def _progress_tick(i: int, total: int, stats: dict, t_start: float) -> None:
+    elapsed = time.monotonic() - t_start
+    rate = i / elapsed if elapsed > 0 else 0.0
+    remaining_s = (total - i) / rate if rate > 0 else 0.0
+    eta_min = int(remaining_s // 60)
+    pct = (100 * i // total) if total else 0
+    msg = (
+        f"  progress [{i}/{total}] {pct}% — "
+        f"ok={stats['ok_first']} retried={stats['retried_ok']} "
+        f"404={stats['http_404']} parse={stats['parse_err']} "
+        f"ETA~{eta_min}m"
+    )
+    print(msg, file=sys.stderr)
+
+
 def enrich_books(
     books: list[dict],
     limit: int | None = None,
     refresh: bool = False,
+    stats: dict | None = None,
+    failures: list[dict] | None = None,
 ) -> tuple[dict, list[dict]]:
+    if stats is None:
+        stats = {
+            "total_in_library": len(books),
+            "skipped_already_done": 0,
+            "ok_first": 0,
+            "retried_ok": 0,
+            "http_404": 0,
+            "parse_err": 0,
+        }
+    else:
+        stats.setdefault("total_in_library", len(books))
+        for k in ("skipped_already_done", "ok_first", "retried_ok", "http_404", "parse_err"):
+            stats.setdefault(k, 0)
+    if failures is None:
+        failures = []
+
     existing = _load_details()
-    stats = {
-        "total_in_library": len(books),
-        "skipped_already_done": 0,
-        "ok_first": 0,
-        "retried_ok": 0,
-        "http_404": 0,
-        "parse_err": 0,
-    }
-    failures: list[dict] = []
 
     to_process: list[dict] = []
     for b in books:
@@ -356,37 +382,58 @@ def enrich_books(
         file=sys.stderr,
     )
 
-    with httpx.Client(follow_redirects=True, timeout=30.0) as client:
-        for i, b in enumerate(to_process, 1):
-            book_id = str(b["id"])
-            title = (b.get("title") or "")[:60]
-            print(f"  [{i}/{total}] id={book_id} {title}", file=sys.stderr)
-            result, outcome = enrich_one(client, b)
-            existing[book_id] = result
-            if outcome == "ok":
-                stats["ok_first"] += 1
-            elif outcome == "retry-ok":
-                stats["retried_ok"] += 1
-            elif outcome == "http-404":
-                stats["http_404"] += 1
-                failures.append({
-                    "id": book_id,
-                    "title": b.get("title") or "",
-                    "author": ", ".join(b.get("authors") or []),
-                    "error": "404",
-                })
-            else:
-                stats["parse_err"] += 1
-                failures.append({
-                    "id": book_id,
-                    "title": b.get("title") or "",
-                    "author": ", ".join(b.get("authors") or []),
-                    "error": result.get("error") or "parse",
-                })
-            time.sleep(SLEEP_DETAIL_S)
+    t_start = time.monotonic()
+    try:
+        with httpx.Client(follow_redirects=True, timeout=30.0) as client:
+            for i, b in enumerate(to_process, 1):
+                book_id = str(b["id"])
+                title = (b.get("title") or "")[:60]
+                print(f"  [{i}/{total}] id={book_id} {title}", file=sys.stderr)
+                result, outcome = enrich_one(client, b)
+                existing[book_id] = result
+                if outcome == "ok":
+                    stats["ok_first"] += 1
+                elif outcome == "retry-ok":
+                    stats["retried_ok"] += 1
+                elif outcome == "http-404":
+                    stats["http_404"] += 1
+                    failures.append({
+                        "id": book_id,
+                        "title": b.get("title") or "",
+                        "author": ", ".join(b.get("authors") or []),
+                        "error": "404",
+                    })
+                else:
+                    stats["parse_err"] += 1
+                    failures.append({
+                        "id": book_id,
+                        "title": b.get("title") or "",
+                        "author": ", ".join(b.get("authors") or []),
+                        "error": result.get("error") or "parse",
+                    })
+                if i % PROGRESS_EVERY == 0 and i < total:
+                    _progress_tick(i, total, stats, t_start)
+                time.sleep(SLEEP_DETAIL_S)
+    finally:
+        _save_details(existing)
 
-    _save_details(existing)
     return stats, failures
+
+
+def write_meta(books_count: int, stats: dict, duration_s: float) -> None:
+    """Write docs/meta.json with freshness info the site can display."""
+    import datetime as _dt
+
+    meta = {
+        "generated_at": _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds"),
+        "library_total": books_count,
+        "duration_seconds": int(duration_s),
+        "enrichment": {k: stats.get(k, 0) for k in (
+            "ok_first", "retried_ok", "skipped_already_done", "http_404", "parse_err"
+        )},
+    }
+    META_PATH.parent.mkdir(parents=True, exist_ok=True)
+    META_PATH.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def _format_duration(seconds: float) -> str:
@@ -502,16 +549,32 @@ def main() -> None:
 
     if args.no_enrich or args.from_file:
         print("Enrichment skipped.", file=sys.stderr)
+        duration = time.monotonic() - t_start
+        write_meta(len(books), {}, duration)
         return
 
-    stats, failures = enrich_books(
-        books,
-        limit=args.enrich_limit,
-        refresh=args.refresh_details,
-    )
-    duration = time.monotonic() - t_start
-    new_books = max(0, len(books) - previous_count) if previous_count else 0
-    write_summary(stats, failures, duration, library_new_books=new_books)
+    stats: dict = {
+        "total_in_library": len(books),
+        "skipped_already_done": 0,
+        "ok_first": 0,
+        "retried_ok": 0,
+        "http_404": 0,
+        "parse_err": 0,
+    }
+    failures: list[dict] = []
+    try:
+        enrich_books(
+            books,
+            limit=args.enrich_limit,
+            refresh=args.refresh_details,
+            stats=stats,
+            failures=failures,
+        )
+    finally:
+        duration = time.monotonic() - t_start
+        new_books = max(0, len(books) - previous_count) if previous_count else 0
+        write_summary(stats, failures, duration, library_new_books=new_books)
+        write_meta(len(books), stats, duration)
 
 
 if __name__ == "__main__":

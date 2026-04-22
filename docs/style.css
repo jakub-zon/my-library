@@ -59,6 +59,8 @@ header h1 {
   font-size: 0.85rem;
 }
 
+.stats.meta { font-size: 0.75rem; opacity: 0.7; }
+
 .filters {
   display: flex;
   flex-wrap: wrap;

@@ -31,19 +31,24 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          changed=""
-          if ! git diff --quiet docs/books.json; then
-            changed="$changed docs/books.json"
-          fi
-          if ! git diff --quiet -- docs/books-details.json 2>/dev/null || [ -n "$(git status --porcelain docs/books-details.json)" ]; then
-            changed="$changed docs/books-details.json"
-          fi
-          if [ -z "$changed" ]; then
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/books.json docs/books-details.json docs/meta.json
+          if git diff --staged --quiet; then
             echo "No changes — skipping commit."
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/books.json docs/books-details.json
           git commit -m "Update library data via manual workflow run"
-          git push
+          # Rebase in case commits landed on main while the job was running
+          # (e.g. the library-advisor skill pushing state files). Retry.
+          for attempt in 1 2 3; do
+            git pull --rebase origin main || true
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push failed on attempt $attempt, retrying after 5s…"
+            sleep 5
+          done
+          echo "Giving up on push after 3 attempts."
+          exit 1
