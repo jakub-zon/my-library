@@ -144,6 +144,13 @@ td.cycle, td.shelves { color: var(--muted); font-size: 0.88rem; }
   font-size: 0.75rem;
   color: var(--fg);
   white-space: nowrap;
+  transition: border-color 0.1s, color 0.1s;
+}
+
+.shelf-pill.clickable { cursor: pointer; border-bottom-style: solid; }
+.shelf-pill.clickable:hover {
+  color: var(--accent);
+  border-color: var(--accent);
 }
 
 .dash { color: var(--muted); }

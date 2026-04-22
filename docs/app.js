@@ -49,7 +49,7 @@
         .map((a) => `<span class="clickable" data-filter="author" data-value="${escape(a)}">${escape(a)}</span>`)
         .join(", ");
       const shelves = (b.shelves || [])
-        .map((s) => `<span class="shelf-pill">${escape(s)}</span>`)
+        .map((s) => `<span class="shelf-pill clickable" data-filter="shelf" data-value="${escape(s)}">${escape(s)}</span>`)
         .join("");
       const cover = b.cover
         ? `<img src="${escape(b.cover)}" alt="" loading="lazy">`
@@ -151,6 +151,8 @@
       el.fAuthor.value = value;
     } else if (filter === "cycle") {
       el.fCycle.value = value;
+    } else if (filter === "shelf") {
+      el.fShelf.value = value;
     } else {
       return;
     }
