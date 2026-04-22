@@ -4,6 +4,7 @@
     filtered: [],
     sortKey: "title",
     sortDir: 1, // 1 asc, -1 desc
+    selectedShelves: new Set(),
   };
 
   const el = {
@@ -13,7 +14,7 @@
     fTitle: document.getElementById("f-title"),
     fAuthor: document.getElementById("f-author"),
     fCycle: document.getElementById("f-cycle"),
-    fShelf: document.getElementById("f-shelf"),
+    fShelves: document.getElementById("f-shelves"),
     fClear: document.getElementById("f-clear"),
   };
 
@@ -85,7 +86,7 @@
     const title = normalize(el.fTitle.value.trim());
     const author = normalize(el.fAuthor.value.trim());
     const cycle = normalize(el.fCycle.value.trim());
-    const shelf = el.fShelf.value;
+    const required = state.selectedShelves;
 
     state.filtered = state.books.filter((b) => {
       if (title && !normalize(b.title).includes(title)) return false;
@@ -94,10 +95,14 @@
         if (!joined.includes(author)) return false;
       }
       if (cycle && !normalize(b.cycle).includes(cycle)) return false;
-      if (shelf && !(b.shelves || []).includes(shelf)) return false;
+      if (required.size > 0) {
+        const have = new Set(b.shelves || []);
+        for (const s of required) if (!have.has(s)) return false;
+      }
       return true;
     });
 
+    updateShelfPillStates();
     applySort();
   };
 
@@ -120,12 +125,30 @@
     const shelves = new Set();
     for (const b of state.books) for (const s of (b.shelves || [])) shelves.add(s);
     const sorted = [...shelves].sort(COLLATOR.compare);
+    el.fShelves.innerHTML = "";
     for (const s of sorted) {
-      const opt = document.createElement("option");
-      opt.value = s;
-      opt.textContent = s;
-      el.fShelf.appendChild(opt);
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "shelf-toggle";
+      btn.dataset.shelf = s;
+      btn.textContent = s;
+      el.fShelves.appendChild(btn);
     }
+  };
+
+  const toggleShelf = (shelf) => {
+    if (state.selectedShelves.has(shelf)) {
+      state.selectedShelves.delete(shelf);
+    } else {
+      state.selectedShelves.add(shelf);
+    }
+    applyFilters();
+  };
+
+  const updateShelfPillStates = () => {
+    el.fShelves.querySelectorAll(".shelf-toggle").forEach((btn) => {
+      btn.classList.toggle("active", state.selectedShelves.has(btn.dataset.shelf));
+    });
   };
 
   const onHeaderClick = (ev) => {
@@ -149,14 +172,13 @@
     const value = target.dataset.value || "";
     if (filter === "author") {
       el.fAuthor.value = value;
+      applyFilters();
     } else if (filter === "cycle") {
       el.fCycle.value = value;
+      applyFilters();
     } else if (filter === "shelf") {
-      el.fShelf.value = value;
-    } else {
-      return;
+      toggleShelf(value);
     }
-    applyFilters();
   };
 
   const bind = () => {
@@ -165,12 +187,15 @@
     el.fTitle.addEventListener("input", applyFilters);
     el.fAuthor.addEventListener("input", applyFilters);
     el.fCycle.addEventListener("input", applyFilters);
-    el.fShelf.addEventListener("change", applyFilters);
+    el.fShelves.addEventListener("click", (ev) => {
+      const btn = ev.target.closest(".shelf-toggle");
+      if (btn) toggleShelf(btn.dataset.shelf);
+    });
     el.fClear.addEventListener("click", () => {
       el.fTitle.value = "";
       el.fAuthor.value = "";
       el.fCycle.value = "";
-      el.fShelf.value = "";
+      state.selectedShelves.clear();
       applyFilters();
     });
   };

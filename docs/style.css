@@ -45,7 +45,6 @@ header h1 {
 }
 
 .filters input[type="search"],
-.filters select,
 .filters button {
   font: inherit;
   padding: 0.35rem 0.6rem;
@@ -70,10 +69,40 @@ header h1 {
 .filters input::placeholder { color: var(--muted); }
 
 .filters input:focus,
-.filters select:focus,
 .filters button:focus {
   outline: 2px solid var(--accent);
   outline-offset: -1px;
+}
+
+.shelf-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  width: 100%;
+}
+
+.shelf-toggle {
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-elevated);
+  color: var(--fg);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color 0.1s, color 0.1s, background 0.1s;
+}
+
+.shelf-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.shelf-toggle.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
 }
 
 main {
