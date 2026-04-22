@@ -14,8 +14,9 @@ site/           Statyczny HTML/CSS/JS, fetchuje books.json i renderuje
 ## Źródło danych
 
 - URL: `https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af`
-- Paginacja: `?page=N&listId=booksFilteredList&kolejnosc=data-dodania&showFirstLetter=0&listType=list&objectId=1806091&own=0&paginatorType=Standard`
-- ~27 stron × 20 książek. Dane są w HTML (server-rendered), **nie** trzeba Playwrighta.
+- Strona 1: GET na `BASE_URL` z query params (`?page=1&listId=booksFilteredList&kolejnosc=data-dodania&showFirstLetter=0&listType=list&objectId=1806091&own=0&paginatorType=Standard`). Zwraca pełny HTML z 20 książkami i paginatorem.
+- **Strony 2+ NIE działają przez GET** — serwer zwraca wtedy zawsze stronę 1 (anti-bot / cache na query string). Muszą iść POST-em do `/profile/getLibraryBooksList` z form-dataem zawierającym `page=N`, `paginatorId=booksFilteredListPaginatorButton`, pozostałe query params + `_req=<timestamp float>`. Wymagane nagłówki: `X-Requested-With: XMLHttpRequest`, `Referer: BASE_URL`, cookie sesyjne z wcześniejszej wizyty strony 1. Zwraca JSON `{code:"OK", data:{content:"<html…>"}}`; ten HTML ma te same selektory co pełna strona.
+- ~27 stron × 20 książek (~531 w sumie). Dane są w HTML (server-rendered), **nie** trzeba Playwrighta.
 - Pola do wyciągnięcia: tytuł, autor, ocena użytkownika, półka (Przeczytane / Chcę przeczytać / Teraz czytam)
 
 ## Konwencje
