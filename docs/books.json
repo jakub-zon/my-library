@@ -1,6 +1,6 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 531,
+  "count": 529,
   "books": [
     {
       "id": "5116121",
@@ -5465,24 +5465,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/139000/139088/170x243.jpg"
     },
     {
-      "id": "4913008",
-      "title": "Żniwiarz u bram",
-      "url": "https://lubimyczytac.pl/ksiazka/4913008/zniwiarz-u-bram",
-      "type": "book",
-      "authors": [
-        "Sabaa Tahir"
-      ],
-      "average_rating": 7.3,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "A z popiołów zrodzi się ogień (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4913000/4913008/1126347-170x243.jpg"
-    },
-    {
       "id": "4898397",
       "title": "Zakon Drzewa Pomarańczy. Część 1",
       "url": "https://lubimyczytac.pl/ksiazka/4898397/zakon-drzewa-pomaranczy-czesc-1",
@@ -6868,24 +6850,6 @@
       ],
       "cycle": "Pęknięta Ziemia (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/3775000/3775052/1221299-170x243.jpg"
-    },
-    {
-      "id": "4696606",
-      "title": "Pochodnia w mroku",
-      "url": "https://lubimyczytac.pl/ksiazka/4696606/pochodnia-w-mroku",
-      "type": "book",
-      "authors": [
-        "Sabaa Tahir"
-      ],
-      "average_rating": 7.7,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "A z popiołów zrodzi się ogień (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4696000/4696606/1126345-170x243.jpg"
     },
     {
       "id": "4851148",
