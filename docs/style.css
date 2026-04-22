@@ -148,4 +148,15 @@ td.cycle, td.shelves { color: var(--muted); font-size: 0.88rem; }
 
 .dash { color: var(--muted); }
 
+.clickable {
+  cursor: pointer;
+  border-bottom: 1px dotted transparent;
+  transition: color 0.1s, border-color 0.1s;
+}
+
+.clickable:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 ::selection { background: var(--accent); color: var(--bg); }

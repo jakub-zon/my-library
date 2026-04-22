@@ -40,23 +40,32 @@
     return COLLATOR.compare(String(va), String(vb));
   };
 
+  const stripTomSuffix = (cycle) =>
+    (cycle || "").replace(/\s*\([^)]*tom[^)]*\)\s*$/i, "").trim();
+
   const render = () => {
     const rows = state.filtered.map((b) => {
-      const authors = (b.authors || []).join(", ");
+      const authors = (b.authors || [])
+        .map((a) => `<span class="clickable" data-filter="author" data-value="${escape(a)}">${escape(a)}</span>`)
+        .join(", ");
       const shelves = (b.shelves || [])
         .map((s) => `<span class="shelf-pill">${escape(s)}</span>`)
         .join("");
       const cover = b.cover
         ? `<img src="${escape(b.cover)}" alt="" loading="lazy">`
         : "";
-      const cycle = b.cycle ? escape(b.cycle) : `<span class="dash">—</span>`;
+      const cycleText = b.cycle || "";
+      const cycleBare = stripTomSuffix(cycleText);
+      const cycle = cycleText
+        ? `<span class="clickable" data-filter="cycle" data-value="${escape(cycleBare)}">${escape(cycleText)}</span>`
+        : `<span class="dash">—</span>`;
       const avg = b.average_rating != null ? b.average_rating.toFixed(1) : `<span class="dash">—</span>`;
       const mine = b.user_rating != null ? b.user_rating.toFixed(1) : `<span class="dash">—</span>`;
       return `
         <tr>
           <td class="cover">${cover}</td>
           <td class="title"><a href="${escape(b.url || "#")}" target="_blank" rel="noopener">${escape(b.title || "")}</a></td>
-          <td class="authors">${escape(authors)}</td>
+          <td class="authors">${authors}</td>
           <td class="cycle">${cycle}</td>
           <td class="num">${avg}</td>
           <td class="num">${mine}</td>
@@ -133,8 +142,24 @@
     applySort();
   };
 
+  const onBodyClick = (ev) => {
+    const target = ev.target.closest(".clickable");
+    if (!target) return;
+    const filter = target.dataset.filter;
+    const value = target.dataset.value || "";
+    if (filter === "author") {
+      el.fAuthor.value = value;
+    } else if (filter === "cycle") {
+      el.fCycle.value = value;
+    } else {
+      return;
+    }
+    applyFilters();
+  };
+
   const bind = () => {
     el.thead.addEventListener("click", onHeaderClick);
+    el.tbody.addEventListener("click", onBodyClick);
     el.fTitle.addEventListener("input", applyFilters);
     el.fAuthor.addEventListener("input", applyFilters);
     el.fCycle.addEventListener("input", applyFilters);
