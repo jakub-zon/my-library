@@ -5,13 +5,19 @@ Static site on GitHub Pages showing my book collection from lubimyczytac.pl. Rep
 ## Architecture
 
 ```
-scraper/scrape.py            Python (httpx + BeautifulSoup) — pulls data from LC
-docs/books.json              Scraper output, committed; served by GH Pages
-docs/{index.html,app.js,style.css}  Static site (vanilla, no build step)
-.github/workflows/update.yml Manual trigger (workflow_dispatch): scrape → commit → Pages deploy
+scraper/scrape.py            Python (httpx + BeautifulSoup) — pulls listing + detail pages from LC
+docs/books.json              Listing output (scraper-written; served by GH Pages)
+docs/books-details.json      Per-book enrichment: {description, genre, pages}
+docs/{read-plan,accepted,rejections}.json  Skill state files (skill-written; served by GH Pages)
+docs/{index.html,app.js,style.css,list-view.js}  Main table + shared list-view loader
+docs/{reading-plan,accepted,rejected}.html Subpages for the state files (nav-linked)
+.claude/skills/library-advisor/SKILL.md    Claude Code skill — recommendations, announcements, market research
+.github/workflows/update.yml Manual trigger (workflow_dispatch): scrape → enrich → commit → Pages deploy
 ```
 
-GitHub Pages is configured to serve from the `/docs` folder on `main` (built-in option, no Actions deploy required). The site is a single-page vanilla JS table that `fetch("./books.json")` — both live at the Pages root.
+GitHub Pages is configured to serve from the `/docs` folder on `main`. The main page is a vanilla JS table fetching `books.json`. Subpages share `list-view.js` and each fetches its own state JSON (joining with `books.json` where useful).
+
+**State files are public** (repo is public). Entries contain `{id?, title, author, url?, cover_url?, source, when, note?}`. The `source` field is one of `library` (from user's shelf), `announcement` (from katedra/LC zapowiedzi), `market` (external research).
 
 ## Data source
 

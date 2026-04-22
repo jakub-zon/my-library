@@ -23,6 +23,29 @@ header {
   padding: 1.2rem 1.5rem 0.4rem;
 }
 
+.topnav {
+  display: flex;
+  gap: 0.1rem;
+  margin: 0 0 0.8rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.topnav a {
+  padding: 0.45rem 0.9rem;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.topnav a:hover { color: var(--fg); }
+
+.topnav a.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 header h1 {
   margin: 0;
   font-size: 1.3rem;
@@ -161,7 +184,16 @@ td.title a {
 
 td.title a:hover { color: var(--accent); text-decoration: underline; }
 
-td.cycle, td.shelves { color: var(--muted); font-size: 0.88rem; }
+td.cycle, td.shelves, td.note { color: var(--muted); font-size: 0.88rem; }
+
+td.note { max-width: 32rem; }
+
+td.empty {
+  text-align: center;
+  color: var(--muted);
+  padding: 2rem 1rem;
+  font-style: italic;
+}
 
 .shelf-pill {
   display: inline-block;

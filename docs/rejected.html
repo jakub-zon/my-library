@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Odrzucone — my-library</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <nav class="topnav">
+      <a href="./index.html">Biblioteka</a>
+      <a href="./reading-plan.html">Plan czytelniczy</a>
+      <a href="./accepted.html">Zaakceptowane</a>
+      <a href="./rejected.html" class="active">Odrzucone</a>
+    </nav>
+    <h1>Odrzucone</h1>
+    <p class="stats" id="stats">Loading…</p>
+  </header>
+
+  <main>
+    <table id="entries">
+      <thead><tr></tr></thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <script>
+  const SOURCE_LABEL = {
+    library: "z biblioteki",
+    announcement: "zapowiedź",
+    market: "rynek",
+  };
+
+  window.LIST_CONFIG = {
+    file: "./rejections.json",
+    joinLibrary: false,
+    emptyMessage: "Pusto. Odrzucone rekomendacje trafią tutaj.",
+    columns: [
+      {
+        label: "Okładka",
+        cls: "cover",
+        render: (e, { escape }) => {
+          return e.cover_url ? `<img src="${escape(e.cover_url)}" alt="" loading="lazy">` : "";
+        },
+      },
+      {
+        label: "Tytuł",
+        cls: "title",
+        render: (e, { escape }) => {
+          if (e.url) {
+            return `<a href="${escape(e.url)}" target="_blank" rel="noopener">${escape(e.title || "")}</a>`;
+          }
+          return escape(e.title || "");
+        },
+      },
+      {
+        label: "Autor",
+        render: (e, { escape }) => escape(e.author || ""),
+      },
+      {
+        label: "Skąd",
+        render: (e, { escape }) => escape(SOURCE_LABEL[e.source] || e.source || "—"),
+      },
+      {
+        label: "Kiedy",
+        cls: "num",
+        render: (e, { fmtDate }) => fmtDate(e.when),
+      },
+      {
+        label: "Powód",
+        cls: "note",
+        render: (e, { escape }) => (e.note ? escape(e.note) : `<span class="dash">—</span>`),
+      },
+    ],
+  };
+  </script>
+  <script src="./list-view.js" defer></script>
+</body>
+</html>

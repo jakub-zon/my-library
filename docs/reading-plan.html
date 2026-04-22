@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plan czytelniczy — my-library</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <nav class="topnav">
+      <a href="./index.html">Biblioteka</a>
+      <a href="./reading-plan.html" class="active">Plan czytelniczy</a>
+      <a href="./accepted.html">Zaakceptowane</a>
+      <a href="./rejected.html">Odrzucone</a>
+    </nav>
+    <h1>Plan czytelniczy</h1>
+    <p class="stats" id="stats">Loading…</p>
+  </header>
+
+  <main>
+    <table id="entries">
+      <thead><tr></tr></thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <script>
+  window.LIST_CONFIG = {
+    file: "./read-plan.json",
+    joinLibrary: true,
+    emptyMessage: "Pusto. Zaakceptuj coś w trybie „co dalej czytać” żeby tu trafiło.",
+    columns: [
+      {
+        label: "Okładka",
+        cls: "cover",
+        render: (e, { escape }) => {
+          const src = e._lib?.cover || e.cover_url;
+          return src ? `<img src="${escape(src)}" alt="" loading="lazy">` : "";
+        },
+      },
+      {
+        label: "Tytuł",
+        cls: "title",
+        render: (e, { escape }) => {
+          const url = e.url || e._lib?.url || "#";
+          return `<a href="${escape(url)}" target="_blank" rel="noopener">${escape(e.title || "")}</a>`;
+        },
+      },
+      {
+        label: "Autor",
+        render: (e, { escape }) => {
+          const a = e.author || (e._lib?.authors || []).join(", ");
+          return escape(a);
+        },
+      },
+      {
+        label: "Cykl",
+        cls: "cycle",
+        render: (e, { escape }) => {
+          const c = e._lib?.cycle;
+          return c ? escape(c) : `<span class="dash">—</span>`;
+        },
+      },
+      {
+        label: "Dodano",
+        cls: "num",
+        render: (e, { fmtDate }) => fmtDate(e.when),
+      },
+      {
+        label: "Powód",
+        cls: "note",
+        render: (e, { escape }) => (e.note ? escape(e.note) : `<span class="dash">—</span>`),
+      },
+    ],
+  };
+  </script>
+  <script src="./list-view.js" defer></script>
+</body>
+</html>
