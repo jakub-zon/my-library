@@ -31,12 +31,19 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          if git diff --quiet docs/books.json; then
-            echo "No changes in docs/books.json — skipping commit."
+          changed=""
+          if ! git diff --quiet docs/books.json; then
+            changed="$changed docs/books.json"
+          fi
+          if ! git diff --quiet -- docs/books-details.json 2>/dev/null || [ -n "$(git status --porcelain docs/books-details.json)" ]; then
+            changed="$changed docs/books-details.json"
+          fi
+          if [ -z "$changed" ]; then
+            echo "No changes — skipping commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/books.json
-          git commit -m "Update books.json via manual workflow run"
+          git add docs/books.json docs/books-details.json
+          git commit -m "Update library data via manual workflow run"
           git push
