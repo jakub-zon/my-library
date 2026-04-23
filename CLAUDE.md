@@ -8,14 +8,18 @@ Static site on GitHub Pages showing my book collection from lubimyczytac.pl. Rep
 scraper/scrape.py            Python (httpx + BeautifulSoup) — pulls listing + detail pages from LC
 docs/books.json              Listing output (scraper-written; served by GH Pages)
 docs/books-details.json      Per-book enrichment: {description, genre, pages}
+docs/meta.json               Last-run metadata: generated_at, library_total, duration, enrichment counts
 docs/{read-plan,accepted,rejections}.json  Skill state files (skill-written; served by GH Pages)
-docs/{index.html,app.js,style.css,list-view.js}  Main table + shared list-view loader
+docs/index.html              Main table; click chevron to expand a row inline, click title to open book.html
+docs/{app.js,style.css}      Main table logic + shared dark theme
+docs/list-view.js            Shared loader for the three list subpages
+docs/book.html + book.js     Single-book detail page (focus view, link target from main table title)
 docs/{reading-plan,accepted,rejected}.html Subpages for the state files (nav-linked)
 .claude/skills/library-advisor/SKILL.md    Claude Code skill — recommendations, announcements, market research
 .github/workflows/update.yml Manual trigger (workflow_dispatch): scrape → enrich → commit → Pages deploy
 ```
 
-GitHub Pages is configured to serve from the `/docs` folder on `main`. The main page is a vanilla JS table fetching `books.json`. Subpages share `list-view.js` and each fetches its own state JSON (joining with `books.json` where useful).
+GitHub Pages is configured to serve from the `/docs` folder on `main`. The main page is a vanilla JS table fetching `books.json` + `books-details.json`. The chevron (▶) on each row toggles an inline detail panel (description / genre / pages); the title is a link to `book.html?id=<id>` opening in a new tab as a focused single-book view. Subpages (`reading-plan.html`, `accepted.html`, `rejected.html`) share `list-view.js` and each fetches its own state JSON (joining with `books.json` where useful).
 
 **State files are public** (repo is public). Entries contain `{id?, title, author, url?, cover_url?, source, when, note?}`. The `source` field is one of `library` (from user's shelf), `announcement` (from katedra/LC zapowiedzi), `market` (external research).
 
@@ -24,12 +28,19 @@ GitHub Pages is configured to serve from the `/docs` folder on `main`. The main 
 - URL: `https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af` (shortlink to the user's shelf; profile id 1806091, nick "qba")
 - **Page 1:** GET `BASE_URL` with query params (`?page=1&listId=booksFilteredList&kolejnosc=data-dodania&showFirstLetter=0&listType=list&objectId=1806091&own=0&paginatorType=Standard`). Returns full HTML with 20 book cards and the paginator.
 - **Pages 2+ do NOT work via GET** — the server always returns page 1 (anti-bot / query-string cache). Must be fetched via **POST** to `/profile/getLibraryBooksList` with form data: `page=N`, `paginatorId=booksFilteredListPaginatorButton`, the remaining query params, and `_req=<float timestamp>`. Required headers: `X-Requested-With: XMLHttpRequest`, `Referer: BASE_URL`, plus the session cookie obtained from visiting page 1. Returns JSON `{code:"OK", data:{content:"<html…>"}}`; the HTML inside uses the same selectors as the full page.
-- ~27 pages × 20 books (~531 visible anonymously; full collection is slightly larger — see "Logged-out gap" below). Data is server-rendered in HTML — **no Playwright needed**.
+- ~27 pages × 20 books (~531 in this user's library at peak; ~529 today, LC removes/merges 1-2 entries occasionally). Data is server-rendered in HTML — **no Playwright needed**.
 - Fields to extract: `id`, `title`, `url`, `type` (`book` | `audiobook`), `authors[]`, `average_rating` (LC community), `user_rating` (only on "Przeczytane"), `shelves[]`, `cycle` (optional), `cover`.
 
 ### Counter mismatch
 
 LC's sidebar totals ("KSIĄŻKI W BIBLIOTECZCE [533]", "Posiadane 316", "Chcę przeczytać 265", etc.) are slightly off — they're inflated by ~2 relative to what the paginated list actually contains. Verified: on the `Posiadane` filter the last page has 14 entries, giving 15×20 + 14 = **314** (matches scraper), while the sidebar insists on 316. Same 2-book drift appears on `Chcę przeczytać` and `Do przeczytania`. **Treat the scraper total as ground truth, ignore the sidebar counter.** Do not chase these "missing" books — they don't exist on any visible page.
+
+### Detail page selectors
+
+For `docs/books-details.json` enrichment, the relevant selectors on `https://lubimyczytac.pl/ksiazka/<id>/<slug>`:
+- `#book-description` — full description text (preserve `<br>` → `\n`)
+- `#book-details dl` — definition list with `<dt>Kategoria:</dt><dd>fantasy, science fiction</dd>` (genre) and `<dt>Liczba stron:</dt><dd>529</dd>` (pages)
+- Audiobook pages (`/audiobook/<id>/...`) have the same selectors; pages count is usually missing.
 
 ## Conventions
 

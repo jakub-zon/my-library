@@ -16,3 +16,8 @@ venv/
 # Editor
 .idea/
 .vscode/
+
+# Claude Code per-machine state (skills are checked in; settings/locks are not)
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/agents/

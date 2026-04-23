@@ -1,4 +1,19 @@
-"""Scrape user's book collection from lubimyczytac.pl into data/books.json."""
+"""Scrape user's book collection from lubimyczytac.pl.
+
+Two-phase pipeline:
+  1. Listing scrape — paginated profile shelf → docs/books.json
+     (531 books across 27 pages; pages 2+ require POST to the AJAX
+     endpoint with paginatorId, see CLAUDE.md for details).
+  2. Detail enrichment — for each book, fetch its LC page and pull
+     description + genre + pages → docs/books-details.json.
+     Idempotent: skips entries already enriched. Permanent 404s are
+     marked and not retried; transient errors retry with exponential
+     backoff (5/10/20/40/80s, max 5 attempts).
+
+Also writes docs/meta.json with last-run metadata, and emits a
+markdown summary to $GITHUB_STEP_SUMMARY (and stderr) on completion
+even if the run crashed mid-batch.
+"""
 
 from __future__ import annotations
 
