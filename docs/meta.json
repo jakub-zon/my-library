@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-22T23:15:03+00:00",
-  "library_total": 529,
-  "duration_seconds": 1109,
+  "generated_at": "2026-04-26T12:29:04+00:00",
+  "library_total": 532,
+  "duration_seconds": 67,
   "enrichment": {
-    "ok_first": 529,
+    "ok_first": 3,
     "retried_ok": 0,
-    "skipped_already_done": 0,
+    "skipped_already_done": 529,
     "http_404": 0,
     "parse_err": 0
   }

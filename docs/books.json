@@ -1,7 +1,107 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 529,
+  "count": 532,
   "books": [
+    {
+      "id": "5230358",
+      "title": "Syn pustyni",
+      "url": "https://lubimyczytac.pl/ksiazka/5230358/syn-pustyni",
+      "type": "book",
+      "authors": [
+        "Adam Hetmański"
+      ],
+      "average_rating": 7.9,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5230000/5230358/1345269-170x243.jpg"
+    },
+    {
+      "id": "5077910",
+      "title": "Cyberpunk 2077: Bez przypadku",
+      "url": "https://lubimyczytac.pl/ksiazka/5077910/cyberpunk-2077-bez-przypadku",
+      "type": "book",
+      "authors": [
+        "Rafał Kosik"
+      ],
+      "average_rating": 6.5,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5077000/5077910/1302464-170x243.jpg"
+    },
+    {
+      "id": "4988342",
+      "title": "Pan Lodowego Ogrodu - księga IV",
+      "url": "https://lubimyczytac.pl/ksiazka/4988342/pan-lodowego-ogrodu-ksiega-iv",
+      "type": "book",
+      "authors": [
+        "Jarosław Grzędowicz"
+      ],
+      "average_rating": 8.1,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Pan Lodowego Ogrodu (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4988000/4988342/936217-170x243.jpg"
+    },
+    {
+      "id": "4974295",
+      "title": "Pan Lodowego Ogrodu - księga III",
+      "url": "https://lubimyczytac.pl/ksiazka/4974295/pan-lodowego-ogrodu-ksiega-iii",
+      "type": "book",
+      "authors": [
+        "Jarosław Grzędowicz"
+      ],
+      "average_rating": 8.0,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Pan Lodowego Ogrodu (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4974000/4974295/1239449-170x243.jpg"
+    },
+    {
+      "id": "4970869",
+      "title": "Pan Lodowego Ogrodu - księga II",
+      "url": "https://lubimyczytac.pl/ksiazka/4970869/pan-lodowego-ogrodu-ksiega-ii",
+      "type": "book",
+      "authors": [
+        "Jarosław Grzędowicz"
+      ],
+      "average_rating": 7.9,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Pan Lodowego Ogrodu (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970869/908830-170x243.jpg"
+    },
+    {
+      "id": "4970867",
+      "title": "Pan Lodowego Ogrodu - księga I",
+      "url": "https://lubimyczytac.pl/ksiazka/4970867/pan-lodowego-ogrodu-ksiega-i",
+      "type": "book",
+      "authors": [
+        "Jarosław Grzędowicz"
+      ],
+      "average_rating": 8.1,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Pan Lodowego Ogrodu (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970867/905064-170x243.jpg"
+    },
     {
       "id": "5116121",
       "title": "Półpacierz",
@@ -34,23 +134,6 @@
       ],
       "cycle": "Czarny Język (tom 0)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5230000/5230443/1345408-170x243.jpg"
-    },
-    {
-      "id": "4970867",
-      "title": "Pan Lodowego Ogrodu - księga I",
-      "url": "https://lubimyczytac.pl/ksiazka/4970867/pan-lodowego-ogrodu-ksiega-i",
-      "type": "book",
-      "authors": [
-        "Jarosław Grzędowicz"
-      ],
-      "average_rating": 8.1,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam",
-        "Posiadane"
-      ],
-      "cycle": "Pan Lodowego Ogrodu (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970867/905064-170x243.jpg"
     },
     {
       "id": "5124556",
@@ -413,23 +496,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/4869000/4869627/823780-170x243.jpg"
     },
     {
-      "id": "5230358",
-      "title": "Syn pustyni",
-      "url": "https://lubimyczytac.pl/ksiazka/5230358/syn-pustyni",
-      "type": "book",
-      "authors": [
-        "Adam Hetmański"
-      ],
-      "average_rating": 8.0,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/5230000/5230358/1345269-170x243.jpg"
-    },
-    {
       "id": "5219095",
       "title": "Hordy Yrkes",
       "url": "https://lubimyczytac.pl/ksiazka/5219095/hordy-yrkes",
@@ -508,7 +574,7 @@
       "authors": [
         "Michał Głowacz"
       ],
-      "average_rating": 6.5,
+      "average_rating": 6.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -560,7 +626,7 @@
       "authors": [
         "Jay Kristoff"
       ],
-      "average_rating": 8.7,
+      "average_rating": 8.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -938,7 +1004,7 @@
       "authors": [
         "Jen Williams"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1900,7 +1966,7 @@
       "authors": [
         "Julie Johnson"
       ],
-      "average_rating": 8.0,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2803,7 +2869,7 @@
       "authors": [
         "Janusz Stankiewicz"
       ],
-      "average_rating": 6.8,
+      "average_rating": 6.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3380,7 +3446,7 @@
       "authors": [
         "Wasilij Machanienko"
       ],
-      "average_rating": 7.9,
+      "average_rating": 8.0,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -3574,22 +3640,6 @@
         "Chcę przeczytać"
       ],
       "cover": "https://s.lubimyczytac.pl/upload/books/162000/162077/170x243.jpg"
-    },
-    {
-      "id": "5077910",
-      "title": "Cyberpunk 2077: Bez przypadku",
-      "url": "https://lubimyczytac.pl/ksiazka/5077910/cyberpunk-2077-bez-przypadku",
-      "type": "book",
-      "authors": [
-        "Rafał Kosik"
-      ],
-      "average_rating": 6.5,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Posiadane"
-      ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/5077000/5077910/1302464-170x243.jpg"
     },
     {
       "id": "4982659",
@@ -5454,7 +5504,7 @@
       "authors": [
         "Anne Bishop"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -6602,6 +6652,7 @@
         "Do przeczytania",
         "Dostępne na Legimi"
       ],
+      "cycle": "Czas Żniw (tom 3)",
       "cover": "https://s.lubimyczytac.pl/upload/books/3863000/3863768/564702-170x243.jpg"
     },
     {
