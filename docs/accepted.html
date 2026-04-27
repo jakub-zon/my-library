@@ -32,10 +32,32 @@
     market: "rynek",
   };
 
+  // Status derived from current library state (books.json _lib join).
+  // Truth signal is shelves — read_date is bonus, not authoritative.
+  const computeStatus = (lib) => {
+    if (!lib) return { key: "external", label: "📅 zewnętrzne" };
+    const shelves = lib.shelves || [];
+    const owned = shelves.includes("Posiadane");
+    const read = shelves.includes("Przeczytane");
+    if (owned && read) return { key: "read", label: "🟢 przeczytane" };
+    if (owned) return { key: "bought", label: "🟡 kupione" };
+    return { key: "wanted", label: "🛒 chcę kupić" };
+  };
+
   window.LIST_CONFIG = {
     file: "./accepted.json",
-    joinLibrary: false,
+    joinLibrary: true,
     emptyMessage: "Pusto. Zaakceptowane rekomendacje z zapowiedzi / rynku wpadną tutaj.",
+    summary: (entries) => {
+      const counts = { read: 0, bought: 0, wanted: 0, external: 0 };
+      for (const e of entries) counts[computeStatus(e._lib).key]++;
+      const parts = [];
+      if (counts.read)     parts.push(`🟢 ${counts.read} przeczytane`);
+      if (counts.bought)   parts.push(`🟡 ${counts.bought} kupione`);
+      if (counts.wanted)   parts.push(`🛒 ${counts.wanted} chcę kupić`);
+      if (counts.external) parts.push(`📅 ${counts.external} zewn.`);
+      return parts.join(" · ");
+    },
     columns: [
       {
         label: "Okładka",
@@ -57,6 +79,13 @@
       {
         label: "Autor",
         render: (e, { escape }) => escape(e.author || ""),
+      },
+      {
+        label: "Status",
+        render: (e, { escape }) => {
+          const s = computeStatus(e._lib);
+          return `<span class="status-pill status-${s.key}">${escape(s.label)}</span>`;
+        },
       },
       {
         label: "Skąd",

@@ -296,6 +296,20 @@ td.empty {
 
 .dash { color: var(--muted); }
 
+.status-pill {
+  display: inline-block;
+  padding: 0.05rem 0.45rem;
+  background: var(--pill-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+.status-pill.status-read    { border-color: #2f7d4f; color: #8bd4a4; }
+.status-pill.status-bought  { border-color: #b58a2f; color: #e0c47b; }
+.status-pill.status-wanted  { border-color: #2f6db5; color: #8fb6dd; }
+.status-pill.status-external{ border-color: var(--border); color: var(--muted); }
+
 .clickable {
   cursor: pointer;
   border-bottom: 1px dotted transparent;

@@ -80,7 +80,9 @@
       });
 
       renderRows(entries);
-      el.stats.textContent = `${entries.length} ${entries.length === 1 ? "wpis" : "wpisów"}`;
+      const base = `${entries.length} ${entries.length === 1 ? "wpis" : "wpisów"}`;
+      const extra = typeof cfg.summary === "function" ? cfg.summary(entries) : "";
+      el.stats.textContent = extra ? `${base} — ${extra}` : base;
     } catch (err) {
       el.stats.textContent = `Błąd ładowania: ${err.message}`;
       el.tbody.innerHTML = "";
