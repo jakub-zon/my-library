@@ -29,7 +29,8 @@ GitHub Pages is configured to serve from the `/docs` folder on `main`. The main 
 - **Page 1:** GET `BASE_URL` with query params (`?page=1&listId=booksFilteredList&kolejnosc=data-dodania&showFirstLetter=0&listType=list&objectId=1806091&own=0&paginatorType=Standard`). Returns full HTML with 20 book cards and the paginator.
 - **Pages 2+ do NOT work via GET** — the server always returns page 1 (anti-bot / query-string cache). Must be fetched via **POST** to `/profile/getLibraryBooksList` with form data: `page=N`, `paginatorId=booksFilteredListPaginatorButton`, the remaining query params, and `_req=<float timestamp>`. Required headers: `X-Requested-With: XMLHttpRequest`, `Referer: BASE_URL`, plus the session cookie obtained from visiting page 1. Returns JSON `{code:"OK", data:{content:"<html…>"}}`; the HTML inside uses the same selectors as the full page.
 - ~27 pages × 20 books (~531 in this user's library at peak; ~529 today, LC removes/merges 1-2 entries occasionally). Data is server-rendered in HTML — **no Playwright needed**.
-- Fields to extract: `id`, `title`, `url`, `type` (`book` | `audiobook`), `authors[]`, `average_rating` (LC community), `user_rating` (only on "Przeczytane"), `shelves[]`, `cycle` (optional), `cover`.
+- Fields to extract: `id`, `title`, `url`, `type` (`book` | `audiobook`), `authors[]`, `average_rating` (LC community), `user_rating` (only on "Przeczytane"), `shelves[]`, `cycle` (optional), `cover`, `read_date` (optional, YYYY-MM-DD; merged from a separate Przeczytane-shelf pass).
+- **Read date** is NOT in the main listing card. It's rendered only on the per-shelf URL `https://lubimyczytac.pl/profil/<userId>/<nick>/biblioteczka/lista?shelfs=<shelfId>` inside `div.authorAllBooks__read-dates` (text "Przeczytał: <br/>YYYY-MM-DD"). Scraper does a second pass on the Przeczytane shelf (id 6037367 here) and merges by book id. Books without a manually set date on LC simply don't get the field.
 
 ### Counter mismatch
 

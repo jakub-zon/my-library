@@ -1,10 +1,15 @@
 """Scrape user's book collection from lubimyczytac.pl.
 
-Two-phase pipeline:
+Three-phase pipeline:
   1. Listing scrape — paginated profile shelf → docs/books.json
      (531 books across 27 pages; pages 2+ require POST to the AJAX
      endpoint with paginatorId, see CLAUDE.md for details).
-  2. Detail enrichment — for each book, fetch its LC page and pull
+  2. Read-date scrape — paginated "Przeczytane" shelf view (~14 pages),
+     extracting per-book read dates from `.authorAllBooks__read-dates`
+     and merging them into books.json as `read_date` (YYYY-MM-DD).
+     Books without a date set on LC simply lack the field. Same AJAX
+     endpoint as phase 1, with `shelfs=<id>` added.
+  3. Detail enrichment — for each book, fetch its LC page and pull
      description + genre + pages → docs/books-details.json.
      Idempotent: skips entries already enriched. Permanent 404s are
      marked and not retried; transient errors retry with exponential
@@ -29,6 +34,10 @@ import httpx
 from bs4 import BeautifulSoup, Tag
 
 BASE_URL = "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af"
+# Profile-shelf URL used for the read-date pass (shelf id 6037367 = "Przeczytane"
+# on this user's account; derived from the href on any "Przeczytane" link in a card).
+READ_SHELF_URL = "https://lubimyczytac.pl/profil/1806091/qba/biblioteczka/lista"
+READ_SHELF_ID = "6037367"
 QUERY_PARAMS = {
     "listId": "booksFilteredList",
     "kolejnosc": "data-dodania",
@@ -199,6 +208,103 @@ def scrape(max_pages: int | None = None) -> list[dict]:
                 file=sys.stderr,
             )
     return all_books
+
+
+_ISO_DATE_RE = re.compile(r"\b(\d{4})-(\d{1,2})-(\d{1,2})\b")
+
+
+def parse_read_dates(html: str) -> tuple[dict[str, str], int | None]:
+    """Extract {book_id: read_date} from a Przeczytane-shelf HTML chunk.
+
+    Cards without a `.authorAllBooks__read-dates` block, or with one that
+    doesn't contain an ISO date, are simply omitted — those books haven't
+    been dated yet on LC.
+    """
+    soup = BeautifulSoup(html, "lxml")
+    out: dict[str, str] = {}
+    for card in soup.select("div.authorAllBooks__single"):
+        card_id = card.get("id", "")
+        m = re.match(r"listBookElement(\d+)", card_id)
+        if not m:
+            continue
+        date_el = card.select_one(".authorAllBooks__read-dates")
+        if not date_el:
+            continue
+        text = date_el.get_text(" ", strip=True)
+        dm = _ISO_DATE_RE.search(text)
+        if not dm:
+            continue
+        y, mo, d = dm.groups()
+        out[m.group(1)] = f"{int(y):04d}-{int(mo):02d}-{int(d):02d}"
+
+    max_page = None
+    pager_input = soup.select_one("input.jsPagerInput[data-maxpage]")
+    if pager_input:
+        try:
+            max_page = int(pager_input.get("data-maxpage", ""))
+        except ValueError:
+            pass
+    return out, max_page
+
+
+def fetch_read_shelf_page1(client: httpx.Client) -> str:
+    params = {"shelfs": READ_SHELF_ID, "page": 1}
+    r = client.get(READ_SHELF_URL, params=params, headers=HEADERS)
+    r.raise_for_status()
+    return r.text
+
+
+def fetch_read_shelf_ajax(client: httpx.Client, page: int) -> str:
+    """Fetch page N (>=2) of the Przeczytane shelf via the same AJAX endpoint."""
+    data = {
+        "page": page,
+        "paginatorId": PAGINATOR_ID,
+        "shelfs": READ_SHELF_ID,
+        **QUERY_PARAMS,
+        "_req": f"{time.time():.11f}",
+    }
+    r = client.post(
+        AJAX_URL,
+        data=data,
+        headers={
+            **HEADERS,
+            "X-Requested-With": "XMLHttpRequest",
+            "Referer": f"{READ_SHELF_URL}?shelfs={READ_SHELF_ID}",
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        },
+    )
+    r.raise_for_status()
+    payload = r.json()
+    if payload.get("code") != "OK":
+        raise RuntimeError(f"AJAX read-shelf page {page} failed: {payload}")
+    return payload.get("data", {}).get("content", "")
+
+
+def scrape_read_dates(max_pages: int | None = None) -> dict[str, str]:
+    """Scrape per-book read dates from the Przeczytane shelf."""
+    all_dates: dict[str, str] = {}
+    with httpx.Client(follow_redirects=True, timeout=30.0) as client:
+        html = fetch_read_shelf_page1(client)
+        dates, detected_max = parse_read_dates(html)
+        all_dates.update(dates)
+        total_pages = detected_max or 1
+        print(
+            f"Read-dates page 1/{total_pages}: {len(dates)} dated books",
+            file=sys.stderr,
+        )
+
+        last_page = min(total_pages, max_pages) if max_pages else total_pages
+        for page in range(2, last_page + 1):
+            time.sleep(SLEEP_BETWEEN_REQUESTS_S)
+            html = fetch_read_shelf_ajax(client, page)
+            dates, _ = parse_read_dates(html)
+            all_dates.update(dates)
+            print(
+                f"Read-dates page {page}/{total_pages}: {len(dates)} dated "
+                f"(running total {len(all_dates)})",
+                file=sys.stderr,
+            )
+    return all_dates
 
 
 def extract_details(html: str) -> dict:
@@ -525,6 +631,11 @@ def main() -> None:
         help="Skip the detail-page enrichment pass.",
     )
     parser.add_argument(
+        "--no-read-dates",
+        action="store_true",
+        help="Skip the Przeczytane-shelf read-date pass.",
+    )
+    parser.add_argument(
         "--refresh-details",
         action="store_true",
         help="Re-fetch every book's detail page, ignoring existing books-details.json.",
@@ -552,6 +663,24 @@ def main() -> None:
         print(f"Parsed {len(books)} books, max_page={max_page}", file=sys.stderr)
     else:
         books = scrape(max_pages=args.max_pages)
+
+    if not args.from_file and not args.no_read_dates:
+        try:
+            read_dates = scrape_read_dates(max_pages=args.max_pages)
+        except Exception as e:  # noqa: BLE001
+            print(f"Warning: read-date scrape failed ({e}); continuing without dates.", file=sys.stderr)
+            read_dates = {}
+        merged = 0
+        for b in books:
+            bid = str(b.get("id") or "")
+            if bid and bid in read_dates:
+                b["read_date"] = read_dates[bid]
+                merged += 1
+        print(
+            f"Read-dates: {merged} books annotated "
+            f"(of {len(read_dates)} dated total on shelf)",
+            file=sys.stderr,
+        )
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     payload = {
