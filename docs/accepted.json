@@ -8,6 +8,33 @@
       "source": "announcement",
       "when": "2026-04-27T00:00:00+02:00",
       "note": "Red Rising t.6, MAG, premiera 20.05.2026. Buy-target — w bibliotece bez 'Posiadane', oznaczona 'Do kupienia w...'. Cykl serii niedomknięty (czeka jeszcze t.7 Red God, jeszcze nie wydany po angielsku)."
+    },
+    {
+      "id": "5105152",
+      "title": "Antykwariat pod Salamandrą",
+      "author": "Adam Przechrzta",
+      "url": "https://lubimyczytac.pl/ksiazka/5105152/antykwariat-pod-salamandra",
+      "source": "market",
+      "when": "2026-04-27T00:00:00+02:00",
+      "note": "Mons Viridis Magicus t.1 (Fabryka Słów). Audio PL: Legimi+Audioteka+Storytel+Woblink (narrator Mateusz Drozda). User ma na półce 'Do kupienia w...'."
+    },
+    {
+      "id": "5173300",
+      "title": "Mroczne drogi",
+      "author": "Adam Przechrzta",
+      "url": "https://lubimyczytac.pl/ksiazka/5173300/mroczne-drogi",
+      "source": "market",
+      "when": "2026-04-27T00:00:00+02:00",
+      "note": "Mons Viridis Magicus t.2 (Fabryka Słów, 2025). Audio PL: Legimi+Audioteka+Storytel+Woblink, ~11h."
+    },
+    {
+      "id": "5221770",
+      "title": "Strażnik Bram",
+      "author": "Adam Przechrzta",
+      "url": "https://lubimyczytac.pl/ksiazka/5221770/straznik-bram",
+      "source": "market",
+      "when": "2026-04-27T00:00:00+02:00",
+      "note": "Mons Viridis Magicus t.3 (Fabryka Słów, 08.04.2026). Audio PL: Legimi+Audioteka (Mateusz Drozda)+Woblink. Formalnie domyka trylogię, ale historia bohatera kontynuuje w spinoffowej trylogii 'Imperium Skrzydlatego Tygrysa' (jeszcze niewydana)."
     }
   ]
 }

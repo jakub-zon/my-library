@@ -49,6 +49,33 @@
       "source": "library",
       "when": "2026-04-27T00:00:00+02:00",
       "note": "Dark fantasy (alchemia vs nekromancja), 35h audio PL Legimi+Storytel. Po Krwiozaprzysiężonych jako zmiana flavoru."
+    },
+    {
+      "id": "5105152",
+      "title": "Antykwariat pod Salamandrą",
+      "author": "Adam Przechrzta",
+      "url": "https://lubimyczytac.pl/ksiazka/5105152/antykwariat-pod-salamandra",
+      "source": "library",
+      "when": "2026-04-27T00:00:00+02:00",
+      "note": "Mons Viridis Magicus t.1. Po Alchemised — start trylogii Przechrzty. Audio PL ✅."
+    },
+    {
+      "id": "5173300",
+      "title": "Mroczne drogi",
+      "author": "Adam Przechrzta",
+      "url": "https://lubimyczytac.pl/ksiazka/5173300/mroczne-drogi",
+      "source": "market",
+      "when": "2026-04-27T00:00:00+02:00",
+      "note": "Mons Viridis Magicus t.2. Audio PL ✅."
+    },
+    {
+      "id": "5221770",
+      "title": "Strażnik Bram",
+      "author": "Adam Przechrzta",
+      "url": "https://lubimyczytac.pl/ksiazka/5221770/straznik-bram",
+      "source": "market",
+      "when": "2026-04-27T00:00:00+02:00",
+      "note": "Mons Viridis Magicus t.3 (domknięcie trylogii). Audio PL ✅."
     }
   ]
 }
