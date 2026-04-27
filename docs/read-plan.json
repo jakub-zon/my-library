@@ -1,3 +1,54 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "id": "5217091",
+      "title": "Schaar",
+      "author": "Michał Głowacz",
+      "url": "https://lubimyczytac.pl/ksiazka/5217091/schaar",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5217000/5217091/1342177-170x243.jpg",
+      "source": "library",
+      "when": "2026-04-27T00:00:00+02:00",
+      "note": "Krótki (333 s.) steampunk-noir przegryzek po Hetmańskim. Audio PL: Legimi/Audioteka/Woblink."
+    },
+    {
+      "id": "5099212",
+      "title": "Cień bogów",
+      "author": "John Gwynne",
+      "url": "https://lubimyczytac.pl/ksiazka/5099212/cien-bogow",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5099000/5099212/1248299-170x243.jpg",
+      "source": "library",
+      "when": "2026-04-27T00:00:00+02:00",
+      "note": "Saga o Krwiozaprzysiężonych t.1. Wiking-dark-fantasy, klimat Grzędowicza/Brett. Audio PL: Legimi+Storytel."
+    },
+    {
+      "id": "5164155",
+      "title": "Głód bogów",
+      "author": "John Gwynne",
+      "url": "https://lubimyczytac.pl/ksiazka/5164155/glod-bogow",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5164000/5164155/1250879-170x243.jpg",
+      "source": "library",
+      "when": "2026-04-27T00:00:00+02:00",
+      "note": "Saga o Krwiozaprzysiężonych t.2. Audio PL: Legimi+Storytel."
+    },
+    {
+      "id": "5184756",
+      "title": "Gniew bogów",
+      "author": "John Gwynne",
+      "url": "https://lubimyczytac.pl/ksiazka/5184756/gniew-bogow",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5184000/5184756/1274935-170x243.jpg",
+      "source": "library",
+      "when": "2026-04-27T00:00:00+02:00",
+      "note": "Saga o Krwiozaprzysiężonych t.3 (domknięcie). Audio PL: Legimi."
+    },
+    {
+      "id": "5105177",
+      "title": "Alchemised",
+      "author": "SenLinYu",
+      "url": "https://lubimyczytac.pl/ksiazka/5105177/alchemised",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5105000/5105177/1337172-170x243.jpg",
+      "source": "library",
+      "when": "2026-04-27T00:00:00+02:00",
+      "note": "Dark fantasy (alchemia vs nekromancja), 35h audio PL Legimi+Storytel. Po Krwiozaprzysiężonych jako zmiana flavoru."
+    }
+  ]
 }
