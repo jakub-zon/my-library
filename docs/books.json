@@ -1,7 +1,60 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 532,
+  "count": 534,
   "books": [
+    {
+      "id": "5221770",
+      "title": "Strażnik bram",
+      "url": "https://lubimyczytac.pl/ksiazka/5221770/straznik-bram",
+      "type": "book",
+      "authors": [
+        "Adam Przechrzta"
+      ],
+      "average_rating": 6.6,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Mons Viridis Magicus (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5221000/5221770/1345684-170x243.jpg"
+    },
+    {
+      "id": "5173300",
+      "title": "Mroczne drogi",
+      "url": "https://lubimyczytac.pl/ksiazka/5173300/mroczne-drogi",
+      "type": "book",
+      "authors": [
+        "Adam Przechrzta"
+      ],
+      "average_rating": 7.4,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Mons Viridis Magicus (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5173000/5173300/1257960-170x243.jpg"
+    },
+    {
+      "id": "5234200",
+      "title": "Półpacierz",
+      "url": "https://lubimyczytac.pl/ksiazka/5234200/polpacierz",
+      "type": "book",
+      "authors": [
+        "Maciej Lewandowski"
+      ],
+      "average_rating": 0.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5234000/5234200/1351612-170x243.jpg"
+    },
     {
       "id": "5230358",
       "title": "Syn pustyni",
@@ -32,7 +85,8 @@
         "Przeczytane",
         "Posiadane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/5077000/5077910/1302464-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5077000/5077910/1302464-170x243.jpg",
+      "read_date": "2026-04-25"
     },
     {
       "id": "4988342",
@@ -49,7 +103,8 @@
         "Posiadane"
       ],
       "cycle": "Pan Lodowego Ogrodu (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4988000/4988342/936217-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4988000/4988342/936217-170x243.jpg",
+      "read_date": "2026-04-22"
     },
     {
       "id": "4974295",
@@ -66,7 +121,8 @@
         "Posiadane"
       ],
       "cycle": "Pan Lodowego Ogrodu (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4974000/4974295/1239449-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4974000/4974295/1239449-170x243.jpg",
+      "read_date": "2026-04-17"
     },
     {
       "id": "4970869",
@@ -83,7 +139,8 @@
         "Posiadane"
       ],
       "cycle": "Pan Lodowego Ogrodu (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970869/908830-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970869/908830-170x243.jpg",
+      "read_date": "2026-04-13"
     },
     {
       "id": "4970867",
@@ -100,23 +157,8 @@
         "Posiadane"
       ],
       "cycle": "Pan Lodowego Ogrodu (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970867/905064-170x243.jpg"
-    },
-    {
-      "id": "5116121",
-      "title": "Półpacierz",
-      "url": "https://lubimyczytac.pl/audiobook/5116121/polpacierz",
-      "type": "audiobook",
-      "authors": [
-        "Maciej Lewandowski"
-      ],
-      "average_rating": 7.2,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do sprawdzenia"
-      ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/5116000/5116121/1153342-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970867/905064-170x243.jpg",
+      "read_date": "2026-04-08"
     },
     {
       "id": "5230443",
@@ -149,7 +191,8 @@
         "Przeczytane"
       ],
       "cycle": "Skyward (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5124000/5124556/1170193-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5124000/5124556/1170193-170x243.jpg",
+      "read_date": "2026-04-01"
     },
     {
       "id": "5078142",
@@ -165,7 +208,8 @@
         "Przeczytane"
       ],
       "cycle": "Skyward (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5078000/5078142/1085979-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5078000/5078142/1085979-170x243.jpg",
+      "read_date": "2026-03-25"
     },
     {
       "id": "5183103",
@@ -182,7 +226,8 @@
         "Przeczytane"
       ],
       "cycle": "Skyward (tom 2.1-2.3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5183000/5183103/1261879-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5183000/5183103/1261879-170x243.jpg",
+      "read_date": "2026-03-23"
     },
     {
       "id": "5028203",
@@ -198,7 +243,8 @@
         "Przeczytane"
       ],
       "cycle": "Skyward (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5028000/5028203/1002046-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5028000/5028203/1002046-170x243.jpg",
+      "read_date": "2026-03-16"
     },
     {
       "id": "4978560",
@@ -214,7 +260,8 @@
         "Przeczytane"
       ],
       "cycle": "Skyward (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4978000/4978560/919258-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4978000/4978560/919258-170x243.jpg",
+      "read_date": "2026-03-13"
     },
     {
       "id": "5111396",
@@ -230,7 +277,8 @@
         "Przeczytane"
       ],
       "cycle": "Empireum (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5111000/5111396/1347282-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5111000/5111396/1347282-170x243.jpg",
+      "read_date": "2026-03-11"
     },
     {
       "id": "5221419",
@@ -244,7 +292,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w...",
+        "Do przeczytania",
+        "Posiadane",
         "Niedokończone serie"
       ],
       "cycle": "Red Rising (tom 6)",
@@ -390,7 +439,8 @@
         "Przeczytane"
       ],
       "cycle": "Empireum (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5174000/5174303/1259147-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5174000/5174303/1259147-170x243.jpg",
+      "read_date": "2026-03-09"
     },
     {
       "id": "5113724",
@@ -406,7 +456,8 @@
         "Przeczytane"
       ],
       "cycle": "Empireum (tom 1.5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5113000/5113724/1286434-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5113000/5113724/1286434-170x243.jpg",
+      "read_date": "2026-03-05"
     },
     {
       "id": "5105152",
@@ -420,7 +471,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w..."
+        "Do przeczytania",
+        "Posiadane"
       ],
       "cycle": "Mons Viridis Magicus (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5105000/5105152/1143741-170x243.jpg"
@@ -493,7 +545,8 @@
         "Posiadane"
       ],
       "cycle": "Trylogia Kruczy Cień (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4869000/4869627/823780-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4869000/4869627/823780-170x243.jpg",
+      "read_date": "2026-02-27"
     },
     {
       "id": "5219095",
@@ -651,7 +704,8 @@
         "Posiadane"
       ],
       "cycle": "Trylogia Kruczy Cień (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/3818000/3818530/513458-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/3818000/3818530/513458-170x243.jpg",
+      "read_date": "2026-02-23"
     },
     {
       "id": "234645",
@@ -668,7 +722,8 @@
         "Posiadane"
       ],
       "cycle": "Trylogia Kruczy Cień (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/234000/234645/319361-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/234000/234645/319361-170x243.jpg",
+      "read_date": "2026-02-13"
     },
     {
       "id": "5112238",
@@ -757,7 +812,8 @@
         "Posiadane"
       ],
       "cycle": "Cykl Demoniczny (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4983000/4983288/928422-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4983000/4983288/928422-170x243.jpg",
+      "read_date": "2022-01-27"
     },
     {
       "id": "5218662",
@@ -791,7 +847,8 @@
         "Przeczytane"
       ],
       "cycle": "Z Mgły Zrodzony (tom 3.5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/294000/294294/453826-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/294000/294294/453826-170x243.jpg",
+      "read_date": "2026-02-02"
     },
     {
       "id": "5092876",
@@ -807,7 +864,8 @@
         "Przeczytane"
       ],
       "cycle": "Elantris (tom 1.1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5092000/5092876/1110612-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5092000/5092876/1110612-170x243.jpg",
+      "read_date": "2026-02-02"
     },
     {
       "id": "4848210",
@@ -823,7 +881,8 @@
         "Przeczytane"
       ],
       "cycle": "Odcienie magii (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4848000/4848210/661934-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4848000/4848210/661934-170x243.jpg",
+      "read_date": "2026-02-01"
     },
     {
       "id": "294055",
@@ -839,7 +898,8 @@
         "Przeczytane"
       ],
       "cycle": "Elantris (tom 1.5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/294000/294055/756756-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/294000/294055/756756-170x243.jpg",
+      "read_date": "2026-02-02"
     },
     {
       "id": "4592555",
@@ -855,7 +915,8 @@
         "Przeczytane"
       ],
       "cycle": "Odcienie magii (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4592000/4592555/570421-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4592000/4592555/570421-170x243.jpg",
+      "read_date": "2026-01-06"
     },
     {
       "id": "308715",
@@ -871,7 +932,8 @@
         "Przeczytane"
       ],
       "cycle": "Odcienie magii (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/308000/308715/504131-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/308000/308715/504131-170x243.jpg",
+      "read_date": "2025-12-29"
     },
     {
       "id": "5187762",
@@ -887,7 +949,8 @@
         "Przeczytane"
       ],
       "cycle": "Dar anomalii (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5187000/5187762/1267881-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5187000/5187762/1267881-170x243.jpg",
+      "read_date": "2025-12-20"
     },
     {
       "id": "5090465",
@@ -1059,7 +1122,7 @@
       "authors": [
         "Anna Benning"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1428,7 +1491,7 @@
       "authors": [
         "M. L. Wang"
       ],
-      "average_rating": 7.9,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2373,7 +2436,8 @@
         "Przeczytane"
       ],
       "cycle": "Wojny Świata Wynurzonego (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/50000/50939/833209-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/50000/50939/833209-170x243.jpg",
+      "read_date": "2025-05-16"
     },
     {
       "id": "5185187",
@@ -2479,7 +2543,8 @@
         "Przeczytane"
       ],
       "cycle": "Wojny Świata Wynurzonego (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/50000/50935/833208-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/50000/50935/833208-170x243.jpg",
+      "read_date": "2025-04-01"
     },
     {
       "id": "3950",
@@ -2495,7 +2560,8 @@
         "Przeczytane"
       ],
       "cycle": "Wojny Świata Wynurzonego (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/3000/3950/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/3000/3950/170x243.jpg",
+      "read_date": "2025-03-03"
     },
     {
       "id": "55435",
@@ -2511,7 +2577,8 @@
         "Przeczytane"
       ],
       "cycle": "Kroniki Świata Wynurzonego (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/55000/55435/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/55000/55435/170x243.jpg",
+      "read_date": "2025-02-13"
     },
     {
       "id": "5173780",
@@ -2582,7 +2649,8 @@
         "Przeczytane"
       ],
       "cycle": "Kroniki Świata Wynurzonego (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/53000/53257/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/53000/53257/170x243.jpg",
+      "read_date": "2025-01-26"
     },
     {
       "id": "266035",
@@ -2597,7 +2665,8 @@
       "shelves": [
         "Przeczytane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/266000/266035/1145725-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/266000/266035/1145725-170x243.jpg",
+      "read_date": "2025-01-23"
     },
     {
       "id": "5099156",
@@ -2809,7 +2878,8 @@
         "Przeczytane"
       ],
       "cycle": "Achaja (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4939000/4939574/898400-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4939000/4939574/898400-170x243.jpg",
+      "read_date": "2024-11-03"
     },
     {
       "id": "4939573",
@@ -2859,7 +2929,8 @@
         "Przeczytane"
       ],
       "cycle": "Achaja (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4939000/4939571/898398-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4939000/4939571/898398-170x243.jpg",
+      "read_date": "2024-07-10"
     },
     {
       "id": "5123665",
@@ -3069,7 +3140,8 @@
         "Przeczytane"
       ],
       "cycle": "Nocny Anioł (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5095000/5095344/1132763-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5095000/5095344/1132763-170x243.jpg",
+      "read_date": "2024-04-18"
     },
     {
       "id": "5100773",
@@ -3103,7 +3175,8 @@
         "Przeczytane"
       ],
       "cycle": "Nocny Anioł (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5091000/5091650/1132761-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5091000/5091650/1132761-170x243.jpg",
+      "read_date": "2024-03-31"
     },
     {
       "id": "5041005",
@@ -3120,7 +3193,8 @@
         "Posiadane"
       ],
       "cycle": "Z Mgły Zrodzony (tom 7)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5041000/5041005/1026517-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5041000/5041005/1026517-170x243.jpg",
+      "read_date": "2024-03-20"
     },
     {
       "id": "5050000",
@@ -3453,7 +3527,8 @@
         "Posiadane"
       ],
       "cycle": "Droga Szamana (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4935000/4935330/836976-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4935000/4935330/836976-170x243.jpg",
+      "read_date": "2024-03-01"
     },
     {
       "id": "132663",
@@ -3501,7 +3576,8 @@
         "Przeczytane"
       ],
       "cycle": "Akty Caine'a (tom 2.2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/53000/53702/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/53000/53702/170x243.jpg",
+      "read_date": "2024-02-15"
     },
     {
       "id": "5052276",
@@ -3607,7 +3683,8 @@
         "Przeczytane"
       ],
       "cycle": "Akty Caine'a (tom 2.1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4000/4311/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4000/4311/170x243.jpg",
+      "read_date": "2023-11-25"
     },
     {
       "id": "4058",
@@ -3623,7 +3700,8 @@
         "Przeczytane"
       ],
       "cycle": "Akty Caine'a (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4000/4058/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4000/4058/170x243.jpg",
+      "read_date": "2023-10-16"
     },
     {
       "id": "162077",
@@ -3711,7 +3789,8 @@
         "Posiadane"
       ],
       "cycle": "Siedem Królestw (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/122000/122198/1115458-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/122000/122198/1115458-170x243.jpg",
+      "read_date": "2022-12-16"
     },
     {
       "id": "109629",
@@ -3849,7 +3928,8 @@
         "Przeczytane"
       ],
       "cycle": "Eon (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/96000/96804/1232091-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/96000/96804/1232091-170x243.jpg",
+      "read_date": "2022-08-14"
     },
     {
       "id": "5023345",
@@ -3882,7 +3962,8 @@
         "Przeczytane"
       ],
       "cycle": "Eon (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/50000/50330/1232090-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/50000/50330/1232090-170x243.jpg",
+      "read_date": "2022-06-10"
     },
     {
       "id": "4911882",
@@ -3898,7 +3979,8 @@
         "Przeczytane"
       ],
       "cycle": "Nibynoc (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4911000/4911882/1189149-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4911000/4911882/1189149-170x243.jpg",
+      "read_date": "2022-03-30"
     },
     {
       "id": "4817206",
@@ -3914,7 +3996,8 @@
         "Przeczytane"
       ],
       "cycle": "Nibynoc (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4817000/4817206/1189147-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4817000/4817206/1189147-170x243.jpg",
+      "read_date": "2022-02-21"
     },
     {
       "id": "4123405",
@@ -4020,7 +4103,8 @@
         "Przeczytane"
       ],
       "cycle": "Nibynoc (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4742000/4742155/1189145-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4742000/4742155/1189145-170x243.jpg",
+      "read_date": "2022-01-27"
     },
     {
       "id": "4882307",
@@ -4037,7 +4121,8 @@
         "Na czytniku"
       ],
       "cycle": "Wielkie Płaszcze (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4882000/4882307/840538-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4882000/4882307/840538-170x243.jpg",
+      "read_date": "2022-01-05"
     },
     {
       "id": "4870786",
@@ -4069,7 +4154,8 @@
         "Przeczytane"
       ],
       "cycle": "Wielkie Płaszcze (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4796000/4796276/656681-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4796000/4796276/656681-170x243.jpg",
+      "read_date": "2021-12-09"
     },
     {
       "id": "4502694",
@@ -4085,7 +4171,8 @@
         "Przeczytane"
       ],
       "cycle": "Wielkie Płaszcze (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4502000/4502694/567361-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4502000/4502694/567361-170x243.jpg",
+      "read_date": "2021-12-03"
     },
     {
       "id": "4988209",
@@ -4157,7 +4244,8 @@
         "Posiadane"
       ],
       "cycle": "Czarne Kamienie (tom 10)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4976000/4976596/915787-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4976000/4976596/915787-170x243.jpg",
+      "read_date": "2021-09-20"
     },
     {
       "id": "4812913",
@@ -4173,7 +4261,8 @@
         "Przeczytane"
       ],
       "cycle": "Zakon Krańca Świata (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4812000/4812913/608977-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4812000/4812913/608977-170x243.jpg",
+      "read_date": "2021-09-10"
     },
     {
       "id": "4809730",
@@ -4189,7 +4278,8 @@
         "Przeczytane"
       ],
       "cycle": "Zakon Krańca Świata (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4809000/4809730/602928-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4809000/4809730/602928-170x243.jpg",
+      "read_date": "2021-08-16"
     },
     {
       "id": "4963382",
@@ -4370,7 +4460,8 @@
         "Posiadane"
       ],
       "cycle": "Tajemnica Askiru (tom 5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4966000/4966557/946589-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4966000/4966557/946589-170x243.jpg",
+      "read_date": "2021-07-26"
     },
     {
       "id": "4858469",
@@ -4491,7 +4582,8 @@
         "Posiadane"
       ],
       "cycle": "Nikolai Duology (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4945000/4945845/892235-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4945000/4945845/892235-170x243.jpg",
+      "read_date": "2021-07-05"
     },
     {
       "id": "4881726",
@@ -4508,7 +4600,8 @@
         "Posiadane"
       ],
       "cycle": "Nikolai Duology (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4881000/4881726/754060-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4881000/4881726/754060-170x243.jpg",
+      "read_date": "2021-06-06"
     },
     {
       "id": "4881611",
@@ -4525,7 +4618,8 @@
         "Posiadane"
       ],
       "cycle": "Grisza (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4881000/4881611/1113538-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4881000/4881611/1113538-170x243.jpg",
+      "read_date": "2021-06-06"
     },
     {
       "id": "4970116",
@@ -4559,7 +4653,8 @@
         "Posiadane"
       ],
       "cycle": "Grisza (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4881000/4881608/1113534-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4881000/4881608/1113534-170x243.jpg",
+      "read_date": "2021-04-24"
     },
     {
       "id": "4256181",
@@ -4627,7 +4722,8 @@
         "Posiadane"
       ],
       "cycle": "Grisza (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4858000/4858578/1113535-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4858000/4858578/1113535-170x243.jpg",
+      "read_date": "2021-03-27"
     },
     {
       "id": "242811",
@@ -4644,7 +4740,8 @@
         "Posiadane"
       ],
       "cycle": "Opowieść o kamratach (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/242000/242811/343078-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/242000/242811/343078-170x243.jpg",
+      "read_date": "2021-03-23"
     },
     {
       "id": "4933334",
@@ -4805,7 +4902,8 @@
         "Posiadane"
       ],
       "cycle": "Opowieść o kamratach (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/125000/125740/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/125000/125740/170x243.jpg",
+      "read_date": "2021-03-11"
     },
     {
       "id": "4954343",
@@ -4859,7 +4957,8 @@
         "Posiadane"
       ],
       "cycle": "Arena 13 (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4789000/4789832/582430-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4789000/4789832/582430-170x243.jpg",
+      "read_date": "2021-02-28"
     },
     {
       "id": "4099395",
@@ -4876,7 +4975,8 @@
         "Posiadane"
       ],
       "cycle": "Arena 13 (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4099000/4099395/534719-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4099000/4099395/534719-170x243.jpg",
+      "read_date": "2021-02-25"
     },
     {
       "id": "293915",
@@ -4893,7 +4993,8 @@
         "Posiadane"
       ],
       "cycle": "Arena 13 (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/293000/293915/466820-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/293000/293915/466820-170x243.jpg",
+      "read_date": "2021-02-23"
     },
     {
       "id": "4914168",
@@ -4910,7 +5011,8 @@
         "Posiadane"
       ],
       "cycle": "Czarny Mag (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4914000/4914168/788030-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4914000/4914168/788030-170x243.jpg",
+      "read_date": "2021-02-22"
     },
     {
       "id": "4892998",
@@ -4927,7 +5029,8 @@
         "Posiadane"
       ],
       "cycle": "Czarny Mag (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4892000/4892998/754054-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4892000/4892998/754054-170x243.jpg",
+      "read_date": "2021-02-19"
     },
     {
       "id": "4872440",
@@ -4944,7 +5047,8 @@
         "Posiadane"
       ],
       "cycle": "Czarny Mag (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4872000/4872440/789142-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4872000/4872440/789142-170x243.jpg",
+      "read_date": "2021-02-16"
     },
     {
       "id": "4859937",
@@ -4961,7 +5065,8 @@
         "Posiadane"
       ],
       "cycle": "Czarny Mag (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4859000/4859937/684706-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4859000/4859937/684706-170x243.jpg",
+      "read_date": "2021-02-11"
     },
     {
       "id": "4860632",
@@ -4978,7 +5083,8 @@
         "Posiadane"
       ],
       "cycle": "Zastępy Anielskie (tom 3.3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4860000/4860632/702376-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4860000/4860632/702376-170x243.jpg",
+      "read_date": "2021-02-08"
     },
     {
       "id": "4816727",
@@ -4995,7 +5101,8 @@
         "Posiadane"
       ],
       "cycle": "Zastępy Anielskie (tom 3.2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4816000/4816727/618190-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4816000/4816727/618190-170x243.jpg",
+      "read_date": "2021-02-02"
     },
     {
       "id": "3940100",
@@ -5012,7 +5119,8 @@
         "Posiadane"
       ],
       "cycle": "Zastępy Anielskie (tom 3.1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/3940000/3940100/609737-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/3940000/3940100/609737-170x243.jpg",
+      "read_date": "2020-11-27"
     },
     {
       "id": "197677",
@@ -5029,7 +5137,8 @@
         "Posiadane"
       ],
       "cycle": "Zastępy Anielskie (tom 2.2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/197000/197677/199201-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/197000/197677/199201-170x243.jpg",
+      "read_date": "2020-11-23"
     },
     {
       "id": "197674",
@@ -5046,7 +5155,8 @@
         "Posiadane"
       ],
       "cycle": "Zastępy Anielskie (tom 2.1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/197000/197674/199198-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/197000/197674/199198-170x243.jpg",
+      "read_date": "2020-11-16"
     },
     {
       "id": "4912929",
@@ -5115,7 +5225,8 @@
         "Przeczytane",
         "Posiadane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/4934000/4934382/831465-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4934000/4934382/831465-170x243.jpg",
+      "read_date": "2020-11-02"
     },
     {
       "id": "222428",
@@ -5132,7 +5243,8 @@
         "Posiadane"
       ],
       "cycle": "Zastępy Anielskie (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/222000/222428/1312028-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/222000/222428/1312028-170x243.jpg",
+      "read_date": "2020-10-03"
     },
     {
       "id": "215831",
@@ -5149,7 +5261,8 @@
         "Posiadane"
       ],
       "cycle": "Zastępy Anielskie (tom 0.5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/215000/215831/272186-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/215000/215831/272186-170x243.jpg",
+      "read_date": "2020-08-29"
     },
     {
       "id": "4805717",
@@ -5166,7 +5279,8 @@
         "Posiadane"
       ],
       "cycle": "Trylogia Klątwy (tom 0.5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4805000/4805717/1117045-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4805000/4805717/1117045-170x243.jpg",
+      "read_date": "2020-08-24"
     },
     {
       "id": "314857",
@@ -5183,7 +5297,8 @@
         "Posiadane"
       ],
       "cycle": "Trylogia Klątwy (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/314000/314857/1117039-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/314000/314857/1117039-170x243.jpg",
+      "read_date": "2020-08-19"
     },
     {
       "id": "293473",
@@ -5200,7 +5315,8 @@
         "Posiadane"
       ],
       "cycle": "Trylogia Klątwy (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/293000/293473/1117038-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/293000/293473/1117038-170x243.jpg",
+      "read_date": "2020-08-10"
     },
     {
       "id": "4918726",
@@ -5234,7 +5350,8 @@
         "Posiadane"
       ],
       "cycle": "Trylogia Klątwy (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/274000/274810/1117036-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/274000/274810/1117036-170x243.jpg",
+      "read_date": "2020-07-13"
     },
     {
       "id": "4864623",
@@ -5251,7 +5368,8 @@
         "Posiadane"
       ],
       "cycle": "Zaklinacz (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4864000/4864623/694008-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4864000/4864623/694008-170x243.jpg",
+      "read_date": "2020-07-06"
     },
     {
       "id": "4806758",
@@ -5268,7 +5386,8 @@
         "Posiadane"
       ],
       "cycle": "Zaklinacz (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4806000/4806758/673806-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4806000/4806758/673806-170x243.jpg",
+      "read_date": "2020-06-21"
     },
     {
       "id": "305482",
@@ -5285,7 +5404,8 @@
         "Posiadane"
       ],
       "cycle": "Zaklinacz (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/305000/305482/487737-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/305000/305482/487737-170x243.jpg",
+      "read_date": "2020-06-20"
     },
     {
       "id": "273380",
@@ -5302,7 +5422,8 @@
         "Posiadane"
       ],
       "cycle": "Zaklinacz (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/273000/273380/431696-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/273000/273380/431696-170x243.jpg",
+      "read_date": "2020-06-16"
     },
     {
       "id": "4926911",
@@ -5319,7 +5440,8 @@
         "Posiadane"
       ],
       "cycle": "Dziedzictwo Oriszy (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4926000/4926911/822778-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4926000/4926911/822778-170x243.jpg",
+      "read_date": "2020-06-14"
     },
     {
       "id": "4887863",
@@ -5335,7 +5457,8 @@
         "Przeczytane",
         "Posiadane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/4887000/4887863/758813-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4887000/4887863/758813-170x243.jpg",
+      "read_date": "2020-06-10"
     },
     {
       "id": "4867410",
@@ -5351,7 +5474,8 @@
         "Przeczytane",
         "Posiadane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/4867000/4867410/698554-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4867000/4867410/698554-170x243.jpg",
+      "read_date": "2020-05-14"
     },
     {
       "id": "4914588",
@@ -5404,7 +5528,8 @@
         "Posiadane"
       ],
       "cycle": "Tajemnica Askiru (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4907000/4907670/783298-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4907000/4907670/783298-170x243.jpg",
+      "read_date": "2020-04-12"
     },
     {
       "id": "192342",
@@ -5529,7 +5654,8 @@
         "Posiadane"
       ],
       "cycle": "Zakon Drzewa Pomarańczy (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4898000/4898397/1118165-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4898000/4898397/1118165-170x243.jpg",
+      "read_date": "2020-03-22"
     },
     {
       "id": "295187",
@@ -5546,7 +5672,8 @@
         "Posiadane"
       ],
       "cycle": "Red Rising (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/295000/295187/458118-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/295000/295187/458118-170x243.jpg",
+      "read_date": "2020-02-29"
     },
     {
       "id": "264683",
@@ -5563,7 +5690,8 @@
         "Posiadane"
       ],
       "cycle": "Red Rising (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/264000/264683/435790-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/264000/264683/435790-170x243.jpg",
+      "read_date": "2020-02-22"
     },
     {
       "id": "4869153",
@@ -5631,7 +5759,8 @@
         "Przeczytane",
         "Posiadane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/223000/223035/279342-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/223000/223035/279342-170x243.jpg",
+      "read_date": "2020-01-04"
     },
     {
       "id": "264685",
@@ -5648,7 +5777,8 @@
         "Posiadane"
       ],
       "cycle": "Red Rising (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/264000/264685/435786-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/264000/264685/435786-170x243.jpg",
+      "read_date": "2020-01-13"
     },
     {
       "id": "4909955",
@@ -5683,7 +5813,8 @@
         "Posiadane"
       ],
       "cycle": "INNI (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/251000/251253/371233-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/251000/251253/371233-170x243.jpg",
+      "read_date": "2019-11-23"
     },
     {
       "id": "3778022",
@@ -5700,7 +5831,8 @@
         "Posiadane"
       ],
       "cycle": "INNI (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/3778000/3778022/511485-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/3778000/3778022/511485-170x243.jpg",
+      "read_date": "2019-11-26"
     },
     {
       "id": "4806200",
@@ -5717,7 +5849,8 @@
         "Posiadane"
       ],
       "cycle": "INNI (tom 5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4806000/4806200/596125-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4806000/4806200/596125-170x243.jpg",
+      "read_date": "2019-12-19"
     },
     {
       "id": "4805374",
@@ -5734,7 +5867,8 @@
         "Posiadane"
       ],
       "cycle": "Atlantis Rising (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4805000/4805374/594438-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4805000/4805374/594438-170x243.jpg",
+      "read_date": "2019-10-30"
     },
     {
       "id": "4823653",
@@ -5751,7 +5885,8 @@
         "Posiadane"
       ],
       "cycle": "Atlantis Rising (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4823000/4823653/631237-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4823000/4823653/631237-170x243.jpg",
+      "read_date": "2019-11-04"
     },
     {
       "id": "300202",
@@ -5804,7 +5939,8 @@
         "Posiadane"
       ],
       "cycle": "Kroniki Riyrii (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4881000/4881606/737653-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4881000/4881606/737653-170x243.jpg",
+      "read_date": "2019-10-19"
     },
     {
       "id": "129777",
@@ -5891,7 +6027,8 @@
         "Przeczytane"
       ],
       "cycle": "Odkrycia Riyrii (tom 1-2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/115000/115438/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/115000/115438/170x243.jpg",
+      "read_date": "2019-09-26"
     },
     {
       "id": "4892305",
@@ -5907,7 +6044,8 @@
         "Przeczytane"
       ],
       "cycle": "INNI (tom 6)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4892000/4892305/789082-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4892000/4892305/789082-170x243.jpg",
+      "read_date": "2019-09-08"
     },
     {
       "id": "4882613",
@@ -5923,7 +6061,8 @@
         "Przeczytane"
       ],
       "cycle": "Szklany Tron (tom 7)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4882000/4882613/1117034-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4882000/4882613/1117034-170x243.jpg",
+      "read_date": "2019-09-01"
     },
     {
       "id": "149252",
@@ -5993,7 +6132,8 @@
         "Przeczytane"
       ],
       "cycle": "Szklany Tron (tom 7)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4882000/4882510/1117033-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4882000/4882510/1117033-170x243.jpg",
+      "read_date": "2019-08-20"
     },
     {
       "id": "4848787",
@@ -6010,7 +6150,8 @@
         "Posiadane"
       ],
       "cycle": "Kroniki Riyrii (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4848000/4848787/678199-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4848000/4848787/678199-170x243.jpg",
+      "read_date": "2019-08-18"
     },
     {
       "id": "4890465",
@@ -6045,7 +6186,8 @@
         "Posiadane"
       ],
       "cycle": "Kroniki Riyrii (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4848000/4848786/678200-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4848000/4848786/678200-170x243.jpg",
+      "read_date": "2019-08-05"
     },
     {
       "id": "4814947",
@@ -6062,7 +6204,8 @@
         "Posiadane"
       ],
       "cycle": "Kroniki Riyrii (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4814000/4814947/678201-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4814000/4814947/678201-170x243.jpg",
+      "read_date": "2019-08-01"
     },
     {
       "id": "4893671",
@@ -6079,7 +6222,8 @@
         "Posiadane"
       ],
       "cycle": "Legion (tom 1-3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4893000/4893671/1138884-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4893000/4893671/1138884-170x243.jpg",
+      "read_date": "2019-07-14"
     },
     {
       "id": "4885028",
@@ -6096,7 +6240,8 @@
         "Posiadane"
       ],
       "cycle": "Gdzie diabeł mówi dobranoc (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4885000/4885028/789085-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4885000/4885028/789085-170x243.jpg",
+      "read_date": "2019-07-04"
     },
     {
       "id": "217733",
@@ -6113,7 +6258,8 @@
         "Posiadane"
       ],
       "cycle": "INNI (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/217000/217733/261632-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/217000/217733/261632-170x243.jpg",
+      "read_date": "2019-06-21"
     },
     {
       "id": "4879919",
@@ -6218,7 +6364,8 @@
         "Posiadane"
       ],
       "cycle": "Tajemnica Askiru (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4873000/4873528/730420-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4873000/4873528/730420-170x243.jpg",
+      "read_date": "2019-05-26"
     },
     {
       "id": "4880220",
@@ -6234,7 +6381,8 @@
         "Przeczytane",
         "Posiadane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/4880000/4880220/726400-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4880000/4880220/726400-170x243.jpg",
+      "read_date": "2019-05-20"
     },
     {
       "id": "188480",
@@ -6251,7 +6399,8 @@
         "Posiadane"
       ],
       "cycle": "INNI (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/188000/188480/195852-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/188000/188480/195852-170x243.jpg",
+      "read_date": "2019-04-20"
     },
     {
       "id": "4875075",
@@ -6268,7 +6417,8 @@
         "Posiadane"
       ],
       "cycle": "Dziedzictwo Oriszy (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4875000/4875075/718490-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4875000/4875075/718490-170x243.jpg",
+      "read_date": "2019-04-12"
     },
     {
       "id": "4541144",
@@ -6284,7 +6434,8 @@
         "Przeczytane",
         "Posiadane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/4541000/4541144/565005-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4541000/4541144/565005-170x243.jpg",
+      "read_date": "2019-03-23"
     },
     {
       "id": "4856034",
@@ -6391,7 +6542,8 @@
         "Posiadane"
       ],
       "cycle": "Seraphina (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/259000/259491/395283-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/259000/259491/395283-170x243.jpg",
+      "read_date": "2019-02-21"
     },
     {
       "id": "228486",
@@ -6408,7 +6560,8 @@
         "Posiadane"
       ],
       "cycle": "Seraphina (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/228000/228486/298506-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/228000/228486/298506-170x243.jpg",
+      "read_date": "2019-02-07"
     },
     {
       "id": "4875211",
@@ -6478,7 +6631,8 @@
         "Przeczytane",
         "Posiadane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/4863000/4863779/692498-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4863000/4863779/692498-170x243.jpg",
+      "read_date": "2018-12-10"
     },
     {
       "id": "3890827",
@@ -6495,7 +6649,8 @@
         "Posiadane"
       ],
       "cycle": "Łowczyni (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/3890000/3890827/522146-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/3890000/3890827/522146-170x243.jpg",
+      "read_date": "2018-12-08"
     },
     {
       "id": "4861149",
@@ -6512,7 +6667,8 @@
         "Posiadane"
       ],
       "cycle": "Dwór cierni i róż (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4861000/4861149/1112969-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4861000/4861149/1112969-170x243.jpg",
+      "read_date": "2018-11-10"
     },
     {
       "id": "253557",
@@ -6529,7 +6685,8 @@
         "Posiadane"
       ],
       "cycle": "Łowczyni (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/253000/253557/456030-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/253000/253557/456030-170x243.jpg",
+      "read_date": "2018-11-16"
     },
     {
       "id": "4857963",
@@ -6546,7 +6703,8 @@
         "Posiadane"
       ],
       "cycle": "Tajemnica Askiru (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4857000/4857963/697093-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4857000/4857963/697093-170x243.jpg",
+      "read_date": "2018-10-31"
     },
     {
       "id": "4823351",
@@ -6563,7 +6721,8 @@
         "Posiadane"
       ],
       "cycle": "Tajemnica Askiru (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4823000/4823351/652353-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4823000/4823351/652353-170x243.jpg",
+      "read_date": "2018-10-17"
     },
     {
       "id": "194749",
@@ -6706,7 +6865,8 @@
         "Posiadane"
       ],
       "cycle": "Sen o krwi (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/218000/218788/264694-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/218000/218788/264694-170x243.jpg",
+      "read_date": "2018-10-06"
     },
     {
       "id": "4360049",
@@ -6741,7 +6901,8 @@
         "Posiadane"
       ],
       "cycle": "Sen o krwi (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/205000/205019/222556-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/205000/205019/222556-170x243.jpg",
+      "read_date": "2018-09-23"
     },
     {
       "id": "4845934",
@@ -6794,7 +6955,8 @@
         "Posiadane"
       ],
       "cycle": "Czarne Kamienie (tom 8)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/100000/100180/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/100000/100180/170x243.jpg",
+      "read_date": "2018-09-08"
     },
     {
       "id": "87574",
@@ -6811,7 +6973,8 @@
         "Posiadane"
       ],
       "cycle": "Czarne Kamienie (tom 7)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/87000/87574/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/87000/87574/170x243.jpg",
+      "read_date": "2018-09-03"
     },
     {
       "id": "77267",
@@ -6828,7 +6991,8 @@
         "Posiadane"
       ],
       "cycle": "Czarne Kamienie (tom 6)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/77000/77267/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/77000/77267/170x243.jpg",
+      "read_date": "2018-08-29"
     },
     {
       "id": "4850143",
@@ -6971,7 +7135,8 @@
         "Posiadane"
       ],
       "cycle": "Czarne Kamienie (tom 5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/66000/66560/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/66000/66560/170x243.jpg",
+      "read_date": "2018-08-10"
     },
     {
       "id": "124234",
@@ -7042,7 +7207,8 @@
         "Posiadane"
       ],
       "cycle": "Czarne Kamienie (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/272000/272054/428461-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/272000/272054/428461-170x243.jpg",
+      "read_date": "2018-07-16"
     },
     {
       "id": "64572",
@@ -7075,7 +7241,8 @@
         "Posiadane"
       ],
       "cycle": "Czarne Kamienie (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/271000/271548/428460-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/271000/271548/428460-170x243.jpg",
+      "read_date": "2018-07-09"
     },
     {
       "id": "4817172",
@@ -7109,7 +7276,8 @@
         "Przeczytane",
         "Posiadane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/4724000/4724047/1087337-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4724000/4724047/1087337-170x243.jpg",
+      "read_date": "2018-06-28"
     },
     {
       "id": "5094955",
@@ -7126,7 +7294,8 @@
         "Posiadane"
       ],
       "cycle": "Cykl Demoniczny (tom 5.2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5094000/5094955/1114062-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5094000/5094955/1114062-170x243.jpg",
+      "read_date": "2018-06-27"
     },
     {
       "id": "4817211",
@@ -7215,7 +7384,8 @@
         "Posiadane"
       ],
       "cycle": "Cykl Demoniczny (tom 5.1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5094000/5094954/1114061-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5094000/5094954/1114061-170x243.jpg",
+      "read_date": "2018-06-17"
     },
     {
       "id": "4818756",
@@ -7231,7 +7401,8 @@
         "Przeczytane"
       ],
       "cycle": "Szklany Tron (tom 6)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4818000/4818756/1117029-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4818000/4818756/1117029-170x243.jpg",
+      "read_date": "2018-06-03"
     },
     {
       "id": "3729498",
@@ -7247,7 +7418,8 @@
         "Przeczytane",
         "Posiadane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/3729000/3729498/756796-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/3729000/3729498/756796-170x243.jpg",
+      "read_date": "2018-05-12"
     },
     {
       "id": "4846720",
@@ -7282,7 +7454,8 @@
         "Posiadane"
       ],
       "cycle": "Jakub Kania (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4821000/4821482/627506-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4821000/4821482/627506-170x243.jpg",
+      "read_date": "2018-04-27"
     },
     {
       "id": "4486395",
@@ -7299,7 +7472,8 @@
         "Posiadane"
       ],
       "cycle": "Jakub Kania (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4486000/4486395/573772-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4486000/4486395/573772-170x243.jpg",
+      "read_date": "2018-04-12"
     },
     {
       "id": "4807305",
@@ -7478,7 +7652,8 @@
         "Posiadane"
       ],
       "cycle": "Dwór cierni i róż (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4803000/4803632/1112968-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4803000/4803632/1112968-170x243.jpg",
+      "read_date": "2018-03-23"
     },
     {
       "id": "4800190",
@@ -7549,7 +7724,8 @@
         "Posiadane"
       ],
       "cycle": "Dwór cierni i róż (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4039000/4039467/1112966-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4039000/4039467/1112966-170x243.jpg",
+      "read_date": "2018-03-05"
     },
     {
       "id": "180969",
@@ -7796,7 +7972,8 @@
         "Posiadane"
       ],
       "cycle": "Dwór cierni i róż (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/295000/295801/1112965-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/295000/295801/1112965-170x243.jpg",
+      "read_date": "2018-01-11"
     },
     {
       "id": "120477",
@@ -7846,7 +8023,8 @@
         "Przeczytane"
       ],
       "cycle": "Szklany Tron (tom 5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4272000/4272978/1117025-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4272000/4272978/1117025-170x243.jpg",
+      "read_date": "2018-02-04"
     },
     {
       "id": "5154913",
@@ -8322,7 +8500,8 @@
         "Posiadane"
       ],
       "cycle": "Czarne Kamienie (tom 9)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/115000/115455/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/115000/115455/170x243.jpg",
+      "read_date": "2018-09-14"
     },
     {
       "id": "53250",
@@ -8339,7 +8518,8 @@
         "Posiadane"
       ],
       "cycle": "Czarne Kamienie (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/53000/53250/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/53000/53250/170x243.jpg",
+      "read_date": "2018-07-24"
     },
     {
       "id": "272053",
@@ -8356,7 +8536,8 @@
         "Posiadane"
       ],
       "cycle": "Czarne Kamienie (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/272000/272053/428459-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/272000/272053/428459-170x243.jpg",
+      "read_date": "2018-07-15"
     },
     {
       "id": "8553",
@@ -8875,7 +9056,8 @@
         "Posiadane"
       ],
       "cycle": "Szóstka wron (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/309000/309434/534488-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/309000/309434/534488-170x243.jpg",
+      "read_date": "2017-12-25"
     },
     {
       "id": "4254599",
@@ -8892,7 +9074,8 @@
         "Posiadane"
       ],
       "cycle": "Szóstka wron (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4254000/4254599/547080-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4254000/4254599/547080-170x243.jpg",
+      "read_date": "2017-01-07"
     },
     {
       "id": "273163",
@@ -9076,7 +9259,8 @@
         "Posiadane"
       ],
       "cycle": "Szklany Tron (tom 0.5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/3890000/3890973/520196-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/3890000/3890973/520196-170x243.jpg",
+      "read_date": "2018-01-14"
     },
     {
       "id": "302259",
