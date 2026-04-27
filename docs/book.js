@@ -14,6 +14,7 @@
     shelves: document.getElementById("b-shelves"),
     genre: document.getElementById("b-genre"),
     pages: document.getElementById("b-pages"),
+    readDate: document.getElementById("b-read-date"),
     lc: document.getElementById("b-lc"),
     desc: document.getElementById("b-desc"),
   };
@@ -68,6 +69,10 @@
       el.shelves.innerHTML = shelves.map((s) => `<span class="shelf-pill">${escape(s)}</span>`).join("");
     } else {
       el.shelves.remove();
+    }
+
+    if (book.read_date) {
+      el.readDate.textContent = book.read_date;
     }
 
     if (details) {

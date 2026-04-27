@@ -90,6 +90,7 @@
         : `<span class="dash">—</span>`;
       const avg = b.average_rating != null ? b.average_rating.toFixed(1) : `<span class="dash">—</span>`;
       const mine = b.user_rating != null ? b.user_rating.toFixed(1) : `<span class="dash">—</span>`;
+      const readDate = b.read_date ? escape(b.read_date) : `<span class="dash">—</span>`;
       const isOpen = state.expanded.has(b.id);
       const titleCell = `
         <button class="expand-toggle" type="button" data-book-id="${escape(b.id)}" aria-expanded="${isOpen}" aria-label="${isOpen ? "Zwiń szczegóły" : "Rozwiń szczegóły"}">▶</button>
@@ -104,10 +105,11 @@
           <td class="cycle">${cycle}</td>
           <td class="num">${avg}</td>
           <td class="num">${mine}</td>
+          <td class="num read-date">${readDate}</td>
           <td class="shelves">${shelves}</td>
         </tr>`;
       const detailRow = isOpen
-        ? `<tr class="detail-row" data-book-id="${escape(b.id)}"><td></td><td colspan="6" class="detail-cell">${renderDetailRow(b)}</td></tr>`
+        ? `<tr class="detail-row" data-book-id="${escape(b.id)}"><td></td><td colspan="7" class="detail-cell">${renderDetailRow(b)}</td></tr>`
         : "";
       return mainRow + detailRow;
     });
