@@ -74,7 +74,13 @@ Default **conversational**: 2-3 clarifying questions before showing candidates, 
 - Use `books-details.json` description + genre + user's past ratings to compute similarity
 - Series-in-progress (user has some tomes, next one unread) is a natural priority
 - Authors the user rated ≥ 8 are signals
-- The user's own shelves are hints: "Na czytniku" = can read immediately; "Dostępne na Legimi" = audiobook ready; "Posiadane" = on physical shelf
+- The user's own shelves are hints:
+  - **"Na czytniku"** = can read immediately (already on his e-reader)
+  - **"Dostępne na Legimi"** = title is in the Legimi catalog (ebook **or** audiobook — does NOT imply audio; verify if the user wants audio)
+  - **"Posiadane"** = physically owned or digital copy ready
+  - **"Do kupienia w..."** (full: *"Do kupienia w najbliższym czasie"*) = **explicit buy-target ASAP** — user has flagged this for purchase. Highest-priority buy signal.
+  - **"Niedokończone serie"** = user is missing at least one tome of this series. Strong signal to fill the gap (mode #2 series-completion candidate).
+  - **Absence of "Posiadane"** = wants but doesn't own yet → not eligible for mode #1 "read-now" recommendations; belongs to mode #2/#3 / `accepted.json`.
 
 **No WebFetch** — everything needed is in local data.
 
@@ -102,9 +108,13 @@ Default **conversational**: 2-3 clarifying questions before showing candidates, 
 - Identify missing tomes. For ones already released → flag with "wyszła, nie masz jeszcze". For unreleased → check katedra (`https://katedra.nast.pl/zapowiedzi/<year>/<month>/`) and LC announcement pages for release dates.
 
 **New-titles flow:**
-- WebFetch `https://katedra.nast.pl/zapowiedzi/<year>/<month>/` for the chosen horizon.
-- For each announcement: filter to SF/fantasy, check it's not already in `books.json` (user's library), check it's not in `rejections.json`.
-- Score by: genre overlap with user's top-rated books, author match with user's >7-rated authors, publisher match with publishers user has bought from (infer from existing books).
+- WebFetch `https://katedra.nast.pl/zapowiedzi/<year>/<month>/<n>/` (note the trailing index segment — `/zapowiedzi/2026/5/1/`, not `/zapowiedzi/2026/05/`). If the URL 404s, do a `site:katedra.nast.pl zapowiedzi <month> <year>` WebSearch to find the correct path.
+- For each announcement: filter to SF/fantasy, check it's not in `rejections.json`.
+- **Library cross-check (important — don't just skip on presence):**
+  - In `books.json` AND has `Posiadane` shelf → he already owns it → **skip** from announcements.
+  - In `books.json` but NO `Posiadane` shelf (e.g., `Chcę przeczytać` / `Do kupienia w...` / `Niedokończone serie`) → he wants it but doesn't have it yet → **flag as 🛒 buy-target** and present as candidate. These are exactly the books a market/announcements pass should highlight.
+  - Not in `books.json` at all → fresh candidate.
+- Score by: genre overlap with user's top-rated books, author match with user's >7-rated authors, publisher match with publishers user has bought from (infer from existing books). Buy-target flag (🛒) bumps priority — these are pre-validated by the user himself.
 
 **No audiobook check** (book hasn't released).
 
