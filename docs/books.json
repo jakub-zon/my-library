@@ -3,6 +3,56 @@
   "count": 534,
   "books": [
     {
+      "id": "5105177",
+      "title": "Alchemised",
+      "url": "https://lubimyczytac.pl/ksiazka/5105177/alchemised",
+      "type": "book",
+      "authors": [
+        "SenLinYu"
+      ],
+      "average_rating": 7.3,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5105000/5105177/1337172-170x243.jpg"
+    },
+    {
+      "id": "5217091",
+      "title": "Schaar",
+      "url": "https://lubimyczytac.pl/ksiazka/5217091/schaar",
+      "type": "book",
+      "authors": [
+        "Michał Głowacz"
+      ],
+      "average_rating": 6.5,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217091/1342177-170x243.jpg",
+      "read_date": "2026-04-30"
+    },
+    {
+      "id": "5230358",
+      "title": "Syn pustyni",
+      "url": "https://lubimyczytac.pl/ksiazka/5230358/syn-pustyni",
+      "type": "book",
+      "authors": [
+        "Adam Hetmański"
+      ],
+      "average_rating": 7.8,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5230000/5230358/1345269-170x243.jpg",
+      "read_date": "2026-04-28"
+    },
+    {
       "id": "5221770",
       "title": "Strażnik bram",
       "url": "https://lubimyczytac.pl/ksiazka/5221770/straznik-bram",
@@ -54,22 +104,6 @@
         "Posiadane"
       ],
       "cover": "https://s.lubimyczytac.pl/upload/books/5234000/5234200/1351612-170x243.jpg"
-    },
-    {
-      "id": "5230358",
-      "title": "Syn pustyni",
-      "url": "https://lubimyczytac.pl/ksiazka/5230358/syn-pustyni",
-      "type": "book",
-      "authors": [
-        "Adam Hetmański"
-      ],
-      "average_rating": 7.9,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam",
-        "Posiadane"
-      ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/5230000/5230358/1345269-170x243.jpg"
     },
     {
       "id": "5077910",
@@ -415,7 +449,7 @@
       "authors": [
         "Jarosław Dobrowolski"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -556,7 +590,7 @@
       "authors": [
         "Paweł Kopijer"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -574,7 +608,7 @@
       "authors": [
         "Hannah Kaner"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -603,40 +637,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/5162000/5162013/1327250-170x243.jpg"
     },
     {
-      "id": "5105177",
-      "title": "Alchemised",
-      "url": "https://lubimyczytac.pl/ksiazka/5105177/alchemised",
-      "type": "book",
-      "authors": [
-        "SenLinYu"
-      ],
-      "average_rating": 7.3,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/5105000/5105177/1337172-170x243.jpg"
-    },
-    {
-      "id": "5217091",
-      "title": "Schaar",
-      "url": "https://lubimyczytac.pl/ksiazka/5217091/schaar",
-      "type": "book",
-      "authors": [
-        "Michał Głowacz"
-      ],
-      "average_rating": 6.4,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217091/1342177-170x243.jpg"
-    },
-    {
       "id": "5222008",
       "title": "Miecz Vamera",
       "url": "https://lubimyczytac.pl/ksiazka/5222008/miecz-vamera",
@@ -661,7 +661,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1122,7 +1122,7 @@
       "authors": [
         "Anna Benning"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2940,7 +2940,7 @@
       "authors": [
         "Janusz Stankiewicz"
       ],
-      "average_rating": 6.7,
+      "average_rating": 6.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
