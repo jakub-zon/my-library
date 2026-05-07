@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "id": "5217091",
-      "title": "Schaar",
-      "author": "Michał Głowacz",
-      "url": "https://lubimyczytac.pl/ksiazka/5217091/schaar",
-      "cover_url": "https://s.lubimyczytac.pl/upload/books/5217000/5217091/1342177-170x243.jpg",
-      "source": "library",
-      "when": "2026-04-27T00:00:00+02:00",
-      "note": "Krótki (333 s.) steampunk-noir przegryzek po Hetmańskim. Audio PL: Legimi/Audioteka/Woblink."
-    },
-    {
       "id": "5099212",
       "title": "Cień bogów",
       "author": "John Gwynne",
@@ -41,16 +31,6 @@
       "note": "Saga o Krwiozaprzysiężonych t.3 (domknięcie). Audio PL: Legimi."
     },
     {
-      "id": "5105177",
-      "title": "Alchemised",
-      "author": "SenLinYu",
-      "url": "https://lubimyczytac.pl/ksiazka/5105177/alchemised",
-      "cover_url": "https://s.lubimyczytac.pl/upload/books/5105000/5105177/1337172-170x243.jpg",
-      "source": "library",
-      "when": "2026-04-27T00:00:00+02:00",
-      "note": "Dark fantasy (alchemia vs nekromancja), 35h audio PL Legimi+Storytel. Po Krwiozaprzysiężonych jako zmiana flavoru."
-    },
-    {
       "id": "5105152",
       "title": "Antykwariat pod Salamandrą",
       "author": "Adam Przechrzta",
@@ -76,6 +56,36 @@
       "source": "market",
       "when": "2026-04-27T00:00:00+02:00",
       "note": "Mons Viridis Magicus t.3 (domknięcie trylogii). Audio PL ✅."
+    },
+    {
+      "id": "149252",
+      "title": "Nowe imperium. Szmaragdowy sztorm",
+      "author": "Michael James Sullivan",
+      "url": "https://lubimyczytac.pl/ksiazka/149252/nowe-imperium-szmaragdowy-sztorm",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/149000/149252/170x243.jpg",
+      "source": "library",
+      "when": "2026-05-07T00:00:00+02:00",
+      "note": "Odkrycia Riyrii t.3-4. Po Królewskiej krwi (9.0). Audio PL — domknięcie głównego cyklu Riyrii. Półka 'Na czytniku' — gotowe do startu."
+    },
+    {
+      "id": "170127",
+      "title": "Zdradziecki plan",
+      "author": "Michael James Sullivan",
+      "url": "https://lubimyczytac.pl/ksiazka/170127/zdradziecki-plan",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/170000/170127/118798-170x243.jpg",
+      "source": "library",
+      "when": "2026-05-07T00:00:00+02:00",
+      "note": "Odkrycia Riyrii t.5. Audio PL. 'Na czytniku'."
+    },
+    {
+      "id": "182596",
+      "title": "Pradawna stolica",
+      "author": "Michael James Sullivan",
+      "url": "https://lubimyczytac.pl/ksiazka/182596/pradawna-stolica",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/182000/182596/155448-170x243.jpg",
+      "source": "library",
+      "when": "2026-05-07T00:00:00+02:00",
+      "note": "Odkrycia Riyrii t.6 (domknięcie głównej trylogii). Audio PL. 'Na czytniku'."
     }
   ]
 }

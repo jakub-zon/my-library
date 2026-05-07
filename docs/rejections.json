@@ -145,11 +145,25 @@
       "note": "Maj 2026 (Prószyński, 28/5). Fantasy/horror — poza profilem."
     },
     {
-      "title": "Kagen Przeklęty",
-      "author": "Jonathan Maberry",
+      "title": "Ciemny Eden",
+      "author": "Chris Beckett",
       "source": "announcement",
-      "when": "2026-04-27T00:00:00+02:00",
-      "note": "Maj 2026 (Vesper). Horror/dark fantasy — poza profilem."
+      "when": "2026-05-07T00:00:00+02:00",
+      "note": "Eden t.1 (MAG, czerwiec 2026, wznowienie). Postapo SF z Clarke Award, ale styl medytacyjno-antropologiczny — ten sam zarzut co przy Wróblu, zbyt literacki dla profilu."
+    },
+    {
+      "title": "Matka Edenu",
+      "author": "Chris Beckett",
+      "source": "announcement",
+      "when": "2026-05-07T00:00:00+02:00",
+      "note": "Eden t.2 (MAG, czerwiec 2026, wznowienie). Reject jako część trylogii."
+    },
+    {
+      "title": "Córka Edenu",
+      "author": "Chris Beckett",
+      "source": "announcement",
+      "when": "2026-05-07T00:00:00+02:00",
+      "note": "Eden t.3 (MAG, czerwiec 2026, wznowienie). Reject jako część trylogii."
     }
   ]
 }
