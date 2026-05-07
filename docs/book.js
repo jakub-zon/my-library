@@ -26,7 +26,7 @@
 
   const fail = (msg) => {
     el.status.textContent = msg;
-    document.title = "Nie znaleziono — my-library";
+    document.title = "Nie znaleziono — Biblioteka";
   };
 
   const loadJson = async (path) => {
@@ -36,7 +36,7 @@
   };
 
   const render = (book, details) => {
-    document.title = `${book.title} — my-library`;
+    document.title = `${book.title} — Biblioteka`;
 
     if (book.cover) {
       el.cover.src = book.cover;
