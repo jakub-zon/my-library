@@ -1,7 +1,63 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 534,
+  "count": 536,
   "books": [
+    {
+      "id": "5239176",
+      "title": "Kłamstwa płaczą",
+      "url": "https://lubimyczytac.pl/ksiazka/5239176/klamstwa-placza",
+      "type": "book",
+      "authors": [
+        "Glen Cook"
+      ],
+      "average_rating": 0.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do kupienia",
+        "Do kupienia w...",
+        "Niedokończone serie"
+      ],
+      "cycle": "Kroniki Czarnej Kompanii. Nielitościwy deszcz (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5239000/5239176/1359836-170x243.jpg"
+    },
+    {
+      "id": "5183039",
+      "title": "Kagen Przeklęty",
+      "url": "https://lubimyczytac.pl/ksiazka/5183039/kagen-przeklety",
+      "type": "book",
+      "authors": [
+        "Jonathan Maberry"
+      ],
+      "average_rating": 7.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Do kupienia",
+        "Do kupienia w...",
+        "Niedokończone serie"
+      ],
+      "cycle": "Kagen the Damned (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5183000/5183039/1357887-170x243.jpg"
+    },
+    {
+      "id": "5184585",
+      "title": "Dolina Spokoju",
+      "url": "https://lubimyczytac.pl/ksiazka/5184585/dolina-spokoju",
+      "type": "book",
+      "authors": [
+        "Jacek Małkowski"
+      ],
+      "average_rating": 8.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do sprawdzenia"
+      ],
+      "cycle": "Ostatni Cień (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184585/1353610-170x243.jpg"
+    },
     {
       "id": "5105177",
       "title": "Alchemised",
@@ -11,12 +67,13 @@
         "SenLinYu"
       ],
       "average_rating": 7.3,
-      "user_rating": null,
+      "user_rating": 7.0,
       "shelves": [
-        "Teraz czytam",
+        "Przeczytane",
         "Posiadane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/5105000/5105177/1337172-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5105000/5105177/1337172-170x243.jpg",
+      "read_date": "2026-05-06"
     },
     {
       "id": "5217091",
@@ -26,7 +83,7 @@
       "authors": [
         "Michał Głowacz"
       ],
-      "average_rating": 6.5,
+      "average_rating": 6.4,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -60,7 +117,7 @@
       "authors": [
         "Adam Przechrzta"
       ],
-      "average_rating": 6.6,
+      "average_rating": 6.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -202,7 +259,7 @@
       "authors": [
         "Christopher Buehlman"
       ],
-      "average_rating": 6.0,
+      "average_rating": 6.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -394,7 +451,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 7.1,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -431,7 +488,7 @@
       "authors": [
         "Jarosław Dobrowolski"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -555,7 +612,7 @@
       "authors": [
         "Briar Boleyn"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -679,7 +736,7 @@
       "authors": [
         "Jay Kristoff"
       ],
-      "average_rating": 8.6,
+      "average_rating": 8.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -788,7 +845,7 @@
       "authors": [
         "Peter V. Brett"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Przeczytane",
@@ -823,7 +880,7 @@
       "authors": [
         "Mai Corland"
       ],
-      "average_rating": 8.4,
+      "average_rating": 8.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1067,7 +1124,7 @@
       "authors": [
         "Jen Williams"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1671,7 +1728,7 @@
       "authors": [
         "J.T. Greathouse"
       ],
-      "average_rating": 6.7,
+      "average_rating": 6.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1689,7 +1746,7 @@
       "authors": [
         "A.M. Engler"
       ],
-      "average_rating": 8.8,
+      "average_rating": 8.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2029,7 +2086,7 @@
       "authors": [
         "Julie Johnson"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2214,7 +2271,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2624,7 +2681,7 @@
       "authors": [
         "A.M. Engler"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3242,7 +3299,7 @@
       "authors": [
         "Samantha Shannon"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4657,23 +4714,6 @@
       "read_date": "2021-04-24"
     },
     {
-      "id": "4256181",
-      "title": "Biały piasek #1",
-      "url": "https://lubimyczytac.pl/ksiazka/4256181/bialy-piasek-1",
-      "type": "book",
-      "authors": [
-        "Brandon Sanderson"
-      ],
-      "average_rating": 6.8,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do sprawdzenia"
-      ],
-      "cycle": "Biały piasek (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4256000/4256181/756740-170x243.jpg"
-    },
-    {
       "id": "4945844",
       "title": "Zew Wilka",
       "url": "https://lubimyczytac.pl/ksiazka/4945844/zew-wilka",
@@ -6066,7 +6106,7 @@
     },
     {
       "id": "149252",
-      "title": "Nowe imperium. Szmaragdowy sztorm",
+      "title": "Nowe imperium / Szmaragdowy sztorm",
       "url": "https://lubimyczytac.pl/ksiazka/149252/nowe-imperium-szmaragdowy-sztorm",
       "type": "book",
       "authors": [
