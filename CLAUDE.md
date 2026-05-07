@@ -15,6 +15,8 @@ docs/{app.js,style.css}      Main table logic + shared dark theme
 docs/list-view.js            Shared loader for the three list subpages
 docs/book.html + book.js     Single-book detail page (focus view, link target from main table title)
 docs/{reading-plan,accepted,rejected}.html Subpages for the state files (nav-linked)
+docs/{to-check,to-read}.html  Shelf-filter subpages: list books from a single LC shelf
+docs/shelf-page.js            Shared LIST_CONFIG builder for shelf-filter subpages
 .claude/skills/library-advisor/SKILL.md    Claude Code skill — recommendations, announcements, market research
 .github/workflows/update.yml Manual trigger (workflow_dispatch): scrape → enrich → commit → Pages deploy
 ```

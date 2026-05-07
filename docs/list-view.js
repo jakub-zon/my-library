@@ -58,26 +58,35 @@
   const init = async () => {
     renderHeader();
     try {
-      const data = await loadJson(cfg.file);
-      let entries = data.entries || [];
+      let entries;
+      if (cfg.loadEntries) {
+        entries = await cfg.loadEntries();
+      } else {
+        const data = await loadJson(cfg.file);
+        entries = data.entries || [];
 
-      if (cfg.joinLibrary) {
-        let library = {};
-        try {
-          const books = await loadJson("./books.json");
-          for (const b of books.books || []) library[String(b.id)] = b;
-        } catch (e) {
-          console.warn("books.json join failed:", e);
+        if (cfg.joinLibrary) {
+          let library = {};
+          try {
+            const books = await loadJson("./books.json");
+            for (const b of books.books || []) library[String(b.id)] = b;
+          } catch (e) {
+            console.warn("books.json join failed:", e);
+          }
+          entries = entries.map((e) => ({ ...e, _lib: library[String(e.id)] || null }));
         }
-        entries = entries.map((e) => ({ ...e, _lib: library[String(e.id)] || null }));
       }
 
-      // Most recent first
-      entries.sort((a, b) => {
-        const av = a.when || "";
-        const bv = b.when || "";
-        return bv.localeCompare(av);
-      });
+      if (cfg.sort) {
+        entries.sort(cfg.sort);
+      } else {
+        // Most recent first
+        entries.sort((a, b) => {
+          const av = a.when || "";
+          const bv = b.when || "";
+          return bv.localeCompare(av);
+        });
+      }
 
       renderRows(entries);
       const base = `${entries.length} ${entries.length === 1 ? "wpis" : "wpisów"}`;

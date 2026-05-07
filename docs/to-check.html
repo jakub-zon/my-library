@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Do sprawdzenia — my-library</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <nav class="topnav">
+      <a href="./index.html">Biblioteka</a>
+      <a href="./to-check.html" class="active">Do sprawdzenia</a>
+      <a href="./to-read.html">Do przeczytania</a>
+      <a href="./reading-plan.html">Plan czytelniczy</a>
+      <a href="./accepted.html">Zaakceptowane</a>
+      <a href="./rejected.html">Odrzucone</a>
+    </nav>
+    <h1>Do sprawdzenia</h1>
+    <p class="stats" id="stats">Loading…</p>
+  </header>
+
+  <main>
+    <table id="entries">
+      <thead><tr></tr></thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <script>window.SHELF_NAME = "Do sprawdzenia";</script>
+  <script src="./shelf-page.js" defer></script>
+  <script src="./list-view.js" defer></script>
+</body>
+</html>
