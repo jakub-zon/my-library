@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-07T08:46:23+00:00",
+  "generated_at": "2026-05-07T09:06:05+00:00",
   "library_total": 536,
-  "duration_seconds": 93,
+  "duration_seconds": 82,
   "enrichment": {
     "ok_first": 3,
     "retried_ok": 0,
