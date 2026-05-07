@@ -1,7 +1,24 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 536,
+  "count": 530,
   "books": [
+    {
+      "id": "5188244",
+      "title": "Królestwo popiołów",
+      "url": "https://lubimyczytac.pl/ksiazka/5188244/krolestwo-popiolow",
+      "type": "book",
+      "authors": [
+        "Sarah J. Maas"
+      ],
+      "average_rating": 8.5,
+      "user_rating": 9.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Szklany Tron (tom 7)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5188000/5188244/1268682-170x243.jpg"
+    },
     {
       "id": "5239176",
       "title": "Kłamstwa płaczą",
@@ -836,23 +853,6 @@
       ],
       "cycle": "Cykl Zmroku (tom 1.2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4983000/4983289/945146-170x243.jpg"
-    },
-    {
-      "id": "5200803",
-      "title": "Otchłań. Księga II",
-      "url": "https://lubimyczytac.pl/audiobook/5200803/otchlan-ksiega-ii",
-      "type": "audiobook",
-      "authors": [
-        "Peter V. Brett"
-      ],
-      "average_rating": 7.9,
-      "user_rating": null,
-      "shelves": [
-        "Przeczytane",
-        "Posiadane"
-      ],
-      "cycle": "Cykl Demoniczny (tom 5.2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5200000/5200803/1290943-170x243.jpg"
     },
     {
       "id": "4983288",
@@ -5518,24 +5518,6 @@
       "read_date": "2020-05-14"
     },
     {
-      "id": "4914588",
-      "title": "Wśród gwiazd",
-      "url": "https://lubimyczytac.pl/ksiazka/4914588/wsrod-gwiazd",
-      "type": "book",
-      "authors": [
-        "Brandon Sanderson"
-      ],
-      "average_rating": 7.8,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Na czytniku"
-      ],
-      "cycle": "Skyward (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4914000/4914588/801986-170x243.jpg"
-    },
-    {
       "id": "4925716",
       "title": "Wrona",
       "url": "https://lubimyczytac.pl/ksiazka/4925716/wrona",
@@ -6088,23 +6070,6 @@
       "read_date": "2019-09-08"
     },
     {
-      "id": "4882613",
-      "title": "Królestwo popiołów. Część 2",
-      "url": "https://lubimyczytac.pl/ksiazka/4882613/krolestwo-popiolow-czesc-2",
-      "type": "book",
-      "authors": [
-        "Sarah J. Maas"
-      ],
-      "average_rating": 8.5,
-      "user_rating": 9.0,
-      "shelves": [
-        "Przeczytane"
-      ],
-      "cycle": "Szklany Tron (tom 7)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4882000/4882613/1117034-170x243.jpg",
-      "read_date": "2019-09-01"
-    },
-    {
       "id": "149252",
       "title": "Nowe imperium / Szmaragdowy sztorm",
       "url": "https://lubimyczytac.pl/ksiazka/149252/nowe-imperium-szmaragdowy-sztorm",
@@ -6157,23 +6122,6 @@
       ],
       "cycle": "Odkrycia Riyrii (tom 5)",
       "cover": "https://s.lubimyczytac.pl/upload/books/170000/170127/118798-170x243.jpg"
-    },
-    {
-      "id": "4882510",
-      "title": "Królestwo popiołów. Część 1",
-      "url": "https://lubimyczytac.pl/ksiazka/4882510/krolestwo-popiolow-czesc-1",
-      "type": "book",
-      "authors": [
-        "Sarah J. Maas"
-      ],
-      "average_rating": 8.4,
-      "user_rating": 9.0,
-      "shelves": [
-        "Przeczytane"
-      ],
-      "cycle": "Szklany Tron (tom 7)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4882000/4882510/1117033-170x243.jpg",
-      "read_date": "2019-08-20"
     },
     {
       "id": "4848787",
@@ -6550,24 +6498,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/4875000/4875305/1066746-170x243.jpg"
     },
     {
-      "id": "4875818",
-      "title": "Do gwiazd",
-      "url": "https://lubimyczytac.pl/ksiazka/4875818/do-gwiazd",
-      "type": "book",
-      "authors": [
-        "Brandon Sanderson"
-      ],
-      "average_rating": 8.1,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Na czytniku"
-      ],
-      "cycle": "Skyward (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4875000/4875818/779973-170x243.jpg"
-    },
-    {
       "id": "259491",
       "title": "Łuska w cieniu",
       "url": "https://lubimyczytac.pl/ksiazka/259491/luska-w-cieniu",
@@ -6817,24 +6747,6 @@
       ],
       "cycle": "Niecni Dżentelmeni (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/194000/194748/189616-170x243.jpg"
-    },
-    {
-      "id": "257597",
-      "title": "Arena 13",
-      "url": "https://lubimyczytac.pl/ksiazka/257597/arena-13",
-      "type": "book",
-      "authors": [
-        "Joseph Delaney"
-      ],
-      "average_rating": 6.5,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Arena 13 (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/257000/257597/389859-170x243.jpg"
     },
     {
       "id": "3863768",
@@ -7428,9 +7340,9 @@
       "read_date": "2018-06-17"
     },
     {
-      "id": "4818756",
+      "id": "5188243",
       "title": "Wieża świtu",
-      "url": "https://lubimyczytac.pl/ksiazka/4818756/wieza-switu",
+      "url": "https://lubimyczytac.pl/ksiazka/5188243/wieza-switu",
       "type": "book",
       "authors": [
         "Sarah J. Maas"
@@ -7441,7 +7353,7 @@
         "Przeczytane"
       ],
       "cycle": "Szklany Tron (tom 6)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4818000/4818756/1117029-170x243.jpg",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5188000/5188243/1268680-170x243.jpg",
       "read_date": "2018-06-03"
     },
     {
@@ -8050,9 +7962,9 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/111000/111818/170x243.jpg"
     },
     {
-      "id": "4272978",
+      "id": "5169747",
       "title": "Imperium burz",
-      "url": "https://lubimyczytac.pl/ksiazka/4272978/imperium-burz",
+      "url": "https://lubimyczytac.pl/ksiazka/5169747/imperium-burz",
       "type": "book",
       "authors": [
         "Sarah J. Maas"
@@ -8063,7 +7975,7 @@
         "Przeczytane"
       ],
       "cycle": "Szklany Tron (tom 5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4272000/4272978/1117025-170x243.jpg",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5169000/5169747/1232358-170x243.jpg",
       "read_date": "2018-02-04"
     },
     {
@@ -8922,22 +8834,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/27000/27475/170x243.jpg"
     },
     {
-      "id": "231817",
-      "title": "Wielki bazar. Złoto Brayana",
-      "url": "https://lubimyczytac.pl/ksiazka/231817/wielki-bazar-zloto-brayana",
-      "type": "book",
-      "authors": [
-        "Peter V. Brett"
-      ],
-      "average_rating": 7.0,
-      "user_rating": null,
-      "shelves": [
-        "Przeczytane"
-      ],
-      "cycle": "Cykl Demoniczny (tom 1.5-1.6)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/231000/231817/309959-170x243.jpg"
-    },
-    {
       "id": "4809",
       "title": "Diablo: Dziedzictwo krwi",
       "url": "https://lubimyczytac.pl/ksiazka/4809/diablo-dziedzictwo-krwi",
@@ -9303,9 +9199,9 @@
       "read_date": "2018-01-14"
     },
     {
-      "id": "302259",
+      "id": "5169748",
       "title": "Królowa cieni",
-      "url": "https://lubimyczytac.pl/ksiazka/302259/krolowa-cieni",
+      "url": "https://lubimyczytac.pl/ksiazka/5169748/krolowa-cieni",
       "type": "book",
       "authors": [
         "Sarah J. Maas"
@@ -9316,12 +9212,12 @@
         "Przeczytane"
       ],
       "cycle": "Szklany Tron (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/302000/302259/1117024-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5169000/5169748/1232359-170x243.jpg"
     },
     {
-      "id": "210584",
+      "id": "5166310",
       "title": "Dziedzictwo ognia",
-      "url": "https://lubimyczytac.pl/ksiazka/210584/dziedzictwo-ognia",
+      "url": "https://lubimyczytac.pl/ksiazka/5166310/dziedzictwo-ognia",
       "type": "book",
       "authors": [
         "Sarah J. Maas"
@@ -9332,39 +9228,39 @@
         "Przeczytane"
       ],
       "cycle": "Szklany Tron (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/210000/210584/1117020-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5166000/5166310/1232360-170x243.jpg"
     },
     {
-      "id": "211890",
-      "title": "Korona w mroku",
-      "url": "https://lubimyczytac.pl/ksiazka/211890/korona-w-mroku",
+      "id": "5126667",
+      "title": "Korona w Mroku",
+      "url": "https://lubimyczytac.pl/ksiazka/5126667/korona-w-mroku",
       "type": "book",
       "authors": [
         "Sarah J. Maas"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane"
       ],
       "cycle": "Szklany Tron (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/211000/211890/1117015-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5126000/5126667/1174008-170x243.jpg"
     },
     {
-      "id": "152217",
-      "title": "Szklany tron",
-      "url": "https://lubimyczytac.pl/ksiazka/152217/szklany-tron",
+      "id": "5126665",
+      "title": "Szklany Tron",
+      "url": "https://lubimyczytac.pl/ksiazka/5126665/szklany-tron",
       "type": "book",
       "authors": [
         "Sarah J. Maas"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane"
       ],
       "cycle": "Szklany Tron (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/152000/152217/1117009-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5126000/5126665/1174004-170x243.jpg"
     }
   ]
 }
