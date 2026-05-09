@@ -1,7 +1,75 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 530,
+  "count": 532,
   "books": [
+    {
+      "id": "5215312",
+      "title": "Pradawna stolica",
+      "url": "https://lubimyczytac.pl/ksiazka/5215312/pradawna-stolica",
+      "type": "book",
+      "authors": [
+        "Michael James Sullivan"
+      ],
+      "average_rating": 8.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania"
+      ],
+      "cycle": "Odkrycia Riyrii (tom 6)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5215000/5215312/1334432-170x243.jpg"
+    },
+    {
+      "id": "5215310",
+      "title": "Zdradziecki plan",
+      "url": "https://lubimyczytac.pl/ksiazka/5215310/zdradziecki-plan",
+      "type": "book",
+      "authors": [
+        "Michael James Sullivan"
+      ],
+      "average_rating": 7.8,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania"
+      ],
+      "cycle": "Odkrycia Riyrii (tom 5)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5215000/5215310/1334431-170x243.jpg"
+    },
+    {
+      "id": "5206801",
+      "title": "Szmaragdowy sztorm",
+      "url": "https://lubimyczytac.pl/ksiazka/5206801/szmaragdowy-sztorm",
+      "type": "book",
+      "authors": [
+        "Michael James Sullivan"
+      ],
+      "average_rating": 7.3,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania"
+      ],
+      "cycle": "Odkrycia Riyrii (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5206000/5206801/1308515-170x243.jpg"
+    },
+    {
+      "id": "5206797",
+      "title": "Nowe imperium",
+      "url": "https://lubimyczytac.pl/ksiazka/5206797/nowe-imperium",
+      "type": "book",
+      "authors": [
+        "Michael James Sullivan"
+      ],
+      "average_rating": 7.4,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam",
+        "Do przeczytania"
+      ],
+      "cycle": "Odkrycia Riyrii (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5206000/5206797/1308514-170x243.jpg"
+    },
     {
       "id": "5188244",
       "title": "Królestwo popiołów",
@@ -468,7 +536,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 6.9,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -735,7 +803,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1052,7 +1120,7 @@
       "authors": [
         "Peter A. Flannery"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1674,7 +1742,7 @@
       "authors": [
         "Kylie Lee Baker"
       ],
-      "average_rating": 6.9,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2733,7 +2801,7 @@
       "authors": [
         "Kel Kade"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3095,7 +3163,7 @@
       "authors": [
         "Małgorzata Lisińska"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.1,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane"
@@ -5687,7 +5755,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": 9.0,
       "shelves": [
         "Przeczytane",
@@ -6068,42 +6136,6 @@
       "cycle": "INNI (tom 6)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4892000/4892305/789082-170x243.jpg",
       "read_date": "2019-09-08"
-    },
-    {
-      "id": "149252",
-      "title": "Nowe imperium / Szmaragdowy sztorm",
-      "url": "https://lubimyczytac.pl/ksiazka/149252/nowe-imperium-szmaragdowy-sztorm",
-      "type": "book",
-      "authors": [
-        "Michael James Sullivan"
-      ],
-      "average_rating": 7.6,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Na czytniku"
-      ],
-      "cycle": "Odkrycia Riyrii (tom 3-4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/149000/149252/170x243.jpg"
-    },
-    {
-      "id": "182596",
-      "title": "Pradawna stolica",
-      "url": "https://lubimyczytac.pl/ksiazka/182596/pradawna-stolica",
-      "type": "book",
-      "authors": [
-        "Michael James Sullivan"
-      ],
-      "average_rating": 8.0,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Na czytniku"
-      ],
-      "cycle": "Odkrycia Riyrii (tom 6)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/182000/182596/155448-170x243.jpg"
     },
     {
       "id": "170127",
