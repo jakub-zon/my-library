@@ -1,7 +1,42 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 533,
+  "count": 535,
   "books": [
+    {
+      "id": "5242026",
+      "title": "Smoczy książę",
+      "url": "https://lubimyczytac.pl/ksiazka/5242026/smoczy-ksiaze",
+      "type": "book",
+      "authors": [
+        "Taran Matharu"
+      ],
+      "average_rating": 0.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do kupienia w...",
+        "Niedokończone serie"
+      ],
+      "cycle": "Saga Związanych Dusz (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5242000/5242026/1366133-170x243.jpg"
+    },
+    {
+      "id": "5171828",
+      "title": "Smoczy jeździec",
+      "url": "https://lubimyczytac.pl/ksiazka/5171828/smoczy-jezdziec",
+      "type": "book",
+      "authors": [
+        "Taran Matharu"
+      ],
+      "average_rating": 7.5,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do kupienia w..."
+      ],
+      "cycle": "Saga Związanych Dusz (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5171000/5171828/1250832-170x243.jpg"
+    },
     {
       "id": "5215312",
       "title": "Pradawna stolica",
