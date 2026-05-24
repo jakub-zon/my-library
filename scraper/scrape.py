@@ -80,12 +80,15 @@ def _parse_rating(text: str) -> float | None:
 def parse_card(card: Tag) -> dict:
     book: dict = {}
 
-    card_id = card.get("id", "")
-    m = re.match(r"listBookElement(\d+)", card_id)
-    if m:
-        book["id"] = m.group(1)
+    book_id = card.get("data-book-id") or ""
+    if not book_id:
+        m = re.match(r"listBookElement(\d+)", card.get("id", "") or "")
+        if m:
+            book_id = m.group(1)
+    if book_id:
+        book["id"] = book_id
 
-    title_el = card.select_one(".authorAllBooks__singleTextTitle")
+    title_el = card.select_one(".book-card__title")
     if title_el:
         book["title"] = title_el.get_text(strip=True)
         href = title_el.get("href", "") or ""
@@ -97,35 +100,24 @@ def parse_card(card: Tag) -> dict:
 
     book["authors"] = [
         a.get_text(strip=True)
-        for a in card.select(".authorAllBooks__singleTextAuthor a")
+        for a in card.select(".book-card__author a")
     ]
 
-    avg = None
-    user_rating = None
-    for rating_block in card.select(".listLibrary__rating"):
-        label = rating_block.select_one(".listLibrary__ratingText")
-        num = rating_block.select_one(".listLibrary__ratingStarsNumber")
-        if not label or not num:
-            continue
-        label_text = label.get_text(strip=True)
-        value = _parse_rating(num.get_text())
-        if "Średnia" in label_text:
-            avg = value
-        elif label_text.startswith("Ocen"):
-            user_rating = value
-    book["average_rating"] = avg
-    book["user_rating"] = user_rating
+    avg_el = card.select_one(".book-card__detail--rating .rating__avarage")
+    book["average_rating"] = _parse_rating(avg_el.get_text()) if avg_el else None
+    user_el = card.select_one(".book-card__detail--user-rating .rating__avarage")
+    book["user_rating"] = _parse_rating(user_el.get_text()) if user_el else None
 
     book["shelves"] = [
         a.get_text(strip=True)
-        for a in card.select(".authorAllBooks__singleTextShelfRight a")
+        for a in card.select(".book-card__shelves a.book-card__shelf")
     ]
 
-    cycle_link = card.select_one(".listLibrary__info--cycles a")
+    cycle_link = card.select_one(".book-card__detail--cycle a")
     if cycle_link:
         book["cycle"] = re.sub(r"\s+", " ", cycle_link.get_text(strip=True))
 
-    img = card.select_one("img.img-fluid")
+    img = card.select_one("img.book-card__cover-image")
     if img:
         book["cover"] = img.get("data-src") or img.get("src")
 
@@ -134,7 +126,7 @@ def parse_card(card: Tag) -> dict:
 
 def parse_page(html: str) -> tuple[list[dict], int | None]:
     soup = BeautifulSoup(html, "lxml")
-    cards = soup.select("div.authorAllBooks__single")
+    cards = soup.select("div.book-card")
     books = [parse_card(c) for c in cards]
 
     max_page = None
@@ -222,12 +214,14 @@ def parse_read_dates(html: str) -> tuple[dict[str, str], int | None]:
     """
     soup = BeautifulSoup(html, "lxml")
     out: dict[str, str] = {}
-    for card in soup.select("div.authorAllBooks__single"):
-        card_id = card.get("id", "")
-        m = re.match(r"listBookElement(\d+)", card_id)
-        if not m:
-            continue
-        date_el = card.select_one(".authorAllBooks__read-dates")
+    for card in soup.select("div.book-card"):
+        book_id = card.get("data-book-id") or ""
+        if not book_id:
+            m = re.match(r"listBookElement(\d+)", card.get("id", "") or "")
+            if not m:
+                continue
+            book_id = m.group(1)
+        date_el = card.select_one(".book-card__read-dates")
         if not date_el:
             continue
         text = date_el.get_text(" ", strip=True)
@@ -235,7 +229,7 @@ def parse_read_dates(html: str) -> tuple[dict[str, str], int | None]:
         if not dm:
             continue
         y, mo, d = dm.groups()
-        out[m.group(1)] = f"{int(y):04d}-{int(mo):02d}-{int(d):02d}"
+        out[book_id] = f"{int(y):04d}-{int(mo):02d}-{int(d):02d}"
 
     max_page = None
     pager_input = soup.select_one("input.jsPagerInput[data-maxpage]")
