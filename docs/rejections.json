@@ -164,6 +164,62 @@
       "source": "announcement",
       "when": "2026-05-07T00:00:00+02:00",
       "note": "Eden t.3 (MAG, czerwiec 2026, wznowienie). Odrzucone jako część trylogii."
+    },
+    {
+      "title": "Sny z Donlonu",
+      "author": "Magdalena Kubasiewicz",
+      "source": "announcement",
+      "when": "2026-05-25T09:33:00+02:00",
+      "note": "Maj 2026 (SQN, 27/5). Polska fantasy, autorki nie ma w bibliotece. Odrzut zbiorczy."
+    },
+    {
+      "title": "Bezpośredni kontakt",
+      "author": "Karen Traviss",
+      "source": "announcement",
+      "when": "2026-05-25T09:33:00+02:00",
+      "note": "Maj 2026 (Olesiejuk, 27/5). Military SF / tie-iny, autorki nie ma w bibliotece. Odrzut zbiorczy."
+    },
+    {
+      "title": "Wygnaniec",
+      "author": "Katarzyna Berenika Miszczuk",
+      "source": "announcement",
+      "when": "2026-05-25T09:33:00+02:00",
+      "note": "Maj 2026 (Mięta, 27/5). Polska fantasy kobieca, klimat zbliżony do odrzuconej Kisiel."
+    },
+    {
+      "title": "Nowe nadzieje. Zwycięskie opowiadania z Nowej Fantastyki",
+      "author": "antologia",
+      "source": "announcement",
+      "when": "2026-05-25T09:33:00+02:00",
+      "note": "Maj 2026 (Prószyński, 26/5). Antologia — poza profilem czytelniczym (brak antologii w bibliotece)."
+    },
+    {
+      "title": "Rytuał",
+      "author": "Graham Masterton",
+      "source": "announcement",
+      "when": "2026-05-25T09:33:00+02:00",
+      "note": "Maj 2026 (Rebis, 26/5). Horror — poza profilem."
+    },
+    {
+      "title": "Kiedy wilk wróci do domu",
+      "author": "Nat Cassidy",
+      "source": "announcement",
+      "when": "2026-05-25T09:33:00+02:00",
+      "note": "Maj 2026 (Akurat, 27/5). Horror — poza profilem."
+    },
+    {
+      "title": "Jak złamać smoczą klątwę",
+      "author": "Cressida Cowell",
+      "source": "announcement",
+      "when": "2026-05-25T09:33:00+02:00",
+      "note": "Maj 2026 (Replika, 26/5). Fantasy dziecięce (HtTYD spin-off) — poza profilem."
+    },
+    {
+      "title": "Dobranoc, Europo. 14 opowiadań wewnętrznych",
+      "author": "Justyna Hankus",
+      "source": "announcement",
+      "when": "2026-05-25T09:33:00+02:00",
+      "note": "Maj 2026 (Powergraph, 29/5). Literacka — poza profilem SF/fantasy."
     }
   ]
 }

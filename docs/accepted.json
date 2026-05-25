@@ -64,6 +64,15 @@
       "source": "announcement",
       "when": "2026-05-24T20:25:00+02:00",
       "note": "Saga Związanych Dusz t.2 (Jaguar, premiera 17.06.2026; oryg. The Tainted Khan 2025). Trylogia — finałowy t.3 (Emperor's Dragon) jeszcze nie wydany po polsku."
+    },
+    {
+      "title": "Gorath: Zabójcy Bogów",
+      "author": "Janusz Stankiewicz",
+      "source": "announcement",
+      "when": "2026-05-25T09:33:00+02:00",
+      "purchased": true,
+      "purchased_at": "2026-05-25",
+      "note": "Ostatni tom cyklu Gorath. Zamówione w przedsprzedaży, brak rekordu LC — wpis zostaje z flagą purchased aż LC dogoni i scrape pokaże Posiadane."
     }
   ]
 }

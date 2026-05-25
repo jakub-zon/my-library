@@ -41,6 +41,21 @@ Entry shape (shared schema for all three state files):
 
 `id`, `url`, `cover_url`, `note` are optional. `title`, `author`, `source`, `when` are required.
 
+**Purchased flag (accepted.json only).** When the user buys/orders a book that's still in `accepted.json` (typical case: pre-order of a title LC hasn't catalogued yet, e.g. final volume of a series with no LC record), add two fields to the entry instead of removing it:
+
+```json
+"purchased": true,
+"purchased_at": "2026-05-25"
+```
+
+Rationale: an entry removed from `accepted.json` before LC has a `Posiadane` record for it becomes invisible to the skill — it would resurface in announcements/market passes. The `purchased: true` flag keeps it filterable. Lifecycle:
+
+- `accepted` (no flag) → user wants, not yet bought
+- `accepted` + `purchased: true` → bought, waiting for LC to catch up (skill skips it from all proposals)
+- entry deleted → LC scrape shows the book on `Posiadane` (now covered by library cross-check)
+
+All three modes must filter out `purchased: true` entries the same way they filter the rest of `accepted.json`.
+
 ## Mode detection
 
 Decide on the first user message what mode this is. Do NOT ask upfront unless genuinely ambiguous.
