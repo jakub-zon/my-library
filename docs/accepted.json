@@ -73,6 +73,16 @@
       "purchased": true,
       "purchased_at": "2026-05-25",
       "note": "Ostatni tom cyklu Gorath. Zamówione w przedsprzedaży, brak rekordu LC — wpis zostaje z flagą purchased aż LC dogoni i scrape pokaże Posiadane."
+    },
+    {
+      "id": "5218732",
+      "title": "Gideon z Dziewiątego",
+      "author": "Tamsyn Muir",
+      "url": "https://lubimyczytac.pl/ksiazka/5218732/gideon-z-dziewiatego",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5218000/5218732/1327437-170x243.jpg",
+      "source": "market",
+      "when": "2026-05-26T00:00:00+02:00",
+      "note": "Zapieczętowany Grobowiec t.1 (oryg. Gideon the Ninth, Locked Tomb). Gothic SF/fantasy z nekromancją i miecznikami. Ocena LC 7.2 (509 ocen)."
     }
   ]
 }
