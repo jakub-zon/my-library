@@ -20,11 +20,13 @@
       "note": "Nielitościwy deszcz t.1 (Rebis, 30.06.2026, 448 s.). Nowy cykl w universum Czarnej Kompanii. Mam wszystkie 5 tomów Czarnej Kompanii (Posiadane + Chcę przeczytać) — czytać dopiero po oryginalnym cyklu."
     },
     {
+      "id": "5208934",
       "title": "Lek wieczności",
       "author": "Julie Kagawa",
+      "url": "https://lubimyczytac.pl/ksiazka/5208934/lek-wiecznosci",
       "source": "announcement",
       "when": "2026-05-07T00:00:00+02:00",
-      "note": "Krew Edenu t.2 (Vesper, czerwiec 2026). Mam t.1 (Nieśmiertelne zasady) na półce „Niedokończone serie” — uzupełnienie serii. Postapo + wampiry."
+      "note": "Krew Edenu t.2 (oryg. The Eternity Cure; Vesper, czerwiec 2026). Mam t.1 (Nieśmiertelne zasady) na półce „Niedokończone serie” — uzupełnienie serii. Postapo + wampiry."
     },
     {
       "id": "5183039",
@@ -66,13 +68,16 @@
       "note": "Saga Związanych Dusz t.2 (Jaguar, premiera 17.06.2026; oryg. The Tainted Khan 2025). Trylogia — finałowy t.3 (Emperor's Dragon) jeszcze nie wydany po polsku."
     },
     {
+      "id": "5244444",
       "title": "Gorath: Zabójcy Bogów",
       "author": "Janusz Stankiewicz",
+      "url": "https://lubimyczytac.pl/ksiazka/5244444/gorath-zabojcy-bogow",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5244000/5244444/1368609-170x243.jpg",
       "source": "announcement",
       "when": "2026-05-25T09:33:00+02:00",
       "purchased": true,
       "purchased_at": "2026-05-25",
-      "note": "Ostatni tom cyklu Gorath. Zamówione w przedsprzedaży, brak rekordu LC — wpis zostaje z flagą purchased aż LC dogoni i scrape pokaże Posiadane."
+      "note": "Gorath t.4 (ostatni tom cyklu). Zamówione w przedsprzedaży; LC ma już rekord (id 5244444). Po scrape powinno pokazać Posiadane."
     },
     {
       "id": "5218732",
