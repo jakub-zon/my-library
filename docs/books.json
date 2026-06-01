@@ -3,6 +3,24 @@
   "count": 539,
   "books": [
     {
+      "id": "5218732",
+      "title": "Gideon z Dziewiątego",
+      "url": "https://lubimyczytac.pl/ksiazka/5218732/gideon-z-dziewiatego",
+      "type": "book",
+      "authors": [
+        "Tamsyn Muir"
+      ],
+      "average_rating": 7.2,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do kupienia w...",
+        "Niedokończone serie"
+      ],
+      "cycle": "Zapieczętowany Grobowiec (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5218000/5218732/1327437-170x243.jpg"
+    },
+    {
       "id": "5244444",
       "title": "Gorath: Zabójcy bogów",
       "url": "https://lubimyczytac.pl/ksiazka/5244444/gorath-zabojcy-bogow",
@@ -54,24 +72,6 @@
       ],
       "cycle": "Dewabad (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970701/1113917-170x243.jpg"
-    },
-    {
-      "id": "5240597",
-      "title": "Gideon z Dziewiątego",
-      "url": "https://lubimyczytac.pl/audiobook/5240597/gideon-z-dziewiatego",
-      "type": "audiobook",
-      "authors": [
-        "Tamsyn Muir"
-      ],
-      "average_rating": 8.0,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do kupienia w...",
-        "Niedokończone serie"
-      ],
-      "cycle": "Zapieczętowany Grobowiec (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5240000/5240597/1362246-170x243.jpg"
     },
     {
       "id": "5242026",
