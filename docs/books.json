@@ -1,7 +1,78 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 535,
+  "count": 539,
   "books": [
+    {
+      "id": "5244444",
+      "title": "Gorath: Zabójcy bogów",
+      "url": "https://lubimyczytac.pl/ksiazka/5244444/gorath-zabojcy-bogow",
+      "type": "book",
+      "authors": [
+        "Janusz Stankiewicz"
+      ],
+      "average_rating": 0.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Gorath (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5244000/5244444/1368609-170x243.jpg"
+    },
+    {
+      "id": "5208934",
+      "title": "Lek wieczności",
+      "url": "https://lubimyczytac.pl/ksiazka/5208934/lek-wiecznosci",
+      "type": "book",
+      "authors": [
+        "Julie Kagawa"
+      ],
+      "average_rating": 7.7,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do kupienia w...",
+        "Niedokończone serie"
+      ],
+      "cycle": "Krew Edenu (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/default-book-170x243.jpg"
+    },
+    {
+      "id": "4970701",
+      "title": "Miasto mosiądzu",
+      "url": "https://lubimyczytac.pl/ksiazka/4970701/miasto-mosiadzu",
+      "type": "book",
+      "authors": [
+        "S.A. Chakraborty"
+      ],
+      "average_rating": 7.7,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do sprawdzenia"
+      ],
+      "cycle": "Dewabad (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970701/1113917-170x243.jpg"
+    },
+    {
+      "id": "5240597",
+      "title": "Gideon z Dziewiątego",
+      "url": "https://lubimyczytac.pl/audiobook/5240597/gideon-z-dziewiatego",
+      "type": "audiobook",
+      "authors": [
+        "Tamsyn Muir"
+      ],
+      "average_rating": 8.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do kupienia w...",
+        "Niedokończone serie"
+      ],
+      "cycle": "Zapieczętowany Grobowiec (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5240000/5240597/1362246-170x243.jpg"
+    },
     {
       "id": "5242026",
       "title": "Smoczy książę",
@@ -153,7 +224,6 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia",
         "Do kupienia w...",
         "Niedokończone serie"
       ],
@@ -173,7 +243,6 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Do kupienia",
         "Do kupienia w...",
         "Niedokończone serie"
       ],
@@ -256,7 +325,7 @@
       "authors": [
         "Adam Przechrzta"
       ],
-      "average_rating": 6.5,
+      "average_rating": 6.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -450,7 +519,7 @@
         "Brandon Sanderson",
         "Janci Patterson"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.8,
       "user_rating": 9.0,
       "shelves": [
         "Przeczytane"
@@ -518,7 +587,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 9.0,
+      "average_rating": 9.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -697,7 +766,7 @@
       "authors": [
         "Adam Przechrzta"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -804,7 +873,7 @@
       "authors": [
         "Hannah Kaner"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1002,7 +1071,7 @@
       "authors": [
         "Mai Corland"
       ],
-      "average_rating": 8.3,
+      "average_rating": 8.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1020,7 +1089,7 @@
       "authors": [
         "Brandon Sanderson"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Przeczytane"
@@ -1157,7 +1226,7 @@
       "authors": [
         "Peter V. Brett"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1174,7 +1243,7 @@
       "authors": [
         "Peter A. Flannery"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1192,7 +1261,7 @@
       "authors": [
         "Anthony Ryan"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1265,7 +1334,7 @@
       "authors": [
         "Anna Benning"
       ],
-      "average_rating": 8.3,
+      "average_rating": 8.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1301,7 +1370,7 @@
       "authors": [
         "Anna Benning"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1670,7 +1739,7 @@
       "authors": [
         "M. L. Wang"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1687,7 +1756,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2427,7 +2496,7 @@
       "authors": [
         "Neal Shusterman"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2661,7 +2730,7 @@
       "authors": [
         "Brandon Sanderson"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2977,7 +3046,7 @@
       "authors": [
         "Cinda Williams Chima"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3036,8 +3105,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Posiadane",
-        "Niedokończone serie"
+        "Posiadane"
       ],
       "cycle": "Krew Edenu (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5130000/5130744/1181947-170x243.jpg"
@@ -3575,7 +3643,7 @@
         "Jay Kristoff",
         "Amie Kaufman"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3698,7 +3766,7 @@
       "authors": [
         "Wasilij Machanienko"
       ],
-      "average_rating": 7.9,
+      "average_rating": 8.0,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -4203,7 +4271,7 @@
       "authors": [
         "Mitchell Hogan"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -5433,7 +5501,7 @@
       "authors": [
         "Danielle L. Jensen"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.4,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
