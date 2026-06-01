@@ -43,7 +43,8 @@
         label: "Okładka",
         cls: "cover",
         render: (e, { escape }) => {
-          return e.cover_url ? `<img src="${escape(e.cover_url)}" alt="" loading="lazy">` : "";
+          const src = e._lib?.cover || e.cover_url;
+          return src ? `<img src="${escape(src)}" alt="" loading="lazy">` : "";
         },
       },
       {
