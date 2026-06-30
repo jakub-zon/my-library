@@ -1,14 +1,16 @@
 {
   "entries": [
     {
-      "id": "5173453",
+      "id": "5187461",
       "title": "Cykl demoniczny. Nowele",
       "author": "Peter V. Brett",
-      "url": "https://lubimyczytac.pl/ksiazka/5173453/cykl-demoniczny-nowele",
-      "cover_url": "https://s.lubimyczytac.pl/upload/books/5173000/5173453/1329293-170x243.jpg",
+      "url": "https://lubimyczytac.pl/ksiazka/5187461/cykl-demoniczny-nowele",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5187000/5187461/1267319-170x243.jpg",
       "source": "announcement",
       "when": "2026-05-07T00:00:00+02:00",
-      "note": "Cykl Demoniczny tom 1.5-1.6 (Fabryka Słów, czerwiec 2026, miękka + twarda osobno). Oznaczony przeze mnie na półce „Do kupienia w...” — potwierdzony cel zakupu. Cały Cykl Demoniczny oceniony na 9.0."
+      "purchased": true,
+      "purchased_at": "2026-06-30",
+      "note": "Cykl Demoniczny tom 1.5-1.6 (Fabryka Słów). Re-pin na wydanie 5187461 (papier, 7.7 LC). Kupione. Cały Cykl Demoniczny oceniony na 9.0."
     },
     {
       "id": "5239176",
@@ -87,7 +89,9 @@
       "cover_url": "https://s.lubimyczytac.pl/upload/books/5218000/5218732/1327437-170x243.jpg",
       "source": "market",
       "when": "2026-05-26T00:00:00+02:00",
-      "note": "Zapieczętowany Grobowiec t.1 (oryg. Gideon the Ninth, Locked Tomb). Gothic SF/fantasy z nekromancją i miecznikami. Re-pin na wydanie papierowe 5218732 — to teraz mam na półce (wcześniej audiobook 5240597)."
+      "purchased": true,
+      "purchased_at": "2026-06-30",
+      "note": "Zapieczętowany Grobowiec t.1 (oryg. Gideon the Ninth, Locked Tomb). Gothic SF/fantasy z nekromancją i miecznikami. Kupione (wydanie papierowe 5218732)."
     },
     {
       "id": "5099835",
@@ -118,6 +122,126 @@
       "source": "market",
       "when": "2026-06-08T12:28:00+02:00",
       "note": "Kroczący wśród cieni t.3 (SQN, premiera 26.01.2026 — najnowszy tom). Ocena LC 7.6. Zakończenie otwarte — najpewniej nie ostatni tom cyklu."
+    },
+    {
+      "id": "5189251",
+      "title": "Zatruty kielich",
+      "author": "Robert Jackson Bennett",
+      "url": "https://lubimyczytac.pl/ksiazka/5189251/zatruty-kielich",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5189000/5189251/1337157-170x243.jpg",
+      "source": "market",
+      "when": "2026-06-30T10:45:00+02:00",
+      "note": "Cień Lewiatana t.1 (oryg. The Tainted Cup, MAG). Fantasy detektywistyczne. Mam na półce „Chcę przeczytać”, bez „Posiadane” — buy-target. Ocena LC 7.8."
+    },
+    {
+      "id": "5221418",
+      "title": "Kropla zepsucia",
+      "author": "Robert Jackson Bennett",
+      "url": "https://lubimyczytac.pl/ksiazka/5221418/kropla-zepsucia",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5221000/5221418/1332821-170x243.jpg",
+      "source": "market",
+      "when": "2026-06-30T10:45:00+02:00",
+      "note": "Cień Lewiatana t.2 (oryg. A Drop of Corruption, MAG, premiera 01.07.2026, 512 s.). Ocena LC 8.0. Kontynuacja Zatrutego kielicha."
+    },
+    {
+      "id": "5176627",
+      "title": "Odlewnia",
+      "author": "Robert Jackson Bennett",
+      "url": "https://lubimyczytac.pl/ksiazka/5176627/odlewnia",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5176000/5176627/1369534-170x243.jpg",
+      "source": "market",
+      "when": "2026-06-30T10:45:00+02:00",
+      "note": "Założyciele t.1 (oryg. Foundryside, Szepty, V.2025, 570 s.). Fantasy heist + twardy system magii (scriving) — klimat Szóstki wron (10/10) i Sandersona (9/10). Ocena LC 7.9."
+    },
+    {
+      "id": "5211328",
+      "title": "Brzeg",
+      "author": "Robert Jackson Bennett",
+      "url": "https://lubimyczytac.pl/ksiazka/5211328/brzeg",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5211000/5211328/1369535-170x243.jpg",
+      "source": "market",
+      "when": "2026-06-30T10:45:00+02:00",
+      "note": "Założyciele t.2 (oryg. Shorefall, Szepty, 02.02.2026, 544 s.). Ocena LC 7.6. Finał (Locklands) jeszcze bez polskiej zapowiedzi — wejście teraz = cliffhanger po t.2."
+    },
+    {
+      "id": "5189098",
+      "title": "Diabły",
+      "author": "Joe Abercrombie",
+      "url": "https://lubimyczytac.pl/ksiazka/5189098/diably",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5189000/5189098/1272813-170x243.jpg",
+      "source": "market",
+      "when": "2026-06-30T10:45:00+02:00",
+      "note": "The Devils t.1 (MAG, 18.06.2025, 800 s.). Nowy świat Abercrombiego — banda zbirów osadza złodziejkę na tronie. Mam cały świat Pierwszego Prawa (Posiadane). Ocena LC 7.6."
+    },
+    {
+      "id": "5073134",
+      "title": "Pół króla",
+      "author": "Joe Abercrombie",
+      "url": "https://lubimyczytac.pl/ksiazka/5073134/pol-krola",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5073000/5073134/1077722-170x243.jpg",
+      "source": "market",
+      "when": "2026-06-30T10:45:00+02:00",
+      "note": "Morze Drzazg t.1 (oryg. Half a King, Rebis, 400 s.). Nordycki coming-of-age Abercrombiego — lżejszy, dostępny, w klimacie wikińskiego Gwynne'a (Krwiozaprzysiężeni). Cykl kompletny po polsku (3 tomy). Ocena LC 7.1."
+    },
+    {
+      "id": "5075656",
+      "title": "Pół świata",
+      "author": "Joe Abercrombie",
+      "url": "https://lubimyczytac.pl/ksiazka/5075656/pol-swiata",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5075000/5075656/1081662-170x243.jpg",
+      "source": "market",
+      "when": "2026-06-30T10:45:00+02:00",
+      "note": "Morze Drzazg t.2 (oryg. Half the World, Rebis, 452 s.)."
+    },
+    {
+      "id": "5075657",
+      "title": "Pół wojny",
+      "author": "Joe Abercrombie",
+      "url": "https://lubimyczytac.pl/ksiazka/5075657/pol-wojny",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5075000/5075657/1081663-170x243.jpg",
+      "source": "market",
+      "when": "2026-06-30T10:45:00+02:00",
+      "note": "Morze Drzazg t.3 (oryg. Half a War, Rebis, 456 s.) — finał trylogii."
+    },
+    {
+      "id": "5239841",
+      "title": "Kroniki Krwi i Mroku",
+      "author": "Katarzyna Wycisk",
+      "url": "https://lubimyczytac.pl/ksiazka/5239841/kroniki-krwi-i-mroku",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5239000/5239841/1361031-170x243.jpg",
+      "source": "market",
+      "when": "2026-06-30T10:45:00+02:00",
+      "note": "Kroniki Krwi i Mroku t.1-3 w jednym tomie (KDW, 03.06.2026, 1006 s., wyd. kolekcjonerskie). Polski dark fantasy — bunt przeciw rządzącym aniołom. Ocena LC 8.2."
+    },
+    {
+      "id": "4970701",
+      "title": "Miasto mosiądzu",
+      "author": "S.A. Chakraborty",
+      "url": "https://lubimyczytac.pl/ksiazka/4970701/miasto-mosiadzu",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/4970000/4970701/1113917-170x243.jpg",
+      "source": "market",
+      "when": "2026-06-30T10:45:00+02:00",
+      "note": "Dewabad t.1 (oryg. The City of Brass). Bliskowschodnia fantasy o dżinnach. Główna trylogia po polsku kompletna (t.1-3); t.4 The River of Silver bez wydania PL — pomijamy."
+    },
+    {
+      "id": "4987988",
+      "title": "Królestwo miedzi",
+      "author": "S.A. Chakraborty",
+      "url": "https://lubimyczytac.pl/ksiazka/4987988/krolestwo-miedzi",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/4987000/4987988/1113918-170x243.jpg",
+      "source": "market",
+      "when": "2026-06-30T10:45:00+02:00",
+      "note": "Dewabad t.2 (oryg. The Kingdom of Copper, 640 s.)."
+    },
+    {
+      "id": "5014383",
+      "title": "Imperium złota",
+      "author": "S.A. Chakraborty",
+      "url": "https://lubimyczytac.pl/ksiazka/5014383/imperium-zlota",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5014000/5014383/1113919-170x243.jpg",
+      "source": "market",
+      "when": "2026-06-30T10:45:00+02:00",
+      "note": "Dewabad t.3 (oryg. The Empire of Gold, 760 s.) — finał głównej trylogii."
     }
   ]
 }
