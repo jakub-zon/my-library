@@ -90,8 +90,10 @@
 
       renderRows(entries);
       const base = `${entries.length} ${entries.length === 1 ? "wpis" : "wpisów"}`;
-      const extra = typeof cfg.summary === "function" ? cfg.summary(entries) : "";
+      const s = typeof cfg.summary === "function" ? cfg.summary(entries) : "";
+      const extra = s && typeof s === "object" ? s.text : s;
       el.stats.textContent = extra ? `${base} — ${extra}` : base;
+      el.stats.title = s && typeof s === "object" && s.title ? s.title : "";
     } catch (err) {
       el.stats.textContent = `Błąd ładowania: ${err.message}`;
       el.tbody.innerHTML = "";

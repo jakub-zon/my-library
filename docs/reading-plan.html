@@ -28,10 +28,70 @@
   </main>
 
   <script>
+  (() => {
+  // Plan = manual read-plan.json entries, joined with the library, with two
+  // shelf-driven tweaks: entries already on "Przeczytane" are hidden (kept in
+  // JSON, just not rendered — surfaced as an "N ukrytych" tooltip), and books
+  // on the "Teraz czytam" shelf are pulled in automatically (deduped by id).
+  let hidden = [];
+
+  const loadJson = async (p) => {
+    const r = await fetch(p, { cache: "no-cache" });
+    if (!r.ok) throw new Error(`${p}: ${r.status}`);
+    return r.json();
+  };
+  const shelvesOf = (lib) => (lib && lib.shelves) || [];
+
   window.LIST_CONFIG = {
-    file: "./read-plan.json",
-    joinLibrary: true,
     emptyMessage: "Pusto. Zaakceptuj coś w trybie „co dalej czytać” żeby tu trafiło.",
+    loadEntries: async () => {
+      const plan = (await loadJson("./read-plan.json")).entries || [];
+      const library = {};
+      try {
+        const books = await loadJson("./books.json");
+        for (const b of books.books || []) library[String(b.id)] = b;
+      } catch (e) {
+        console.warn("books.json join failed:", e);
+      }
+
+      const joined = plan.map((e) => {
+        const lib = library[String(e.id)] || null;
+        return { ...e, _lib: lib, _active: shelvesOf(lib).includes("Teraz czytam") };
+      });
+
+      hidden = joined
+        .filter((e) => shelvesOf(e._lib).includes("Przeczytane"))
+        .map((e) => e.title || (e._lib && e._lib.title) || "?");
+
+      const visible = joined.filter((e) => !shelvesOf(e._lib).includes("Przeczytane"));
+
+      // Inject "Teraz czytam" books not already listed in the plan.
+      const present = new Set(visible.map((e) => String(e.id)));
+      for (const b of Object.values(library)) {
+        if (shelvesOf(b).includes("Teraz czytam") && !present.has(String(b.id))) {
+          visible.push({
+            id: String(b.id),
+            title: b.title,
+            author: (b.authors || []).join(", "),
+            _lib: b,
+            _active: true,
+            note: "Teraz czytam",
+          });
+        }
+      }
+      return visible;
+    },
+    // Active reads ("Teraz czytam") first, then most-recently-added.
+    sort: (a, b) => {
+      const aa = a._active ? 0 : 1, ba = b._active ? 0 : 1;
+      if (aa !== ba) return aa - ba;
+      return (b.when || "").localeCompare(a.when || "");
+    },
+    summary: () => {
+      if (!hidden.length) return "";
+      const word = hidden.length === 1 ? "ukryty" : "ukrytych";
+      return { text: `${hidden.length} ${word} (przeczytane)`, title: hidden.join("\n") };
+    },
     columns: [
       {
         label: "Okładka",
@@ -76,6 +136,7 @@
       },
     ],
   };
+  })();
   </script>
   <script src="./list-view.js" defer></script>
 </body>
