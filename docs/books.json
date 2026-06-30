@@ -1,7 +1,200 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 539,
+  "count": 546,
   "books": [
+    {
+      "id": "5099212",
+      "title": "Cień bogów",
+      "url": "https://lubimyczytac.pl/ksiazka/5099212/cien-bogow",
+      "type": "book",
+      "authors": [
+        "John Gwynne"
+      ],
+      "average_rating": 7.2,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Saga o Krwiozaprzysiężonych (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5099000/5099212/1248299-170x243.jpg"
+    },
+    {
+      "id": "5073134",
+      "title": "Pół króla",
+      "url": "https://lubimyczytac.pl/ksiazka/5073134/pol-krola",
+      "type": "book",
+      "authors": [
+        "Joe Abercrombie"
+      ],
+      "average_rating": 7.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do kupienia w..."
+      ],
+      "cycle": "Morze Drzazg (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5073000/5073134/1077722-170x243.jpg"
+    },
+    {
+      "id": "5176627",
+      "title": "Odlewnia",
+      "url": "https://lubimyczytac.pl/ksiazka/5176627/odlewnia",
+      "type": "book",
+      "authors": [
+        "Robert Jackson Bennett"
+      ],
+      "average_rating": 7.9,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do kupienia w...",
+        "Niedokończone serie"
+      ],
+      "cycle": "Założyciele (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5176000/5176627/1369534-170x243.jpg"
+    },
+    {
+      "id": "5239841",
+      "title": "Kroniki Krwi i Mroku",
+      "url": "https://lubimyczytac.pl/ksiazka/5239841/kroniki-krwi-i-mroku",
+      "type": "book",
+      "authors": [
+        "Katarzyna Wycisk"
+      ],
+      "average_rating": 8.2,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do kupienia w..."
+      ],
+      "cycle": "Kroniki Krwi i Mroku (tom 1-3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5239000/5239841/1361031-170x243.jpg"
+    },
+    {
+      "id": "5189098",
+      "title": "Diabły",
+      "url": "https://lubimyczytac.pl/ksiazka/5189098/diably",
+      "type": "book",
+      "authors": [
+        "Joe Abercrombie"
+      ],
+      "average_rating": 7.6,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do kupienia w...",
+        "Niedokończone serie"
+      ],
+      "cycle": "The Devils (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5189000/5189098/1272813-170x243.jpg"
+    },
+    {
+      "id": "5223993",
+      "title": "Tatuaże i krew",
+      "url": "https://lubimyczytac.pl/ksiazka/5223993/tatuaze-i-krew",
+      "type": "book",
+      "authors": [
+        "Jarosław Kukiełka"
+      ],
+      "average_rating": 7.6,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Kroczący wśród cieni (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5223000/5223993/1333544-170x243.jpg"
+    },
+    {
+      "id": "5187244",
+      "title": "I przekroczył granicę",
+      "url": "https://lubimyczytac.pl/ksiazka/5187244/i-przekroczyl-granice",
+      "type": "book",
+      "authors": [
+        "Jarosław Kukiełka"
+      ],
+      "average_rating": 7.5,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Kroczący wśród cieni (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5187000/5187244/1266908-170x243.jpg"
+    },
+    {
+      "id": "5099835",
+      "title": "Nigdy mnie nie odnajdziesz",
+      "url": "https://lubimyczytac.pl/ksiazka/5099835/nigdy-mnie-nie-odnajdziesz",
+      "type": "book",
+      "authors": [
+        "Jarosław Kukiełka"
+      ],
+      "average_rating": 7.2,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Kroczący wśród cieni (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5099000/5099835/1248309-170x243.jpg"
+    },
+    {
+      "id": "5184756",
+      "title": "Gniew bogów",
+      "url": "https://lubimyczytac.pl/ksiazka/5184756/gniew-bogow",
+      "type": "book",
+      "authors": [
+        "John Gwynne"
+      ],
+      "average_rating": 7.8,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam",
+        "Posiadane"
+      ],
+      "cycle": "Saga o Krwiozaprzysiężonych (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184756/1274935-170x243.jpg"
+    },
+    {
+      "id": "5164155",
+      "title": "Głód bogów",
+      "url": "https://lubimyczytac.pl/ksiazka/5164155/glod-bogow",
+      "type": "book",
+      "authors": [
+        "John Gwynne"
+      ],
+      "average_rating": 7.8,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam",
+        "Posiadane"
+      ],
+      "cycle": "Saga o Krwiozaprzysiężonych (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5164000/5164155/1250879-170x243.jpg"
+    },
+    {
+      "id": "5215312",
+      "title": "Pradawna stolica",
+      "url": "https://lubimyczytac.pl/ksiazka/5215312/pradawna-stolica",
+      "type": "book",
+      "authors": [
+        "Michael James Sullivan"
+      ],
+      "average_rating": 8.0,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Odkrycia Riyrii (tom 6)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5215000/5215312/1334432-170x243.jpg",
+      "read_date": "2026-06-07"
+    },
     {
       "id": "5218732",
       "title": "Gideon z Dziewiątego",
@@ -14,7 +207,7 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w...",
+        "Do przeczytania",
         "Niedokończone serie"
       ],
       "cycle": "Zapieczętowany Grobowiec (tom 1)",
@@ -28,7 +221,7 @@
       "authors": [
         "Janusz Stankiewicz"
       ],
-      "average_rating": 0.0,
+      "average_rating": 7.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -68,61 +261,47 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do sprawdzenia"
+        "Do kupienia w..."
       ],
       "cycle": "Dewabad (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970701/1113917-170x243.jpg"
     },
     {
       "id": "5242026",
-      "title": "Smoczy książę",
+      "title": "Smoczy Książę",
       "url": "https://lubimyczytac.pl/ksiazka/5242026/smoczy-ksiaze",
       "type": "book",
       "authors": [
         "Taran Matharu"
       ],
-      "average_rating": 0.0,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w...",
+        "Do przeczytania",
+        "Posiadane",
         "Niedokończone serie"
       ],
       "cycle": "Saga Związanych Dusz (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5242000/5242026/1366133-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5242000/5242026/1371598-170x243.jpg"
     },
     {
       "id": "5171828",
-      "title": "Smoczy jeździec",
+      "title": "Smoczy Jeździec",
       "url": "https://lubimyczytac.pl/ksiazka/5171828/smoczy-jezdziec",
       "type": "book",
       "authors": [
         "Taran Matharu"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w..."
+        "Do przeczytania",
+        "Posiadane"
       ],
       "cycle": "Saga Związanych Dusz (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5171000/5171828/1250832-170x243.jpg"
-    },
-    {
-      "id": "5215312",
-      "title": "Pradawna stolica",
-      "url": "https://lubimyczytac.pl/ksiazka/5215312/pradawna-stolica",
-      "type": "book",
-      "authors": [
-        "Michael James Sullivan"
-      ],
-      "average_rating": 8.0,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam"
-      ],
-      "cycle": "Odkrycia Riyrii (tom 6)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5215000/5215312/1334432-170x243.jpg"
     },
     {
       "id": "5215310",
@@ -153,11 +332,12 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w...",
+        "Do przeczytania",
+        "Posiadane",
         "Niedokończone serie"
       ],
       "cycle": "Hierarchia (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217888/1366039-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217888/1368674-170x243.jpg"
     },
     {
       "id": "5206801",
@@ -224,7 +404,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w...",
+        "Do przeczytania",
+        "Posiadane",
         "Niedokończone serie"
       ],
       "cycle": "Kroniki Czarnej Kompanii. Nielitościwy deszcz (tom 1)",
@@ -238,15 +419,15 @@
       "authors": [
         "Jonathan Maberry"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Do kupienia w...",
+        "Posiadane",
         "Niedokończone serie"
       ],
-      "cycle": "Kagen the Damned (tom 1)",
+      "cycle": "Saga o Kagenie Przeklętym (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5183000/5183039/1357887-170x243.jpg"
     },
     {
@@ -291,7 +472,7 @@
       "authors": [
         "Michał Głowacz"
       ],
-      "average_rating": 6.4,
+      "average_rating": 6.3,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -308,7 +489,7 @@
       "authors": [
         "Adam Hetmański"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -325,7 +506,7 @@
       "authors": [
         "Adam Przechrzta"
       ],
-      "average_rating": 6.6,
+      "average_rating": 6.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -449,7 +630,7 @@
       "authors": [
         "Jarosław Grzędowicz"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -467,7 +648,7 @@
       "authors": [
         "Christopher Buehlman"
       ],
-      "average_rating": 7.2,
+      "average_rating": 6.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -587,7 +768,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 9.1,
+      "average_rating": 9.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -612,7 +793,7 @@
         "Chcę przeczytać",
         "Do kupienia w..."
       ],
-      "cycle": "The Green Bone Saga (tom 0.5-0.75)",
+      "cycle": "Saga o Zielonych Kościach (tom 0.5)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5081000/5081385/1098418-170x243.jpg"
     },
     {
@@ -630,7 +811,7 @@
         "Do przeczytania",
         "Posiadane"
       ],
-      "cycle": "The Green Bone Saga (tom 3)",
+      "cycle": "Saga o Zielonych Kościach (tom 3)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5233000/5233011/1351635-170x243.jpg"
     },
     {
@@ -648,7 +829,7 @@
         "Do przeczytania",
         "Posiadane"
       ],
-      "cycle": "The Green Bone Saga (tom 2)",
+      "cycle": "Saga o Zielonych Kościach (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5225000/5225732/1337026-170x243.jpg"
     },
     {
@@ -659,7 +840,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -784,7 +965,7 @@
       "authors": [
         "Jarosław Dobrowolski"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -802,14 +983,14 @@
       "authors": [
         "Fonda Lee"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
         "Posiadane"
       ],
-      "cycle": "The Green Bone Saga (tom 1)",
+      "cycle": "Saga o Zielonych Kościach (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5214000/5214322/1326679-170x243.jpg"
     },
     {
@@ -944,7 +1125,7 @@
       "authors": [
         "Jay Kristoff"
       ],
-      "average_rating": 8.4,
+      "average_rating": 8.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -998,7 +1179,7 @@
       "authors": [
         "Peter V. Brett"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1071,7 +1252,7 @@
       "authors": [
         "Mai Corland"
       ],
-      "average_rating": 8.2,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1191,7 +1372,7 @@
       "authors": [
         "Paweł Zbroszczyk"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Przeczytane"
@@ -1219,21 +1400,22 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/5090000/5090465/1327251-170x243.jpg"
     },
     {
-      "id": "5173453",
+      "id": "5187461",
       "title": "Cykl demoniczny. Nowele",
-      "url": "https://lubimyczytac.pl/ksiazka/5173453/cykl-demoniczny-nowele",
+      "url": "https://lubimyczytac.pl/ksiazka/5187461/cykl-demoniczny-nowele",
       "type": "book",
       "authors": [
         "Peter V. Brett"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w..."
+        "Do przeczytania",
+        "Posiadane"
       ],
       "cycle": "Cykl Demoniczny (tom 1.5-1.6)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5173000/5173453/1364056-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5187000/5187461/1267319-170x243.jpg"
     },
     {
       "id": "5217414",
@@ -1261,7 +1443,7 @@
       "authors": [
         "Anthony Ryan"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1315,7 +1497,7 @@
       "authors": [
         "Jen Williams"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1334,7 +1516,7 @@
       "authors": [
         "Anna Benning"
       ],
-      "average_rating": 8.4,
+      "average_rating": 8.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1370,7 +1552,7 @@
       "authors": [
         "Anna Benning"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1739,7 +1921,7 @@
       "authors": [
         "M. L. Wang"
       ],
-      "average_rating": 7.9,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1756,7 +1938,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1828,7 +2010,7 @@
       "authors": [
         "Stella Tack"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1846,7 +2028,7 @@
       "authors": [
         "James Islington"
       ],
-      "average_rating": 8.3,
+      "average_rating": 8.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1918,7 +2100,7 @@
       "authors": [
         "J.T. Greathouse"
       ],
-      "average_rating": 6.8,
+      "average_rating": 6.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2115,7 +2297,7 @@
       "authors": [
         "Robert M. Wegner"
       ],
-      "average_rating": 6.9,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2431,7 +2613,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do sprawdzenia"
+        "Do kupienia w...",
+        "Niedokończone serie"
       ],
       "cycle": "Cień Lewiatana (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5189000/5189251/1337157-170x243.jpg"
@@ -2544,24 +2727,6 @@
       ],
       "cycle": "Żniwa śmierci (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5188000/5188353/1268911-170x243.jpg"
-    },
-    {
-      "id": "5184756",
-      "title": "Gniew bogów",
-      "url": "https://lubimyczytac.pl/ksiazka/5184756/gniew-bogow",
-      "type": "book",
-      "authors": [
-        "John Gwynne"
-      ],
-      "average_rating": 7.8,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Saga o Krwiozaprzysiężonych (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184756/1274935-170x243.jpg"
     },
     {
       "id": "5193845",
@@ -2694,7 +2859,7 @@
       "authors": [
         "Peter A. Flannery"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2844,24 +3009,6 @@
       ],
       "cycle": "Archiwum Burzowego Światła (tom 5.1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5173000/5173780/1246281-170x243.jpg"
-    },
-    {
-      "id": "5164155",
-      "title": "Głód bogów",
-      "url": "https://lubimyczytac.pl/ksiazka/5164155/glod-bogow",
-      "type": "book",
-      "authors": [
-        "John Gwynne"
-      ],
-      "average_rating": 7.8,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Saga o Krwiozaprzysiężonych (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5164000/5164155/1250879-170x243.jpg"
     },
     {
       "id": "5161887",
@@ -3142,24 +3289,6 @@
       ],
       "cycle": "Achaja (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4939000/4939573/898399-170x243.jpg"
-    },
-    {
-      "id": "5099212",
-      "title": "Cień bogów",
-      "url": "https://lubimyczytac.pl/ksiazka/5099212/cien-bogow",
-      "type": "book",
-      "authors": [
-        "John Gwynne"
-      ],
-      "average_rating": 7.2,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Saga o Krwiozaprzysiężonych (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5099000/5099212/1248299-170x243.jpg"
     },
     {
       "id": "4939571",
@@ -3662,7 +3791,7 @@
         "Jay Kristoff",
         "Amie Kaufman"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3997,8 +4126,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Posiadane",
-        "Niedokończone serie"
+        "Posiadane"
       ],
       "cycle": "Gorath (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5018000/5018373/985772-170x243.jpg"
@@ -4464,7 +4592,7 @@
       "authors": [
         "James Islington"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4875,7 +5003,7 @@
       "authors": [
         "Amélie Wen Zhao"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -5501,7 +5629,7 @@
       "authors": [
         "Danielle L. Jensen"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -6107,7 +6235,7 @@
       "authors": [
         "Erika Johansen"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -6749,7 +6877,7 @@
       "authors": [
         "A. Forge"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -7376,7 +7504,7 @@
       "authors": [
         "Ray Bradbury"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": 6.0,
       "shelves": [
         "Przeczytane",
@@ -8376,7 +8504,7 @@
       "authors": [
         "J.R.R. Tolkien"
       ],
-      "average_rating": 8.6,
+      "average_rating": 8.7,
       "user_rating": null,
       "shelves": [
         "Przeczytane"
@@ -8635,7 +8763,7 @@
       "authors": [
         "Anne Bishop"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": 9.0,
       "shelves": [
         "Przeczytane",
