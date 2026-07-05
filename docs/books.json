@@ -3,6 +3,24 @@
   "count": 546,
   "books": [
     {
+      "id": "5164155",
+      "title": "Głód bogów",
+      "url": "https://lubimyczytac.pl/ksiazka/5164155/glod-bogow",
+      "type": "book",
+      "authors": [
+        "John Gwynne"
+      ],
+      "average_rating": 7.8,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Saga o Krwiozaprzysiężonych (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5164000/5164155/1250879-170x243.jpg",
+      "read_date": "2026-07-01"
+    },
+    {
       "id": "5099212",
       "title": "Cień bogów",
       "url": "https://lubimyczytac.pl/ksiazka/5099212/cien-bogow",
@@ -17,7 +35,8 @@
         "Posiadane"
       ],
       "cycle": "Saga o Krwiozaprzysiężonych (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5099000/5099212/1248299-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5099000/5099212/1248299-170x243.jpg",
+      "read_date": "2026-06-15"
     },
     {
       "id": "5073134",
@@ -62,7 +81,7 @@
       "authors": [
         "Katarzyna Wycisk"
       ],
-      "average_rating": 8.2,
+      "average_rating": 8.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -162,23 +181,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184756/1274935-170x243.jpg"
     },
     {
-      "id": "5164155",
-      "title": "Głód bogów",
-      "url": "https://lubimyczytac.pl/ksiazka/5164155/glod-bogow",
-      "type": "book",
-      "authors": [
-        "John Gwynne"
-      ],
-      "average_rating": 7.8,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam",
-        "Posiadane"
-      ],
-      "cycle": "Saga o Krwiozaprzysiężonych (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5164000/5164155/1250879-170x243.jpg"
-    },
-    {
       "id": "5215312",
       "title": "Pradawna stolica",
       "url": "https://lubimyczytac.pl/ksiazka/5215312/pradawna-stolica",
@@ -221,7 +223,7 @@
       "authors": [
         "Janusz Stankiewicz"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -274,7 +276,7 @@
       "authors": [
         "Taran Matharu"
       ],
-      "average_rating": 7.8,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -328,7 +330,7 @@
       "authors": [
         "James Islington"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -347,11 +349,10 @@
       "authors": [
         "Michael James Sullivan"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": 8.0,
       "shelves": [
-        "Przeczytane",
-        "Do przeczytania"
+        "Przeczytane"
       ],
       "cycle": "Odkrycia Riyrii (tom 4)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5206000/5206801/1308515-170x243.jpg",
@@ -368,8 +369,7 @@
       "average_rating": 7.4,
       "user_rating": 8.0,
       "shelves": [
-        "Przeczytane",
-        "Do przeczytania"
+        "Przeczytane"
       ],
       "cycle": "Odkrycia Riyrii (tom 3)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5206000/5206797/1308514-170x243.jpg",
@@ -400,7 +400,7 @@
       "authors": [
         "Glen Cook"
       ],
-      "average_rating": 0.0,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -840,7 +840,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 6.9,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1036,7 +1036,7 @@
       "authors": [
         "Paweł Kopijer"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2082,7 +2082,7 @@
       "authors": [
         "J.T. Greathouse"
       ],
-      "average_rating": 6.6,
+      "average_rating": 6.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2137,7 +2137,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 8.7,
+      "average_rating": 8.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2717,7 +2717,7 @@
       "authors": [
         "Neal Shusterman"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2913,7 +2913,7 @@
       "authors": [
         "Mai Corland"
       ],
-      "average_rating": 8.2,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4399,7 +4399,7 @@
       "authors": [
         "Mitchell Hogan"
       ],
-      "average_rating": 7.0,
+      "average_rating": 7.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4791,7 +4791,7 @@
       "authors": [
         "Nicholas Eames"
       ],
-      "average_rating": 7.0,
+      "average_rating": 7.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4845,7 +4845,7 @@
       "authors": [
         "Victoria Aveyard"
       ],
-      "average_rating": 6.8,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -5790,7 +5790,7 @@
       "authors": [
         "Tomi Adeyemi"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": 10.0,
       "shelves": [
         "Przeczytane",
@@ -6004,7 +6004,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": 9.0,
       "shelves": [
         "Przeczytane",
