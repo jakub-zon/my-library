@@ -3,6 +3,114 @@
   "count": 546,
   "books": [
     {
+      "id": "5163414",
+      "title": "Gorath. Droga gniewu",
+      "url": "https://lubimyczytac.pl/ksiazka/5163414/gorath-droga-gniewu",
+      "type": "book",
+      "authors": [
+        "Janusz Stankiewicz"
+      ],
+      "average_rating": 7.6,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Gorath (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5163000/5163414/1220703-170x243.jpg",
+      "read_date": "2026-07-20"
+    },
+    {
+      "id": "5063740",
+      "title": "GORATH. Krawędź Otchłani",
+      "url": "https://lubimyczytac.pl/ksiazka/5063740/gorath-krawedz-otchlani",
+      "type": "book",
+      "authors": [
+        "Janusz Stankiewicz"
+      ],
+      "average_rating": 7.5,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Gorath (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5063000/5063740/1061897-170x243.jpg",
+      "read_date": "2026-07-16"
+    },
+    {
+      "id": "5163423",
+      "title": "GORATH. Uderz pierwszy",
+      "url": "https://lubimyczytac.pl/ksiazka/5163423/gorath-uderz-pierwszy",
+      "type": "book",
+      "authors": [
+        "Janusz Stankiewicz"
+      ],
+      "average_rating": 7.1,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Gorath (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5163000/5163423/1220715-170x243.jpg",
+      "read_date": "2026-07-13"
+    },
+    {
+      "id": "5123665",
+      "title": "Gorath. Paskudna sprawa",
+      "url": "https://lubimyczytac.pl/audiobook/5123665/gorath-paskudna-sprawa",
+      "type": "audiobook",
+      "authors": [
+        "Janusz Stankiewicz"
+      ],
+      "average_rating": 6.8,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane",
+        "Do przeczytania",
+        "Dostępne na Legimi"
+      ],
+      "cycle": "Gorath (tom 0.5)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5123000/5123665/1168562-170x243.jpg",
+      "read_date": "2026-07-16"
+    },
+    {
+      "id": "5244444",
+      "title": "Gorath: Zabójcy bogów",
+      "url": "https://lubimyczytac.pl/ksiazka/5244444/gorath-zabojcy-bogow",
+      "type": "book",
+      "authors": [
+        "Janusz Stankiewicz"
+      ],
+      "average_rating": 7.8,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam",
+        "Posiadane"
+      ],
+      "cycle": "Gorath (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5244000/5244444/1368609-170x243.jpg"
+    },
+    {
+      "id": "5184756",
+      "title": "Gniew bogów",
+      "url": "https://lubimyczytac.pl/ksiazka/5184756/gniew-bogow",
+      "type": "book",
+      "authors": [
+        "John Gwynne"
+      ],
+      "average_rating": 7.8,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Saga o Krwiozaprzysiężonych (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184756/1274935-170x243.jpg",
+      "read_date": "2026-07-07"
+    },
+    {
       "id": "5164155",
       "title": "Głód bogów",
       "url": "https://lubimyczytac.pl/ksiazka/5164155/glod-bogow",
@@ -63,7 +171,7 @@
       "authors": [
         "Robert Jackson Bennett"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -164,23 +272,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/5099000/5099835/1248309-170x243.jpg"
     },
     {
-      "id": "5184756",
-      "title": "Gniew bogów",
-      "url": "https://lubimyczytac.pl/ksiazka/5184756/gniew-bogow",
-      "type": "book",
-      "authors": [
-        "John Gwynne"
-      ],
-      "average_rating": 7.8,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam",
-        "Posiadane"
-      ],
-      "cycle": "Saga o Krwiozaprzysiężonych (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184756/1274935-170x243.jpg"
-    },
-    {
       "id": "5215312",
       "title": "Pradawna stolica",
       "url": "https://lubimyczytac.pl/ksiazka/5215312/pradawna-stolica",
@@ -214,24 +305,6 @@
       ],
       "cycle": "Zapieczętowany Grobowiec (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5218000/5218732/1327437-170x243.jpg"
-    },
-    {
-      "id": "5244444",
-      "title": "Gorath: Zabójcy bogów",
-      "url": "https://lubimyczytac.pl/ksiazka/5244444/gorath-zabojcy-bogow",
-      "type": "book",
-      "authors": [
-        "Janusz Stankiewicz"
-      ],
-      "average_rating": 7.9,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Gorath (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5244000/5244444/1368609-170x243.jpg"
     },
     {
       "id": "5208934",
@@ -295,7 +368,7 @@
       "authors": [
         "Taran Matharu"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -330,7 +403,7 @@
       "authors": [
         "James Islington"
       ],
-      "average_rating": 7.5,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -400,7 +473,7 @@
       "authors": [
         "Glen Cook"
       ],
-      "average_rating": 7.7,
+      "average_rating": 6.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -419,7 +492,7 @@
       "authors": [
         "Jonathan Maberry"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -438,7 +511,7 @@
       "authors": [
         "Jacek Małkowski"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -493,7 +566,8 @@
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
-        "Posiadane"
+        "Posiadane",
+        "Niedokończone serie"
       ],
       "cover": "https://s.lubimyczytac.pl/upload/books/5230000/5230358/1345269-170x243.jpg",
       "read_date": "2026-04-28"
@@ -549,7 +623,7 @@
         "Do przeczytania",
         "Posiadane"
       ],
-      "cover": "https://s.lubimyczytac.pl/upload/books/5234000/5234200/1351612-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5234000/5234200/1378979-170x243.jpg"
     },
     {
       "id": "5077910",
@@ -700,7 +774,7 @@
         "Brandon Sanderson",
         "Janci Patterson"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.7,
       "user_rating": 9.0,
       "shelves": [
         "Przeczytane"
@@ -768,7 +842,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 9.2,
+      "average_rating": 9.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -895,7 +969,7 @@
       "authors": [
         "Jarosław Dobrowolski"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1036,7 +1110,7 @@
       "authors": [
         "Paweł Kopijer"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1090,7 +1164,7 @@
       "authors": [
         "Zeter Zelke"
       ],
-      "average_rating": 9.0,
+      "average_rating": 8.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1407,7 +1481,7 @@
       "authors": [
         "Peter V. Brett"
       ],
-      "average_rating": 7.7,
+      "average_rating": 8.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1479,7 +1553,7 @@
       "authors": [
         "Tomi Adeyemi"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1709,7 +1783,7 @@
       "authors": [
         "Stella Tack"
       ],
-      "average_rating": 6.9,
+      "average_rating": 6.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1745,7 +1819,7 @@
       "authors": [
         "Joe Abercrombie"
       ],
-      "average_rating": 8.3,
+      "average_rating": 8.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1921,7 +1995,7 @@
       "authors": [
         "M. L. Wang"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2243,7 +2317,7 @@
       "authors": [
         "Nicki Pau Preto"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -2717,7 +2791,7 @@
       "authors": [
         "Neal Shusterman"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2745,24 +2819,6 @@
       ],
       "cycle": "The Last Bloodcarver (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5193000/5193845/1279208-170x243.jpg"
-    },
-    {
-      "id": "5163414",
-      "title": "Gorath. Droga gniewu",
-      "url": "https://lubimyczytac.pl/ksiazka/5163414/gorath-droga-gniewu",
-      "type": "book",
-      "authors": [
-        "Janusz Stankiewicz"
-      ],
-      "average_rating": 7.5,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Gorath (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5163000/5163414/1220703-170x243.jpg"
     },
     {
       "id": "5090965",
@@ -3000,7 +3056,7 @@
       "authors": [
         "Brandon Sanderson"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3308,24 +3364,6 @@
       "read_date": "2024-07-10"
     },
     {
-      "id": "5123665",
-      "title": "Gorath. Paskudna sprawa",
-      "url": "https://lubimyczytac.pl/audiobook/5123665/gorath-paskudna-sprawa",
-      "type": "audiobook",
-      "authors": [
-        "Janusz Stankiewicz"
-      ],
-      "average_rating": 6.8,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Dostępne na Legimi"
-      ],
-      "cycle": "Gorath (tom 0.5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5123000/5123665/1168562-170x243.jpg"
-    },
-    {
       "id": "4859360",
       "title": "Opowieści z piasku i morza",
       "url": "https://lubimyczytac.pl/ksiazka/4859360/opowiesci-z-piasku-i-morza",
@@ -3413,7 +3451,7 @@
       "authors": [
         "Małgorzata Lisińska"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.2,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane"
@@ -3973,24 +4011,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/5052000/5052276/1126332-170x243.jpg"
     },
     {
-      "id": "5063740",
-      "title": "GORATH. Krawędź Otchłani",
-      "url": "https://lubimyczytac.pl/ksiazka/5063740/gorath-krawedz-otchlani",
-      "type": "book",
-      "authors": [
-        "Janusz Stankiewicz"
-      ],
-      "average_rating": 7.5,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Gorath (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5063000/5063740/1061897-170x243.jpg"
-    },
-    {
       "id": "4994701",
       "title": "Sploty Przeznaczenia",
       "url": "https://lubimyczytac.pl/ksiazka/4994701/sploty-przeznaczenia",
@@ -4112,24 +4132,6 @@
       ],
       "cycle": "Aurora (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4982000/4982659/1129559-170x243.jpg"
-    },
-    {
-      "id": "5018373",
-      "title": "Gorath. Uderz pierwszy",
-      "url": "https://lubimyczytac.pl/ksiazka/5018373/gorath-uderz-pierwszy",
-      "type": "book",
-      "authors": [
-        "Janusz Stankiewicz"
-      ],
-      "average_rating": 7.1,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Gorath (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5018000/5018373/985772-170x243.jpg"
     },
     {
       "id": "136177",
@@ -4845,7 +4847,7 @@
       "authors": [
         "Victoria Aveyard"
       ],
-      "average_rating": 6.9,
+      "average_rating": 6.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -5790,7 +5792,7 @@
       "authors": [
         "Tomi Adeyemi"
       ],
-      "average_rating": 6.9,
+      "average_rating": 7.0,
       "user_rating": 10.0,
       "shelves": [
         "Przeczytane",
@@ -6004,7 +6006,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 8.0,
+      "average_rating": 8.1,
       "user_rating": 9.0,
       "shelves": [
         "Przeczytane",
@@ -8341,9 +8343,9 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/4867000/4867245/698278-170x243.jpg"
     },
     {
-      "id": "5154914",
-      "title": "Harry Potter i komnata tajemnic",
-      "url": "https://lubimyczytac.pl/ksiazka/5154914/harry-potter-i-komnata-tajemnic",
+      "id": "5184735",
+      "title": "Harry Potter i Komnata Tajemnic",
+      "url": "https://lubimyczytac.pl/ksiazka/5184735/harry-potter-i-komnata-tajemnic",
       "type": "book",
       "authors": [
         "J.K. Rowling"
@@ -8354,7 +8356,7 @@
         "Przeczytane"
       ],
       "cycle": "Harry Potter (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5154000/5154914/1210671-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184735/1262392-170x243.jpg"
     },
     {
       "id": "308630",
