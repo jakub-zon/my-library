@@ -312,9 +312,15 @@ td.empty {
 
 .volume-table {
   width: 100%;
+  table-layout: fixed;
   border-collapse: collapse;
   margin: 0;
 }
+
+.volume-table .col-tom { width: 4rem; }
+.volume-table .col-title { width: auto; }
+.volume-table .col-shelves { width: 26%; }
+.volume-table .col-num { width: 6rem; }
 
 .volume-table th {
   text-align: left;

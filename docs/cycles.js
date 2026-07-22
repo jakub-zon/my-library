@@ -1,6 +1,7 @@
-// Cycles/series overview — groups books.json by the `cycle` field and
-// surfaces per-series anomalies (duplicate tom, numbering gap, shelf
-// mismatch) to help declutter the collection at the series level.
+// Cycles/series overview. Grouping and anomaly flags (duplicate tom,
+// numbering gap, shelf mismatch) are precomputed by scraper/scrape.py into
+// docs/cycles.json — this script only renders and handles the expand/collapse
+// interaction, no parsing/interpretation logic lives here.
 (() => {
   const el = {
     tbody: document.querySelector("#cycles tbody"),
@@ -21,89 +22,7 @@
     return d.toLocaleDateString("pl-PL", { year: "numeric", month: "2-digit", day: "2-digit" });
   };
 
-  // Most cycle strings are "<name> (tom N)". A minority are omnibus editions
-  // spanning several tomes, "<name> (tom N-M)" — captured as a range so gap
-  // detection treats the whole span as covered, not just N.
-  const CYCLE_RE = /^(.*?)\s*\(tom\s*([\d.]+)(?:\s*[-–]\s*([\d.]+))?\)\s*$/i;
-  const FALLBACK_NAME_RE = /^(.*?)\s*\(tom/i;
-  const FALLBACK_NUM_RE = /\(tom\s*([\d.]+)/i;
-
-  const state = { groups: [], expanded: new Set() };
-
-  const parseCycle = (cycleStr) => {
-    if (!cycleStr) return null;
-    const m = CYCLE_RE.exec(cycleStr);
-    if (m) {
-      const from = parseFloat(m[2]);
-      const to = m[3] !== undefined ? parseFloat(m[3]) : from;
-      return { name: m[1].trim(), tomFrom: from, tomTo: to };
-    }
-    // Malformed edge case (e.g. a triple-range typo on LC's side) — best
-    // effort: still group it by name, using the first number found.
-    const fb = FALLBACK_NUM_RE.exec(cycleStr);
-    if (!fb) return null;
-    const nameMatch = FALLBACK_NAME_RE.exec(cycleStr);
-    const name = nameMatch ? nameMatch[1].trim() : cycleStr;
-    const from = parseFloat(fb[1]);
-    return { name, tomFrom: from, tomTo: from };
-  };
-
-  const tomLabel = (v) => (v.tomFrom === v.tomTo ? String(v.tomFrom) : `${v.tomFrom}–${v.tomTo}`);
-
-  const unionAuthors = (volumes) => {
-    const seen = new Set();
-    const out = [];
-    for (const v of volumes) {
-      for (const a of v.authors || []) {
-        if (!seen.has(a)) { seen.add(a); out.push(a); }
-      }
-    }
-    return out;
-  };
-
-  const computeFlags = (volumes) => {
-    const flags = [];
-
-    const byLabel = new Map();
-    for (const v of volumes) {
-      const key = `${v.tomFrom}-${v.tomTo}`;
-      if (!byLabel.has(key)) byLabel.set(key, []);
-      byLabel.get(key).push(v);
-    }
-    const dups = [...byLabel.values()].filter((vs) => vs.length > 1);
-    if (dups.length) {
-      const detail = dups
-        .map((vs) => `tom ${tomLabel(vs[0])}: ${vs.map((v) => `${v.title} (${(v.shelves || []).join(", ") || "brak półek"})`).join(" vs ")}`)
-        .join("; ");
-      flags.push({ key: "dup-tom", label: "zdublowany tom", title: `Zdublowany tom — ${detail}` });
-    }
-
-    const covered = new Set();
-    for (const v of volumes) {
-      for (let n = Math.ceil(v.tomFrom); n <= Math.floor(v.tomTo); n++) covered.add(n);
-    }
-    const ints = [...covered].sort((a, b) => a - b);
-    if (ints.length >= 2) {
-      const missing = [];
-      for (let n = ints[0]; n <= ints[ints.length - 1]; n++) {
-        if (!covered.has(n)) missing.push(n);
-      }
-      if (missing.length) {
-        flags.push({ key: "gap", label: "luka w numeracji", title: `Brakujące tomy: ${missing.join(", ")}` });
-      }
-    }
-
-    const shelfSets = volumes.map((v) => JSON.stringify([...(v.shelves || [])].sort()));
-    if (new Set(shelfSets).size > 1) {
-      flags.push({
-        key: "shelf-mismatch",
-        label: "rozbieżność półek",
-        title: "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły.",
-      });
-    }
-
-    return flags;
-  };
+  const state = { cycles: [], expanded: new Set() };
 
   const shelfBreakdown = (volumes) => {
     const counts = new Map();
@@ -114,33 +33,10 @@
     return names.map((n) => `${n} ×${counts.get(n)}`).join(" · ");
   };
 
-  const buildGroups = (books) => {
-    const map = new Map();
-    for (const b of books) {
-      const parsed = parseCycle(b.cycle);
-      if (!parsed) continue;
-      if (!map.has(parsed.name)) map.set(parsed.name, []);
-      map.get(parsed.name).push({ ...b, tomFrom: parsed.tomFrom, tomTo: parsed.tomTo });
-    }
-    const groups = [];
-    for (const [name, volumes] of map) {
-      volumes.sort((a, b) => a.tomFrom - b.tomFrom);
-      groups.push({
-        name,
-        volumes,
-        authors: unionAuthors(volumes),
-        flags: computeFlags(volumes),
-      });
-    }
-    groups.sort((a, b) => {
-      if (a.flags.length !== b.flags.length) return b.flags.length - a.flags.length;
-      return COLLATOR.compare(a.name, b.name);
-    });
-    return groups;
-  };
-
   const renderFlags = (flags) =>
-    flags.map((f) => `<span class="flag-badge" title="${escape(f.title)}">⚠ ${escape(f.label)}</span>`).join(" ");
+    (flags || [])
+      .map((f) => `<span class="flag-badge" title="${escape(f.detail || f.label)}">⚠ ${escape(f.label)}</span>`)
+      .join(" ");
 
   const renderVolumeRow = (v) => {
     const shelves = (v.shelves || []).map((s) => `<span class="shelf-pill">${escape(s)}</span>`).join("");
@@ -152,7 +48,7 @@
       : escape(v.title || "");
     return `
       <tr class="volume-row">
-        <td class="num">${escape(tomLabel(v))}</td>
+        <td class="num">${escape(v.tom_label)}</td>
         <td class="title">${title}</td>
         <td class="shelves">${shelves}</td>
         <td class="num">${avg}</td>
@@ -161,44 +57,48 @@
       </tr>`;
   };
 
-  const renderDetail = (group) => `
+  const renderDetail = (cycle) => `
     <table class="volume-table">
+      <colgroup>
+        <col class="col-tom"><col class="col-title"><col class="col-shelves">
+        <col class="col-num"><col class="col-num"><col class="col-num">
+      </colgroup>
       <thead>
         <tr><th>Tom</th><th>Tytuł</th><th>Półki</th><th>Śr. LC</th><th>Moja</th><th>Przeczytano</th></tr>
       </thead>
-      <tbody>${group.volumes.map(renderVolumeRow).join("")}</tbody>
+      <tbody>${cycle.volumes.map(renderVolumeRow).join("")}</tbody>
     </table>`;
 
   const render = () => {
-    if (!state.groups.length) {
+    if (!state.cycles.length) {
       el.tbody.innerHTML = `<tr><td colspan="6" class="empty">Brak cykli w bibliotece.</td></tr>`;
       return;
     }
-    const rows = state.groups.map((g) => {
-      const isOpen = state.expanded.has(g.name);
-      const cover = g.volumes[0]?.cover;
+    const rows = state.cycles.map((c) => {
+      const isOpen = state.expanded.has(c.name);
+      const cover = c.volumes[0]?.cover;
       const coverCell = cover ? `<img src="${escape(cover)}" alt="" loading="lazy">` : "";
       const nameCell = `
-        <button class="expand-toggle" type="button" data-cycle="${escape(g.name)}" aria-expanded="${isOpen}" aria-label="${isOpen ? "Zwiń szczegóły" : "Rozwiń szczegóły"}">▶</button>
-        ${escape(g.name)}
+        <button class="expand-toggle" type="button" data-cycle="${escape(c.name)}" aria-expanded="${isOpen}" aria-label="${isOpen ? "Zwiń szczegóły" : "Rozwiń szczegóły"}">▶</button>
+        ${escape(c.name)}
       `;
       const mainRow = `
-        <tr class="cycle-row${isOpen ? " is-open" : ""}" data-cycle="${escape(g.name)}">
+        <tr class="cycle-row${isOpen ? " is-open" : ""}" data-cycle="${escape(c.name)}">
           <td class="cover">${coverCell}</td>
           <td class="title">${nameCell}</td>
-          <td class="authors">${escape(g.authors.join(", "))}</td>
-          <td class="num">${g.volumes.length}</td>
-          <td class="flags">${renderFlags(g.flags)}</td>
-          <td class="shelves">${escape(shelfBreakdown(g.volumes))}</td>
+          <td class="authors">${escape((c.authors || []).join(", "))}</td>
+          <td class="num">${c.volumes.length}</td>
+          <td class="flags">${renderFlags(c.flags)}</td>
+          <td class="shelves">${escape(shelfBreakdown(c.volumes))}</td>
         </tr>`;
       const detailRow = isOpen
-        ? `<tr class="detail-row" data-cycle="${escape(g.name)}"><td></td><td colspan="5" class="detail-cell">${renderDetail(g)}</td></tr>`
+        ? `<tr class="detail-row" data-cycle="${escape(c.name)}"><td></td><td colspan="5" class="detail-cell">${renderDetail(c)}</td></tr>`
         : "";
       return mainRow + detailRow;
     });
     el.tbody.innerHTML = rows.join("");
-    const flagged = state.groups.filter((g) => g.flags.length > 0).length;
-    el.stats.textContent = `${state.groups.length} cykli — ${flagged} oznaczonych`;
+    const flagged = state.cycles.filter((c) => (c.flags || []).length > 0).length;
+    el.stats.textContent = `${state.cycles.length} cykli — ${flagged} oznaczonych`;
   };
 
   const onBodyClick = (ev) => {
@@ -218,8 +118,15 @@
 
   const init = async () => {
     try {
-      const data = await loadJson("./books.json");
-      state.groups = buildGroups(data.books || []);
+      const data = await loadJson("./cycles.json");
+      const cycles = data.cycles || [];
+      // Display order only: cycles with more distinct flags surface first.
+      cycles.sort((a, b) => {
+        const fa = (a.flags || []).length, fb = (b.flags || []).length;
+        if (fa !== fb) return fb - fa;
+        return COLLATOR.compare(a.name, b.name);
+      });
+      state.cycles = cycles;
       el.tbody.addEventListener("click", onBodyClick);
       render();
     } catch (err) {

@@ -115,6 +115,37 @@ Add a `Cykle` link to `.topnav` in every page (`index.html`, `to-check.html`,
 matching the existing nav order convention (broad library views before
 skill-state subpages).
 
+## Update (same day, post-launch)
+
+After shipping, user review of the live page surfaced real edge cases the
+original heuristics got wrong (split sub-tomes like "tom 2.1"+"tom 2.2"
+falsely triggering the gap flag; a title-split omnibus like "Dziedzictwo.
+Tom I"/"Tom II" being indistinguishable from a true duplicate; the
+by-design "Niedokończone serie" shelf tripping the shelf-mismatch flag; a
+genuine scraper data-completeness bug surfaced by a correct gap flag; and a
+`table-layout: auto` column-width bug in the expanded volume table).
+
+Decision: moved grouping + flag computation from `cycles.js` into
+`scraper/scrape.py` (`parse_cycle`, `compute_cycle_flags`, `build_cycles`,
+`write_cycles`), writing a new `docs/cycles.json` sibling file (alongside
+`books.json`/`books-details.json`/`meta.json`) that `cycles.js` now just
+fetches and renders — no parsing/interpretation logic left client-side.
+Rationale: the anomaly heuristics are non-trivial and iterating on them
+benefited from being testable in plain Python against the real dataset;
+centralizing in the scraper also means every future consumer of
+"cycle-aware" data reads the same precomputed, flagged structure instead of
+re-deriving it. Trade-off accepted: updating the heuristic now requires a
+scraper change + workflow run to reflect live, vs. an instant JS-only
+refresh — acceptable now that the heuristic has been validated against the
+full real dataset.
+
+Also corrected: the original claim that "0 of 516 cycle values deviate from
+the `(tom N)` pattern" was based on a substring check, not a strict
+single-number match — 16 values are actually omnibus ranges like `(tom
+1-3)`. The parser (both the retired JS version and the current Python one)
+handles this via an optional second number, treating the whole span as
+covered for gap detection.
+
 ## Out of scope (explicitly not building now)
 
 - Any UI to fix/dedupe the flagged issues (e.g. no way to edit `books.json`

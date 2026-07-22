@@ -15,19 +15,23 @@ Three-phase pipeline:
      marked and not retried; transient errors retry with exponential
      backoff (5/10/20/40/80s, max 5 attempts).
 
-Also writes docs/meta.json with last-run metadata, and emits a
-markdown summary to $GITHUB_STEP_SUMMARY (and stderr) on completion
-even if the run crashed mid-batch.
+Also writes docs/meta.json with last-run metadata, and docs/cycles.json —
+books grouped by their `cycle` field into series, with per-series anomaly
+flags (duplicate tom, numbering gap, shelf-state mismatch) for the cycles
+overview page — and emits a markdown summary to $GITHUB_STEP_SUMMARY (and
+stderr) on completion even if the run crashed mid-batch.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import math
 import os
 import re
 import sys
 import time
+from collections import defaultdict
 from pathlib import Path
 
 import httpx
@@ -59,6 +63,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 OUT_PATH = REPO_ROOT / "docs" / "books.json"
 DETAILS_PATH = REPO_ROOT / "docs" / "books-details.json"
 META_PATH = REPO_ROOT / "docs" / "meta.json"
+CYCLES_PATH = REPO_ROOT / "docs" / "cycles.json"
 
 # Enrichment tunables
 SLEEP_DETAIL_S = 1.5
@@ -137,6 +142,178 @@ def parse_page(html: str) -> tuple[list[dict], int | None]:
         except ValueError:
             pass
     return books, max_page
+
+
+# --- Cycle/series grouping (docs/cycles.json) -------------------------------
+#
+# Most `cycle` strings are "<name> (tom N)". A minority are omnibus editions
+# spanning several tomes, "<name> (tom N-M)" (e.g. three Glen Cook Czarna
+# Kompania books each collecting 2-3 original volumes). A rare few are
+# malformed on LC's own side (a triple-range typo) — best-effort fallback
+# still groups those by name using the first number found.
+_CYCLE_RE = re.compile(r"^(.*?)\s*\(tom\s*([\d.]+)(?:\s*[-–]\s*([\d.]+))?\)\s*$", re.IGNORECASE)
+_CYCLE_FALLBACK_NAME_RE = re.compile(r"^(.*?)\s*\(tom", re.IGNORECASE)
+_CYCLE_FALLBACK_NUM_RE = re.compile(r"\(tom\s*([\d.]+)", re.IGNORECASE)
+
+# Marks the latest tracked volume of a series LC knows isn't finished yet —
+# expected to differ from earlier volumes, not a real shelf inconsistency.
+_SHELF_IGNORED_FOR_MISMATCH = "Niedokończone serie"
+
+
+def parse_cycle(cycle_str: str | None) -> dict | None:
+    """Parse a raw `cycle` string into {name, tom_from, tom_to}."""
+    if not cycle_str:
+        return None
+    m = _CYCLE_RE.match(cycle_str)
+    if m:
+        tom_from = float(m.group(2))
+        tom_to = float(m.group(3)) if m.group(3) is not None else tom_from
+        return {"name": m.group(1).strip(), "tom_from": tom_from, "tom_to": tom_to}
+    fb = _CYCLE_FALLBACK_NUM_RE.search(cycle_str)
+    if not fb:
+        return None
+    name_m = _CYCLE_FALLBACK_NAME_RE.match(cycle_str)
+    name = name_m.group(1).strip() if name_m else cycle_str
+    tom_from = float(fb.group(1))
+    return {"name": name, "tom_from": tom_from, "tom_to": tom_from}
+
+
+def _fmt_tom_num(n: float) -> str:
+    return str(int(n)) if n == int(n) else str(n)
+
+
+def tom_label(tom_from: float, tom_to: float) -> str:
+    if tom_from == tom_to:
+        return _fmt_tom_num(tom_from)
+    return f"{_fmt_tom_num(tom_from)}–{_fmt_tom_num(tom_to)}"
+
+
+def compute_cycle_flags(volumes: list[dict]) -> list[dict]:
+    """Detect per-series anomalies worth surfacing in the cycles view."""
+    flags: list[dict] = []
+
+    by_tom: dict[tuple[float, float], list[dict]] = defaultdict(list)
+    for v in volumes:
+        by_tom[(v["tom_from"], v["tom_to"])].append(v)
+    for (tom_from, tom_to), vs in by_tom.items():
+        if len(vs) < 2:
+            continue
+        label = tom_label(tom_from, tom_to)
+        titles = {(v.get("title") or "").strip().lower() for v in vs}
+        if len(titles) == 1:
+            detail = " vs ".join(
+                f"{v.get('title', '')} ({', '.join(v.get('shelves') or []) or 'brak półek'})"
+                for v in vs
+            )
+            flags.append({
+                "key": "dup-tom",
+                "label": "zdublowany tom",
+                "detail": f"Zdublowany tom {label}: {detail}",
+            })
+        else:
+            detail = " / ".join(v.get("title", "") for v in vs)
+            flags.append({
+                "key": "split-tom",
+                "label": "rozdzielony bez oznaczenia",
+                "detail": (
+                    f"Ten sam numer tomu ({label}) na różnych książkach — "
+                    f"prawdopodobnie fizyczny podział bez osobnego oznaczenia na LC: {detail}"
+                ),
+            })
+
+    # Numbering-gap detection over whole integers. Multiple entries sharing
+    # the same fractional integer part (e.g. tom 2.1 + tom 2.2, two physical
+    # halves of one logical volume) jointly cover that integer even though
+    # neither alone reaches a whole number. A single such entry (a lone
+    # 0.5-style novella) intentionally does NOT count as covering anything —
+    # that's optional side content, not a numbered volume.
+    covered: set[int] = set()
+    for v in volumes:
+        lo, hi = math.ceil(v["tom_from"]), math.floor(v["tom_to"])
+        covered.update(range(lo, hi + 1))
+    frac_floor_counts: dict[int, int] = defaultdict(int)
+    for v in volumes:
+        if v["tom_from"] != int(v["tom_from"]):
+            frac_floor_counts[math.floor(v["tom_from"])] += 1
+    for floor_val, count in frac_floor_counts.items():
+        if count >= 2:
+            covered.add(floor_val)
+    ints = sorted(covered)
+    if len(ints) >= 2:
+        missing = [n for n in range(ints[0], ints[-1] + 1) if n not in covered]
+        if missing:
+            flags.append({
+                "key": "gap",
+                "label": "luka w numeracji",
+                "detail": f"Brakujące tomy: {', '.join(str(m) for m in missing)}",
+            })
+
+    shelf_sets = {
+        tuple(sorted(s for s in (v.get("shelves") or []) if s != _SHELF_IGNORED_FOR_MISMATCH))
+        for v in volumes
+    }
+    if len(shelf_sets) > 1:
+        flags.append({
+            "key": "shelf-mismatch",
+            "label": "rozbieżność półek",
+            "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły.",
+        })
+
+    return flags
+
+
+def build_cycles(books: list[dict]) -> list[dict]:
+    """Group books by their `cycle` field into series with computed flags."""
+    groups: dict[str, list[dict]] = defaultdict(list)
+    for b in books:
+        parsed = parse_cycle(b.get("cycle"))
+        if not parsed:
+            continue
+        groups[parsed["name"]].append({**b, "tom_from": parsed["tom_from"], "tom_to": parsed["tom_to"]})
+
+    cycles = []
+    for name, volumes in groups.items():
+        volumes.sort(key=lambda v: v["tom_from"])
+        authors: list[str] = []
+        seen_authors: set[str] = set()
+        for v in volumes:
+            for a in v.get("authors") or []:
+                if a not in seen_authors:
+                    seen_authors.add(a)
+                    authors.append(a)
+        cycles.append({
+            "name": name,
+            "authors": authors,
+            "flags": compute_cycle_flags(volumes),
+            "volumes": [
+                {
+                    "id": v.get("id"),
+                    "title": v.get("title"),
+                    "url": v.get("url"),
+                    "cover": v.get("cover"),
+                    "tom_from": v["tom_from"],
+                    "tom_to": v["tom_to"],
+                    "tom_label": tom_label(v["tom_from"], v["tom_to"]),
+                    "shelves": v.get("shelves") or [],
+                    "average_rating": v.get("average_rating"),
+                    "user_rating": v.get("user_rating"),
+                    "read_date": v.get("read_date"),
+                }
+                for v in volumes
+            ],
+        })
+    cycles.sort(key=lambda c: c["name"].lower())
+    return cycles
+
+
+def write_cycles(books: list[dict]) -> None:
+    cycles = build_cycles(books)
+    CYCLES_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CYCLES_PATH.write_text(
+        json.dumps({"cycles": cycles}, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    print(f"Wrote {len(cycles)} cycles to {CYCLES_PATH}", file=sys.stderr)
 
 
 AJAX_URL = "https://lubimyczytac.pl/profile/getLibraryBooksList"
@@ -684,6 +861,8 @@ def main() -> None:
     }
     args.out.write_text(json.dumps(payload, ensure_ascii=False, indent=2))
     print(f"Wrote {len(books)} books to {args.out}", file=sys.stderr)
+
+    write_cycles(books)
 
     if args.no_enrich or args.from_file:
         print("Enrichment skipped.", file=sys.stderr)
