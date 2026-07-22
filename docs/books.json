@@ -1,7 +1,58 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 546,
+  "count": 541,
   "books": [
+    {
+      "id": "5090676",
+      "title": "Pokłosie. Opowieści z Kosodomu",
+      "url": "https://lubimyczytac.pl/ksiazka/5090676/poklosie-opowiesci-z-kosodomu",
+      "type": "book",
+      "authors": [
+        "Neal Shusterman"
+      ],
+      "average_rating": 7.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do kupienia w..."
+      ],
+      "cycle": "Żniwa śmierci (tom 3.5)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5090000/5090676/1123701-170x243.jpg"
+    },
+    {
+      "id": "5190702",
+      "title": "Przeznaczenie umarłych",
+      "url": "https://lubimyczytac.pl/ksiazka/5190702/przeznaczenie-umarlych",
+      "type": "book",
+      "authors": [
+        "Kel Kade"
+      ],
+      "average_rating": 7.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Dostępne na Legimi"
+      ],
+      "cycle": "Tajne proroctwo (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5190000/5190702/1276238-170x243.jpg"
+    },
+    {
+      "id": "4807917",
+      "title": "Język cierni. Opowieści snute o północy i niebezpieczna magia",
+      "url": "https://lubimyczytac.pl/ksiazka/4807917/jezyk-cierni-opowiesci-snute-o-polnocy-i-niebezpieczna-magia",
+      "type": "book",
+      "authors": [
+        "Leigh Bardugo"
+      ],
+      "average_rating": 7.8,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Grisza (tom 0.5-2.5-2.6)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4807000/4807917/610371-170x243.jpg"
+    },
     {
       "id": "5163414",
       "title": "Gorath. Droga gniewu",
@@ -46,7 +97,7 @@
       "authors": [
         "Janusz Stankiewicz"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.0,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -67,9 +118,7 @@
       "average_rating": 6.8,
       "user_rating": 7.0,
       "shelves": [
-        "Przeczytane",
-        "Do przeczytania",
-        "Dostępne na Legimi"
+        "Przeczytane"
       ],
       "cycle": "Gorath (tom 0.5)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5123000/5123665/1168562-170x243.jpg",
@@ -83,7 +132,7 @@
       "authors": [
         "Janusz Stankiewicz"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Teraz czytam",
@@ -715,23 +764,6 @@
       "read_date": "2026-04-08"
     },
     {
-      "id": "5230443",
-      "title": "Wojna córek",
-      "url": "https://lubimyczytac.pl/ksiazka/5230443/wojna-corek",
-      "type": "book",
-      "authors": [
-        "Christopher Buehlman"
-      ],
-      "average_rating": 6.5,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do sprawdzenia"
-      ],
-      "cycle": "Czarny Język (tom 0)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5230000/5230443/1345408-170x243.jpg"
-    },
-    {
       "id": "5124556",
       "title": "Śmiała",
       "url": "https://lubimyczytac.pl/ksiazka/5124556/smiala",
@@ -1115,7 +1147,8 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Posiadane"
+        "Posiadane",
+        "Niedokończone serie"
       ],
       "cycle": "Trylogia Deina (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5219000/5219095/1323942-170x243.jpg"
@@ -2357,8 +2390,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Posiadane",
-        "Niedokończone serie"
+        "Posiadane"
       ],
       "cycle": "Trylogia Deina (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5116000/5116417/1153980-170x243.jpg"
@@ -2704,8 +2736,7 @@
       "average_rating": 7.6,
       "user_rating": 8.0,
       "shelves": [
-        "Przeczytane",
-        "Na czytniku"
+        "Przeczytane"
       ],
       "cycle": "Die Götterkriege (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4916000/4916267/792832-170x243.jpg"
@@ -2739,8 +2770,7 @@
       "average_rating": 6.7,
       "user_rating": 7.0,
       "shelves": [
-        "Przeczytane",
-        "Na czytniku"
+        "Przeczytane"
       ],
       "cycle": "Die Götterkriege (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4914000/4914217/788134-170x243.jpg"
@@ -3079,8 +3109,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Posiadane",
-        "Dostępne na Legimi"
+        "Posiadane"
       ],
       "cycle": "Pieśń krwi i powietrza (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5161000/5161887/1217754-170x243.jpg"
@@ -3164,6 +3193,7 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
+        "Do przeczytania",
         "Dostępne na Legimi"
       ],
       "cycle": "Kroniki mroku/King's Dark Tidings (tom 5)",
@@ -4493,8 +4523,7 @@
       "average_rating": 8.0,
       "user_rating": 8.0,
       "shelves": [
-        "Przeczytane",
-        "Na czytniku"
+        "Przeczytane"
       ],
       "cycle": "Wielkie Płaszcze (tom 4)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4882000/4882307/840538-170x243.jpg",
@@ -5211,24 +5240,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/4876000/4876005/714321-170x243.jpg"
     },
     {
-      "id": "4920450",
-      "title": "Mag bitewny. Księga II",
-      "url": "https://lubimyczytac.pl/ksiazka/4920450/mag-bitewny-ksiega-ii",
-      "type": "book",
-      "authors": [
-        "Peter A. Flannery"
-      ],
-      "average_rating": 7.5,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Na czytniku"
-      ],
-      "cycle": "Mag bitewny (tom 1.2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4920000/4920450/946594-170x243.jpg"
-    },
-    {
       "id": "4905280",
       "title": "Gniew",
       "url": "https://lubimyczytac.pl/ksiazka/4905280/gniew",
@@ -5689,6 +5700,7 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
+        "Do przeczytania",
         "Posiadane"
       ],
       "cycle": "Śmierć imperiów/The Grave of Empires (tom 1)",
@@ -6122,24 +6134,6 @@
       "read_date": "2020-01-13"
     },
     {
-      "id": "4909955",
-      "title": "Mag bitewny. Księga I",
-      "url": "https://lubimyczytac.pl/ksiazka/4909955/mag-bitewny-ksiega-i",
-      "type": "book",
-      "authors": [
-        "Peter A. Flannery"
-      ],
-      "average_rating": 7.3,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Na czytniku"
-      ],
-      "cycle": "Mag bitewny (tom 1.1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4909000/4909955/946592-170x243.jpg"
-    },
-    {
       "id": "251253",
       "title": "Srebrzyste wizje",
       "url": "https://lubimyczytac.pl/ksiazka/251253/srebrzyste-wizje",
@@ -6383,29 +6377,12 @@
       "average_rating": 7.6,
       "user_rating": 9.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "INNI (tom 6)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4892000/4892305/789082-170x243.jpg",
       "read_date": "2019-09-08"
-    },
-    {
-      "id": "170127",
-      "title": "Zdradziecki plan",
-      "url": "https://lubimyczytac.pl/ksiazka/170127/zdradziecki-plan",
-      "type": "book",
-      "authors": [
-        "Michael James Sullivan"
-      ],
-      "average_rating": 7.8,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Na czytniku"
-      ],
-      "cycle": "Odkrycia Riyrii (tom 5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/170000/170127/118798-170x243.jpg"
     },
     {
       "id": "4848787",
@@ -6532,22 +6509,6 @@
       "cycle": "INNI (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/217000/217733/261632-170x243.jpg",
       "read_date": "2019-06-21"
-    },
-    {
-      "id": "4879919",
-      "title": "The Sky Weaver",
-      "url": "https://lubimyczytac.pl/ksiazka/4879919/the-sky-weaver",
-      "type": "book",
-      "authors": [
-        "Kristen Ciccarelli"
-      ],
-      "average_rating": 7.3,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać"
-      ],
-      "cycle": "Iskari (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4879000/4879919/721867-170x243.jpg"
     },
     {
       "id": "4880909",
@@ -7447,22 +7408,6 @@
       "read_date": "2018-07-16"
     },
     {
-      "id": "64572",
-      "title": "Czarodzieje",
-      "url": "https://lubimyczytac.pl/ksiazka/64572/czarodzieje",
-      "type": "book",
-      "authors": [
-        "Lev Grossman"
-      ],
-      "average_rating": 5.6,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać"
-      ],
-      "cycle": "Fillory (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/64000/64572/170x243.jpg"
-    },
-    {
       "id": "271548",
       "title": "Córka Krwawych",
       "url": "https://lubimyczytac.pl/ksiazka/271548/corka-krwawych",
@@ -7634,7 +7579,8 @@
       "average_rating": 8.1,
       "user_rating": 7.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "Szklany Tron (tom 6)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5188000/5188243/1268680-170x243.jpg",
@@ -8256,7 +8202,8 @@
       "average_rating": 8.5,
       "user_rating": 10.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "Szklany Tron (tom 5)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5169000/5169747/1232358-170x243.jpg",
@@ -8390,24 +8337,6 @@
         "Na czytniku"
       ],
       "cover": "https://s.lubimyczytac.pl/upload/books/4011000/4011893/756752-170x243.jpg"
-    },
-    {
-      "id": "4807917",
-      "title": "Język cierni. Opowieści snute o północy i niebezpieczna magia",
-      "url": "https://lubimyczytac.pl/ksiazka/4807917/jezyk-cierni-opowiesci-snute-o-polnocy-i-niebezpieczna-magia",
-      "type": "book",
-      "authors": [
-        "Leigh Bardugo"
-      ],
-      "average_rating": 7.8,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Grisza (tom 0.5-2.5-2.6)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4807000/4807917/610371-170x243.jpg"
     },
     {
       "id": "309764",
@@ -9102,22 +9031,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/5001000/5001456/958555-170x243.jpg"
     },
     {
-      "id": "27475",
-      "title": "Malowany człowiek: Księga I",
-      "url": "https://lubimyczytac.pl/ksiazka/27475/malowany-czlowiek-ksiega-i",
-      "type": "book",
-      "authors": [
-        "Peter V. Brett"
-      ],
-      "average_rating": 7.9,
-      "user_rating": 9.0,
-      "shelves": [
-        "Przeczytane"
-      ],
-      "cycle": "Cykl Demoniczny (tom 1.1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/27000/27475/170x243.jpg"
-    },
-    {
       "id": "4809",
       "title": "Diablo: Dziedzictwo krwi",
       "url": "https://lubimyczytac.pl/ksiazka/4809/diablo-dziedzictwo-krwi",
@@ -9427,7 +9340,8 @@
       "average_rating": 8.4,
       "user_rating": 9.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "Z Mgły Zrodzony (tom 3)",
       "cover": "https://s.lubimyczytac.pl/upload/books/259000/259728/756768-170x243.jpg"
@@ -9443,7 +9357,8 @@
       "average_rating": 8.0,
       "user_rating": 9.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "Z Mgły Zrodzony (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/259000/259727/756766-170x243.jpg"
@@ -9459,7 +9374,8 @@
       "average_rating": 8.2,
       "user_rating": 9.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "Z Mgły Zrodzony (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/255000/255407/756765-170x243.jpg"
@@ -9493,7 +9409,8 @@
       "average_rating": 8.4,
       "user_rating": 9.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "Szklany Tron (tom 4)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5169000/5169748/1232359-170x243.jpg"
@@ -9509,7 +9426,8 @@
       "average_rating": 8.3,
       "user_rating": 8.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "Szklany Tron (tom 3)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5166000/5166310/1232360-170x243.jpg"
@@ -9525,7 +9443,8 @@
       "average_rating": 8.0,
       "user_rating": 8.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "Szklany Tron (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5126000/5126667/1174008-170x243.jpg"
@@ -9541,7 +9460,8 @@
       "average_rating": 7.8,
       "user_rating": 8.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "Szklany Tron (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5126000/5126665/1174004-170x243.jpg"

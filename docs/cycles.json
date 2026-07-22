@@ -844,21 +844,6 @@
           "read_date": "2022-01-27"
         },
         {
-          "id": "27475",
-          "title": "Malowany człowiek: Księga I",
-          "url": "https://lubimyczytac.pl/ksiazka/27475/malowany-czlowiek-ksiega-i",
-          "cover": "https://s.lubimyczytac.pl/upload/books/27000/27475/170x243.jpg",
-          "tom_from": 1.1,
-          "tom_to": 1.1,
-          "tom_label": "1.1",
-          "shelves": [
-            "Przeczytane"
-          ],
-          "average_rating": 7.9,
-          "user_rating": 9.0,
-          "read_date": null
-        },
-        {
           "id": "5187461",
           "title": "Cykl demoniczny. Nowele",
           "url": "https://lubimyczytac.pl/ksiazka/5187461/cykl-demoniczny-nowele",
@@ -1347,31 +1332,6 @@
       ]
     },
     {
-      "name": "Czarny Język",
-      "authors": [
-        "Christopher Buehlman"
-      ],
-      "flags": [],
-      "volumes": [
-        {
-          "id": "5230443",
-          "title": "Wojna córek",
-          "url": "https://lubimyczytac.pl/ksiazka/5230443/wojna-corek",
-          "cover": "https://s.lubimyczytac.pl/upload/books/5230000/5230443/1345408-170x243.jpg",
-          "tom_from": 0.0,
-          "tom_to": 0.0,
-          "tom_label": "0",
-          "shelves": [
-            "Chcę przeczytać",
-            "Do sprawdzenia"
-          ],
-          "average_rating": 6.5,
-          "user_rating": null,
-          "read_date": null
-        }
-      ]
-    },
-    {
       "name": "Czarny Mag",
       "authors": [
         "Rachel E. Carter"
@@ -1718,13 +1678,7 @@
       "authors": [
         "Richard Schwartz"
       ],
-      "flags": [
-        {
-          "key": "shelf-mismatch",
-          "label": "rozbieżność półek",
-          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
-        }
-      ],
+      "flags": [],
       "volumes": [
         {
           "id": "4914217",
@@ -1735,8 +1689,7 @@
           "tom_to": 1.0,
           "tom_label": "1",
           "shelves": [
-            "Przeczytane",
-            "Na czytniku"
+            "Przeczytane"
           ],
           "average_rating": 6.7,
           "user_rating": 7.0,
@@ -1751,8 +1704,7 @@
           "tom_to": 2.0,
           "tom_label": "2",
           "shelves": [
-            "Przeczytane",
-            "Na czytniku"
+            "Przeczytane"
           ],
           "average_rating": 7.6,
           "user_rating": 8.0,
@@ -2874,30 +2826,6 @@
       ]
     },
     {
-      "name": "Fillory",
-      "authors": [
-        "Lev Grossman"
-      ],
-      "flags": [],
-      "volumes": [
-        {
-          "id": "64572",
-          "title": "Czarodzieje",
-          "url": "https://lubimyczytac.pl/ksiazka/64572/czarodzieje",
-          "cover": "https://s.lubimyczytac.pl/upload/books/64000/64572/170x243.jpg",
-          "tom_from": 1.0,
-          "tom_to": 1.0,
-          "tom_label": "1",
-          "shelves": [
-            "Chcę przeczytać"
-          ],
-          "average_rating": 5.6,
-          "user_rating": null,
-          "read_date": null
-        }
-      ]
-    },
-    {
       "name": "Gdzie diabeł mówi dobranoc",
       "authors": [
         "Karina Bonowicz"
@@ -2944,9 +2872,7 @@
           "tom_to": 0.5,
           "tom_label": "0.5",
           "shelves": [
-            "Przeczytane",
-            "Do przeczytania",
-            "Dostępne na Legimi"
+            "Przeczytane"
           ],
           "average_rating": 6.8,
           "user_rating": 7.0,
@@ -2964,7 +2890,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 7.1,
+          "average_rating": 7.0,
           "user_rating": 8.0,
           "read_date": "2026-07-13"
         },
@@ -3012,7 +2938,7 @@
             "Teraz czytam",
             "Posiadane"
           ],
-          "average_rating": 7.8,
+          "average_rating": 7.6,
           "user_rating": null,
           "read_date": null
         }
@@ -3040,12 +2966,10 @@
           "tom_to": 0.5,
           "tom_label": "0.5",
           "shelves": [
-            "Chcę przeczytać",
-            "Do przeczytania",
-            "Posiadane"
+            "Przeczytane"
           ],
           "average_rating": 7.8,
-          "user_rating": null,
+          "user_rating": 7.0,
           "read_date": null
         },
         {
@@ -3318,13 +3242,7 @@
       "authors": [
         "Anne Bishop"
       ],
-      "flags": [
-        {
-          "key": "shelf-mismatch",
-          "label": "rozbieżność półek",
-          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
-        }
-      ],
+      "flags": [],
       "volumes": [
         {
           "id": "188480",
@@ -3415,35 +3333,12 @@
           "tom_to": 6.0,
           "tom_label": "6",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 7.6,
           "user_rating": 9.0,
           "read_date": "2019-09-08"
-        }
-      ]
-    },
-    {
-      "name": "Iskari",
-      "authors": [
-        "Kristen Ciccarelli"
-      ],
-      "flags": [],
-      "volumes": [
-        {
-          "id": "4879919",
-          "title": "The Sky Weaver",
-          "url": "https://lubimyczytac.pl/ksiazka/4879919/the-sky-weaver",
-          "cover": "https://s.lubimyczytac.pl/upload/books/4879000/4879919/721867-170x243.jpg",
-          "tom_from": 3.0,
-          "tom_to": 3.0,
-          "tom_label": "3",
-          "shelves": [
-            "Chcę przeczytać"
-          ],
-          "average_rating": 7.3,
-          "user_rating": null,
-          "read_date": null
         }
       ]
     },
@@ -3947,6 +3842,7 @@
           "tom_label": "5",
           "shelves": [
             "Chcę przeczytać",
+            "Do przeczytania",
             "Dostępne na Legimi"
           ],
           "average_rating": 7.5,
@@ -4819,13 +4715,7 @@
       "authors": [
         "Peter A. Flannery"
       ],
-      "flags": [
-        {
-          "key": "shelf-mismatch",
-          "label": "rozbieżność półek",
-          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
-        }
-      ],
+      "flags": [],
       "volumes": [
         {
           "id": "5217414",
@@ -4858,40 +4748,6 @@
             "Posiadane"
           ],
           "average_rating": 7.7,
-          "user_rating": null,
-          "read_date": null
-        },
-        {
-          "id": "4909955",
-          "title": "Mag bitewny. Księga I",
-          "url": "https://lubimyczytac.pl/ksiazka/4909955/mag-bitewny-ksiega-i",
-          "cover": "https://s.lubimyczytac.pl/upload/books/4909000/4909955/946592-170x243.jpg",
-          "tom_from": 1.1,
-          "tom_to": 1.1,
-          "tom_label": "1.1",
-          "shelves": [
-            "Chcę przeczytać",
-            "Do przeczytania",
-            "Na czytniku"
-          ],
-          "average_rating": 7.3,
-          "user_rating": null,
-          "read_date": null
-        },
-        {
-          "id": "4920450",
-          "title": "Mag bitewny. Księga II",
-          "url": "https://lubimyczytac.pl/ksiazka/4920450/mag-bitewny-ksiega-ii",
-          "cover": "https://s.lubimyczytac.pl/upload/books/4920000/4920450/946594-170x243.jpg",
-          "tom_from": 1.2,
-          "tom_to": 1.2,
-          "tom_label": "1.2",
-          "shelves": [
-            "Chcę przeczytać",
-            "Do przeczytania",
-            "Na czytniku"
-          ],
-          "average_rating": 7.5,
           "user_rating": null,
           "read_date": null
         }
@@ -5508,18 +5364,7 @@
       "authors": [
         "Michael James Sullivan"
       ],
-      "flags": [
-        {
-          "key": "dup-tom",
-          "label": "zdublowany tom",
-          "detail": "Zdublowany tom 5: Zdradziecki plan (Przeczytane) vs Zdradziecki plan (Chcę przeczytać, Do przeczytania, Na czytniku)"
-        },
-        {
-          "key": "shelf-mismatch",
-          "label": "rozbieżność półek",
-          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
-        }
-      ],
+      "flags": [],
       "volumes": [
         {
           "id": "115438",
@@ -5580,23 +5425,6 @@
           "average_rating": 7.8,
           "user_rating": 8.0,
           "read_date": "2026-05-14"
-        },
-        {
-          "id": "170127",
-          "title": "Zdradziecki plan",
-          "url": "https://lubimyczytac.pl/ksiazka/170127/zdradziecki-plan",
-          "cover": "https://s.lubimyczytac.pl/upload/books/170000/170127/118798-170x243.jpg",
-          "tom_from": 5.0,
-          "tom_to": 5.0,
-          "tom_label": "5",
-          "shelves": [
-            "Chcę przeczytać",
-            "Do przeczytania",
-            "Na czytniku"
-          ],
-          "average_rating": 7.8,
-          "user_rating": null,
-          "read_date": null
         },
         {
           "id": "5215312",
@@ -5991,13 +5819,7 @@
       "authors": [
         "A.M. Engler"
       ],
-      "flags": [
-        {
-          "key": "shelf-mismatch",
-          "label": "rozbieżność półek",
-          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
-        }
-      ],
+      "flags": [],
       "volumes": [
         {
           "id": "5161887",
@@ -6010,8 +5832,7 @@
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Posiadane",
-            "Dostępne na Legimi"
+            "Posiadane"
           ],
           "average_rating": 7.0,
           "user_rating": null,
@@ -7317,13 +7138,7 @@
       "authors": [
         "Sarah J. Maas"
       ],
-      "flags": [
-        {
-          "key": "shelf-mismatch",
-          "label": "rozbieżność półek",
-          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
-        }
-      ],
+      "flags": [],
       "volumes": [
         {
           "id": "3890973",
@@ -7350,7 +7165,8 @@
           "tom_to": 1.0,
           "tom_label": "1",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 7.8,
           "user_rating": 8.0,
@@ -7365,7 +7181,8 @@
           "tom_to": 2.0,
           "tom_label": "2",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 8.0,
           "user_rating": 8.0,
@@ -7380,7 +7197,8 @@
           "tom_to": 3.0,
           "tom_label": "3",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 8.3,
           "user_rating": 8.0,
@@ -7395,7 +7213,8 @@
           "tom_to": 4.0,
           "tom_label": "4",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 8.4,
           "user_rating": 9.0,
@@ -7410,7 +7229,8 @@
           "tom_to": 5.0,
           "tom_label": "5",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 8.5,
           "user_rating": 10.0,
@@ -7425,7 +7245,8 @@
           "tom_to": 6.0,
           "tom_label": "6",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 8.1,
           "user_rating": 7.0,
@@ -7626,6 +7447,23 @@
           "tom_from": 1.0,
           "tom_to": 1.0,
           "tom_label": "1",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Dostępne na Legimi"
+          ],
+          "average_rating": 7.0,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5190702",
+          "title": "Przeznaczenie umarłych",
+          "url": "https://lubimyczytac.pl/ksiazka/5190702/przeznaczenie-umarlych",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5190000/5190702/1276238-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
@@ -7961,8 +7799,7 @@
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Posiadane",
-            "Niedokończone serie"
+            "Posiadane"
           ],
           "average_rating": 7.8,
           "user_rating": null,
@@ -7979,7 +7816,8 @@
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Posiadane"
+            "Posiadane",
+            "Niedokończone serie"
           ],
           "average_rating": 7.6,
           "user_rating": null,
@@ -8766,13 +8604,7 @@
       "authors": [
         "Sebastien de Castell"
       ],
-      "flags": [
-        {
-          "key": "shelf-mismatch",
-          "label": "rozbieżność półek",
-          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
-        }
-      ],
+      "flags": [],
       "volumes": [
         {
           "id": "4502694",
@@ -8828,8 +8660,7 @@
           "tom_to": 4.0,
           "tom_label": "4",
           "shelves": [
-            "Przeczytane",
-            "Na czytniku"
+            "Przeczytane"
           ],
           "average_rating": 8.0,
           "user_rating": 8.0,
@@ -9276,7 +9107,8 @@
           "tom_to": 1.0,
           "tom_label": "1",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 8.2,
           "user_rating": 9.0,
@@ -9291,7 +9123,8 @@
           "tom_to": 2.0,
           "tom_label": "2",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 8.0,
           "user_rating": 9.0,
@@ -9306,7 +9139,8 @@
           "tom_to": 3.0,
           "tom_label": "3",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 8.4,
           "user_rating": 9.0,
@@ -9809,13 +9643,7 @@
       "authors": [
         "Sam Sykes"
       ],
-      "flags": [
-        {
-          "key": "shelf-mismatch",
-          "label": "rozbieżność półek",
-          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
-        }
-      ],
+      "flags": [],
       "volumes": [
         {
           "id": "4918726",
@@ -9827,6 +9655,7 @@
           "tom_label": "1",
           "shelves": [
             "Chcę przeczytać",
+            "Do przeczytania",
             "Posiadane"
           ],
           "average_rating": 6.8,
@@ -9901,7 +9730,13 @@
       "authors": [
         "Neal Shusterman"
       ],
-      "flags": [],
+      "flags": [
+        {
+          "key": "shelf-mismatch",
+          "label": "rozbieżność półek",
+          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
+        }
+      ],
       "volumes": [
         {
           "id": "5188353",
@@ -9954,6 +9789,22 @@
             "Na czytniku"
           ],
           "average_rating": 7.5,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5090676",
+          "title": "Pokłosie. Opowieści z Kosodomu",
+          "url": "https://lubimyczytac.pl/ksiazka/5090676/poklosie-opowiesci-z-kosodomu",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5090000/5090676/1123701-170x243.jpg",
+          "tom_from": 3.5,
+          "tom_to": 3.5,
+          "tom_label": "3.5",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do kupienia w..."
+          ],
+          "average_rating": 7.1,
           "user_rating": null,
           "read_date": null
         }
