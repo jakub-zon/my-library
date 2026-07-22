@@ -3,33 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Do przeczytania — Biblioteka</title>
+  <title>Cykle — Biblioteka</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <header>
     <nav class="topnav">
       <a href="./index.html">Biblioteka</a>
-      <a href="./cycles.html">Cykle</a>
+      <a href="./cycles.html" class="active">Cykle</a>
       <a href="./to-check.html">Do sprawdzenia</a>
-      <a href="./to-read.html" class="active">Do przeczytania</a>
+      <a href="./to-read.html">Do przeczytania</a>
       <a href="./reading-plan.html">Plan czytelniczy</a>
       <a href="./accepted.html">Zaakceptowane</a>
       <a href="./rejected.html">Odrzucone</a>
     </nav>
-    <h1>Do przeczytania</h1>
+    <h1>Cykle</h1>
     <p class="stats" id="stats">Ładowanie…</p>
   </header>
 
   <main>
-    <table id="entries">
-      <thead><tr></tr></thead>
+    <table id="cycles">
+      <thead>
+        <tr>
+          <th class="no-sort">Okładka</th>
+          <th class="no-sort">Cykl</th>
+          <th class="no-sort">Autor</th>
+          <th class="no-sort num">Tomy</th>
+          <th class="no-sort">Flagi</th>
+          <th class="no-sort">Półki</th>
+        </tr>
+      </thead>
       <tbody></tbody>
     </table>
   </main>
 
-  <script>window.SHELF_NAME = "Do przeczytania";</script>
-  <script src="./shelf-page.js" defer></script>
-  <script src="./list-view.js" defer></script>
+  <script src="./cycles.js" defer></script>
 </body>
 </html>

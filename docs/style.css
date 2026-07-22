@@ -296,6 +296,42 @@ td.empty {
 
 .dash { color: var(--muted); }
 
+.cycle-row.is-open > td { background: var(--bg-elevated); }
+
+.flag-badge {
+  display: inline-block;
+  padding: 0.05rem 0.4rem;
+  margin: 0 0.25rem 0.15rem 0;
+  background: var(--pill-bg);
+  border: 1px solid #b58a2f;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  color: #e0c47b;
+  white-space: nowrap;
+}
+
+.volume-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.volume-table th {
+  text-align: left;
+  padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.volume-table td {
+  padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.volume-table tr:last-child td { border-bottom: none; }
+
 .status-pill {
   display: inline-block;
   padding: 0.05rem 0.45rem;
