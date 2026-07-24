@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-22T16:26:28+00:00",
-  "library_total": 541,
+  "generated_at": "2026-07-24T10:17:00+00:00",
+  "library_total": 542,
   "duration_seconds": 78,
   "enrichment": {
-    "ok_first": 0,
+    "ok_first": 1,
     "retried_ok": 0,
     "skipped_already_done": 541,
     "http_404": 0,

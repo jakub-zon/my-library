@@ -4490,7 +4490,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.0,
+          "average_rating": 6.9,
           "user_rating": null,
           "read_date": null
         }
@@ -4747,7 +4747,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.7,
+          "average_rating": 7.6,
           "user_rating": null,
           "read_date": null
         }
@@ -6937,13 +6937,7 @@
       "authors": [
         "Cinda Williams Chima"
       ],
-      "flags": [
-        {
-          "key": "gap",
-          "label": "luka w numeracji",
-          "detail": "Brakujące tomy: 2"
-        }
-      ],
+      "flags": [],
       "volumes": [
         {
           "id": "4123405",
@@ -6959,6 +6953,23 @@
             "Posiadane"
           ],
           "average_rating": 6.8,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5025827",
+          "title": "Zaklinacz Cieni",
+          "url": "https://lubimyczytac.pl/ksiazka/5025827/zaklinacz-cieni",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5025000/5025827/997950-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.3,
           "user_rating": null,
           "read_date": null
         },
@@ -7168,7 +7179,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 7.8,
+          "average_rating": 7.7,
           "user_rating": 8.0,
           "read_date": null
         },
@@ -8296,7 +8307,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.6,
+          "average_rating": 7.5,
           "user_rating": null,
           "read_date": null
         }
