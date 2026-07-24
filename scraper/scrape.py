@@ -478,6 +478,117 @@ def scrape_read_dates(max_pages: int | None = None) -> dict[str, str]:
     return all_dates
 
 
+# --- Shelf-drift audit (--audit-shelves) ------------------------------------
+#
+# LC occasionally consolidates/renumbers a book's canonical id. When that
+# happens the shelf assignment can survive in the (authenticated) edit UI but
+# drop out of the public profile listing the scraper reads — the book then
+# silently vanishes from books.json even though it's still "on the shelf" as
+# far as the user can see. Found 2026-07-24 via a cycles-view gap flag
+# ("Starcie królestw" missing tom 2); confirmed a one-off by checking every
+# shelf, not something worth doing on every routine scrape (it roughly
+# doubles the request volume), hence a separate opt-in flag.
+def _parse_shelf_cards(html: str) -> tuple[dict[str, str], int | None]:
+    """Return ({book_id: title}, max_page) for one shelf-listing HTML chunk."""
+    soup = BeautifulSoup(html, "lxml")
+    ids: dict[str, str] = {}
+    for card in soup.select("div.book-card"):
+        book_id = card.get("data-book-id") or ""
+        if not book_id:
+            m = re.match(r"listBookElement(\d+)", card.get("id", "") or "")
+            book_id = m.group(1) if m else ""
+        title_el = card.select_one(".book-card__title")
+        if book_id:
+            ids[book_id] = title_el.get_text(strip=True) if title_el else "?"
+
+    max_page = None
+    pager_input = soup.select_one("input.jsPagerInput[data-maxpage]")
+    if pager_input:
+        try:
+            max_page = int(pager_input.get("data-maxpage", ""))
+        except ValueError:
+            pass
+    return ids, max_page
+
+
+def discover_shelf_ids(html: str) -> dict[str, str]:
+    """Map shelf label -> shelf id, read off any card's shelf-link hrefs."""
+    soup = BeautifulSoup(html, "lxml")
+    shelves: dict[str, str] = {}
+    for a in soup.select("a.book-card__shelf"):
+        m = re.search(r"shelfs?=(\d+)", a.get("href", "") or "")
+        if m:
+            shelves[a.get_text(strip=True)] = m.group(1)
+    return shelves
+
+
+def fetch_shelf_listing_ids(
+    client: httpx.Client, shelf_id: str, max_pages: int | None = None
+) -> dict[str, str]:
+    """Fetch every page of one shelf's public listing → {book_id: title}."""
+    params = {"shelfs": shelf_id, "page": 1}
+    r = client.get(READ_SHELF_URL, params=params, headers=HEADERS)
+    r.raise_for_status()
+    ids, max_page = _parse_shelf_cards(r.text)
+
+    total_pages = max_page or 1
+    last_page = min(total_pages, max_pages) if max_pages else total_pages
+    for page in range(2, last_page + 1):
+        time.sleep(SLEEP_BETWEEN_REQUESTS_S)
+        data = {
+            "page": page,
+            "paginatorId": PAGINATOR_ID,
+            "shelfs": shelf_id,
+            **QUERY_PARAMS,
+            "_req": f"{time.time():.11f}",
+        }
+        r = client.post(
+            AJAX_URL,
+            data=data,
+            headers={
+                **HEADERS,
+                "X-Requested-With": "XMLHttpRequest",
+                "Referer": f"{READ_SHELF_URL}?shelfs={shelf_id}",
+                "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            },
+        )
+        r.raise_for_status()
+        payload = r.json()
+        if payload.get("code") != "OK":
+            raise RuntimeError(f"AJAX shelf {shelf_id} page {page} failed: {payload}")
+        page_ids, _ = _parse_shelf_cards(payload.get("data", {}).get("content", ""))
+        if not page_ids:
+            break
+        ids.update(page_ids)
+    return ids
+
+
+def audit_shelves(books: list[dict], max_pages: int | None = None) -> list[dict]:
+    """Cross-check every shelf's public listing against known book ids.
+
+    Returns a list of {shelf, id, title} for books LC shows on a shelf but
+    that are absent from `books` — the id-merge-orphan drift described above.
+    """
+    known_ids = {str(b.get("id") or "") for b in books}
+    drift: list[dict] = []
+    with httpx.Client(follow_redirects=True, timeout=30.0) as client:
+        html = fetch_page_html(client, 1)
+        shelves = discover_shelf_ids(html)
+        print(f"Discovered {len(shelves)} shelves: {', '.join(shelves)}", file=sys.stderr)
+
+        for name, shelf_id in shelves.items():
+            time.sleep(SLEEP_BETWEEN_REQUESTS_S)
+            ids = fetch_shelf_listing_ids(client, shelf_id, max_pages=max_pages)
+            missing = {i: t for i, t in ids.items() if i not in known_ids}
+            print(
+                f"  {name}: {len(ids)} on LC, {len(missing)} missing from books.json",
+                file=sys.stderr,
+            )
+            for book_id, title in missing.items():
+                drift.append({"shelf": name, "id": book_id, "title": title})
+    return drift
+
+
 def extract_details(html: str) -> dict:
     soup = BeautifulSoup(html, "lxml")
     details: dict = {"description": None, "genre": None, "pages": None}
@@ -817,7 +928,35 @@ def main() -> None:
         default=None,
         help="For smoke-testing: only enrich the first N books needing it.",
     )
+    parser.add_argument(
+        "--audit-shelves",
+        action="store_true",
+        help=(
+            "Cross-check every shelf's public LC listing against the existing "
+            "books.json, reporting books LC shows on a shelf but that are "
+            "missing from our data (LC id-merge drift, see audit_shelves() "
+            "docstring). Standalone: loads the existing books.json, does not "
+            "scrape/enrich/write anything. Not part of the routine update — "
+            "roughly doubles request volume for something that's so far been "
+            "a one-off; run it occasionally or when a cycles-view gap flag "
+            "looks suspicious."
+        ),
+    )
     args = parser.parse_args()
+
+    if args.audit_shelves:
+        if not args.out.exists():
+            print(f"{args.out} does not exist — run a normal scrape first.", file=sys.stderr)
+            sys.exit(1)
+        books = json.loads(args.out.read_text()).get("books", [])
+        drift = audit_shelves(books, max_pages=args.max_pages)
+        if drift:
+            print(f"\n⚠ Found {len(drift)} book(s) on a shelf but missing from books.json:", file=sys.stderr)
+            for d in drift:
+                print(f"  [{d['shelf']}] id={d['id']} — {d['title']}", file=sys.stderr)
+            sys.exit(1)
+        print("\n✓ No drift found — every shelf-listed book is present in books.json.", file=sys.stderr)
+        return
 
     t_start = time.monotonic()
 
