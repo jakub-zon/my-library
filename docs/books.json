@@ -1,7 +1,241 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 542,
+  "count": 551,
   "books": [
+    {
+      "id": "5248004",
+      "title": "Jesienna republika",
+      "url": "https://lubimyczytac.pl/ksiazka/5248004/jesienna-republika",
+      "type": "book",
+      "authors": [
+        "Brian McClellan"
+      ],
+      "average_rating": 8.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Trylogia o Magach Prochowych (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5248000/5248004/1381935-170x243.jpg"
+    },
+    {
+      "id": "5248003",
+      "title": "Krwawa kampania",
+      "url": "https://lubimyczytac.pl/ksiazka/5248003/krwawa-kampania",
+      "type": "book",
+      "authors": [
+        "Brian McClellan"
+      ],
+      "average_rating": 8.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Trylogia o Magach Prochowych (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5248000/5248003/1381933-170x243.jpg"
+    },
+    {
+      "id": "5248002",
+      "title": "Obietnica krwi",
+      "url": "https://lubimyczytac.pl/ksiazka/5248002/obietnica-krwi",
+      "type": "book",
+      "authors": [
+        "Brian McClellan"
+      ],
+      "average_rating": 7.6,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Trylogia o Magach Prochowych (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5248000/5248002/1381932-170x243.jpg"
+    },
+    {
+      "id": "5014383",
+      "title": "Imperium złota",
+      "url": "https://lubimyczytac.pl/ksiazka/5014383/imperium-zlota",
+      "type": "book",
+      "authors": [
+        "S.A. Chakraborty"
+      ],
+      "average_rating": 8.3,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Dewabad (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5014000/5014383/1113919-170x243.jpg"
+    },
+    {
+      "id": "4987988",
+      "title": "Królestwo miedzi",
+      "url": "https://lubimyczytac.pl/ksiazka/4987988/krolestwo-miedzi",
+      "type": "book",
+      "authors": [
+        "S.A. Chakraborty"
+      ],
+      "average_rating": 8.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Dewabad (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4987000/4987988/1113918-170x243.jpg"
+    },
+    {
+      "id": "5075657",
+      "title": "Pół wojny",
+      "url": "https://lubimyczytac.pl/ksiazka/5075657/pol-wojny",
+      "type": "book",
+      "authors": [
+        "Joe Abercrombie"
+      ],
+      "average_rating": 7.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Morze Drzazg (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5075000/5075657/1081663-170x243.jpg"
+    },
+    {
+      "id": "5075656",
+      "title": "Pół świata",
+      "url": "https://lubimyczytac.pl/ksiazka/5075656/pol-swiata",
+      "type": "book",
+      "authors": [
+        "Joe Abercrombie"
+      ],
+      "average_rating": 7.4,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Morze Drzazg (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5075000/5075656/1081662-170x243.jpg"
+    },
+    {
+      "id": "5211328",
+      "title": "Brzeg",
+      "url": "https://lubimyczytac.pl/ksiazka/5211328/brzeg",
+      "type": "book",
+      "authors": [
+        "Robert Jackson Bennett"
+      ],
+      "average_rating": 7.3,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Założyciele (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5211000/5211328/1369535-170x243.jpg"
+    },
+    {
+      "id": "5221418",
+      "title": "Kropla zepsucia",
+      "url": "https://lubimyczytac.pl/ksiazka/5221418/kropla-zepsucia",
+      "type": "book",
+      "authors": [
+        "Robert Jackson Bennett"
+      ],
+      "average_rating": 8.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Cień Lewiatana (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5221000/5221418/1332821-170x243.jpg"
+    },
+    {
+      "id": "4912929",
+      "title": "Wojna makowa",
+      "url": "https://lubimyczytac.pl/ksiazka/4912929/wojna-makowa",
+      "type": "book",
+      "authors": [
+        "Rebecca F. Kuang"
+      ],
+      "average_rating": 7.8,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Wojna makowa (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4912000/4912929/1110165-170x243.jpg",
+      "read_date": "2026-07-26"
+    },
+    {
+      "id": "4940457",
+      "title": "Republika smoka",
+      "url": "https://lubimyczytac.pl/ksiazka/4940457/republika-smoka",
+      "type": "book",
+      "authors": [
+        "Rebecca F. Kuang"
+      ],
+      "average_rating": 8.0,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam",
+        "Posiadane"
+      ],
+      "cycle": "Wojna makowa (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4940000/4940457/1110166-170x243.jpg"
+    },
+    {
+      "id": "4962647",
+      "title": "Płonący bóg",
+      "url": "https://lubimyczytac.pl/ksiazka/4962647/plonacy-bog",
+      "type": "book",
+      "authors": [
+        "Rebecca F. Kuang"
+      ],
+      "average_rating": 7.9,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam",
+        "Posiadane"
+      ],
+      "cycle": "Wojna makowa (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4962000/4962647/1110167-170x243.jpg"
+    },
+    {
+      "id": "5244444",
+      "title": "Gorath: Zabójcy bogów",
+      "url": "https://lubimyczytac.pl/ksiazka/5244444/gorath-zabojcy-bogow",
+      "type": "book",
+      "authors": [
+        "Janusz Stankiewicz"
+      ],
+      "average_rating": 7.5,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Gorath (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5244000/5244444/1368609-170x243.jpg",
+      "read_date": "2026-07-22"
+    },
     {
       "id": "5025827",
       "title": "Zaklinacz Cieni",
@@ -32,7 +266,7 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w..."
+        "Do przeczytania"
       ],
       "cycle": "Żniwa śmierci (tom 3.5)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5090000/5090676/1123701-170x243.jpg"
@@ -143,23 +377,6 @@
       "read_date": "2026-07-16"
     },
     {
-      "id": "5244444",
-      "title": "Gorath: Zabójcy bogów",
-      "url": "https://lubimyczytac.pl/ksiazka/5244444/gorath-zabojcy-bogow",
-      "type": "book",
-      "authors": [
-        "Janusz Stankiewicz"
-      ],
-      "average_rating": 7.6,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam",
-        "Posiadane"
-      ],
-      "cycle": "Gorath (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5244000/5244444/1368609-170x243.jpg"
-    },
-    {
       "id": "5184756",
       "title": "Gniew bogów",
       "url": "https://lubimyczytac.pl/ksiazka/5184756/gniew-bogow",
@@ -225,7 +442,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w..."
+        "Do przeczytania",
+        "Posiadane"
       ],
       "cycle": "Morze Drzazg (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5073000/5073134/1077722-170x243.jpg"
@@ -242,8 +460,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w...",
-        "Niedokończone serie"
+        "Do przeczytania",
+        "Posiadane"
       ],
       "cycle": "Założyciele (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5176000/5176627/1369534-170x243.jpg"
@@ -260,7 +478,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w..."
+        "Do przeczytania",
+        "Posiadane"
       ],
       "cycle": "Kroniki Krwi i Mroku (tom 1-3)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5239000/5239841/1361031-170x243.jpg"
@@ -277,7 +496,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w...",
+        "Do przeczytania",
+        "Posiadane",
         "Niedokończone serie"
       ],
       "cycle": "The Devils (tom 1)",
@@ -368,6 +588,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
+        "Posiadane",
         "Niedokończone serie"
       ],
       "cycle": "Zapieczętowany Grobowiec (tom 1)",
@@ -403,7 +624,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w..."
+        "Do przeczytania",
+        "Posiadane"
       ],
       "cycle": "Dewabad (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970701/1113917-170x243.jpg"
@@ -416,7 +638,7 @@
       "authors": [
         "Taran Matharu"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -540,7 +762,7 @@
       "authors": [
         "Glen Cook"
       ],
-      "average_rating": 6.2,
+      "average_rating": 6.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -892,7 +1114,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 9.1,
+      "average_rating": 9.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1125,7 +1347,7 @@
       "authors": [
         "Briar Boleyn"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1622,7 +1844,7 @@
       "authors": [
         "Jen Williams"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2403,7 +2625,7 @@
       "authors": [
         "Paweł Kopijer"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2530,7 +2752,7 @@
       "authors": [
         "Evan Currie"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.0,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -2737,7 +2959,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w...",
+        "Do przeczytania",
+        "Posiadane",
         "Niedokończone serie"
       ],
       "cycle": "Cień Lewiatana (tom 1)",
@@ -2963,7 +3186,7 @@
       "authors": [
         "Peter A. Flannery"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3499,7 +3722,7 @@
       "authors": [
         "Małgorzata Lisińska"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.1,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane"
@@ -4973,24 +5196,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/4972000/4972825/908759-170x243.jpg"
     },
     {
-      "id": "4962647",
-      "title": "Płonący bóg",
-      "url": "https://lubimyczytac.pl/ksiazka/4962647/plonacy-bog",
-      "type": "book",
-      "authors": [
-        "Rebecca F. Kuang"
-      ],
-      "average_rating": 7.9,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Wojna makowa (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4962000/4962647/1110167-170x243.jpg"
-    },
-    {
       "id": "4945845",
       "title": "Rządy wilków",
       "url": "https://lubimyczytac.pl/ksiazka/4945845/rzady-wilkow",
@@ -5545,42 +5750,6 @@
       "cycle": "Zastępy Anielskie (tom 2.1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/197000/197674/199198-170x243.jpg",
       "read_date": "2020-11-16"
-    },
-    {
-      "id": "4912929",
-      "title": "Wojna makowa",
-      "url": "https://lubimyczytac.pl/ksiazka/4912929/wojna-makowa",
-      "type": "book",
-      "authors": [
-        "Rebecca F. Kuang"
-      ],
-      "average_rating": 7.8,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Wojna makowa (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4912000/4912929/1110165-170x243.jpg"
-    },
-    {
-      "id": "4940457",
-      "title": "Republika smoka",
-      "url": "https://lubimyczytac.pl/ksiazka/4940457/republika-smoka",
-      "type": "book",
-      "authors": [
-        "Rebecca F. Kuang"
-      ],
-      "average_rating": 8.0,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Wojna makowa (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4940000/4940457/1110166-170x243.jpg"
     },
     {
       "id": "4938413",
@@ -6267,7 +6436,7 @@
       "authors": [
         "Erika Johansen"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
