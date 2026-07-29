@@ -1,7 +1,23 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 551,
+  "count": 552,
   "books": [
+    {
+      "id": "5242127",
+      "title": "Na światło i mrok",
+      "url": "https://lubimyczytac.pl/ksiazka/5242127/na-swiatlo-i-mrok",
+      "type": "book",
+      "authors": [
+        "Ryan Cahill"
+      ],
+      "average_rating": 8.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do kupienia w..."
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5242000/5242127/1364625-170x243.jpg"
+    },
     {
       "id": "5248004",
       "title": "Jesienna republika",
