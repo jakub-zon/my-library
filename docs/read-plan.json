@@ -1,36 +1,6 @@
 {
   "entries": [
     {
-      "id": "5099212",
-      "title": "Cień bogów",
-      "author": "John Gwynne",
-      "url": "https://lubimyczytac.pl/ksiazka/5099212/cien-bogow",
-      "cover_url": "https://s.lubimyczytac.pl/upload/books/5099000/5099212/1248299-170x243.jpg",
-      "source": "library",
-      "when": "2026-04-27T00:00:00+02:00",
-      "note": "Saga o Krwiozaprzysiężonych t.1. Wikingowski dark fantasy, klimat Grzędowicza/Bretta. Audiobook PL: Legimi + Storytel."
-    },
-    {
-      "id": "5164155",
-      "title": "Głód bogów",
-      "author": "John Gwynne",
-      "url": "https://lubimyczytac.pl/ksiazka/5164155/glod-bogow",
-      "cover_url": "https://s.lubimyczytac.pl/upload/books/5164000/5164155/1250879-170x243.jpg",
-      "source": "library",
-      "when": "2026-04-27T00:00:00+02:00",
-      "note": "Saga o Krwiozaprzysiężonych t.2. Audiobook PL: Legimi + Storytel."
-    },
-    {
-      "id": "5184756",
-      "title": "Gniew bogów",
-      "author": "John Gwynne",
-      "url": "https://lubimyczytac.pl/ksiazka/5184756/gniew-bogow",
-      "cover_url": "https://s.lubimyczytac.pl/upload/books/5184000/5184756/1274935-170x243.jpg",
-      "source": "library",
-      "when": "2026-04-27T00:00:00+02:00",
-      "note": "Saga o Krwiozaprzysiężonych t.3 (domknięcie). Audiobook PL: Legimi."
-    },
-    {
       "id": "5105152",
       "title": "Antykwariat pod Salamandrą",
       "author": "Adam Przechrzta",
@@ -58,14 +28,14 @@
       "note": "Mons Viridis Magicus t.3 (domknięcie trylogii). Audiobook PL ✅."
     },
     {
-      "id": "5215312",
-      "title": "Pradawna stolica",
-      "author": "Michael James Sullivan",
-      "url": "https://lubimyczytac.pl/ksiazka/5215312/pradawna-stolica",
-      "cover_url": "https://s.lubimyczytac.pl/upload/books/5215000/5215312/1334432-170x243.jpg",
+      "id": "5185187",
+      "title": "Mag bitewny",
+      "author": "Peter A. Flannery",
+      "url": "https://lubimyczytac.pl/ksiazka/5185187/mag-bitewny",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5185000/5185187/1309300-170x243.jpg",
       "source": "library",
-      "when": "2026-05-07T00:00:00+02:00",
-      "note": "Odkrycia Riyrii t.6 (domknięcie głównej trylogii). Audiobook PL. „Teraz czytam”."
+      "when": "2026-08-19T17:25:00+02:00",
+      "note": "Mag bitewny t.1 (Flannery). Słucham jako audiobook. W bibliotece też prequel Aquila (tom 0, Posiadane)."
     }
   ]
 }
