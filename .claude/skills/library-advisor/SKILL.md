@@ -9,8 +9,9 @@ You are a conversational book advisor operating on the user's personal library, 
 
 ## Before you do anything
 
-1. Check today's date from system context — you'll need it when writing entries to the state files.
-2. Read the data files listed below. If `books.json` is missing or unreadable, tell the user to run `gh workflow run "Update library"` and stop. If `books-details.json` is missing, warn that rationale quality will be lower (no descriptions/genres) and proceed. If any state file (`read-plan.json` / `accepted.json` / `rejections.json`) is corrupt, do NOT write to it this session — operate read-only and tell the user.
+1. **Pull the latest repo state first**: `git pull --ff-only` (data commits land via the GitHub Actions workflow, so the local checkout is often stale). If the pull fails (diverged, conflicts), tell the user and continue on local data with a staleness warning.
+2. Check today's date from system context — you'll need it when writing entries to the state files.
+3. Read the data files listed below. If `books.json` is missing or unreadable, tell the user to run `gh workflow run "Update library"` and stop. If `books-details.json` is missing, warn that rationale quality will be lower (no descriptions/genres) and proceed. If any state file (`read-plan.json` / `accepted.json` / `rejections.json`) is corrupt, do NOT write to it this session — operate read-only and tell the user.
 
 ## Data files
 
@@ -124,6 +125,7 @@ Default **conversational**: 2-3 clarifying questions before showing candidates, 
 
 **New-titles flow:**
 - WebFetch `https://katedra.nast.pl/zapowiedzi/<year>/<month>/<n>/` (note the trailing index segment — `/zapowiedzi/2026/5/1/`, not `/zapowiedzi/2026/05/`). If the URL 404s, do a `site:katedra.nast.pl zapowiedzi <month> <year>` WebSearch to find the correct path.
+- **Also check publisher sites directly** — see "Publisher zapowiedzi — direct scrape targets" below. This catches titles katedra hasn't aggregated yet. Dedupe against katedra results by title+author before scoring.
 - For each announcement: filter to SF/fantasy, check it's not in `rejections.json`.
 - **Library cross-check (important — don't just skip on presence):**
   - In `books.json` AND has `Posiadane` shelf → he already owns it → **skip** from announcements.
@@ -136,6 +138,48 @@ Default **conversational**: 2-3 clarifying questions before showing candidates, 
 **Accept/reject flows:** same as Mode #1, but:
 - Accepts go to `docs/accepted.json` with `source: "announcement"`.
 - The `url` field should point to LC if the book has an LC page yet, else leave empty.
+
+---
+
+## Publisher zapowiedzi — direct scrape targets
+
+Verified 2026-08-02 via curl + robots.txt checks. Polish fantasy/SF publisher sites, keyed by whether a plain GET returns real server-rendered HTML (no JS needed). Re-verify a URL with a quick WebFetch before trusting it blindly — publisher sites reskin without notice; if a listed page 404s, looks empty, or the markup doesn't match the note, don't assume the publisher dropped announcements — WebSearch `site:<domain> zapowiedzi` to re-find the current path, and update this table.
+
+Be polite: one fetch per publisher per pass, realistic User-Agent, don't loop/paginate unless actually needed.
+
+**Scrape these directly (static HTML):**
+
+| Publisher | URL | Notes |
+|---|---|---|
+| Fabryka Słów | `fabrykaslow.com.pl/zapowiedzi/` | Clean, stable |
+| Filia | `wydawnictwofilia.pl/Zapowiedzi` | Cleanest of all — full book cards, stable ids |
+| Papierowy Księżyc | `papierowyksiezyc.pl/kategorie/zapowiedzi/` | Purpose-built page, best signal-to-noise |
+| Powergraph | `powergraph.pl/nowosci` | |
+| Vesper | `vesper.pl/5-zapowiedzi` | Use this, not `/24-zapowiedzi` (stale, redirects away) |
+| Planeta Czytelnika | `planeta-czytelnika.pl/zapowiedzi_wydawnictwa_planeta_czytelnika` | robots.txt asks `Crawl-delay: 1` — respect it. Titles: `a.product-name` |
+| Jaguar | `wydawnictwo-jaguar.pl/sklep/zapowiedzi` | |
+| Replika | `replika.eu/kategoria/zapowiedzi/` | Slavic-fantasy heavy |
+| Zysk i S-ka | `sklep.zysk.com.pl/group/przedsprzedaz` | Pre-order listing, not a dedicated "zapowiedzi" label |
+| Prószyński i S-ka | `proszynski.pl/product-category/fantastyka` | Full category, not upcoming-only — filter by date |
+| Wydawnictwo Literackie | `wydawnictwoliterackie.pl/kategorie/18-fantastyka` | 302-redirects to `/kategorie/2-proza-polska/18-fantastyka`; no dedicated zapowiedzi page, this category is the closest proxy. No plain product-title class — titles sit in `aria-label="Zobacz Książka: <title>"` on product links (hrefs have a stray leading space inside the quotes, strip it) |
+| Insignis | `insignis.pl/zapowiedzi/` | Was empty at last check — also try `/nowosci/` |
+| GWF / Uroboros | `www.gwfoksal.pl/zapowiedzi` (use `www.` explicitly — bare domain redirects to homepage, dropping the path) | Mixed feed across all Grupa Wydawnicza Foksal imprints (WAB etc.) — filter to Uroboros-tagged entries client-side. Title text is nested one level inside `.product-name > a`, not on the `.product-name` element itself |
+| Spisek Pisarzy | `spisekpisarzy.pl/ksiegarnia/` | Filter to "Fantastyka" category |
+| Pulp Books | `pulpbooks.pl/sklep/` | `/sklep/` is a category index (powieści/opowiadania) — follow one more hop for actual titles |
+| Odesfa | `odesfa.pl/pl/c/Katalog-NASZA-FANTASTYKA-NaSFa-kwartalnik/49` | Nav has a "Zapowiedzi!" link too but it points to one stale 2022 post — use the catalog page instead. Titles: `span.productname` |
+| Drageus | `http://www.drageus.com/zapowiedzi/` | Must use plain `http://` — TLS cert doesn't match hostname. Cover images have empty `alt=""` — titles only recoverable from the `/ksiazki/<slug>` href slugs, not text content |
+| Sinister Project | `sinisterproject.pl/pl/c/Fantasy/41` | No dedicated zapowiedzi page — scrape the Fantasy category. Titles: `h3.product-tile__name` |
+| Genius Creations | `geniuscreations.pl/ksiazki/` | No dedicated zapowiedzi page — full alphabetical catalog only, no dates. No product/h-tag markup at all — titles only exist as `<img alt="Title - Author">` on cover images |
+| Initium | `initium.pl/zapowiedzi/` | Was empty at last check |
+| Dziwny Pomysł | `dziwnypomysl.pl/kategoria-produktu/sklep/` | Mostly kids/YA — fantasy is a thin slice |
+| Media Rodzina | `mediarodzina.pl/kategoria-produktu/nowosci/` | General "nowości", not fantasy-filtered. Titles: `h3.book__title`, authors: `.book__author` |
+| SQN Imaginatio | WebSearch `site:sqn.pl zapowiedzi <year>` | Published as dated blog posts (e.g. `sqn.pl/2026/01/08/zapowiedzi-sqn-imaginatio-na-2026-rok...`), no fixed URL — re-find each time |
+| Copernicus Corporation | WebSearch `site:copcorp.pl zapowiedzi <year>` | URL is year-stamped (`copcorp.pl/zapowiedzi-na-rok-2026/`) — re-find each time |
+
+**Skip these — not worth fetching:**
+- **Wydawnictwo IX**, **Niezwykłe Fantastycznie**, **swiatksiazki.pl** — JS-rendered (React/Next.js SPA shells, empty on plain GET). Would need a headless browser or reverse-engineered API; out of scope for this skill.
+- **SuperNOWA** (`supernowa.pl`) — site currently down (HTTP 500 / cert mismatch on every path). **Psychoskok** — domain currently unreachable (NXDOMAIN). Re-check occasionally; don't keep retrying every session.
+- **Rebis**, **Niezwykłe Fantastycznie** (again), **Egmont** (`wydawnictwoegmont.pl` fully blocks all crawlers; `egmont.pl` shop names AI bots + a formal EU text-and-data-mining opt-out in robots.txt) — these publishers' robots.txt explicitly disallow AI/Claude-branded crawlers by name. Respect it: do not fetch these for announcements. If the user explicitly wants a one-off manual check anyway, ask first rather than silently complying.
 
 ---
 
