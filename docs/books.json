@@ -1,7 +1,130 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 552,
+  "count": 557,
   "books": [
+    {
+      "id": "5095210",
+      "title": "Dwuświat. Księga IV - Odnowa",
+      "url": "https://lubimyczytac.pl/ksiazka/5095210/dwuswiat-ksiega-iv-odnowa",
+      "type": "book",
+      "authors": [
+        "Wojciech Wolnicki"
+      ],
+      "average_rating": 7.5,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Dwuświat (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5095000/5095210/1114498-170x243.jpg",
+      "read_date": "2026-08-19"
+    },
+    {
+      "id": "5074555",
+      "title": "Dwuświat. Księga III - Tymczas",
+      "url": "https://lubimyczytac.pl/ksiazka/5074555/dwuswiat-ksiega-iii-tymczas",
+      "type": "book",
+      "authors": [
+        "Wojciech Wolnicki"
+      ],
+      "average_rating": 7.4,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Dwuświat (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5074000/5074555/1080014-170x243.jpg",
+      "read_date": "2026-08-16"
+    },
+    {
+      "id": "5092586",
+      "title": "Dwuświat. Księga II - Pokun",
+      "url": "https://lubimyczytac.pl/ksiazka/5092586/dwuswiat-ksiega-ii-pokun",
+      "type": "book",
+      "authors": [
+        "Wojciech Wolnicki"
+      ],
+      "average_rating": 7.2,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Dwuświat (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5092000/5092586/1110188-170x243.jpg",
+      "read_date": "2026-08-13"
+    },
+    {
+      "id": "5229963",
+      "title": "Harrow z Dziewiątego",
+      "url": "https://lubimyczytac.pl/ksiazka/5229963/harrow-z-dziewiatego",
+      "type": "book",
+      "authors": [
+        "Tamsyn Muir"
+      ],
+      "average_rating": 8.3,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Zapieczętowany Grobowiec (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5229000/5229963/1383385-170x243.jpg"
+    },
+    {
+      "id": "5092585",
+      "title": "Dwuświat. Księga I - Przedwojnie",
+      "url": "https://lubimyczytac.pl/ksiazka/5092585/dwuswiat-ksiega-i-przedwojnie",
+      "type": "book",
+      "authors": [
+        "Wojciech Wolnicki"
+      ],
+      "average_rating": 7.0,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Dwuświat (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5092000/5092585/1110187-170x243.jpg",
+      "read_date": "2026-08-09"
+    },
+    {
+      "id": "4962647",
+      "title": "Płonący bóg",
+      "url": "https://lubimyczytac.pl/ksiazka/4962647/plonacy-bog",
+      "type": "book",
+      "authors": [
+        "Rebecca F. Kuang"
+      ],
+      "average_rating": 7.9,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Wojna makowa (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4962000/4962647/1110167-170x243.jpg",
+      "read_date": "2026-08-06"
+    },
+    {
+      "id": "4940457",
+      "title": "Republika smoka",
+      "url": "https://lubimyczytac.pl/ksiazka/4940457/republika-smoka",
+      "type": "book",
+      "authors": [
+        "Rebecca F. Kuang"
+      ],
+      "average_rating": 8.0,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Wojna makowa (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4940000/4940457/1110166-170x243.jpg",
+      "read_date": "2026-08-02"
+    },
     {
       "id": "5242127",
       "title": "Na światło i mrok",
@@ -14,8 +137,11 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do kupienia w..."
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
       ],
+      "cycle": "O Więzach i Rozłamach (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5242000/5242127/1364625-170x243.jpg"
     },
     {
@@ -152,7 +278,7 @@
       "authors": [
         "Robert Jackson Bennett"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -201,40 +327,6 @@
       "read_date": "2026-07-26"
     },
     {
-      "id": "4940457",
-      "title": "Republika smoka",
-      "url": "https://lubimyczytac.pl/ksiazka/4940457/republika-smoka",
-      "type": "book",
-      "authors": [
-        "Rebecca F. Kuang"
-      ],
-      "average_rating": 8.0,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam",
-        "Posiadane"
-      ],
-      "cycle": "Wojna makowa (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4940000/4940457/1110166-170x243.jpg"
-    },
-    {
-      "id": "4962647",
-      "title": "Płonący bóg",
-      "url": "https://lubimyczytac.pl/ksiazka/4962647/plonacy-bog",
-      "type": "book",
-      "authors": [
-        "Rebecca F. Kuang"
-      ],
-      "average_rating": 7.9,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam",
-        "Posiadane"
-      ],
-      "cycle": "Wojna makowa (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4962000/4962647/1110167-170x243.jpg"
-    },
-    {
       "id": "5244444",
       "title": "Gorath: Zabójcy bogów",
       "url": "https://lubimyczytac.pl/ksiazka/5244444/gorath-zabojcy-bogow",
@@ -242,7 +334,7 @@
       "authors": [
         "Janusz Stankiewicz"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.4,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -490,7 +582,7 @@
       "authors": [
         "Katarzyna Wycisk"
       ],
-      "average_rating": 8.4,
+      "average_rating": 8.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -604,8 +696,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Posiadane",
-        "Niedokończone serie"
+        "Posiadane"
       ],
       "cycle": "Zapieczętowany Grobowiec (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5218000/5218732/1327437-170x243.jpg"
@@ -654,7 +745,7 @@
       "authors": [
         "Taran Matharu"
       ],
-      "average_rating": 8.0,
+      "average_rating": 8.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -778,7 +869,7 @@
       "authors": [
         "Glen Cook"
       ],
-      "average_rating": 6.4,
+      "average_rating": 6.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -797,7 +888,7 @@
       "authors": [
         "Jonathan Maberry"
       ],
-      "average_rating": 7.2,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -867,7 +958,7 @@
       "authors": [
         "Adam Hetmański"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -921,7 +1012,7 @@
       "authors": [
         "Maciej Lewandowski"
       ],
-      "average_rating": 0.0,
+      "average_rating": 6.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1130,7 +1221,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 9.2,
+      "average_rating": 9.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1542,7 +1633,7 @@
       "authors": [
         "Peter V. Brett"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1770,7 +1861,7 @@
       "authors": [
         "Peter V. Brett"
       ],
-      "average_rating": 8.2,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1824,7 +1915,7 @@
       "authors": [
         "Anthony Ryan"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1842,7 +1933,7 @@
       "authors": [
         "Tomi Adeyemi"
       ],
-      "average_rating": 6.9,
+      "average_rating": 6.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2072,7 +2163,7 @@
       "authors": [
         "Stella Tack"
       ],
-      "average_rating": 6.8,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2179,7 +2270,7 @@
       "authors": [
         "Joe Abercrombie"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2301,7 +2392,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2500,7 +2591,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 8.6,
+      "average_rating": 8.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2541,8 +2632,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Posiadane",
-        "Niedokończone serie"
+        "Posiadane"
       ],
       "cycle": "O Więzach i Rozłamach (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5173000/5173816/1251606-170x243.jpg"
@@ -2606,7 +2696,7 @@
       "authors": [
         "Nicki Pau Preto"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.4,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -2820,7 +2910,7 @@
       "authors": [
         "Julie Johnson"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3097,7 +3187,7 @@
       "authors": [
         "Vanessa Le"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3202,7 +3292,7 @@
       "authors": [
         "Peter A. Flannery"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3590,7 +3680,7 @@
       "authors": [
         "Julie Kagawa"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3738,7 +3828,7 @@
       "authors": [
         "Małgorzata Lisińska"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.2,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane"
@@ -4220,7 +4310,7 @@
       "authors": [
         "Wasilij Machanienko"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.9,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -4777,7 +4867,7 @@
       "authors": [
         "Sebastien de Castell"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.9,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane"
@@ -6007,7 +6097,7 @@
       "authors": [
         "Tomi Adeyemi"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": 10.0,
       "shelves": [
         "Przeczytane",
@@ -7060,7 +7150,7 @@
       "authors": [
         "Virginia Boecker"
       ],
-      "average_rating": 6.9,
+      "average_rating": 6.8,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -7168,7 +7258,7 @@
       "authors": [
         "Scott Lynch"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -8066,7 +8156,7 @@
       "authors": [
         "Richard A. Knaak"
       ],
-      "average_rating": 6.8,
+      "average_rating": 6.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
