@@ -242,6 +242,23 @@
       "source": "market",
       "when": "2026-06-30T10:45:00+02:00",
       "note": "Dewabad t.3 (oryg. The Empire of Gold, 760 s.) — finał głównej trylogii."
+    },
+    {
+      "id": "5253769",
+      "title": "Siedem Mieczy. Księga I",
+      "author": "Anthony Ryan",
+      "url": "https://lubimyczytac.pl/ksiazka/5253769/siedem-mieczy-ksiega-i",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5253000/5253769/1388724-352x500.jpg",
+      "source": "announcement",
+      "when": "2026-08-20T22:30:00+02:00",
+      "note": "Siedem Mieczy t.1-3 w jednym tomie (Fabryka Słów, 11.09.2026) — pierwsze wydanie PL, omnibus 3 nowel sword&sorcery. Mam 10 książek Ryana (Pieśń krwi 8/10). Cykl otwarty: EN 4/7 nowel wydanych."
+    },
+    {
+      "title": "Ostatni kontrakt Isako",
+      "author": "Fonda Lee",
+      "source": "announcement",
+      "when": "2026-08-20T22:30:00+02:00",
+      "note": "Nowy standalone Lee (MAG, 29.09.2026) — SF o starzejącej się zabójczyni. Mam całą Sagę o Zielonych Kościach + nowelę na Do kupienia w... LC nie ma jeszcze rekordu — dodać id/url po skatalogowaniu."
     }
   ]
 }

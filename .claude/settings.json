@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_claude-mem_mcp-search__search",
+      "mcp__plugin_claude-mem_mcp-search__get_observations",
+      "mcp__plugin_claude-mem_mcp-search__smart_search",
+      "mcp__plugin_claude-mem_mcp-search__timeline",
+      "Skill(library-advisor)",
+      "Bash(find *)",
+      "Bash(xargs -0 ls *)",
+      "Bash(wc *)",
+      "TaskOutput",
+      "TaskStop",
+      "Edit(**)",
+      "Write(**)",
+      "Edit(//private/tmp/claude-501/**)",
+      "Write(//private/tmp/claude-501/**)",
+      "Read(//private/tmp/claude-501/**)"
+    ]
+  }
+}

@@ -255,6 +255,8 @@ Be polite: one fetch per publisher per pass, realistic User-Agent, don't loop/pa
 
 Statuses: ✅ wyszła (PL, do kupienia) · 📅 zapowiedziana (PL, z datą) · ⏳ brak PL zapowiedzi (+ EN status) · 🧹 wygląda na uzupełnioną · ❓ nie ustalono.
 
+**Never infer series completeness from LC record count.** LC cycle pages lag original-language publishing — a cycle with N records and the user owning all N does NOT mean the series is finished (verified 2026-08-20: LC showed "Władza Reliktów" as 2 tomes; it's a trilogy with the finale announced for 2027). Before claiming ✅ "domyka serię" or 🧹 stale, verify total planned length with one WebSearch (Goodreads / risingshadow / author site / publisher). Same for standalone-looking books (no LC cycle): absence of an LC cycle is not evidence there's no planned sequel.
+
 **Audiobook check:** only for ✅-released candidates the user shows interest in (standard Legimi + Storytel check). Skip for 📅/⏳ — nothing to check yet.
 
 **Accept flow:** append to `docs/accepted.json` — `source: "market"` for ✅ already-released tomes, `source: "announcement"` for 📅 announced ones. `note` should name the series and tome number (e.g. "Hierarchia t. 3 — kontynuacja z półki Niedokończone serie"). Same push prompt as other modes.
