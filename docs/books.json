@@ -1,7 +1,116 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 557,
+  "count": 561,
   "books": [
+    {
+      "id": "5185187",
+      "title": "Mag bitewny",
+      "url": "https://lubimyczytac.pl/ksiazka/5185187/mag-bitewny",
+      "type": "book",
+      "authors": [
+        "Peter A. Flannery"
+      ],
+      "average_rating": 7.6,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Mag bitewny (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5185000/5185187/1309300-170x243.jpg",
+      "read_date": "2026-08-24"
+    },
+    {
+      "id": "5019990",
+      "title": "Czarna pieśń",
+      "url": "https://lubimyczytac.pl/ksiazka/5019990/czarna-piesn",
+      "type": "book",
+      "authors": [
+        "Anthony Ryan"
+      ],
+      "average_rating": 7.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Krucze ostrze / The Raven's Blade (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5019000/5019990/994434-170x243.jpg"
+    },
+    {
+      "id": "5237989",
+      "title": "Ballada o pocałunku Śmierci",
+      "url": "https://lubimyczytac.pl/ksiazka/5237989/ballada-o-pocalunku-smierci",
+      "type": "book",
+      "authors": [
+        "Klaudia Wyrobek"
+      ],
+      "average_rating": 8.9,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Trylogia Ambicji (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5237000/5237989/1365328-170x243.jpg"
+    },
+    {
+      "id": "5185334",
+      "title": "Ballada o Koronie Krwi i Zdrady",
+      "url": "https://lubimyczytac.pl/ksiazka/5185334/ballada-o-koronie-krwi-i-zdrady",
+      "type": "book",
+      "authors": [
+        "Klaudia Wyrobek"
+      ],
+      "average_rating": 7.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Trylogia Ambicji (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5185000/5185334/1263419-170x243.jpg"
+    },
+    {
+      "id": "5217414",
+      "title": "Aquila",
+      "url": "https://lubimyczytac.pl/ksiazka/5217414/aquila",
+      "type": "book",
+      "authors": [
+        "Peter A. Flannery"
+      ],
+      "average_rating": 7.6,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam",
+        "Posiadane"
+      ],
+      "cycle": "Mag bitewny (tom 0)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217414/1335574-170x243.jpg"
+    },
+    {
+      "id": "5231604",
+      "title": "Tkający fale",
+      "url": "https://lubimyczytac.pl/ksiazka/5231604/tkajacy-fale",
+      "type": "book",
+      "authors": [
+        "Julie Johnson"
+      ],
+      "average_rating": 9.2,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Władza Reliktów (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5231000/5231604/1375717-170x243.jpg"
+    },
     {
       "id": "5095210",
       "title": "Dwuświat. Księga IV - Odnowa",
@@ -61,7 +170,7 @@
       "authors": [
         "Tamsyn Muir"
       ],
-      "average_rating": 8.3,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -457,7 +566,7 @@
       "authors": [
         "Janusz Stankiewicz"
       ],
-      "average_rating": 7.0,
+      "average_rating": 7.1,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -582,7 +691,7 @@
       "authors": [
         "Katarzyna Wycisk"
       ],
-      "average_rating": 8.3,
+      "average_rating": 8.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -619,7 +728,7 @@
       "authors": [
         "Jarosław Kukiełka"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -799,7 +908,7 @@
       "authors": [
         "James Islington"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -869,7 +978,7 @@
       "authors": [
         "Glen Cook"
       ],
-      "average_rating": 6.3,
+      "average_rating": 6.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1293,7 +1402,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 6.9,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1330,7 +1439,7 @@
       "authors": [
         "Jarosław Dobrowolski"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1348,7 +1457,7 @@
       "authors": [
         "Jarosław Dobrowolski"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1544,7 +1653,7 @@
       "authors": [
         "Zeter Zelke"
       ],
-      "average_rating": 8.5,
+      "average_rating": 6.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1872,24 +1981,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/5187000/5187461/1267319-170x243.jpg"
     },
     {
-      "id": "5217414",
-      "title": "Aquila",
-      "url": "https://lubimyczytac.pl/ksiazka/5217414/aquila",
-      "type": "book",
-      "authors": [
-        "Peter A. Flannery"
-      ],
-      "average_rating": 7.6,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Mag bitewny (tom 0)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217414/1335574-170x243.jpg"
-    },
-    {
       "id": "5211842",
       "title": "Zdrajca",
       "url": "https://lubimyczytac.pl/ksiazka/5211842/zdrajca",
@@ -1951,7 +2042,7 @@
       "authors": [
         "Jen Williams"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2081,7 +2172,7 @@
         "Posiadane"
       ],
       "cycle": "Czarna Kompania (tom 9-10)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/59000/59559/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/59000/59559/1390051-170x243.jpg"
     },
     {
       "id": "59558",
@@ -2099,7 +2190,7 @@
         "Posiadane"
       ],
       "cycle": "Czarna Kompania (tom 7-8)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/59000/59558/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/59000/59558/1390049-170x243.jpg"
     },
     {
       "id": "53249",
@@ -2117,7 +2208,7 @@
         "Posiadane"
       ],
       "cycle": "Czarna Kompania (tom 4-6)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/53000/53249/170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/53000/53249/1390048-170x243.jpg"
     },
     {
       "id": "4883405",
@@ -2127,7 +2218,7 @@
       "authors": [
         "Glen Cook"
       ],
-      "average_rating": 6.7,
+      "average_rating": 6.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2135,7 +2226,7 @@
         "Posiadane"
       ],
       "cycle": "Czarna Kompania (tom 1.5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4883000/4883405/747740-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4883000/4883405/1390053-170x243.jpg"
     },
     {
       "id": "4937473",
@@ -2153,7 +2244,7 @@
         "Posiadane"
       ],
       "cycle": "Czarna Kompania (tom 1-3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4937000/4937473/949120-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/4937000/4937473/1390059-170x243.jpg"
     },
     {
       "id": "5167168",
@@ -2163,7 +2254,7 @@
       "authors": [
         "Stella Tack"
       ],
-      "average_rating": 6.9,
+      "average_rating": 6.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2500,7 +2591,7 @@
       "authors": [
         "Kylie Lee Baker"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2572,7 +2663,7 @@
       "authors": [
         "A.M. Engler"
       ],
-      "average_rating": 8.7,
+      "average_rating": 8.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2591,7 +2682,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 8.5,
+      "average_rating": 8.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2627,7 +2718,7 @@
       "authors": [
         "Ryan Cahill"
       ],
-      "average_rating": 6.4,
+      "average_rating": 6.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2696,7 +2787,7 @@
       "authors": [
         "Nicki Pau Preto"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -2804,7 +2895,7 @@
       "authors": [
         "Roger Zelazny"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2822,7 +2913,7 @@
       "authors": [
         "Michael Moorcock"
       ],
-      "average_rating": 6.5,
+      "average_rating": 6.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2915,8 +3006,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Posiadane",
-        "Niedokończone serie"
+        "Posiadane"
       ],
       "cycle": "Władza Reliktów (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5204000/5204475/1307724-170x243.jpg"
@@ -3283,24 +3373,6 @@
       "cycle": "Wojny Świata Wynurzonego (tom 3)",
       "cover": "https://s.lubimyczytac.pl/upload/books/50000/50939/833209-170x243.jpg",
       "read_date": "2025-05-16"
-    },
-    {
-      "id": "5185187",
-      "title": "Mag bitewny",
-      "url": "https://lubimyczytac.pl/ksiazka/5185187/mag-bitewny",
-      "type": "book",
-      "authors": [
-        "Peter A. Flannery"
-      ],
-      "average_rating": 7.6,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Mag bitewny (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5185000/5185187/1309300-170x243.jpg"
     },
     {
       "id": "4957921",
@@ -5402,7 +5474,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do sprawdzenia"
+        "Do przeczytania",
+        "Posiadane"
       ],
       "cycle": "Krucze ostrze / The Raven's Blade (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4945000/4945844/986389-170x243.jpg"
