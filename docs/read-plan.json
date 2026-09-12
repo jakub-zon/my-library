@@ -1,41 +1,34 @@
 {
   "entries": [
     {
-      "id": "5105152",
-      "title": "Antykwariat pod Salamandrą",
-      "author": "Adam Przechrzta",
-      "url": "https://lubimyczytac.pl/ksiazka/5105152/antykwariat-pod-salamandra",
+      "id": "5073134",
+      "title": "Pół króla",
+      "author": "Joe Abercrombie",
+      "url": "https://lubimyczytac.pl/ksiazka/5073134/pol-krola",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5073000/5073134/1077722-170x243.jpg",
       "source": "library",
-      "when": "2026-04-27T00:00:00+02:00",
-      "note": "Mons Viridis Magicus t.1. Po Alchemised — start trylogii Przechrzty. Audiobook PL ✅."
+      "when": "2026-09-12T22:10:00+02:00",
+      "note": "Morze Drzazg t.1. Audiobook PL na Legimi (za dopłatą, ~23 zł za cykl). Zamknięta trylogia, uniwersum osobne od Pierwszego Prawa."
     },
     {
-      "id": "5173300",
-      "title": "Mroczne drogi",
-      "author": "Adam Przechrzta",
-      "url": "https://lubimyczytac.pl/ksiazka/5173300/mroczne-drogi",
-      "source": "market",
-      "when": "2026-04-27T00:00:00+02:00",
-      "note": "Mons Viridis Magicus t.2. Audiobook PL ✅."
-    },
-    {
-      "id": "5221770",
-      "title": "Strażnik Bram",
-      "author": "Adam Przechrzta",
-      "url": "https://lubimyczytac.pl/ksiazka/5221770/straznik-bram",
-      "source": "market",
-      "when": "2026-04-27T00:00:00+02:00",
-      "note": "Mons Viridis Magicus t.3 (domknięcie trylogii). Audiobook PL ✅."
-    },
-    {
-      "id": "5185187",
-      "title": "Mag bitewny",
-      "author": "Peter A. Flannery",
-      "url": "https://lubimyczytac.pl/ksiazka/5185187/mag-bitewny",
-      "cover_url": "https://s.lubimyczytac.pl/upload/books/5185000/5185187/1309300-170x243.jpg",
+      "id": "5075656",
+      "title": "Pół świata",
+      "author": "Joe Abercrombie",
+      "url": "https://lubimyczytac.pl/ksiazka/5075656/pol-swiata",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5075000/5075656/1081662-170x243.jpg",
       "source": "library",
-      "when": "2026-08-19T17:25:00+02:00",
-      "note": "Mag bitewny t.1 (Flannery). Słucham jako audiobook. W bibliotece też prequel Aquila (tom 0, Posiadane)."
+      "when": "2026-09-12T22:10:00+02:00",
+      "note": "Morze Drzazg t.2. Audiobook PL na Legimi, ok. 13 godz. 25 min."
+    },
+    {
+      "id": "5075657",
+      "title": "Pół wojny",
+      "author": "Joe Abercrombie",
+      "url": "https://lubimyczytac.pl/ksiazka/5075657/pol-wojny",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5075000/5075657/1081663-170x243.jpg",
+      "source": "library",
+      "when": "2026-09-12T22:10:00+02:00",
+      "note": "Morze Drzazg t.3 (finał). Audiobook PL na Legimi."
     }
   ]
 }
