@@ -1,7 +1,109 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 561,
+  "count": 562,
   "books": [
+    {
+      "id": "5066868",
+      "title": "Cyjan",
+      "url": "https://lubimyczytac.pl/ksiazka/5066868/cyjan",
+      "type": "book",
+      "authors": [
+        "Jarosław Dobrowolski"
+      ],
+      "average_rating": 7.5,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Krwiopijca (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5066000/5066868/1067572-170x243.jpg",
+      "read_date": "2026-09-06"
+    },
+    {
+      "id": "5194594",
+      "title": "Ronin",
+      "url": "https://lubimyczytac.pl/ksiazka/5194594/ronin",
+      "type": "book",
+      "authors": [
+        "Jarosław Dobrowolski"
+      ],
+      "average_rating": 7.6,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Krwiopijca (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5194000/5194594/1280040-170x243.jpg",
+      "read_date": "2026-09-11"
+    },
+    {
+      "id": "5027088",
+      "title": "Delirium",
+      "url": "https://lubimyczytac.pl/ksiazka/5027088/delirium",
+      "type": "book",
+      "authors": [
+        "Jarosław Dobrowolski"
+      ],
+      "average_rating": 7.4,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Krwiopijca (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5027000/5027088/1000190-170x243.jpg",
+      "read_date": "2026-09-02"
+    },
+    {
+      "id": "5217414",
+      "title": "Aquila",
+      "url": "https://lubimyczytac.pl/ksiazka/5217414/aquila",
+      "type": "book",
+      "authors": [
+        "Peter A. Flannery"
+      ],
+      "average_rating": 7.5,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane",
+        "Posiadane"
+      ],
+      "cycle": "Mag bitewny (tom 0)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217414/1335574-170x243.jpg",
+      "read_date": "2026-08-29"
+    },
+    {
+      "id": "5218574",
+      "title": "Zakon Drzewa Pomarańczy. Część 2",
+      "url": "https://lubimyczytac.pl/audiobook/5218574/zakon-drzewa-pomaranczy-czesc-2",
+      "type": "audiobook",
+      "authors": [
+        "Samantha Shannon"
+      ],
+      "average_rating": 6.9,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Zakon Drzewa Pomarańczy (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5218000/5218574/1348038-170x243.jpg"
+    },
+    {
+      "id": "5216408",
+      "title": "Krwiopijca: Historie",
+      "url": "https://lubimyczytac.pl/ksiazka/5216408/krwiopijca-historie",
+      "type": "book",
+      "authors": [
+        "Jarosław Dobrowolski"
+      ],
+      "average_rating": 7.2,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam"
+      ],
+      "cycle": "Krwiopijca (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5216000/5216408/1319153-170x243.jpg"
+    },
     {
       "id": "5185187",
       "title": "Mag bitewny",
@@ -14,7 +116,8 @@
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
-        "Posiadane"
+        "Posiadane",
+        "Niedokończone serie"
       ],
       "cycle": "Mag bitewny (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5185000/5185187/1309300-170x243.jpg",
@@ -65,7 +168,7 @@
       "authors": [
         "Klaudia Wyrobek"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -76,23 +179,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/5185000/5185334/1263419-170x243.jpg"
     },
     {
-      "id": "5217414",
-      "title": "Aquila",
-      "url": "https://lubimyczytac.pl/ksiazka/5217414/aquila",
-      "type": "book",
-      "authors": [
-        "Peter A. Flannery"
-      ],
-      "average_rating": 7.6,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam",
-        "Posiadane"
-      ],
-      "cycle": "Mag bitewny (tom 0)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217414/1335574-170x243.jpg"
-    },
-    {
       "id": "5231604",
       "title": "Tkający fale",
       "url": "https://lubimyczytac.pl/ksiazka/5231604/tkajacy-fale",
@@ -100,7 +186,7 @@
       "authors": [
         "Julie Johnson"
       ],
-      "average_rating": 9.2,
+      "average_rating": 9.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -170,7 +256,7 @@
       "authors": [
         "Tamsyn Muir"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -242,7 +328,7 @@
       "authors": [
         "Ryan Cahill"
       ],
-      "average_rating": 8.0,
+      "average_rating": 8.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -387,7 +473,7 @@
       "authors": [
         "Robert Jackson Bennett"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -406,7 +492,7 @@
       "authors": [
         "Robert Jackson Bennett"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -443,7 +529,7 @@
       "authors": [
         "Janusz Stankiewicz"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.5,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -691,7 +777,7 @@
       "authors": [
         "Katarzyna Wycisk"
       ],
-      "average_rating": 8.2,
+      "average_rating": 8.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -800,7 +886,7 @@
       "authors": [
         "Tamsyn Muir"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -854,7 +940,7 @@
       "authors": [
         "Taran Matharu"
       ],
-      "average_rating": 8.2,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -908,7 +994,7 @@
       "authors": [
         "James Islington"
       ],
-      "average_rating": 8.0,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -978,7 +1064,7 @@
       "authors": [
         "Glen Cook"
       ],
-      "average_rating": 6.0,
+      "average_rating": 6.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -997,7 +1083,7 @@
       "authors": [
         "Jonathan Maberry"
       ],
-      "average_rating": 6.9,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1050,7 +1136,7 @@
       "authors": [
         "Michał Głowacz"
       ],
-      "average_rating": 6.3,
+      "average_rating": 6.4,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -1085,7 +1171,7 @@
       "authors": [
         "Adam Przechrzta"
       ],
-      "average_rating": 6.7,
+      "average_rating": 6.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1316,7 +1402,8 @@
       "average_rating": 7.5,
       "user_rating": 8.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Niedokończone serie"
       ],
       "cycle": "Empireum (tom 3)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5111000/5111396/1347282-170x243.jpg",
@@ -1330,7 +1417,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 9.0,
+      "average_rating": 8.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1402,7 +1489,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1414,60 +1501,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/5232000/5232082/1349541-170x243.jpg"
     },
     {
-      "id": "5216408",
-      "title": "Krwiopijca: Historie",
-      "url": "https://lubimyczytac.pl/ksiazka/5216408/krwiopijca-historie",
-      "type": "book",
-      "authors": [
-        "Jarosław Dobrowolski"
-      ],
-      "average_rating": 7.3,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Dostępne na Legimi"
-      ],
-      "cycle": "Krwiopijca (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5216000/5216408/1319153-170x243.jpg"
-    },
-    {
-      "id": "5194594",
-      "title": "Ronin",
-      "url": "https://lubimyczytac.pl/ksiazka/5194594/ronin",
-      "type": "book",
-      "authors": [
-        "Jarosław Dobrowolski"
-      ],
-      "average_rating": 7.6,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Dostępne na Legimi"
-      ],
-      "cycle": "Krwiopijca (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5194000/5194594/1280040-170x243.jpg"
-    },
-    {
-      "id": "5066868",
-      "title": "Cyjan",
-      "url": "https://lubimyczytac.pl/ksiazka/5066868/cyjan",
-      "type": "book",
-      "authors": [
-        "Jarosław Dobrowolski"
-      ],
-      "average_rating": 7.5,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Dostępne na Legimi"
-      ],
-      "cycle": "Krwiopijca (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5066000/5066868/1067572-170x243.jpg"
-    },
-    {
       "id": "5174303",
       "title": "Iron Flame. Żelazny płomień",
       "url": "https://lubimyczytac.pl/ksiazka/5174303/iron-flame-zelazny-plomien",
@@ -1475,7 +1508,7 @@
       "authors": [
         "Rebecca Yarros"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.9,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane"
@@ -1486,8 +1519,8 @@
     },
     {
       "id": "5113724",
-      "title": "Fourth Wing. Czwarte Skrzydło (dodatkowe rozdziały)",
-      "url": "https://lubimyczytac.pl/ksiazka/5113724/fourth-wing-czwarte-skrzydlo-dodatkowe-rozdzialy",
+      "title": "Fourth Wing. Czwarte Skrzydło (edycja specjalna)",
+      "url": "https://lubimyczytac.pl/ksiazka/5113724/fourth-wing-czwarte-skrzydlo-edycja-specjalna",
       "type": "book",
       "authors": [
         "Rebecca Yarros"
@@ -1497,7 +1530,7 @@
       "shelves": [
         "Przeczytane"
       ],
-      "cycle": "Empireum (tom 1.5)",
+      "cycle": "Empireum (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5113000/5113724/1286434-170x243.jpg",
       "read_date": "2026-03-05"
     },
@@ -1518,24 +1551,6 @@
       ],
       "cycle": "Mons Viridis Magicus (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5105000/5105152/1143741-170x243.jpg"
-    },
-    {
-      "id": "5027088",
-      "title": "Delirium",
-      "url": "https://lubimyczytac.pl/ksiazka/5027088/delirium",
-      "type": "book",
-      "authors": [
-        "Jarosław Dobrowolski"
-      ],
-      "average_rating": 7.4,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Dostępne na Legimi"
-      ],
-      "cycle": "Krwiopijca (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5027000/5027088/1000190-170x243.jpg"
     },
     {
       "id": "5214322",
@@ -1598,7 +1613,7 @@
       "authors": [
         "Paweł Kopijer"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1653,7 +1668,7 @@
       "authors": [
         "Zeter Zelke"
       ],
-      "average_rating": 6.8,
+      "average_rating": 5.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1670,7 +1685,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1970,7 +1985,7 @@
       "authors": [
         "Peter V. Brett"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2079,7 +2094,7 @@
       "authors": [
         "Anna Benning"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2218,7 +2233,7 @@
       "authors": [
         "Glen Cook"
       ],
-      "average_rating": 6.6,
+      "average_rating": 6.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2483,7 +2498,7 @@
       "authors": [
         "Deborah Harkness"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2591,7 +2606,7 @@
       "authors": [
         "Kylie Lee Baker"
       ],
-      "average_rating": 6.9,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2627,7 +2642,7 @@
       "authors": [
         "J.T. Greathouse"
       ],
-      "average_rating": 6.5,
+      "average_rating": 6.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2663,7 +2678,7 @@
       "authors": [
         "A.M. Engler"
       ],
-      "average_rating": 8.6,
+      "average_rating": 8.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2718,7 +2733,7 @@
       "authors": [
         "Ryan Cahill"
       ],
-      "average_rating": 6.5,
+      "average_rating": 6.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2787,7 +2802,7 @@
       "authors": [
         "Nicki Pau Preto"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.4,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -2913,7 +2928,7 @@
       "authors": [
         "Michael Moorcock"
       ],
-      "average_rating": 6.6,
+      "average_rating": 6.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3151,7 +3166,7 @@
       "authors": [
         "Robert Jackson Bennett"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4296,7 +4311,7 @@
       "authors": [
         "Margaret Owen"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -6152,7 +6167,7 @@
       "authors": [
         "Taran Matharu"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": 9.0,
       "shelves": [
         "Przeczytane",
@@ -6384,7 +6399,7 @@
       "authors": [
         "Pierce Brown"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": 9.0,
       "shelves": [
         "Przeczytane",
@@ -8886,7 +8901,7 @@
         "Przeczytane"
       ],
       "cycle": "Trylogia Zdrajcy (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/189000/189485/172263-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/189000/189485/1393961-170x243.jpg"
     },
     {
       "id": "171139",
