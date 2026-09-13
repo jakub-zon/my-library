@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "4864575",
+      "title": "Kłamca. Writer's cut",
+      "author": "Jakub Ćwiek",
+      "url": "https://lubimyczytac.pl/ksiazka/4864575/klamca-writer-s-cut",
+      "source": "market",
+      "when": "2026-09-13T10:30:00+02:00",
+      "note": "Kłamca t.1. Ebook z Legimi, przerzucony na Kindle — poza books.json, brak rekordu na półkach LC. Test autora; jedyny cykl Ćwieka domknięty (t.5 Zbiorowa tricksteria, 2024). Stróże pomijamy — własny cykl, stoi nierozwiązany od 2019."
+    },
+    {
       "id": "5073134",
       "title": "Pół króla",
       "author": "Joe Abercrombie",
