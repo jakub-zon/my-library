@@ -177,8 +177,24 @@ Be polite: one fetch per publisher per pass, realistic User-Agent, don't loop/pa
 | SQN Imaginatio | WebSearch `site:sqn.pl zapowiedzi <year>` | Published as dated blog posts (e.g. `sqn.pl/2026/01/08/zapowiedzi-sqn-imaginatio-na-2026-rok...`), no fixed URL — re-find each time |
 | Copernicus Corporation | WebSearch `site:copcorp.pl zapowiedzi <year>` | URL is year-stamped (`copcorp.pl/zapowiedzi-na-rok-2026/`) — re-find each time |
 
+**Aggregator — needs a real browser (verified 2026-09-18):**
+
+**Świat Książki** is a retailer, not a publisher, and its pre-order catalogue covers most mid-to-large fantasy imprints in one normalized listing. Plain GET returns an empty SPA shell; a headless Chromium renders it fine. `robots.txt` is `Allow: /` (only `/lib/`, `/var/`, `/review/`, `/pkginfo/`, `/report/`, `/sendfriend/`, `*.php` are disallowed), so this page is fair game.
+
+```
+https://www.swiatksiazki.pl/ksiazki/fantastyka-1767.html?customFilters=is_preorder:1&product_list_order=release_date&sortKey=release_date&sortDirection=ASC
+```
+
+- `1767` is the fantasy category id; `customFilters=is_preorder:1` restricts to announcements. Confirm the filter took hold by reading the `Zapowiedź: Tak <n>` / `Produkty: <n>` facet.
+- Add `&product_list_limit=36&p=<n>` to page through (78 entries = 3 pages at last check).
+- Each card renders as `Tytuł / Autor / Wydawca / Cena / ZAPOWIEDŹ / DOSTĘPNY OD DD.MM.YYYY` — publisher and release date come for free, which most publisher pages don't give.
+- Facets available for narrowing: subgenre (fantasy / science fiction / horror / romantasy), publisher, author, series, release date.
+- Give the page ~5s after `networkidle` and scroll once; product cards are not in the initial DOM.
+
+**Coverage caveat:** it only lists what the shop stocks. Small presses (Sinister Project, Genius Creations, Odesfa, Drageus, Pulp Books) are absent, so this **supplements** the publisher table above rather than replacing it. Run it first for broad coverage, then hit the small presses directly.
+
 **Skip these — not worth fetching:**
-- **Wydawnictwo IX**, **Niezwykłe Fantastycznie**, **swiatksiazki.pl** — JS-rendered (React/Next.js SPA shells, empty on plain GET). Would need a headless browser or reverse-engineered API; out of scope for this skill.
+- **Wydawnictwo IX**, **Niezwykłe Fantastycznie** — JS-rendered (React/Next.js SPA shells, empty on plain GET). Rendering Wydawnictwo IX's `/zapowiedzi` with a browser returns navigation chrome only (no products), so the URL is probably wrong rather than the page being hostile — find the right path before spending a browser launch on it.
 - **SuperNOWA** (`supernowa.pl`) — site currently down (HTTP 500 / cert mismatch on every path). **Psychoskok** — domain currently unreachable (NXDOMAIN). Re-check occasionally; don't keep retrying every session.
 - **Rebis**, **Niezwykłe Fantastycznie** (again), **Egmont** (`wydawnictwoegmont.pl` fully blocks all crawlers; `egmont.pl` shop names AI bots + a formal EU text-and-data-mining opt-out in robots.txt) — these publishers' robots.txt explicitly disallow AI/Claude-branded crawlers by name. Respect it: do not fetch these for announcements. If the user explicitly wants a one-off manual check anyway, ask first rather than silently complying.
 
