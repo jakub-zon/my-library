@@ -98,6 +98,96 @@
       "source": "market",
       "when": "2026-10-02T20:30:00+02:00",
       "note": "Vesper, seria Eony (2024, 464 str.): Smoczy miecz — zamyka trylogię Erekosë. LC 6.8."
+    },
+    {
+      "id": "5239259",
+      "title": "Silver Elite",
+      "author": "Dani Francis (Loreth Anne White)",
+      "url": "https://lubimyczytac.pl/ksiazka/5239259/silver-elite",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5239000/5239259/1395180-352x500.jpg",
+      "source": "market",
+      "when": "2026-10-02T21:30:00+02:00",
+      "note": "Silver Elite t.1 (Uniesienia, 23.09.2026, 602 str.). Dystopijne military romantasy w klimacie Fourth Wing, LC 8.3. Seria domykana: t.2 EN V.2026, t.3 EN ~2027. Uwaga: imprint erotyczny — sceny pewnie mocniejsze niż u Yarros; biorę na własną odpowiedzialność."
+    },
+    {
+      "id": "5078351",
+      "title": "Córka kości",
+      "author": "Andrea Stewart",
+      "url": "https://lubimyczytac.pl/ksiazka/5078351/corka-kosci",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5078000/5078351/1110835-352x500.jpg",
+      "source": "market",
+      "when": "2026-10-02T22:00:00+02:00",
+      "note": "Tonące Cesarstwo t.1 (Fabryka Słów, 2023, 490 str.). Zamknięta trylogia: dryfujące wyspy, magia odłamków kości, tajemnica tronu. LC 7.2."
+    },
+    {
+      "id": "5099069",
+      "title": "Cesarzowa kości",
+      "author": "Andrea Stewart",
+      "url": "https://lubimyczytac.pl/ksiazka/5099069/cesarzowa-kosci",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5099000/5099069/1129983-352x500.jpg",
+      "source": "market",
+      "when": "2026-10-02T22:00:00+02:00",
+      "note": "Tonące Cesarstwo t.2 (Fabryka Słów, IV.2024)."
+    },
+    {
+      "id": "5129744",
+      "title": "Wojna kości",
+      "author": "Andrea Stewart",
+      "url": "https://lubimyczytac.pl/ksiazka/5129744/wojna-kosci",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5129000/5129744/1184969-352x500.jpg",
+      "source": "market",
+      "when": "2026-10-02T22:00:00+02:00",
+      "note": "Tonące Cesarstwo t.3 (Fabryka Słów, X.2024) — finał trylogii."
+    },
+    {
+      "id": "5051991",
+      "title": "Jaśminowy tron",
+      "author": "Tasha Suri",
+      "url": "https://lubimyczytac.pl/ksiazka/5051991/jasminowy-tron",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5051000/5051991/1110372-352x500.jpg",
+      "source": "market",
+      "when": "2026-10-02T22:20:00+02:00",
+      "note": "Płonące Królestwa t.1 (Fabryka Słów, 2023, 645 str.). Zamknięta trylogia, epicka fantasy w świecie inspirowanym Indiami. LC 7.0. Wątek romantyczny obecny, spice umiarkowany."
+    },
+    {
+      "id": "5081052",
+      "title": "Oleandrowy miecz",
+      "author": "Tasha Suri",
+      "url": "https://lubimyczytac.pl/ksiazka/5081052/oleandrowy-miecz",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5081000/5081052/1110376-352x500.jpg",
+      "source": "market",
+      "when": "2026-10-02T22:20:00+02:00",
+      "note": "Płonące Królestwa t.2 (Fabryka Słów, XI.2023). LC 7.4."
+    },
+    {
+      "id": "5194841",
+      "title": "Lotosowe cesarstwo",
+      "author": "Tasha Suri",
+      "url": "https://lubimyczytac.pl/ksiazka/5194841/lotosowe-cesarstwo",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5194000/5194841/1294807-352x500.jpg",
+      "source": "market",
+      "when": "2026-10-02T22:20:00+02:00",
+      "note": "Płonące Królestwa t.3 (Fabryka Słów, IX.2025) — finał. LC 7.2."
+    },
+    {
+      "id": "5032506",
+      "title": "Ta, która stała się Słońcem",
+      "author": "Shelley Parker-Chan",
+      "url": "https://lubimyczytac.pl/ksiazka/5032506/ta-ktora-stala-sie-sloncem",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5032000/5032506/1012682-352x500.jpg",
+      "source": "market",
+      "when": "2026-10-02T22:20:00+02:00",
+      "note": "Świetlisty Cesarz t.1 (Fabryka Słów). Zamknięta dylogia, mroczna fantasy historyczna (Chiny). LC 6.6."
+    },
+    {
+      "id": "5081388",
+      "title": "Ten, który zatopił świat",
+      "author": "Shelley Parker-Chan",
+      "url": "https://lubimyczytac.pl/ksiazka/5081388/ten-ktory-zatopil-swiat",
+      "cover_url": "https://s.lubimyczytac.pl/upload/books/5081000/5081388/1135180-352x500.jpg",
+      "source": "market",
+      "when": "2026-10-02T22:20:00+02:00",
+      "note": "Świetlisty Cesarz t.2 (Fabryka Słów) — finał dylogii. LC 7.4."
     }
   ]
 }
