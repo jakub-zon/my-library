@@ -1,6 +1,6 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 599,
+  "count": 597,
   "books": [
     {
       "id": "5250927",
@@ -10,7 +10,7 @@
       "authors": [
         "Rebecca Yarros"
       ],
-      "average_rating": 8.2,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -514,7 +514,7 @@
       "authors": [
         "Fonda Lee"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -531,7 +531,7 @@
       "authors": [
         "Anthony Ryan"
       ],
-      "average_rating": 9.2,
+      "average_rating": 9.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3480,7 +3480,7 @@
       "authors": [
         "Jen Williams"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -5878,25 +5878,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/133000/133775/1079392-170x243.jpg"
     },
     {
-      "id": "4970115",
-      "title": "Dziesięć Żelaznych Strzał",
-      "url": "https://lubimyczytac.pl/ksiazka/4970115/dziesiec-zelaznych-strzal",
-      "type": "book",
-      "authors": [
-        "Sam Sykes"
-      ],
-      "average_rating": 7.5,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane",
-        "Niedokończone serie"
-      ],
-      "cycle": "Śmierć imperiów/The Grave of Empires (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970115/918329-170x243.jpg"
-    },
-    {
       "id": "4846718",
       "title": "Królowie Wyldu",
       "url": "https://lubimyczytac.pl/ksiazka/4846718/krolowie-wyldu",
@@ -6735,24 +6716,6 @@
       "cycle": "Trylogia Klątwy (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/293000/293473/1117038-170x243.jpg",
       "read_date": "2020-08-10"
-    },
-    {
-      "id": "4918726",
-      "title": "Siedem czarnych mieczy",
-      "url": "https://lubimyczytac.pl/ksiazka/4918726/siedem-czarnych-mieczy",
-      "type": "book",
-      "authors": [
-        "Sam Sykes"
-      ],
-      "average_rating": 6.8,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Śmierć imperiów/The Grave of Empires (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4918000/4918726/828970-170x243.jpg"
     },
     {
       "id": "274810",

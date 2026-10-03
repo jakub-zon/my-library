@@ -2817,7 +2817,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 8.2,
+          "average_rating": 8.1,
           "user_rating": null,
           "read_date": null
         }
@@ -7508,7 +7508,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 9.2,
+          "average_rating": 9.0,
           "user_rating": null,
           "read_date": null
         }
@@ -8751,7 +8751,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.0,
+          "average_rating": 6.9,
           "user_rating": null,
           "read_date": null
         },
@@ -10726,50 +10726,6 @@
           "average_rating": 6.8,
           "user_rating": 7.0,
           "read_date": "2018-12-08"
-        }
-      ]
-    },
-    {
-      "name": "Śmierć imperiów/The Grave of Empires",
-      "authors": [
-        "Sam Sykes"
-      ],
-      "flags": [],
-      "volumes": [
-        {
-          "id": "4918726",
-          "title": "Siedem czarnych mieczy",
-          "url": "https://lubimyczytac.pl/ksiazka/4918726/siedem-czarnych-mieczy",
-          "cover": "https://s.lubimyczytac.pl/upload/books/4918000/4918726/828970-170x243.jpg",
-          "tom_from": 1.0,
-          "tom_to": 1.0,
-          "tom_label": "1",
-          "shelves": [
-            "Chcę przeczytać",
-            "Do przeczytania",
-            "Posiadane"
-          ],
-          "average_rating": 6.8,
-          "user_rating": null,
-          "read_date": null
-        },
-        {
-          "id": "4970115",
-          "title": "Dziesięć Żelaznych Strzał",
-          "url": "https://lubimyczytac.pl/ksiazka/4970115/dziesiec-zelaznych-strzal",
-          "cover": "https://s.lubimyczytac.pl/upload/books/4970000/4970115/918329-170x243.jpg",
-          "tom_from": 2.0,
-          "tom_to": 2.0,
-          "tom_label": "2",
-          "shelves": [
-            "Chcę przeczytać",
-            "Do przeczytania",
-            "Posiadane",
-            "Niedokończone serie"
-          ],
-          "average_rating": 7.5,
-          "user_rating": null,
-          "read_date": null
         }
       ]
     },
