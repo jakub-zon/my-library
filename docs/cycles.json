@@ -789,6 +789,66 @@
       ]
     },
     {
+      "name": "Cieniobójcy",
+      "authors": [
+        "Mateusz Żuchowski"
+      ],
+      "flags": [],
+      "volumes": [
+        {
+          "id": "5112093",
+          "title": "Cieniobójcy. Księga I. Ziarno",
+          "url": "https://lubimyczytac.pl/ksiazka/5112093/cieniobojcy-ksiega-i-ziarno",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5112000/5112093/1145494-170x243.jpg",
+          "tom_from": 1.0,
+          "tom_to": 1.0,
+          "tom_label": "1",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 6.9,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5117402",
+          "title": "Cieniobójcy. Księga II. Żniwa",
+          "url": "https://lubimyczytac.pl/ksiazka/5117402/cieniobojcy-ksiega-ii-zniwa",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5117000/5117402/1156303-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.4,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5181131",
+          "title": "Cieniobójcy. Księga III. Świt",
+          "url": "https://lubimyczytac.pl/ksiazka/5181131/cieniobojcy-ksiega-iii-swit",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5181000/5181131/1256272-170x243.jpg",
+          "tom_from": 3.0,
+          "tom_to": 3.0,
+          "tom_label": "3",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 6.8,
+          "user_rating": null,
+          "read_date": null
+        }
+      ]
+    },
+    {
       "name": "Cień Lewiatana",
       "authors": [
         "Robert Jackson Bennett"
@@ -827,7 +887,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 8.2,
+          "average_rating": 8.1,
           "user_rating": null,
           "read_date": null
         }
@@ -1029,7 +1089,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.4,
+          "average_rating": 7.3,
           "user_rating": null,
           "read_date": null
         },
@@ -1158,7 +1218,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.7,
+          "average_rating": 7.6,
           "user_rating": null,
           "read_date": null
         },
@@ -1505,7 +1565,13 @@
       "authors": [
         "Victoria Aveyard"
       ],
-      "flags": [],
+      "flags": [
+        {
+          "key": "shelf-mismatch",
+          "label": "rozbieżność półek",
+          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
+        }
+      ],
       "volumes": [
         {
           "id": "4496883",
@@ -1533,7 +1599,8 @@
           "tom_label": "1",
           "shelves": [
             "Chcę przeczytać",
-            "Na czytniku"
+            "Do przeczytania",
+            "Posiadane"
           ],
           "average_rating": 7.5,
           "user_rating": null,
@@ -1549,7 +1616,9 @@
           "tom_label": "2",
           "shelves": [
             "Chcę przeczytać",
-            "Na czytniku"
+            "Do przeczytania",
+            "Posiadane",
+            "Niedokończone serie"
           ],
           "average_rating": 7.3,
           "user_rating": null,
@@ -1637,7 +1706,7 @@
           "shelves": [
             "Przeczytane"
           ],
-          "average_rating": 7.8,
+          "average_rating": 7.7,
           "user_rating": null,
           "read_date": "2025-12-20"
         }
@@ -2496,7 +2565,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 6.7,
+          "average_rating": 6.8,
           "user_rating": null,
           "read_date": null
         }
@@ -2538,7 +2607,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 7.2,
+          "average_rating": 7.3,
           "user_rating": 7.0,
           "read_date": null
         },
@@ -3073,7 +3142,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 7.6,
+          "average_rating": 7.5,
           "user_rating": 8.0,
           "read_date": "2026-07-20"
         },
@@ -3184,7 +3253,7 @@
           "id": "308630",
           "title": "Harry Potter i Kamień Filozoficzny",
           "url": "https://lubimyczytac.pl/ksiazka/308630/harry-potter-i-kamien-filozoficzny",
-          "cover": "https://s.lubimyczytac.pl/upload/books/308000/308630/494238-170x243.jpg",
+          "cover": "https://s.lubimyczytac.pl/upload/books/308000/308630/1403572-170x243.jpg",
           "tom_from": 1.0,
           "tom_to": 1.0,
           "tom_label": "1",
@@ -3199,7 +3268,7 @@
           "id": "5184735",
           "title": "Harry Potter i Komnata Tajemnic",
           "url": "https://lubimyczytac.pl/ksiazka/5184735/harry-potter-i-komnata-tajemnic",
-          "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184735/1262392-170x243.jpg",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184735/1405381-170x243.jpg",
           "tom_from": 2.0,
           "tom_to": 2.0,
           "tom_label": "2",
@@ -3714,7 +3783,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.2,
+          "average_rating": 7.1,
           "user_rating": null,
           "read_date": null
         }
@@ -3971,7 +4040,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 6.2,
+          "average_rating": 6.3,
           "user_rating": null,
           "read_date": null
         }
@@ -4066,7 +4135,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 8.3,
+          "average_rating": 8.1,
           "user_rating": null,
           "read_date": null
         }
@@ -4260,7 +4329,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 6.3,
+          "average_rating": 6.2,
           "user_rating": null,
           "read_date": null
         }
@@ -4491,7 +4560,7 @@
             "Przeczytane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.6,
+          "average_rating": 7.7,
           "user_rating": 8.0,
           "read_date": "2026-09-11"
         },
@@ -4507,6 +4576,117 @@
             "Teraz czytam"
           ],
           "average_rating": 7.2,
+          "user_rating": null,
+          "read_date": null
+        }
+      ]
+    },
+    {
+      "name": "Królestwo Mostu",
+      "authors": [
+        "Danielle L. Jensen"
+      ],
+      "flags": [],
+      "volumes": [
+        {
+          "id": "5263235",
+          "title": "Królestwo Mostu",
+          "url": "https://lubimyczytac.pl/ksiazka/5263235/krolestwo-mostu",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5263000/5263235/1399548-170x243.jpg",
+          "tom_from": 1.0,
+          "tom_to": 1.0,
+          "tom_label": "1",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.7,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5263229",
+          "title": "Zdradziecka Królowa",
+          "url": "https://lubimyczytac.pl/ksiazka/5263229/zdradziecka-krolowa",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5263000/5263229/1399538-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 8.0,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5263234",
+          "title": "Niechciany Następca",
+          "url": "https://lubimyczytac.pl/ksiazka/5263234/niechciany-nastepca",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5263000/5263234/1399552-170x243.jpg",
+          "tom_from": 3.0,
+          "tom_to": 3.0,
+          "tom_label": "3",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.8,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5263237",
+          "title": "Wieczna Wojna",
+          "url": "https://lubimyczytac.pl/ksiazka/5263237/wieczna-wojna",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5263000/5263237/1399553-170x243.jpg",
+          "tom_from": 4.0,
+          "tom_to": 4.0,
+          "tom_label": "4",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 8.0,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5263252",
+          "title": "Skręcony Tron",
+          "url": "https://lubimyczytac.pl/ksiazka/5263252/skrecony-tron",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5263000/5263252/1399551-170x243.jpg",
+          "tom_from": 5.0,
+          "tom_to": 5.0,
+          "tom_label": "5",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.9,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5263255",
+          "title": "Ostrze burzy",
+          "url": "https://lubimyczytac.pl/ksiazka/5263255/ostrze-burzy",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5263000/5263255/1399549-170x243.jpg",
+          "tom_from": 6.0,
+          "tom_to": 6.0,
+          "tom_label": "6",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 8.3,
           "user_rating": null,
           "read_date": null
         }
@@ -4930,11 +5110,11 @@
           "tom_to": 2.5,
           "tom_label": "2.5",
           "shelves": [
-            "Teraz czytam"
+            "Przeczytane"
           ],
           "average_rating": 7.0,
-          "user_rating": null,
-          "read_date": null
+          "user_rating": 8.0,
+          "read_date": "2026-09-22"
         },
         {
           "id": "4873018",
@@ -4945,11 +5125,11 @@
           "tom_to": 2.8,
           "tom_label": "2.8",
           "shelves": [
-            "Teraz czytam"
+            "Przeczytane"
           ],
           "average_rating": 7.1,
-          "user_rating": null,
-          "read_date": null
+          "user_rating": 7.0,
+          "read_date": "2026-10-02"
         },
         {
           "id": "4885375",
@@ -4960,11 +5140,11 @@
           "tom_to": 3.0,
           "tom_label": "3",
           "shelves": [
-            "Teraz czytam"
+            "Przeczytane"
           ],
           "average_rating": 6.9,
-          "user_rating": null,
-          "read_date": null
+          "user_rating": 7.0,
+          "read_date": "2026-10-03"
         },
         {
           "id": "4903074",
@@ -4975,11 +5155,11 @@
           "tom_to": 4.0,
           "tom_label": "4",
           "shelves": [
-            "Teraz czytam"
+            "Przeczytane"
           ],
           "average_rating": 6.9,
-          "user_rating": null,
-          "read_date": null
+          "user_rating": 7.0,
+          "read_date": "2026-10-11"
         },
         {
           "id": "5110709",
@@ -5233,7 +5413,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.3,
+          "average_rating": 7.2,
           "user_rating": null,
           "read_date": null
         }
@@ -5250,7 +5430,7 @@
           "id": "5217414",
           "title": "Aquila",
           "url": "https://lubimyczytac.pl/ksiazka/5217414/aquila",
-          "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217414/1335574-170x243.jpg",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217414/1405082-170x243.jpg",
           "tom_from": 0.0,
           "tom_to": 0.0,
           "tom_label": "0",
@@ -5258,7 +5438,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 7.4,
+          "average_rating": 7.5,
           "user_rating": 7.0,
           "read_date": "2026-08-29"
         },
@@ -5554,7 +5734,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 8.3,
+          "average_rating": 8.2,
           "user_rating": null,
           "read_date": null
         }
@@ -5691,7 +5871,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.8,
+          "average_rating": 7.9,
           "user_rating": null,
           "read_date": null
         },
@@ -6189,7 +6369,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.0,
+          "average_rating": 7.1,
           "user_rating": null,
           "read_date": null
         }
@@ -6414,7 +6594,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.0,
+          "average_rating": 6.9,
           "user_rating": null,
           "read_date": null
         },
@@ -6901,7 +7081,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 7.4,
+          "average_rating": 7.3,
           "user_rating": 7.0,
           "read_date": null
         }
@@ -7248,7 +7428,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.5,
+          "average_rating": 7.6,
           "user_rating": null,
           "read_date": null
         },
@@ -7508,7 +7688,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 9.0,
+          "average_rating": 8.1,
           "user_rating": null,
           "read_date": null
         }
@@ -7722,6 +7902,51 @@
             "Przeczytane"
           ],
           "average_rating": 6.7,
+          "user_rating": null,
+          "read_date": null
+        }
+      ]
+    },
+    {
+      "name": "Stróże",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "flags": [
+        {
+          "key": "shelf-mismatch",
+          "label": "rozbieżność półek",
+          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
+        }
+      ],
+      "volumes": [
+        {
+          "id": "4850009",
+          "title": "Stróże",
+          "url": "https://lubimyczytac.pl/ksiazka/4850009/stroze",
+          "cover": "https://s.lubimyczytac.pl/upload/books/4850000/4850009/670342-170x243.jpg",
+          "tom_from": 1.0,
+          "tom_to": 1.0,
+          "tom_label": "1",
+          "shelves": [
+            "Przeczytane"
+          ],
+          "average_rating": 6.7,
+          "user_rating": 7.0,
+          "read_date": null
+        },
+        {
+          "id": "4890058",
+          "title": "Brudnopis Boga",
+          "url": "https://lubimyczytac.pl/ksiazka/4890058/brudnopis-boga",
+          "cover": "https://s.lubimyczytac.pl/upload/books/4890000/4890058/770540-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
+          "shelves": [
+            "Teraz czytam"
+          ],
+          "average_rating": 6.6,
           "user_rating": null,
           "read_date": null
         }
@@ -8189,7 +8414,7 @@
       "volumes": [
         {
           "id": "5245607",
-          "title": "Zakazana alchemia",
+          "title": "Zakazana Alchemia",
           "url": "https://lubimyczytac.pl/ksiazka/5245607/zakazana-alchemia",
           "cover": "https://s.lubimyczytac.pl/upload/books/5245000/5245607/1397013-170x243.jpg",
           "tom_from": 1.0,
@@ -8199,7 +8424,7 @@
             "Chcę przeczytać",
             "Do sprawdzenia"
           ],
-          "average_rating": 8.2,
+          "average_rating": 8.6,
           "user_rating": null,
           "read_date": null
         }
@@ -8330,7 +8555,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 6.9,
+          "average_rating": 7.9,
           "user_rating": null,
           "read_date": null
         }
@@ -8612,7 +8837,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 8.9,
+          "average_rating": 8.8,
           "user_rating": null,
           "read_date": null
         }
@@ -9608,7 +9833,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.0,
+          "average_rating": 6.9,
           "user_rating": null,
           "read_date": null
         }
@@ -10079,7 +10304,7 @@
       "volumes": [
         {
           "id": "5204475",
-          "title": "Tkająca Wiatr",
+          "title": "Tkająca wiatr",
           "url": "https://lubimyczytac.pl/ksiazka/5204475/tkajaca-wiatr",
           "cover": "https://s.lubimyczytac.pl/upload/books/5204000/5204475/1307724-170x243.jpg",
           "tom_from": 1.0,
@@ -10108,7 +10333,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 8.9,
+          "average_rating": 8.8,
           "user_rating": null,
           "read_date": null
         }
@@ -10275,7 +10500,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 7.5,
+          "average_rating": 7.6,
           "user_rating": 9.0,
           "read_date": "2020-06-16"
         },
@@ -10457,7 +10682,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.5,
+          "average_rating": 7.4,
           "user_rating": null,
           "read_date": null
         }

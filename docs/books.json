@@ -1,7 +1,269 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 597,
+  "count": 608,
   "books": [
+    {
+      "id": "5263255",
+      "title": "Ostrze burzy",
+      "url": "https://lubimyczytac.pl/ksiazka/5263255/ostrze-burzy",
+      "type": "book",
+      "authors": [
+        "Danielle L. Jensen"
+      ],
+      "average_rating": 8.3,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Królestwo Mostu (tom 6)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5263000/5263255/1399549-170x243.jpg"
+    },
+    {
+      "id": "5263252",
+      "title": "Skręcony Tron",
+      "url": "https://lubimyczytac.pl/ksiazka/5263252/skrecony-tron",
+      "type": "book",
+      "authors": [
+        "Danielle L. Jensen"
+      ],
+      "average_rating": 7.9,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Królestwo Mostu (tom 5)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5263000/5263252/1399551-170x243.jpg"
+    },
+    {
+      "id": "5263237",
+      "title": "Wieczna Wojna",
+      "url": "https://lubimyczytac.pl/ksiazka/5263237/wieczna-wojna",
+      "type": "book",
+      "authors": [
+        "Danielle L. Jensen"
+      ],
+      "average_rating": 8.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Królestwo Mostu (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5263000/5263237/1399553-170x243.jpg"
+    },
+    {
+      "id": "5263234",
+      "title": "Niechciany Następca",
+      "url": "https://lubimyczytac.pl/ksiazka/5263234/niechciany-nastepca",
+      "type": "book",
+      "authors": [
+        "Danielle L. Jensen"
+      ],
+      "average_rating": 7.8,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Królestwo Mostu (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5263000/5263234/1399552-170x243.jpg"
+    },
+    {
+      "id": "5263229",
+      "title": "Zdradziecka Królowa",
+      "url": "https://lubimyczytac.pl/ksiazka/5263229/zdradziecka-krolowa",
+      "type": "book",
+      "authors": [
+        "Danielle L. Jensen"
+      ],
+      "average_rating": 8.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Królestwo Mostu (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5263000/5263229/1399538-170x243.jpg"
+    },
+    {
+      "id": "5263235",
+      "title": "Królestwo Mostu",
+      "url": "https://lubimyczytac.pl/ksiazka/5263235/krolestwo-mostu",
+      "type": "book",
+      "authors": [
+        "Danielle L. Jensen"
+      ],
+      "average_rating": 7.7,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Królestwo Mostu (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5263000/5263235/1399548-170x243.jpg"
+    },
+    {
+      "id": "5181131",
+      "title": "Cieniobójcy. Księga III. Świt",
+      "url": "https://lubimyczytac.pl/ksiazka/5181131/cieniobojcy-ksiega-iii-swit",
+      "type": "book",
+      "authors": [
+        "Mateusz Żuchowski"
+      ],
+      "average_rating": 6.8,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Cieniobójcy (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5181000/5181131/1256272-170x243.jpg"
+    },
+    {
+      "id": "5117402",
+      "title": "Cieniobójcy. Księga II. Żniwa",
+      "url": "https://lubimyczytac.pl/ksiazka/5117402/cieniobojcy-ksiega-ii-zniwa",
+      "type": "book",
+      "authors": [
+        "Mateusz Żuchowski"
+      ],
+      "average_rating": 7.4,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Cieniobójcy (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5117000/5117402/1156303-170x243.jpg"
+    },
+    {
+      "id": "5112093",
+      "title": "Cieniobójcy. Księga I. Ziarno",
+      "url": "https://lubimyczytac.pl/ksiazka/5112093/cieniobojcy-ksiega-i-ziarno",
+      "type": "book",
+      "authors": [
+        "Mateusz Żuchowski"
+      ],
+      "average_rating": 6.9,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Cieniobójcy (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5112000/5112093/1145494-170x243.jpg"
+    },
+    {
+      "id": "4850009",
+      "title": "Stróże",
+      "url": "https://lubimyczytac.pl/ksiazka/4850009/stroze",
+      "type": "book",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "average_rating": 6.7,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Stróże (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4850000/4850009/670342-170x243.jpg"
+    },
+    {
+      "id": "4903074",
+      "title": "Kill'em all",
+      "url": "https://lubimyczytac.pl/ksiazka/4903074/kill-em-all",
+      "type": "book",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "average_rating": 6.9,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Kłamca (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4903000/4903074/765485-170x243.jpg",
+      "read_date": "2026-10-11"
+    },
+    {
+      "id": "4890058",
+      "title": "Brudnopis Boga",
+      "url": "https://lubimyczytac.pl/ksiazka/4890058/brudnopis-boga",
+      "type": "book",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "average_rating": 6.6,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam"
+      ],
+      "cycle": "Stróże (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4890000/4890058/770540-170x243.jpg"
+    },
+    {
+      "id": "4885375",
+      "title": "Ochłap sztandaru",
+      "url": "https://lubimyczytac.pl/ksiazka/4885375/ochlap-sztandaru",
+      "type": "book",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "average_rating": 6.9,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Kłamca (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4885000/4885375/732190-170x243.jpg",
+      "read_date": "2026-10-03"
+    },
+    {
+      "id": "4873018",
+      "title": "Papież sztuk",
+      "url": "https://lubimyczytac.pl/ksiazka/4873018/papiez-sztuk",
+      "type": "book",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "average_rating": 7.1,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Kłamca (tom 2.8)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4873000/4873018/741269-170x243.jpg",
+      "read_date": "2026-10-02"
+    },
+    {
+      "id": "4866079",
+      "title": "Machinomachia",
+      "url": "https://lubimyczytac.pl/ksiazka/4866079/machinomachia",
+      "type": "book",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "average_rating": 7.0,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Kłamca (tom 2.5)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4866000/4866079/696292-170x243.jpg",
+      "read_date": "2026-09-22"
+    },
     {
       "id": "5250927",
       "title": "Threshing Day. Dzień Odsiewu",
@@ -138,7 +400,7 @@
       "authors": [
         "Keri Lake"
       ],
-      "average_rating": 6.9,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -391,7 +653,7 @@
       "authors": [
         "Michael Moorcock"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -409,7 +671,7 @@
       "authors": [
         "Karl Edward Wagner"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -491,13 +753,13 @@
     },
     {
       "id": "5245607",
-      "title": "Zakazana alchemia",
+      "title": "Zakazana Alchemia",
       "url": "https://lubimyczytac.pl/ksiazka/5245607/zakazana-alchemia",
       "type": "book",
       "authors": [
         "Stacey McEwan"
       ],
-      "average_rating": 8.2,
+      "average_rating": 8.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -531,7 +793,7 @@
       "authors": [
         "Anthony Ryan"
       ],
-      "average_rating": 9.0,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -569,7 +831,7 @@
       "authors": [
         "Jay Kristoff"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -597,70 +859,6 @@
       "cover": "https://s.lubimyczytac.pl/upload/books/5110000/5110709/1146732-170x243.jpg"
     },
     {
-      "id": "4903074",
-      "title": "Kill'em all",
-      "url": "https://lubimyczytac.pl/ksiazka/4903074/kill-em-all",
-      "type": "book",
-      "authors": [
-        "Jakub Ćwiek"
-      ],
-      "average_rating": 6.9,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam"
-      ],
-      "cycle": "Kłamca (tom 4)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4903000/4903074/765485-170x243.jpg"
-    },
-    {
-      "id": "4885375",
-      "title": "Ochłap sztandaru",
-      "url": "https://lubimyczytac.pl/ksiazka/4885375/ochlap-sztandaru",
-      "type": "book",
-      "authors": [
-        "Jakub Ćwiek"
-      ],
-      "average_rating": 6.9,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam"
-      ],
-      "cycle": "Kłamca (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4885000/4885375/732190-170x243.jpg"
-    },
-    {
-      "id": "4873018",
-      "title": "Papież sztuk",
-      "url": "https://lubimyczytac.pl/ksiazka/4873018/papiez-sztuk",
-      "type": "book",
-      "authors": [
-        "Jakub Ćwiek"
-      ],
-      "average_rating": 7.1,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam"
-      ],
-      "cycle": "Kłamca (tom 2.8)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4873000/4873018/741269-170x243.jpg"
-    },
-    {
-      "id": "4866079",
-      "title": "Machinomachia",
-      "url": "https://lubimyczytac.pl/ksiazka/4866079/machinomachia",
-      "type": "book",
-      "authors": [
-        "Jakub Ćwiek"
-      ],
-      "average_rating": 7.0,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam"
-      ],
-      "cycle": "Kłamca (tom 2.5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4866000/4866079/696292-170x243.jpg"
-    },
-    {
       "id": "5066868",
       "title": "Cyjan",
       "url": "https://lubimyczytac.pl/ksiazka/5066868/cyjan",
@@ -685,7 +883,7 @@
       "authors": [
         "Jarosław Dobrowolski"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.7,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -720,14 +918,14 @@
       "authors": [
         "Peter A. Flannery"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.5,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
         "Posiadane"
       ],
       "cycle": "Mag bitewny (tom 0)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217414/1335574-170x243.jpg",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217414/1405082-170x243.jpg",
       "read_date": "2026-08-29"
     },
     {
@@ -807,7 +1005,7 @@
       "authors": [
         "Klaudia Wyrobek"
       ],
-      "average_rating": 8.9,
+      "average_rating": 8.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -844,7 +1042,7 @@
       "authors": [
         "Julie Johnson"
       ],
-      "average_rating": 8.9,
+      "average_rating": 8.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -914,7 +1112,7 @@
       "authors": [
         "Tamsyn Muir"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1150,7 +1348,7 @@
       "authors": [
         "Robert Jackson Bennett"
       ],
-      "average_rating": 8.2,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1274,7 +1472,7 @@
       "authors": [
         "Janusz Stankiewicz"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -1435,7 +1633,7 @@
       "authors": [
         "Katarzyna Wycisk"
       ],
-      "average_rating": 8.3,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1617,7 +1815,7 @@
       "authors": [
         "Taran Matharu"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1722,7 +1920,7 @@
       "authors": [
         "Glen Cook"
       ],
-      "average_rating": 6.2,
+      "average_rating": 6.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2611,7 +2809,7 @@
       "authors": [
         "Paweł Zbroszczyk"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Przeczytane"
@@ -2700,7 +2898,7 @@
       "authors": [
         "Tomi Adeyemi"
       ],
-      "average_rating": 6.7,
+      "average_rating": 6.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2737,7 +2935,7 @@
       "authors": [
         "Anna Benning"
       ],
-      "average_rating": 8.3,
+      "average_rating": 8.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2858,7 +3056,7 @@
       "authors": [
         "Glen Cook"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3054,7 +3252,7 @@
       "authors": [
         "Joe Abercrombie"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3285,7 +3483,7 @@
       "authors": [
         "J.T. Greathouse"
       ],
-      "average_rating": 6.3,
+      "average_rating": 6.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3463,7 +3661,7 @@
       "authors": [
         "Nicki Pau Preto"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -3516,7 +3714,7 @@
       "authors": [
         "Robert M. Wegner"
       ],
-      "average_rating": 7.0,
+      "average_rating": 7.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3671,7 +3869,7 @@
     },
     {
       "id": "5204475",
-      "title": "Tkająca Wiatr",
+      "title": "Tkająca wiatr",
       "url": "https://lubimyczytac.pl/ksiazka/5204475/tkajaca-wiatr",
       "type": "book",
       "authors": [
@@ -3712,7 +3910,7 @@
       "authors": [
         "Ula Gudel"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.3,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -4199,7 +4397,7 @@
       "authors": [
         "A.M. Engler"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -5922,7 +6120,7 @@
       "authors": [
         "Peter V. Brett"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -5996,7 +6194,9 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Na czytniku"
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
       ],
       "cycle": "Czerwona Królowa (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/260000/260948/446589-170x243.jpg"
@@ -6155,7 +6355,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Na czytniku"
+        "Do przeczytania",
+        "Posiadane"
       ],
       "cycle": "Czerwona Królowa (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/242000/242094/1126369-170x243.jpg"
@@ -6797,7 +6998,7 @@
       "authors": [
         "Taran Matharu"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.6,
       "user_rating": 9.0,
       "shelves": [
         "Przeczytane",
@@ -7994,7 +8195,7 @@
       "authors": [
         "Scott Lynch"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -9314,7 +9515,7 @@
         "Przeczytane"
       ],
       "cycle": "Harry Potter (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184735/1262392-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184735/1405381-170x243.jpg"
     },
     {
       "id": "308630",
@@ -9330,7 +9531,7 @@
         "Przeczytane"
       ],
       "cycle": "Harry Potter (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/308000/308630/494238-170x243.jpg"
+      "cover": "https://s.lubimyczytac.pl/upload/books/308000/308630/1403572-170x243.jpg"
     },
     {
       "id": "4011893",
