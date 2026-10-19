@@ -43,7 +43,9 @@
       "url": "https://lubimyczytac.pl/ksiazka/5254399/alchemik",
       "source": "announcement",
       "when": "2026-10-19T00:00:00+02:00",
-      "note": "Alchemik t.1 (Insignis, 2026-09-23; przeoczone we wrześniu/październiku). Autor Drogi Szamana (6-8). Oryginał zamknięty w 5 tomach (2020-2021); finał z mieszanymi opiniami. Audiobook na Legimi."
+      "note": "Alchemik t.1 (Insignis, 2026-09-23; przeoczone we wrześniu/październiku). Autor Drogi Szamana (6-8). Oryginał zamknięty w 5 tomach (2020-2021); finał z mieszanymi opiniami. Audiobook na Legimi.",
+      "purchased": true,
+      "purchased_at": "2026-10-19"
     },
     {
       "title": "Szalony statek",
@@ -65,6 +67,39 @@
       "source": "announcement",
       "when": "2026-10-19T00:00:00+02:00",
       "note": "Saga o Kagenie Przeklętym t.2 (Vesper, listopad 2026). Mam t.1 na półce Niedokończone serie. EN t.3 The Dragon in Winter (2024) bez PL zapowiedzi. Brak rekordu LC."
+    },
+    {
+      "id": "5073156",
+      "title": "Bez prawa do błędu",
+      "author": "Wasilij Machanienko",
+      "url": "https://lubimyczytac.pl/ksiazka/5073156/bez-prawa-do-bledu",
+      "source": "market",
+      "when": "2026-10-19T00:00:00+02:00",
+      "note": "Świat Przeistoczonych t.1 (Insignis) — pierwszy łuk świata Alchemika; seria zamknięta w 3 tomach.",
+      "purchased": true,
+      "purchased_at": "2026-10-19"
+    },
+    {
+      "id": "5114841",
+      "title": "Perła południa",
+      "author": "Wasilij Machanienko",
+      "url": "https://lubimyczytac.pl/ksiazka/5114841/perla-poludnia",
+      "source": "market",
+      "when": "2026-10-19T00:00:00+02:00",
+      "note": "Świat Przeistoczonych t.2 (Insignis) — pierwszy łuk świata Alchemika; seria zamknięta w 3 tomach.",
+      "purchased": true,
+      "purchased_at": "2026-10-19"
+    },
+    {
+      "id": "5169446",
+      "title": "Spersonifikowane noa",
+      "author": "Wasilij Machanienko",
+      "url": "https://lubimyczytac.pl/ksiazka/5169446/spersonifikowane-noa",
+      "source": "market",
+      "when": "2026-10-19T00:00:00+02:00",
+      "note": "Świat Przeistoczonych t.3 (Insignis) — pierwszy łuk świata Alchemika; seria zamknięta w 3 tomach.",
+      "purchased": true,
+      "purchased_at": "2026-10-19"
     }
   ]
 }
