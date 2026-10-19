@@ -1,7 +1,80 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 608,
+  "count": 612,
   "books": [
+    {
+      "id": "5169446",
+      "title": "Spersonifikowane noa",
+      "url": "https://lubimyczytac.pl/ksiazka/5169446/spersonifikowane-noa",
+      "type": "book",
+      "authors": [
+        "Wasilij Machanienko"
+      ],
+      "average_rating": 7.2,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Świat Przeistoczonych (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5169000/5169446/1232197-170x243.jpg"
+    },
+    {
+      "id": "5114841",
+      "title": "Perła południa",
+      "url": "https://lubimyczytac.pl/ksiazka/5114841/perla-poludnia",
+      "type": "book",
+      "authors": [
+        "Wasilij Machanienko"
+      ],
+      "average_rating": 7.3,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Świat Przeistoczonych (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5114000/5114841/1151140-170x243.jpg"
+    },
+    {
+      "id": "5073156",
+      "title": "Bez prawa do błędu",
+      "url": "https://lubimyczytac.pl/ksiazka/5073156/bez-prawa-do-bledu",
+      "type": "book",
+      "authors": [
+        "Wasilij Machanienko"
+      ],
+      "average_rating": 7.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Świat Przeistoczonych (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5073000/5073156/1077754-170x243.jpg"
+    },
+    {
+      "id": "5254399",
+      "title": "Alchemik",
+      "url": "https://lubimyczytac.pl/ksiazka/5254399/alchemik",
+      "type": "book",
+      "authors": [
+        "Wasilij Machanienko"
+      ],
+      "average_rating": 7.4,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Miasto Umarłych (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5254000/5254399/1385109-170x243.jpg"
+    },
     {
       "id": "5263255",
       "title": "Ostrze burzy",
@@ -10,7 +83,7 @@
       "authors": [
         "Danielle L. Jensen"
       ],
-      "average_rating": 8.3,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3714,7 +3787,7 @@
       "authors": [
         "Robert M. Wegner"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",

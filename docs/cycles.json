@@ -4686,7 +4686,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 8.3,
+          "average_rating": 8.1,
           "user_rating": null,
           "read_date": null
         }
@@ -5458,6 +5458,33 @@
           "average_rating": 7.6,
           "user_rating": 8.0,
           "read_date": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "name": "Miasto Umarłych",
+      "authors": [
+        "Wasilij Machanienko"
+      ],
+      "flags": [],
+      "volumes": [
+        {
+          "id": "5254399",
+          "title": "Alchemik",
+          "url": "https://lubimyczytac.pl/ksiazka/5254399/alchemik",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5254000/5254399/1385109-170x243.jpg",
+          "tom_from": 1.0,
+          "tom_to": 1.0,
+          "tom_label": "1",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane",
+            "Niedokończone serie"
+          ],
+          "average_rating": 7.4,
+          "user_rating": null,
+          "read_date": null
         }
       ]
     },
@@ -6369,7 +6396,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.1,
+          "average_rating": 7.0,
           "user_rating": null,
           "read_date": null
         }
@@ -10951,6 +10978,66 @@
           "average_rating": 6.8,
           "user_rating": 7.0,
           "read_date": "2018-12-08"
+        }
+      ]
+    },
+    {
+      "name": "Świat Przeistoczonych",
+      "authors": [
+        "Wasilij Machanienko"
+      ],
+      "flags": [],
+      "volumes": [
+        {
+          "id": "5073156",
+          "title": "Bez prawa do błędu",
+          "url": "https://lubimyczytac.pl/ksiazka/5073156/bez-prawa-do-bledu",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5073000/5073156/1077754-170x243.jpg",
+          "tom_from": 1.0,
+          "tom_to": 1.0,
+          "tom_label": "1",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.0,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5114841",
+          "title": "Perła południa",
+          "url": "https://lubimyczytac.pl/ksiazka/5114841/perla-poludnia",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5114000/5114841/1151140-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.3,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5169446",
+          "title": "Spersonifikowane noa",
+          "url": "https://lubimyczytac.pl/ksiazka/5169446/spersonifikowane-noa",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5169000/5169446/1232197-170x243.jpg",
+          "tom_from": 3.0,
+          "tom_to": 3.0,
+          "tom_label": "3",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.2,
+          "user_rating": null,
+          "read_date": null
         }
       ]
     },
