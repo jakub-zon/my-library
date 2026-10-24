@@ -4149,13 +4149,7 @@
       "authors": [
         "Kel Kade"
       ],
-      "flags": [
-        {
-          "key": "shelf-mismatch",
-          "label": "rozbieżność półek",
-          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
-        }
-      ],
+      "flags": [],
       "volumes": [
         {
           "id": "4954385",
@@ -4202,7 +4196,7 @@
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Niedokończone serie"
+            "Posiadane"
           ],
           "average_rating": 7.3,
           "user_rating": null,
@@ -4236,7 +4230,7 @@
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Dostępne na Legimi"
+            "Posiadane"
           ],
           "average_rating": 7.5,
           "user_rating": null,
