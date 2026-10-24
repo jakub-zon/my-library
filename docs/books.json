@@ -1,7 +1,334 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 612,
+  "count": 630,
   "books": [
+    {
+      "id": "5217962",
+      "title": "Śpiewający Skałom",
+      "url": "https://lubimyczytac.pl/ksiazka/5217962/spiewajacy-skalom",
+      "type": "book",
+      "authors": [
+        "Jacek Małkowski"
+      ],
+      "average_rating": 8.9,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Ostatni Cień (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217962/1322198-170x243.jpg"
+    },
+    {
+      "id": "5184586",
+      "title": "Cienie nad Doliną",
+      "url": "https://lubimyczytac.pl/ksiazka/5184586/cienie-nad-dolina",
+      "type": "book",
+      "authors": [
+        "Jacek Małkowski"
+      ],
+      "average_rating": 8.7,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Ostatni Cień (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184586/1322199-170x243.jpg"
+    },
+    {
+      "id": "5219414",
+      "title": "Wędrowcy. Opowieści z Uniwersum Powiernika",
+      "url": "https://lubimyczytac.pl/ksiazka/5219414/wedrowcy-opowiesci-z-uniwersum-powiernika",
+      "type": "book",
+      "authors": [
+        "Grzegorz Gajek",
+        "Monika Maciewicz"
+      ],
+      "average_rating": 7.5,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5219000/5219414/1324524-170x243.jpg"
+    },
+    {
+      "id": "5240141",
+      "title": "Trzej Maszkaronowie i sami (nie)swoi",
+      "url": "https://lubimyczytac.pl/ksiazka/5240141/trzej-maszkaronowie-i-sami-nie-swoi",
+      "type": "book",
+      "authors": [
+        "Franciszek M. Piątkowski"
+      ],
+      "average_rating": 7.5,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Marek Lichocki (tom 5)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5240000/5240141/1365773-170x243.jpg"
+    },
+    {
+      "id": "5090216",
+      "title": "Trzej Maszkaronowie, czyli legendarna komedia",
+      "url": "https://lubimyczytac.pl/ksiazka/5090216/trzej-maszkaronowie-czyli-legendarna-komedia",
+      "type": "book",
+      "authors": [
+        "Franciszek M. Piątkowski"
+      ],
+      "average_rating": 7.3,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Marek Lichocki (tom 4.5)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5090000/5090216/1117625-170x243.jpg"
+    },
+    {
+      "id": "5052366",
+      "title": "Wybrani",
+      "url": "https://lubimyczytac.pl/ksiazka/5052366/wybrani",
+      "type": "book",
+      "authors": [
+        "Franciszek M. Piątkowski"
+      ],
+      "average_rating": 7.6,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Marek Lichocki (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5052000/5052366/1261806-170x243.jpg"
+    },
+    {
+      "id": "4949349",
+      "title": "Obrońcy",
+      "url": "https://lubimyczytac.pl/ksiazka/4949349/obroncy",
+      "type": "book",
+      "authors": [
+        "Franciszek M. Piątkowski"
+      ],
+      "average_rating": 7.9,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Marek Lichocki (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4949000/4949349/862151-170x243.jpg"
+    },
+    {
+      "id": "4976906",
+      "title": "Widzący. Bogowie i stwory. Opowiadania",
+      "url": "https://lubimyczytac.pl/ksiazka/4976906/widzacy-bogowie-i-stwory-opowiadania",
+      "type": "book",
+      "authors": [
+        "Franciszek M. Piątkowski"
+      ],
+      "average_rating": 7.7,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Marek Lichocki (tom 2.5)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4976000/4976906/916263-170x243.jpg"
+    },
+    {
+      "id": "4905468",
+      "title": "Widzący",
+      "url": "https://lubimyczytac.pl/ksiazka/4905468/widzacy",
+      "type": "book",
+      "authors": [
+        "Franciszek M. Piątkowski"
+      ],
+      "average_rating": 7.6,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Marek Lichocki (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4905000/4905468/1244955-170x243.jpg"
+    },
+    {
+      "id": "4926735",
+      "title": "Powiernik. Bogowie i stwory. Opowiadania",
+      "url": "https://lubimyczytac.pl/ksiazka/4926735/powiernik-bogowie-i-stwory-opowiadania",
+      "type": "book",
+      "authors": [
+        "Franciszek M. Piątkowski"
+      ],
+      "average_rating": 7.5,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Marek Lichocki (tom 1.5)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4926000/4926735/814478-170x243.jpg"
+    },
+    {
+      "id": "4890786",
+      "title": "Powiernik",
+      "url": "https://lubimyczytac.pl/ksiazka/4890786/powiernik",
+      "type": "book",
+      "authors": [
+        "Franciszek M. Piątkowski"
+      ],
+      "average_rating": 7.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Marek Lichocki (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4890000/4890786/762523-170x243.jpg"
+    },
+    {
+      "id": "5210115",
+      "title": "Pogrzeb baśni",
+      "url": "https://lubimyczytac.pl/ksiazka/5210115/pogrzeb-basni",
+      "type": "book",
+      "authors": [
+        "Wiktoria Korzeniewska"
+      ],
+      "average_rating": 7.9,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5210000/5210115/1307581-170x243.jpg"
+    },
+    {
+      "id": "5242520",
+      "title": "Level Up 3. Próba",
+      "url": "https://lubimyczytac.pl/ksiazka/5242520/level-up-3-proba",
+      "type": "book",
+      "authors": [
+        "Dan Sugralinow"
+      ],
+      "average_rating": 7.9,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Level Up (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5242000/5242520/1365345-170x243.jpg"
+    },
+    {
+      "id": "5226038",
+      "title": "Level Up 2. Bohater",
+      "url": "https://lubimyczytac.pl/ksiazka/5226038/level-up-2-bohater",
+      "type": "book",
+      "authors": [
+        "Dan Sugralinow"
+      ],
+      "average_rating": 7.5,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Level Up (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5226000/5226038/1337766-170x243.jpg"
+    },
+    {
+      "id": "5198106",
+      "title": "Level Up 1. Re-start",
+      "url": "https://lubimyczytac.pl/ksiazka/5198106/level-up-1-re-start",
+      "type": "book",
+      "authors": [
+        "Dan Sugralinow"
+      ],
+      "average_rating": 7.5,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Level Up (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5198000/5198106/1286007-170x243.jpg"
+    },
+    {
+      "id": "5259968",
+      "title": "Mintari Księga II: Panandan",
+      "url": "https://lubimyczytac.pl/ksiazka/5259968/mintari-ksiega-ii-panandan",
+      "type": "book",
+      "authors": [
+        "Jakub Styczyszyn"
+      ],
+      "average_rating": 9.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "MINTARI (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5259000/5259968/1393937-170x243.jpg"
+    },
+    {
+      "id": "5215556",
+      "title": "Mintari Księga I: Kargynis",
+      "url": "https://lubimyczytac.pl/ksiazka/5215556/mintari-ksiega-i-kargynis",
+      "type": "book",
+      "authors": [
+        "Jakub Styczyszyn"
+      ],
+      "average_rating": 8.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "MINTARI (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5215000/5215556/1317352-170x243.jpg"
+    },
+    {
+      "id": "5240941",
+      "title": "Primal Hunter. Tom 1",
+      "url": "https://lubimyczytac.pl/ksiazka/5240941/primal-hunter-tom-1",
+      "type": "book",
+      "authors": [
+        "Zogarth"
+      ],
+      "average_rating": 7.3,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "The Primal Hunter (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5240000/5240941/1367474-170x243.jpg"
+    },
     {
       "id": "5169446",
       "title": "Spersonifikowane noa",
@@ -345,7 +672,7 @@
       "authors": [
         "Rebecca Yarros"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -473,7 +800,7 @@
       "authors": [
         "Keri Lake"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -832,7 +1159,7 @@
       "authors": [
         "Stacey McEwan"
       ],
-      "average_rating": 8.6,
+      "average_rating": 8.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -849,7 +1176,7 @@
       "authors": [
         "Fonda Lee"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -866,7 +1193,7 @@
       "authors": [
         "Anthony Ryan"
       ],
-      "average_rating": 8.1,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -956,7 +1283,7 @@
       "authors": [
         "Jarosław Dobrowolski"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -1041,7 +1368,7 @@
       "authors": [
         "Peter A. Flannery"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -1516,7 +1843,8 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Dostępne na Legimi"
+        "Posiadane",
+        "Niedokończone serie"
       ],
       "cycle": "Tajne proroctwo (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5190000/5190702/1276238-170x243.jpg"
@@ -1581,7 +1909,7 @@
       "authors": [
         "Janusz Stankiewicz"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.0,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -1706,7 +2034,7 @@
       "authors": [
         "Katarzyna Wycisk"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2035,7 +2363,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Do sprawdzenia"
+        "Do przeczytania",
+        "Posiadane"
       ],
       "cycle": "Ostatni Cień (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184585/1353610-170x243.jpg"
@@ -2082,7 +2411,7 @@
       "authors": [
         "Adam Hetmański"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.4,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -2600,7 +2929,7 @@
       "authors": [
         "Zeter Zelke"
       ],
-      "average_rating": 5.7,
+      "average_rating": 6.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2653,7 +2982,7 @@
       "authors": [
         "Anthony Ryan"
       ],
-      "average_rating": 7.9,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Przeczytane",
@@ -2883,9 +3212,10 @@
         "Paweł Zbroszczyk"
       ],
       "average_rating": 7.7,
-      "user_rating": null,
+      "user_rating": 8.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "Dar anomalii (tom 3)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5187000/5187762/1267881-170x243.jpg",
@@ -3065,7 +3395,8 @@
       "average_rating": 7.9,
       "user_rating": 7.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "Dar anomalii (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5105000/5105773/1132286-170x243.jpg"
@@ -3081,7 +3412,8 @@
       "average_rating": 7.4,
       "user_rating": 7.0,
       "shelves": [
-        "Przeczytane"
+        "Przeczytane",
+        "Posiadane"
       ],
       "cycle": "Dar anomalii (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5060000/5060263/1055701-170x243.jpg"
@@ -3651,7 +3983,8 @@
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
-        "Dostępne na Legimi",
+        "Do przeczytania",
+        "Posiadane",
         "Niedokończone serie"
       ],
       "cycle": "Kroniki mroku/King's Dark Tidings (tom 6)",
@@ -4259,7 +4592,7 @@
       "authors": [
         "Richard Schwartz"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -4526,7 +4859,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Dostępne na Legimi"
+        "Posiadane"
       ],
       "cycle": "Tajne proroctwo (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5099000/5099156/1155402-170x243.jpg"
@@ -4560,7 +4893,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Dostępne na Legimi"
+        "Posiadane"
       ],
       "cycle": "Kroniki mroku/King's Dark Tidings (tom 5)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5035000/5035706/1089656-170x243.jpg"
@@ -4596,7 +4929,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Dostępne na Legimi"
+        "Posiadane"
       ],
       "cycle": "Kroniki mroku/King's Dark Tidings (tom 4)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4972000/4972811/991852-170x243.jpg"
@@ -4614,7 +4947,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Dostępne na Legimi"
+        "Niedokończone serie"
       ],
       "cycle": "Kroniki mroku/King's Dark Tidings (tom 3)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4972000/4972810/958673-170x243.jpg"
@@ -4632,7 +4965,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Dostępne na Legimi"
+        "Posiadane"
       ],
       "cycle": "Kroniki mroku/King's Dark Tidings (tom 2)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4972000/4972809/946575-170x243.jpg"
@@ -5982,7 +6315,7 @@
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Dostępne na Legimi"
+        "Posiadane"
       ],
       "cycle": "Kroniki mroku/King's Dark Tidings (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4954000/4954385/946574-170x243.jpg"

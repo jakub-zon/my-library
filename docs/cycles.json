@@ -1674,7 +1674,8 @@
           "tom_to": 1.0,
           "tom_label": "1",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 7.4,
           "user_rating": 7.0,
@@ -1689,7 +1690,8 @@
           "tom_to": 2.0,
           "tom_label": "2",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 7.9,
           "user_rating": 7.0,
@@ -1704,10 +1706,11 @@
           "tom_to": 3.0,
           "tom_label": "3",
           "shelves": [
-            "Przeczytane"
+            "Przeczytane",
+            "Posiadane"
           ],
           "average_rating": 7.7,
-          "user_rating": null,
+          "user_rating": 8.0,
           "read_date": "2025-12-20"
         }
       ]
@@ -2886,7 +2889,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 8.1,
+          "average_rating": 8.0,
           "user_rating": null,
           "read_date": null
         }
@@ -3110,7 +3113,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 7.1,
+          "average_rating": 7.0,
           "user_rating": 8.0,
           "read_date": "2026-07-13"
         },
@@ -4135,7 +4138,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 8.1,
+          "average_rating": 8.2,
           "user_rating": null,
           "read_date": null
         }
@@ -4165,7 +4168,7 @@
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Dostępne na Legimi"
+            "Posiadane"
           ],
           "average_rating": 7.2,
           "user_rating": null,
@@ -4182,7 +4185,7 @@
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Dostępne na Legimi"
+            "Posiadane"
           ],
           "average_rating": 7.6,
           "user_rating": null,
@@ -4199,7 +4202,7 @@
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Dostępne na Legimi"
+            "Niedokończone serie"
           ],
           "average_rating": 7.3,
           "user_rating": null,
@@ -4216,7 +4219,7 @@
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Dostępne na Legimi"
+            "Posiadane"
           ],
           "average_rating": 7.5,
           "user_rating": null,
@@ -4250,7 +4253,7 @@
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Dostępne na Legimi"
+            "Posiadane"
           ],
           "average_rating": 7.5,
           "user_rating": null,
@@ -4266,7 +4269,8 @@
           "tom_label": "6",
           "shelves": [
             "Chcę przeczytać",
-            "Dostępne na Legimi",
+            "Do przeczytania",
+            "Posiadane",
             "Niedokończone serie"
           ],
           "average_rating": 7.4,
@@ -4560,7 +4564,7 @@
             "Przeczytane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.7,
+          "average_rating": 7.6,
           "user_rating": 8.0,
           "read_date": "2026-09-11"
         },
@@ -5333,6 +5337,66 @@
       ]
     },
     {
+      "name": "Level Up",
+      "authors": [
+        "Dan Sugralinow"
+      ],
+      "flags": [],
+      "volumes": [
+        {
+          "id": "5198106",
+          "title": "Level Up 1. Re-start",
+          "url": "https://lubimyczytac.pl/ksiazka/5198106/level-up-1-re-start",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5198000/5198106/1286007-170x243.jpg",
+          "tom_from": 1.0,
+          "tom_to": 1.0,
+          "tom_label": "1",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.5,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5226038",
+          "title": "Level Up 2. Bohater",
+          "url": "https://lubimyczytac.pl/ksiazka/5226038/level-up-2-bohater",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5226000/5226038/1337766-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.5,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5242520",
+          "title": "Level Up 3. Próba",
+          "url": "https://lubimyczytac.pl/ksiazka/5242520/level-up-3-proba",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5242000/5242520/1365345-170x243.jpg",
+          "tom_from": 3.0,
+          "tom_to": 3.0,
+          "tom_label": "3",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.9,
+          "user_rating": null,
+          "read_date": null
+        }
+      ]
+    },
+    {
       "name": "Lewa ręka Boga",
       "authors": [
         "Paul Hoffman"
@@ -5455,9 +5519,155 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.6,
+          "average_rating": 7.5,
           "user_rating": 8.0,
           "read_date": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "name": "Marek Lichocki",
+      "authors": [
+        "Franciszek M. Piątkowski"
+      ],
+      "flags": [],
+      "volumes": [
+        {
+          "id": "4890786",
+          "title": "Powiernik",
+          "url": "https://lubimyczytac.pl/ksiazka/4890786/powiernik",
+          "cover": "https://s.lubimyczytac.pl/upload/books/4890000/4890786/762523-170x243.jpg",
+          "tom_from": 1.0,
+          "tom_to": 1.0,
+          "tom_label": "1",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.1,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "4926735",
+          "title": "Powiernik. Bogowie i stwory. Opowiadania",
+          "url": "https://lubimyczytac.pl/ksiazka/4926735/powiernik-bogowie-i-stwory-opowiadania",
+          "cover": "https://s.lubimyczytac.pl/upload/books/4926000/4926735/814478-170x243.jpg",
+          "tom_from": 1.5,
+          "tom_to": 1.5,
+          "tom_label": "1.5",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.5,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "4905468",
+          "title": "Widzący",
+          "url": "https://lubimyczytac.pl/ksiazka/4905468/widzacy",
+          "cover": "https://s.lubimyczytac.pl/upload/books/4905000/4905468/1244955-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.6,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "4976906",
+          "title": "Widzący. Bogowie i stwory. Opowiadania",
+          "url": "https://lubimyczytac.pl/ksiazka/4976906/widzacy-bogowie-i-stwory-opowiadania",
+          "cover": "https://s.lubimyczytac.pl/upload/books/4976000/4976906/916263-170x243.jpg",
+          "tom_from": 2.5,
+          "tom_to": 2.5,
+          "tom_label": "2.5",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.7,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "4949349",
+          "title": "Obrońcy",
+          "url": "https://lubimyczytac.pl/ksiazka/4949349/obroncy",
+          "cover": "https://s.lubimyczytac.pl/upload/books/4949000/4949349/862151-170x243.jpg",
+          "tom_from": 3.0,
+          "tom_to": 3.0,
+          "tom_label": "3",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.9,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5052366",
+          "title": "Wybrani",
+          "url": "https://lubimyczytac.pl/ksiazka/5052366/wybrani",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5052000/5052366/1261806-170x243.jpg",
+          "tom_from": 4.0,
+          "tom_to": 4.0,
+          "tom_label": "4",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.6,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5090216",
+          "title": "Trzej Maszkaronowie, czyli legendarna komedia",
+          "url": "https://lubimyczytac.pl/ksiazka/5090216/trzej-maszkaronowie-czyli-legendarna-komedia",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5090000/5090216/1117625-170x243.jpg",
+          "tom_from": 4.5,
+          "tom_to": 4.5,
+          "tom_label": "4.5",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.3,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5240141",
+          "title": "Trzej Maszkaronowie i sami (nie)swoi",
+          "url": "https://lubimyczytac.pl/ksiazka/5240141/trzej-maszkaronowie-i-sami-nie-swoi",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5240000/5240141/1365773-170x243.jpg",
+          "tom_from": 5.0,
+          "tom_to": 5.0,
+          "tom_label": "5",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane",
+            "Niedokończone serie"
+          ],
+          "average_rating": 7.5,
+          "user_rating": null,
+          "read_date": null
         }
       ]
     },
@@ -5582,6 +5792,50 @@
             "Przeczytane"
           ],
           "average_rating": 7.9,
+          "user_rating": null,
+          "read_date": null
+        }
+      ]
+    },
+    {
+      "name": "MINTARI",
+      "authors": [
+        "Jakub Styczyszyn"
+      ],
+      "flags": [],
+      "volumes": [
+        {
+          "id": "5215556",
+          "title": "Mintari Księga I: Kargynis",
+          "url": "https://lubimyczytac.pl/ksiazka/5215556/mintari-ksiega-i-kargynis",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5215000/5215556/1317352-170x243.jpg",
+          "tom_from": 1.0,
+          "tom_to": 1.0,
+          "tom_label": "1",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 8.1,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5259968",
+          "title": "Mintari Księga II: Panandan",
+          "url": "https://lubimyczytac.pl/ksiazka/5259968/mintari-ksiega-ii-panandan",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5259000/5259968/1393937-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane",
+            "Niedokończone serie"
+          ],
+          "average_rating": 9.1,
           "user_rating": null,
           "read_date": null
         }
@@ -6460,9 +6714,45 @@
           "tom_label": "1",
           "shelves": [
             "Chcę przeczytać",
-            "Do sprawdzenia"
+            "Do przeczytania",
+            "Posiadane"
           ],
           "average_rating": 7.8,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5184586",
+          "title": "Cienie nad Doliną",
+          "url": "https://lubimyczytac.pl/ksiazka/5184586/cienie-nad-dolina",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5184000/5184586/1322199-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 8.7,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5217962",
+          "title": "Śpiewający Skałom",
+          "url": "https://lubimyczytac.pl/ksiazka/5217962/spiewajacy-skalom",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5217000/5217962/1322198-170x243.jpg",
+          "tom_from": 3.0,
+          "tom_to": 3.0,
+          "tom_label": "3",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane",
+            "Niedokończone serie"
+          ],
+          "average_rating": 8.9,
           "user_rating": null,
           "read_date": null
         }
@@ -7715,7 +8005,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 8.1,
+          "average_rating": 7.9,
           "user_rating": null,
           "read_date": null
         }
@@ -7998,7 +8288,7 @@
             "Chcę przeczytać",
             "Do sprawdzenia"
           ],
-          "average_rating": 5.7,
+          "average_rating": 6.1,
           "user_rating": null,
           "read_date": null
         }
@@ -8367,7 +8657,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 8.1,
+          "average_rating": 8.0,
           "user_rating": 8.0,
           "read_date": null
         },
@@ -8407,7 +8697,7 @@
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Dostępne na Legimi"
+            "Posiadane"
           ],
           "average_rating": 7.0,
           "user_rating": null,
@@ -8424,7 +8714,8 @@
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Dostępne na Legimi"
+            "Posiadane",
+            "Niedokończone serie"
           ],
           "average_rating": 7.0,
           "user_rating": null,
@@ -8451,7 +8742,7 @@
             "Chcę przeczytać",
             "Do sprawdzenia"
           ],
-          "average_rating": 8.6,
+          "average_rating": 8.7,
           "user_rating": null,
           "read_date": null
         }
@@ -8582,7 +8873,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.9,
+          "average_rating": 7.8,
           "user_rating": null,
           "read_date": null
         }
@@ -8626,6 +8917,33 @@
             "Posiadane"
           ],
           "average_rating": 7.4,
+          "user_rating": null,
+          "read_date": null
+        }
+      ]
+    },
+    {
+      "name": "The Primal Hunter",
+      "authors": [
+        "Zogarth"
+      ],
+      "flags": [],
+      "volumes": [
+        {
+          "id": "5240941",
+          "title": "Primal Hunter. Tom 1",
+          "url": "https://lubimyczytac.pl/ksiazka/5240941/primal-hunter-tom-1",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5240000/5240941/1367474-170x243.jpg",
+          "tom_from": 1.0,
+          "tom_to": 1.0,
+          "tom_label": "1",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane",
+            "Niedokończone serie"
+          ],
+          "average_rating": 7.3,
           "user_rating": null,
           "read_date": null
         }
@@ -9135,7 +9453,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 7.9,
+          "average_rating": 8.0,
           "user_rating": null,
           "read_date": "2026-02-23"
         },
