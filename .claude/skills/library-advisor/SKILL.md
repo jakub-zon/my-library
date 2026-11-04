@@ -190,6 +190,8 @@ https://www.swiatksiazki.pl/ksiazki/fantastyka-1767.html?customFilters=is_preord
 - Each card renders as `Tytuł / Autor / Wydawca / Cena / ZAPOWIEDŹ / DOSTĘPNY OD DD.MM.YYYY` — publisher and release date come for free, which most publisher pages don't give.
 - Facets available for narrowing: subgenre (fantasy / science fiction / horror / romantasy), publisher, author, series, release date.
 - Give the page ~5s after `networkidle` and scroll once; product cards are not in the initial DOM.
+- **No Playwright needed (verified 2026-11-04):** local Google Chrome renders it: `"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu --virtual-time-budget=20000 --user-data-dir=<scratch>/chr --dump-dom <url>`. Product links in the dump are relative `href="/<slug>-<id>-ksiazka.html"`.
+- **Title lookup (buy links):** search is `https://www.swiatksiazki.pl/search/<urlencoded query>` (`/catalogsearch/result?q=` returns 404). Cards read `Title / Author / Publisher / price / Zapowiedź / Dostępny od DD.MM.YYYY`. Web search engines index new pre-orders late — query the site directly. If the title finds nothing, search by author name before concluding it's not listed.
 
 **Coverage caveat:** it only lists what the shop stocks. Small presses (Sinister Project, Genius Creations, Odesfa, Drageus, Pulp Books) are absent, so this **supplements** the publisher table above rather than replacing it. Run it first for broad coverage, then hit the small presses directly.
 
