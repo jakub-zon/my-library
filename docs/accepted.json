@@ -54,6 +54,31 @@
       "source": "announcement",
       "when": "2026-11-04T12:00:00+01:00",
       "note": "Fateless t.1, Fabryka Słów, premiera 2026-11. Nowa trylogia YA fantasy."
+    },
+    {
+      "id": "5194518",
+      "title": "Aż zobaczycie ogień",
+      "author": "Paweł Majka",
+      "url": "https://lubimyczytac.pl/ksiazka/5194518/az-zobaczycie-ogien",
+      "source": "market",
+      "when": "2026-11-04T13:00:00+01:00",
+      "note": "Szodar Zermiński t.1, Drageus 2025, Zajdel 2026 (powieść). Potrzebny przed t.2."
+    },
+    {
+      "title": "Szukający Śmierci",
+      "author": "Paweł Majka",
+      "source": "announcement",
+      "when": "2026-11-04T13:00:00+01:00",
+      "note": "Szodar Zermiński t.2, Drageus, premiera 2026-11-12."
+    },
+    {
+      "id": "5256787",
+      "title": "Renegaci",
+      "author": "Marissa Meyer",
+      "url": "https://lubimyczytac.pl/ksiazka/5256787/renegaci",
+      "source": "announcement",
+      "when": "2026-11-04T13:00:00+01:00",
+      "note": "Renegades t.1, SQN Imaginatio, premiera 2026-11-12. YA superbohaterowie, trylogia zamknięta w EN."
     }
   ]
 }

@@ -355,6 +355,7 @@ Batch multiple actions in one commit when the user does several at once.
 ## Things not to do
 
 - Do not recommend out-of-genre books (no thrillers, crime, literary fiction — unless the user explicitly asks).
+- Do not recommend Star Wars books (any line: canon, Legends, High Republic, YA). The user excludes the franchise outright (2026-11-04). Filter them out of announcements and market passes silently, without listing them.
 - Do not recommend books without Polish editions in modes #2 and #3.
 - Do not auto-commit without asking. Push is an explicit user decision.
 - Do not write to state files if they're corrupt — preserve the existing data.
