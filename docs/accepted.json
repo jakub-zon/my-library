@@ -79,6 +79,29 @@
       "source": "announcement",
       "when": "2026-11-04T13:00:00+01:00",
       "note": "Renegades t.1, SQN Imaginatio, premiera 2026-11-12. YA superbohaterowie, trylogia zamknięta w EN."
+    },
+    {
+      "id": "5105423",
+      "title": "Wojna starego człowieka",
+      "author": "John Scalzi",
+      "url": "https://lubimyczytac.pl/ksiazka/5105423/wojna-starego-czlowieka",
+      "source": "market",
+      "when": "2026-11-04T13:30:00+01:00",
+      "note": "Wojna starego człowieka t.1 (Vesper, Wymiary). Cykl zamknięty, 6 tomów; lżejsze militarne SF z humorem."
+    },
+    {
+      "title": "Brygady Duchów",
+      "author": "John Scalzi",
+      "source": "market",
+      "when": "2026-11-04T13:30:00+01:00",
+      "note": "Wojna starego człowieka t.2 (Vesper, Wymiary)."
+    },
+    {
+      "title": "Ostatnia kolonia",
+      "author": "John Scalzi",
+      "source": "announcement",
+      "when": "2026-11-04T13:30:00+01:00",
+      "note": "Wojna starego człowieka t.3, Vesper, premiera 2026-11-16. T.4 Opowieści Zoe zapowiedziany na wiosnę 2027."
     }
   ]
 }
