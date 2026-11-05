@@ -1,7 +1,364 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 630,
+  "count": 645,
   "books": [
+    {
+      "id": "5231291",
+      "title": "Królewska klatka",
+      "url": "https://lubimyczytac.pl/ksiazka/5231291/krolewska-klatka",
+      "type": "book",
+      "authors": [
+        "Victoria Aveyard"
+      ],
+      "average_rating": 7.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Czerwona Królowa (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5231000/5231291/1408857-170x243.jpg"
+    },
+    {
+      "id": "5260808",
+      "title": "Szalony statek",
+      "url": "https://lubimyczytac.pl/ksiazka/5260808/szalony-statek",
+      "type": "book",
+      "authors": [
+        "Robin Hobb"
+      ],
+      "average_rating": 7.7,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Kupcy i ich żywostatki (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5260000/5260808/1408406-170x243.jpg"
+    },
+    {
+      "id": "5250012",
+      "title": "Niespleciona",
+      "url": "https://lubimyczytac.pl/ksiazka/5250012/niespleciona",
+      "type": "book",
+      "authors": [
+        "Julie Kagawa"
+      ],
+      "average_rating": 0.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5250000/5250012/1410373-170x243.jpg"
+    },
+    {
+      "id": "5226852",
+      "title": "Fala czarnej stali",
+      "url": "https://lubimyczytac.pl/ksiazka/5226852/fala-czarnej-stali",
+      "type": "book",
+      "authors": [
+        "Anthony Ryan"
+      ],
+      "average_rating": 7.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Czas Gniewu (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5226000/5226852/1409102-170x243.jpg"
+    },
+    {
+      "id": "5256787",
+      "title": "Renegaci",
+      "url": "https://lubimyczytac.pl/ksiazka/5256787/renegaci",
+      "type": "book",
+      "authors": [
+        "Marissa Meyer"
+      ],
+      "average_rating": 7.3,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Renegaci (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5256000/5256787/1402847-170x243.jpg"
+    },
+    {
+      "id": "5268603",
+      "title": "Ostatnia Kolonia",
+      "url": "https://lubimyczytac.pl/ksiazka/5268603/ostatnia-kolonia",
+      "type": "book",
+      "authors": [
+        "John Scalzi"
+      ],
+      "average_rating": 6.6,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Wojna starego człowieka (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5268000/5268603/1408503-170x243.jpg"
+    },
+    {
+      "id": "5218716",
+      "title": "Brygady Duchów",
+      "url": "https://lubimyczytac.pl/ksiazka/5218716/brygady-duchow",
+      "type": "book",
+      "authors": [
+        "John Scalzi"
+      ],
+      "average_rating": 7.2,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Wojna starego człowieka (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5218000/5218716/1323291-170x243.jpg"
+    },
+    {
+      "id": "5105423",
+      "title": "Wojna starego człowieka",
+      "url": "https://lubimyczytac.pl/ksiazka/5105423/wojna-starego-czlowieka",
+      "type": "book",
+      "authors": [
+        "John Scalzi"
+      ],
+      "average_rating": 7.4,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Wojna starego człowieka (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5105000/5105423/1131590-170x243.jpg"
+    },
+    {
+      "id": "5194518",
+      "title": "Aż zobaczycie ogień",
+      "url": "https://lubimyczytac.pl/ksiazka/5194518/az-zobaczycie-ogien",
+      "type": "book",
+      "authors": [
+        "Paweł Majka"
+      ],
+      "average_rating": 6.9,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5194000/5194518/1279759-170x243.jpg"
+    },
+    {
+      "id": "5059436",
+      "title": "Oszczędnego czarodzieja poradnik przetrwania w średniowiecznej Anglii",
+      "url": "https://lubimyczytac.pl/ksiazka/5059436/oszczednego-czarodzieja-poradnik-przetrwania-w-sredniowiecznej-anglii",
+      "type": "book",
+      "authors": [
+        "Brandon Sanderson"
+      ],
+      "average_rating": 6.6,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5059000/5059436/1069630-170x243.jpg"
+    },
+    {
+      "id": "5078926",
+      "title": "Słoneczny mąż",
+      "url": "https://lubimyczytac.pl/ksiazka/5078926/sloneczny-maz",
+      "type": "book",
+      "authors": [
+        "Brandon Sanderson"
+      ],
+      "average_rating": 7.4,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5078000/5078926/1103984-170x243.jpg"
+    },
+    {
+      "id": "5049554",
+      "title": "Warkocz ze Szmaragdowego Morza",
+      "url": "https://lubimyczytac.pl/ksiazka/5049554/warkocz-ze-szmaragdowego-morza",
+      "type": "book",
+      "authors": [
+        "Brandon Sanderson"
+      ],
+      "average_rating": 7.6,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5049000/5049554/1124788-170x243.jpg"
+    },
+    {
+      "id": "5072296",
+      "title": "Yumi i Malarz Koszmarów",
+      "url": "https://lubimyczytac.pl/ksiazka/5072296/yumi-i-malarz-koszmarow",
+      "type": "book",
+      "authors": [
+        "Brandon Sanderson"
+      ],
+      "average_rating": 8.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5072000/5072296/1083460-170x243.jpg"
+    },
+    {
+      "id": "5232831",
+      "title": "Sądny dzień Carla",
+      "url": "https://lubimyczytac.pl/ksiazka/5232831/sadny-dzien-carla",
+      "type": "book",
+      "authors": [
+        "Matt Dinniman"
+      ],
+      "average_rating": 8.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Dungeon Crawler Carl (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5232000/5232831/1382890-170x243.jpg"
+    },
+    {
+      "id": "5222161",
+      "title": "Dungeon Crawler Carl",
+      "url": "https://lubimyczytac.pl/ksiazka/5222161/dungeon-crawler-carl",
+      "type": "book",
+      "authors": [
+        "Matt Dinniman"
+      ],
+      "average_rating": 7.7,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Dungeon Crawler Carl (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5222000/5222161/1382891-170x243.jpg"
+    },
+    {
+      "id": "4850143",
+      "title": "Cesarstwo popiołów",
+      "url": "https://lubimyczytac.pl/ksiazka/4850143/cesarstwo-popiolow",
+      "type": "book",
+      "authors": [
+        "Anthony Ryan"
+      ],
+      "average_rating": 7.3,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam",
+        "Posiadane"
+      ],
+      "cycle": "Draconis Memoria (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4850000/4850143/684580-170x243.jpg"
+    },
+    {
+      "id": "4807305",
+      "title": "Legion płomienia",
+      "url": "https://lubimyczytac.pl/ksiazka/4807305/legion-plomienia",
+      "type": "book",
+      "authors": [
+        "Anthony Ryan"
+      ],
+      "average_rating": 7.3,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam",
+        "Posiadane"
+      ],
+      "cycle": "Draconis Memoria (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4807000/4807305/612868-170x243.jpg"
+    },
+    {
+      "id": "4466602",
+      "title": "Ogień przebudzenia",
+      "url": "https://lubimyczytac.pl/ksiazka/4466602/ogien-przebudzenia",
+      "type": "book",
+      "authors": [
+        "Anthony Ryan"
+      ],
+      "average_rating": 7.2,
+      "user_rating": null,
+      "shelves": [
+        "Teraz czytam",
+        "Posiadane"
+      ],
+      "cycle": "Draconis Memoria (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4466000/4466602/577131-170x243.jpg"
+    },
+    {
+      "id": "5110709",
+      "title": "Zbiorowa tricksteria",
+      "url": "https://lubimyczytac.pl/ksiazka/5110709/zbiorowa-tricksteria",
+      "type": "book",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "average_rating": 7.1,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Kłamca (tom 5)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5110000/5110709/1146732-170x243.jpg",
+      "read_date": "2026-10-26"
+    },
+    {
+      "id": "4890058",
+      "title": "Brudnopis Boga",
+      "url": "https://lubimyczytac.pl/ksiazka/4890058/brudnopis-boga",
+      "type": "book",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "average_rating": 6.6,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Stróże (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4890000/4890058/770540-170x243.jpg",
+      "read_date": "2026-10-23"
+    },
     {
       "id": "5217962",
       "title": "Śpiewający Skałom",
@@ -318,7 +675,7 @@
       "authors": [
         "Zogarth"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -337,7 +694,7 @@
       "authors": [
         "Wasilij Machanienko"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -391,7 +748,7 @@
       "authors": [
         "Wasilij Machanienko"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -410,7 +767,7 @@
       "authors": [
         "Danielle L. Jensen"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -598,22 +955,6 @@
       "read_date": "2026-10-11"
     },
     {
-      "id": "4890058",
-      "title": "Brudnopis Boga",
-      "url": "https://lubimyczytac.pl/ksiazka/4890058/brudnopis-boga",
-      "type": "book",
-      "authors": [
-        "Jakub Ćwiek"
-      ],
-      "average_rating": 6.6,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam"
-      ],
-      "cycle": "Stróże (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4890000/4890058/770540-170x243.jpg"
-    },
-    {
       "id": "4885375",
       "title": "Ochłap sztandaru",
       "url": "https://lubimyczytac.pl/ksiazka/4885375/ochlap-sztandaru",
@@ -672,7 +1013,7 @@
       "authors": [
         "Rebecca Yarros"
       ],
-      "average_rating": 8.0,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -837,13 +1178,12 @@
       "authors": [
         "Robin Hobb"
       ],
-      "average_rating": 10.0,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
         "Do przeczytania",
-        "Posiadane",
-        "Niedokończone serie"
+        "Posiadane"
       ],
       "cycle": "Kupcy i ich żywostatki (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5260000/5260806/1401568-170x243.jpg"
@@ -910,7 +1250,7 @@
       "authors": [
         "S.F. Williamson"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1159,7 +1499,7 @@
       "authors": [
         "Stacey McEwan"
       ],
-      "average_rating": 8.7,
+      "average_rating": 8.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1193,7 +1533,7 @@
       "authors": [
         "Anthony Ryan"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1225,13 +1565,13 @@
     },
     {
       "id": "5230579",
-      "title": "Jak żywe LIFEL1K3",
-      "url": "https://lubimyczytac.pl/ksiazka/5230579/jak-zywe-lifel1k3",
+      "title": "Jak żywe",
+      "url": "https://lubimyczytac.pl/ksiazka/5230579/jak-zywe",
       "type": "book",
       "authors": [
         "Jay Kristoff"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1241,22 +1581,6 @@
       ],
       "cycle": "LIFEL1K3 (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/5230000/5230579/1395142-170x243.jpg"
-    },
-    {
-      "id": "5110709",
-      "title": "Zbiorowa tricksteria",
-      "url": "https://lubimyczytac.pl/ksiazka/5110709/zbiorowa-tricksteria",
-      "type": "book",
-      "authors": [
-        "Jakub Ćwiek"
-      ],
-      "average_rating": 7.1,
-      "user_rating": null,
-      "shelves": [
-        "Teraz czytam"
-      ],
-      "cycle": "Kłamca (tom 5)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/5110000/5110709/1146732-170x243.jpg"
     },
     {
       "id": "5066868",
@@ -1283,7 +1607,7 @@
       "authors": [
         "Jarosław Dobrowolski"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.7,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -1424,7 +1748,7 @@
       "authors": [
         "Klaudia Wyrobek"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1442,7 +1766,7 @@
       "authors": [
         "Julie Johnson"
       ],
-      "average_rating": 8.8,
+      "average_rating": 8.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1566,7 +1890,7 @@
       "authors": [
         "Rebecca F. Kuang"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.9,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -1584,7 +1908,7 @@
       "authors": [
         "Ryan Cahill"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1729,7 +2053,7 @@
       "authors": [
         "Robert Jackson Bennett"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2034,7 +2358,7 @@
       "authors": [
         "Katarzyna Wycisk"
       ],
-      "average_rating": 8.2,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2071,7 +2395,7 @@
       "authors": [
         "Jarosław Kukiełka"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2216,7 +2540,7 @@
       "authors": [
         "Taran Matharu"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2251,7 +2575,7 @@
       "authors": [
         "James Islington"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2321,7 +2645,7 @@
       "authors": [
         "Glen Cook"
       ],
-      "average_rating": 6.3,
+      "average_rating": 6.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2340,7 +2664,7 @@
       "authors": [
         "Jonathan Maberry"
       ],
-      "average_rating": 7.1,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2359,7 +2683,7 @@
       "authors": [
         "Jacek Małkowski"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2929,7 +3253,7 @@
       "authors": [
         "Zeter Zelke"
       ],
-      "average_rating": 6.1,
+      "average_rating": 5.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3265,7 +3589,7 @@
       "authors": [
         "Anthony Ryan"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3569,7 +3893,7 @@
       "authors": [
         "Joe Abercrombie"
       ],
-      "average_rating": 8.2,
+      "average_rating": 8.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3816,7 +4140,7 @@
       "authors": [
         "Anthony Ryan"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3870,7 +4194,7 @@
       "authors": [
         "Kylie Lee Baker"
       ],
-      "average_rating": 7.0,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4120,7 +4444,7 @@
       "authors": [
         "Robert M. Wegner"
       ],
-      "average_rating": 7.0,
+      "average_rating": 7.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4281,7 +4605,7 @@
       "authors": [
         "Julie Johnson"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4538,7 +4862,7 @@
       "authors": [
         "Neal Shusterman"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -5180,7 +5504,7 @@
       "authors": [
         "Małgorzata Lisińska"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.2,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane"
@@ -8601,7 +8925,7 @@
       "authors": [
         "Scott Lynch"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -8671,7 +8995,7 @@
       "url": "https://lubimyczytac.pl/ksiazka/218788/mroczne-slonce",
       "type": "book",
       "authors": [
-        "Nora K. Jemisin"
+        "N.K. Jemisin"
       ],
       "average_rating": 7.2,
       "user_rating": 7.0,
@@ -8707,7 +9031,7 @@
       "url": "https://lubimyczytac.pl/ksiazka/205019/zabojczy-ksiezyc",
       "type": "book",
       "authors": [
-        "Nora K. Jemisin"
+        "N.K. Jemisin"
       ],
       "average_rating": 6.3,
       "user_rating": 6.0,
@@ -8810,30 +9134,12 @@
       "read_date": "2018-08-29"
     },
     {
-      "id": "4850143",
-      "title": "Cesarstwo popiołów",
-      "url": "https://lubimyczytac.pl/ksiazka/4850143/cesarstwo-popiolow",
-      "type": "book",
-      "authors": [
-        "Anthony Ryan"
-      ],
-      "average_rating": 7.3,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Draconis Memoria (tom 3)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4850000/4850143/684580-170x243.jpg"
-    },
-    {
       "id": "4843493",
       "title": "Kamienne niebo",
       "url": "https://lubimyczytac.pl/ksiazka/4843493/kamienne-niebo",
       "type": "book",
       "authors": [
-        "Nora K. Jemisin"
+        "N.K. Jemisin"
       ],
       "average_rating": 7.2,
       "user_rating": null,
@@ -8851,7 +9157,7 @@
       "url": "https://lubimyczytac.pl/ksiazka/4386404/wrota-obeliskow",
       "type": "book",
       "authors": [
-        "Nora K. Jemisin"
+        "N.K. Jemisin"
       ],
       "average_rating": 7.4,
       "user_rating": null,
@@ -8869,7 +9175,7 @@
       "url": "https://lubimyczytac.pl/ksiazka/3775052/piata-pora-roku",
       "type": "book",
       "authors": [
-        "Nora K. Jemisin"
+        "N.K. Jemisin"
       ],
       "average_rating": 7.3,
       "user_rating": null,
@@ -9158,7 +9464,7 @@
       "authors": [
         "Brian Staveley"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -9274,42 +9580,6 @@
       "cycle": "Jakub Kania (tom 1)",
       "cover": "https://s.lubimyczytac.pl/upload/books/4486000/4486395/573772-170x243.jpg",
       "read_date": "2018-04-12"
-    },
-    {
-      "id": "4807305",
-      "title": "Legion płomienia",
-      "url": "https://lubimyczytac.pl/ksiazka/4807305/legion-plomienia",
-      "type": "book",
-      "authors": [
-        "Anthony Ryan"
-      ],
-      "average_rating": 7.3,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Draconis Memoria (tom 2)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4807000/4807305/612868-170x243.jpg"
-    },
-    {
-      "id": "4466602",
-      "title": "Ogień przebudzenia",
-      "url": "https://lubimyczytac.pl/ksiazka/4466602/ogien-przebudzenia",
-      "type": "book",
-      "authors": [
-        "Anthony Ryan"
-      ],
-      "average_rating": 7.2,
-      "user_rating": null,
-      "shelves": [
-        "Chcę przeczytać",
-        "Do przeczytania",
-        "Posiadane"
-      ],
-      "cycle": "Draconis Memoria (tom 1)",
-      "cover": "https://s.lubimyczytac.pl/upload/books/4466000/4466602/577131-170x243.jpg"
     },
     {
       "id": "4845846",
