@@ -305,6 +305,12 @@ For each final candidate:
 - Show price from 1-2 stores if visible.
 - If no new offers anywhere: flag **📕 Out-of-print** (don't exclude).
 
+**TaniaKsiazka (`taniaksiazka.pl`) for price comparison** (verified 2026-11-05). Static HTML, plain GET works (unset proxy env: `curl --noproxy '*'`). `robots.txt` disallows the site search (`/Szukaj/*`, `/s/?q=`, `/Search`), so do NOT use it. Allowed entry points:
+- Author page `https://www.taniaksiazka.pl/autor/<author-slug>` (paginated `/page-2`), lists product links `/<slug>-p-<id>.html` and `/ksiazka/<slug>`. Skip `ebook-` and `audiobook-` links.
+- Product page: JSON-LD `offers.price`, `offers.availability`, `publisher.name`; title in `<h1>`.
+- Or find the product URL via WebSearch with `allowed_domains: ["taniaksiazka.pl"]`.
+Spot-check 2026-11-05: Malazan t.1–10 (MAG) was 635 zł here vs 567 zł on Świat Książki, so it's not automatically cheaper.
+
 ## Candidate card format
 
 ```markdown
