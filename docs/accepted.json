@@ -109,6 +109,40 @@
       "source": "announcement",
       "when": "2026-11-04T15:00:00+01:00",
       "note": "Pod sztandarem Dzikiego Kwiatu t.1 (The Grace of Kings), nowe wydanie MAG, premiera I kw. 2027. Seria zamknięta w EN (4 tomy); MAG wznawia od t.1, t.3 Ukryty tron zapowiedziany bez pewnej daty."
+    },
+    {
+      "id": "5049554",
+      "title": "Warkocz ze Szmaragdowego Morza",
+      "author": "Brandon Sanderson",
+      "url": "https://lubimyczytac.pl/ksiazka/5049554/warkocz-ze-szmaragdowego-morza",
+      "source": "market",
+      "when": "2026-11-05T12:00:00+01:00",
+      "note": "Cosmere, pojedyncza powieść (MAG 2023). Świat Książki 40,12 zł."
+    },
+    {
+      "title": "Yumi i malarz koszmarów",
+      "author": "Brandon Sanderson",
+      "source": "market",
+      "when": "2026-11-05T12:00:00+01:00",
+      "note": "Cosmere, pojedyncza powieść (MAG). Świat Książki 40,12 zł."
+    },
+    {
+      "id": "5078926",
+      "title": "Słoneczny mąż",
+      "author": "Brandon Sanderson",
+      "url": "https://lubimyczytac.pl/ksiazka/5078926/sloneczny-maz",
+      "source": "market",
+      "when": "2026-11-05T12:00:00+01:00",
+      "note": "Cosmere (Nomad), MAG 2023, twarda. Papier wyprzedany w księgarniach — Allegro od ~42 zł."
+    },
+    {
+      "id": "5059436",
+      "title": "Oszczędnego czarodzieja poradnik przetrwania w średniowiecznej Anglii",
+      "author": "Brandon Sanderson",
+      "url": "https://lubimyczytac.pl/ksiazka/5059436/oszczednego-czarodzieja-poradnik-przetrwania-w-sredniowiecznej-anglii",
+      "source": "market",
+      "when": "2026-11-05T12:00:00+01:00",
+      "note": "Spoza Cosmere, MAG 2023, twarda. Papier wyprzedany — Allegro (sprawdzić: papier, nie ebook)."
     }
   ]
 }
