@@ -1515,73 +1515,71 @@
       "authors": [
         "Samantha Shannon"
       ],
-      "flags": [],
+      "flags": [
+        {
+          "key": "gap",
+          "label": "luka w numeracji",
+          "detail": "Brakujące tomy: 3, 4"
+        },
+        {
+          "key": "shelf-mismatch",
+          "label": "rozbieżność półek",
+          "detail": "Tomy tego cyklu mają różne zestawy półek — rozwiń, by zobaczyć szczegóły."
+        }
+      ],
       "volumes": [
         {
-          "id": "195128",
-          "title": "Czas Żniw",
-          "url": "https://lubimyczytac.pl/ksiazka/195128/czas-zniw",
-          "cover": "https://s.lubimyczytac.pl/upload/books/195000/195128/190869-170x243.jpg",
+          "id": "5236843",
+          "title": "Czas Żniw. Wersja autorska",
+          "url": "https://lubimyczytac.pl/ksiazka/5236843/czas-zniw-wersja-autorska",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5236000/5236843/1356067-170x243.jpg",
           "tom_from": 1.0,
           "tom_to": 1.0,
           "tom_label": "1",
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
+            "Posiadane",
             "Dostępne na Legimi"
           ],
-          "average_rating": 7.7,
+          "average_rating": 7.6,
           "user_rating": null,
           "read_date": null
         },
         {
-          "id": "239372",
-          "title": "Zakon Mimów",
-          "url": "https://lubimyczytac.pl/ksiazka/239372/zakon-mimow",
-          "cover": "https://s.lubimyczytac.pl/upload/books/239000/239372/376878-170x243.jpg",
+          "id": "5222881",
+          "title": "Zakon Mimów. Wersja autorska",
+          "url": "https://lubimyczytac.pl/ksiazka/5222881/zakon-mimow-wersja-autorska",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5222000/5222881/1389145-170x243.jpg",
           "tom_from": 2.0,
           "tom_to": 2.0,
           "tom_label": "2",
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Dostępne na Legimi"
+            "Posiadane",
+            "Dostępne na Legimi",
+            "Niedokończone serie"
           ],
           "average_rating": 8.0,
           "user_rating": null,
           "read_date": null
         },
         {
-          "id": "3863768",
-          "title": "Pieśń jutra",
-          "url": "https://lubimyczytac.pl/ksiazka/3863768/piesn-jutra",
-          "cover": "https://s.lubimyczytac.pl/upload/books/3863000/3863768/564702-170x243.jpg",
-          "tom_from": 3.0,
-          "tom_to": 3.0,
-          "tom_label": "3",
+          "id": "5236847",
+          "title": "Mroczne lustro",
+          "url": "https://lubimyczytac.pl/ksiazka/5236847/mroczne-lustro",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5236000/5236847/1356073-170x243.jpg",
+          "tom_from": 5.0,
+          "tom_to": 5.0,
+          "tom_label": "5",
           "shelves": [
             "Chcę przeczytać",
             "Do przeczytania",
-            "Dostępne na Legimi"
+            "Posiadane",
+            "Niedokończone serie"
           ],
           "average_rating": 7.8,
-          "user_rating": null,
-          "read_date": null
-        },
-        {
-          "id": "4972011",
-          "title": "Koniec maskarady",
-          "url": "https://lubimyczytac.pl/ksiazka/4972011/koniec-maskarady",
-          "cover": "https://s.lubimyczytac.pl/upload/books/4972000/4972011/907801-170x243.jpg",
-          "tom_from": 4.0,
-          "tom_to": 4.0,
-          "tom_label": "4",
-          "shelves": [
-            "Chcę przeczytać",
-            "Do przeczytania",
-            "Dostępne na Legimi"
-          ],
-          "average_rating": 8.0,
           "user_rating": null,
           "read_date": null
         }
@@ -2980,7 +2978,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 8.1,
+          "average_rating": 8.0,
           "user_rating": null,
           "read_date": null
         }
@@ -5573,7 +5571,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.1,
+          "average_rating": 7.2,
           "user_rating": null,
           "read_date": null
         }
@@ -5788,7 +5786,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.5,
+          "average_rating": 7.4,
           "user_rating": null,
           "read_date": null
         }
@@ -7304,7 +7302,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 7.6,
+          "average_rating": 7.5,
           "user_rating": 8.0,
           "read_date": "2020-01-13"
         },
@@ -7564,6 +7562,145 @@
             "Chcę przeczytać",
             "Do przeczytania",
             "Posiadane"
+          ],
+          "average_rating": 7.1,
+          "user_rating": null,
+          "read_date": null
+        }
+      ]
+    },
+    {
+      "name": "Saga Cienia",
+      "authors": [
+        "Orson Scott Card"
+      ],
+      "flags": [],
+      "volumes": [
+        {
+          "id": "5177045",
+          "title": "Cień Endera",
+          "url": "https://lubimyczytac.pl/ksiazka/5177045/cien-endera",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5177000/5177045/1247362-170x243.jpg",
+          "tom_from": 1.0,
+          "tom_to": 1.0,
+          "tom_label": "1",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.8,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5186535",
+          "title": "Cień Hegemona",
+          "url": "https://lubimyczytac.pl/ksiazka/5186535/cien-hegemona",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5186000/5186535/1265680-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.1,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5207966",
+          "title": "Teatr cieni",
+          "url": "https://lubimyczytac.pl/ksiazka/5207966/teatr-cieni",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5207000/5207966/1303939-170x243.jpg",
+          "tom_from": 3.0,
+          "tom_to": 3.0,
+          "tom_label": "3",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.0,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5208935",
+          "title": "Cień olbrzyma",
+          "url": "https://lubimyczytac.pl/ksiazka/5208935/cien-olbrzyma",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5208000/5208935/1339706-170x243.jpg",
+          "tom_from": 4.0,
+          "tom_to": 4.0,
+          "tom_label": "4",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.2,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5244347",
+          "title": "Ucieczka cienia",
+          "url": "https://lubimyczytac.pl/ksiazka/5244347/ucieczka-cienia",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5244000/5244347/1375531-170x243.jpg",
+          "tom_from": 5.0,
+          "tom_to": 5.0,
+          "tom_label": "5",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane",
+            "Niedokończone serie"
+          ],
+          "average_rating": 7.1,
+          "user_rating": null,
+          "read_date": null
+        }
+      ]
+    },
+    {
+      "name": "Saga Drenajów",
+      "authors": [
+        "David Gemmell"
+      ],
+      "flags": [],
+      "volumes": [
+        {
+          "id": "5240843",
+          "title": "Legenda",
+          "url": "https://lubimyczytac.pl/ksiazka/5240843/legenda",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5240000/5240843/1377219-170x243.jpg",
+          "tom_from": 1.0,
+          "tom_to": 1.0,
+          "tom_label": "1",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane"
+          ],
+          "average_rating": 7.5,
+          "user_rating": null,
+          "read_date": null
+        },
+        {
+          "id": "5262306",
+          "title": "Król poza bramą",
+          "url": "https://lubimyczytac.pl/ksiazka/5262306/krol-poza-brama",
+          "cover": "https://s.lubimyczytac.pl/upload/books/5262000/5262306/1408189-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
+          "shelves": [
+            "Chcę przeczytać",
+            "Do przeczytania",
+            "Posiadane",
+            "Niedokończone serie"
           ],
           "average_rating": 7.1,
           "user_rating": null,
@@ -8128,7 +8265,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.8,
+          "average_rating": 7.7,
           "user_rating": null,
           "read_date": null
         }
@@ -8774,7 +8911,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 8.0,
+          "average_rating": 8.1,
           "user_rating": 8.0,
           "read_date": null
         },
