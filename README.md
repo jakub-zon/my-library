@@ -10,5 +10,3 @@ My personal book collection from [lubimyczytac.pl](https://lubimyczytac.pl/ksieg
 - `docs/{index,book,reading-plan,accepted,rejected}.html` — main table + book detail + 3 subpages (vanilla JS, no build)
 - `.claude/skills/library-advisor/` — Claude Code skill for recommendations / announcements / market research
 - `.github/workflows/` — GitHub Actions (manual update trigger)
-
-<!-- ChatGPT temporary write verification 2026-11-11 -->
