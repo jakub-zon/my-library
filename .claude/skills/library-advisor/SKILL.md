@@ -142,6 +142,19 @@ Default **conversational**: 2-3 clarifying questions before showing candidates, 
 
 ---
 
+## Additional monthly aggregator — Książki Fantasy
+
+Use **Książki Fantasy** (`https://ksiazki-fantasy.pl/`) alongside Katedra for monthly Polish announcement lists, and as the main monthly-list fallback when Katedra is unavailable. Continue the publisher and Świat Książki checks; do not stop an announcements pass solely because Katedra cannot be read.
+
+- Find the requested month's article via WebSearch `site:ksiazki-fantasy.pl premiery książek fantasy SF <month> <year>`. Verified November example: `https://ksiazki-fantasy.pl/premiery-ksiazek-fantasy-sf-listopad-2026/`. Do not assume other months' slugs.
+- Fetch the full article as static HTML. Extract announcement cards from the article body only: `a.kfp-t` (title + book URL), `.kfp-a` (author), `.kfp-s` (series, optional), `.kfp-d` (release date). Exclude sidebar/footer recommendations and repeated promotional lists.
+- Include released and upcoming entries for the requested month. Apply the usual SF/fantasy, library, accepted, and rejection filters; the source also includes horror and reissues.
+- Dedupe proposals by title + author across sources. Keep edition distinctions when relevant, but report edition counts separately from unique-title counts.
+- Verify shortlisted release dates against the publisher or LC; monthly lists can retain dates after postponements.
+- Coverage check on 2026-11-11: November 2026 article contained **45 edition cards / 44 distinct titles**; the user reported **44 announcements on Katedra**. Matching counts are encouraging, but do not establish identical title coverage or completeness in other months. State any unavailable sources honestly.
+
+---
+
 ## Publisher zapowiedzi — direct scrape targets
 
 Verified 2026-08-02 via curl + robots.txt checks. Polish fantasy/SF publisher sites, keyed by whether a plain GET returns real server-rendered HTML (no JS needed). Re-verify a URL with a quick WebFetch before trusting it blindly — publisher sites reskin without notice; if a listed page 404s, looks empty, or the markup doesn't match the note, don't assume the publisher dropped announcements — WebSearch `site:<domain> zapowiedzi` to re-find the current path, and update this table.
