@@ -144,7 +144,7 @@ Default **conversational**: 2-3 clarifying questions before showing candidates, 
 
 ## Additional monthly aggregator — Książki Fantasy
 
-Use **Książki Fantasy** (`https://ksiazki-fantasy.pl/`) alongside Katedra for monthly Polish announcement lists, and as the main monthly-list fallback when Katedra is unavailable. Continue the publisher and Świat Książki checks; do not stop an announcements pass solely because Katedra cannot be read.
+Check **Książki Fantasy** (`https://ksiazki-fantasy.pl/`) as an additional source in every monthly announcements pass, alongside Katedra, publisher sites, and Świat Książki. Merge and deduplicate results from all sources; do not treat Książki Fantasy as a replacement for any other source.
 
 - Find the requested month's article via WebSearch `site:ksiazki-fantasy.pl premiery książek fantasy SF <month> <year>`. Verified November example: `https://ksiazki-fantasy.pl/premiery-ksiazek-fantasy-sf-listopad-2026/`. Do not assume other months' slugs.
 - Fetch the full article as static HTML. Extract announcement cards from the article body only: `a.kfp-t` (title + book URL), `.kfp-a` (author), `.kfp-s` (series, optional), `.kfp-d` (release date). Exclude sidebar/footer recommendations and repeated promotional lists.
