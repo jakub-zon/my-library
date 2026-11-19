@@ -621,7 +621,7 @@ def extract_details(html: str) -> dict:
                 details["isbn"] = re.sub(r"[^0-9Xx]", "", value) or None
             elif label in ("wymiary", "format", "rozmiar"):
                 details["dimensions"] = value or None
-                m = re.search(r"(\\d+(?:[.,]\\d+)?)\\s*[x×]\\s*(\\d+(?:[.,]\\d+)?)(?:\\s*[x×]\\s*\\d+(?:[.,]\\d+)?)?\\s*(mm|cm)\\b", value, re.I)
+                m = re.search(r"(\d+(?:[.,]\d+)?)\s*[x×]\s*(\d+(?:[.,]\d+)?)(?:\s*[x×]\s*\d+(?:[.,]\d+)?)?\s*(mm|cm)\b", value, re.I)
                 if m:
                     a, b = [float(m.group(i).replace(",", ".")) for i in (1, 2)]
                     height = max(a, b) * (10 if m.group(3).lower() == "cm" else 1)
