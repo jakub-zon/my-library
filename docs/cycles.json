@@ -51,7 +51,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 7.5,
+          "average_rating": 7.4,
           "user_rating": 7.0,
           "read_date": null
         },
@@ -155,7 +155,7 @@
     {
       "name": "Akty Caine'a",
       "authors": [
-        "Matthew Woodring Stover"
+        "Matthew Stover"
       ],
       "flags": [],
       "volumes": [
@@ -789,6 +789,75 @@
       ]
     },
     {
+      "name": "Chłopcy",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "flags": [],
+      "volumes": [
+        {
+          "id": "150720",
+          "title": "Chłopcy",
+          "url": "https://lubimyczytac.pl/ksiazka/150720/chlopcy",
+          "cover": "https://s.lubimyczytac.pl/upload/books/150000/150720/170x243.jpg",
+          "tom_from": 1.0,
+          "tom_to": 1.0,
+          "tom_label": "1",
+          "shelves": [
+            "Przeczytane"
+          ],
+          "average_rating": 7.0,
+          "user_rating": 7.0,
+          "read_date": "2026-10-30"
+        },
+        {
+          "id": "191581",
+          "title": "Chłopcy. Bangarang",
+          "url": "https://lubimyczytac.pl/ksiazka/191581/chlopcy-bangarang",
+          "cover": "https://s.lubimyczytac.pl/upload/books/191000/191581/178842-170x243.jpg",
+          "tom_from": 2.0,
+          "tom_to": 2.0,
+          "tom_label": "2",
+          "shelves": [
+            "Przeczytane"
+          ],
+          "average_rating": 7.2,
+          "user_rating": 7.0,
+          "read_date": "2026-11-02"
+        },
+        {
+          "id": "202278",
+          "title": "Chłopcy. Zguba",
+          "url": "https://lubimyczytac.pl/ksiazka/202278/chlopcy-zguba",
+          "cover": "https://s.lubimyczytac.pl/upload/books/202000/202278/326869-170x243.jpg",
+          "tom_from": 3.0,
+          "tom_to": 3.0,
+          "tom_label": "3",
+          "shelves": [
+            "Przeczytane"
+          ],
+          "average_rating": 7.2,
+          "user_rating": 8.0,
+          "read_date": "2026-11-06"
+        },
+        {
+          "id": "239889",
+          "title": "Chłopcy. Największa z przygód",
+          "url": "https://lubimyczytac.pl/ksiazka/239889/chlopcy-najwieksza-z-przygod",
+          "cover": "https://s.lubimyczytac.pl/upload/books/239000/239889/428444-170x243.jpg",
+          "tom_from": 4.0,
+          "tom_to": 4.0,
+          "tom_label": "4",
+          "shelves": [
+            "Przeczytane"
+          ],
+          "average_rating": 7.2,
+          "user_rating": 8.0,
+          "read_date": "2026-11-11"
+        }
+      ]
+    },
+    {
       "name": "Cieniobójcy",
       "authors": [
         "Mateusz Żuchowski"
@@ -935,7 +1004,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.9,
+          "average_rating": 7.8,
           "user_rating": null,
           "read_date": null
         },
@@ -1725,7 +1794,7 @@
             "Przeczytane",
             "Posiadane"
           ],
-          "average_rating": 7.4,
+          "average_rating": 7.3,
           "user_rating": 7.0,
           "read_date": null
         },
@@ -2261,7 +2330,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 8.0,
+          "average_rating": 7.9,
           "user_rating": null,
           "read_date": null
         }
@@ -2896,7 +2965,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.5,
+          "average_rating": 7.4,
           "user_rating": null,
           "read_date": null
         }
@@ -2978,7 +3047,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 8.0,
+          "average_rating": 7.9,
           "user_rating": null,
           "read_date": null
         }
@@ -3077,7 +3146,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 8.3,
+          "average_rating": 8.2,
           "user_rating": null,
           "read_date": null
         }
@@ -3858,7 +3927,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.7,
+          "average_rating": 7.6,
           "user_rating": null,
           "read_date": null
         },
@@ -3875,7 +3944,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.1,
+          "average_rating": 7.0,
           "user_rating": null,
           "read_date": null
         }
@@ -3985,7 +4054,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.6,
+          "average_rating": 7.5,
           "user_rating": null,
           "read_date": null
         }
@@ -4662,7 +4731,7 @@
           "shelves": [
             "Teraz czytam"
           ],
-          "average_rating": 7.2,
+          "average_rating": 7.1,
           "user_rating": null,
           "read_date": null
         }
@@ -5571,7 +5640,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.2,
+          "average_rating": 7.0,
           "user_rating": null,
           "read_date": null
         }
@@ -5613,7 +5682,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.5,
+          "average_rating": 7.6,
           "user_rating": 8.0,
           "read_date": "2026-08-24"
         }
@@ -6263,7 +6332,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.8,
+          "average_rating": 7.7,
           "user_rating": null,
           "read_date": null
         },
@@ -6416,7 +6485,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 6.6,
+          "average_rating": 6.5,
           "user_rating": null,
           "read_date": null
         },
@@ -6434,7 +6503,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.5,
+          "average_rating": 7.2,
           "user_rating": null,
           "read_date": null
         }
@@ -6744,7 +6813,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.1,
+          "average_rating": 7.0,
           "user_rating": null,
           "read_date": null
         }
@@ -7023,7 +7092,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 8.5,
+          "average_rating": 8.4,
           "user_rating": null,
           "read_date": null
         }
@@ -7413,7 +7482,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.3,
+          "average_rating": 7.2,
           "user_rating": null,
           "read_date": null
         }
@@ -7729,7 +7798,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 6.9,
+          "average_rating": 6.8,
           "user_rating": null,
           "read_date": null
         }
@@ -8265,7 +8334,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.7,
+          "average_rating": 7.9,
           "user_rating": null,
           "read_date": null
         }
@@ -8292,7 +8361,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 8.3,
+          "average_rating": 8.2,
           "user_rating": null,
           "read_date": null
         }
@@ -8996,7 +9065,7 @@
             "Chcę przeczytać",
             "Do sprawdzenia"
           ],
-          "average_rating": 8.6,
+          "average_rating": 8.5,
           "user_rating": null,
           "read_date": null
         }
@@ -9056,7 +9125,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 8.1,
+          "average_rating": 8.0,
           "user_rating": null,
           "read_date": null
         }
@@ -9127,7 +9196,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.8,
+          "average_rating": 7.7,
           "user_rating": null,
           "read_date": null
         }
@@ -9418,7 +9487,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 7.2,
+          "average_rating": 7.1,
           "user_rating": null,
           "read_date": null
         },
@@ -9593,7 +9662,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.3,
+          "average_rating": 7.4,
           "user_rating": null,
           "read_date": null
         }
@@ -10260,7 +10329,7 @@
             "Do przeczytania",
             "Posiadane"
           ],
-          "average_rating": 6.9,
+          "average_rating": 7.0,
           "user_rating": null,
           "read_date": null
         }
@@ -10993,7 +11062,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 8.7,
+          "average_rating": 8.6,
           "user_rating": null,
           "read_date": null
         }
@@ -11243,7 +11312,7 @@
           "shelves": [
             "Przeczytane"
           ],
-          "average_rating": 7.0,
+          "average_rating": 7.1,
           "user_rating": 7.0,
           "read_date": null
         },
@@ -11342,7 +11411,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.4,
+          "average_rating": 7.3,
           "user_rating": null,
           "read_date": null
         }
@@ -11507,7 +11576,7 @@
             "Posiadane",
             "Niedokończone serie"
           ],
-          "average_rating": 7.4,
+          "average_rating": 7.3,
           "user_rating": null,
           "read_date": null
         }

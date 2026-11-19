@@ -1,7 +1,75 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 651,
+  "count": 655,
   "books": [
+    {
+      "id": "239889",
+      "title": "Chłopcy. Największa z przygód",
+      "url": "https://lubimyczytac.pl/ksiazka/239889/chlopcy-najwieksza-z-przygod",
+      "type": "book",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "average_rating": 7.2,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Chłopcy (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/239000/239889/428444-170x243.jpg",
+      "read_date": "2026-11-11"
+    },
+    {
+      "id": "202278",
+      "title": "Chłopcy. Zguba",
+      "url": "https://lubimyczytac.pl/ksiazka/202278/chlopcy-zguba",
+      "type": "book",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "average_rating": 7.2,
+      "user_rating": 8.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Chłopcy (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/202000/202278/326869-170x243.jpg",
+      "read_date": "2026-11-06"
+    },
+    {
+      "id": "191581",
+      "title": "Chłopcy. Bangarang",
+      "url": "https://lubimyczytac.pl/ksiazka/191581/chlopcy-bangarang",
+      "type": "book",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "average_rating": 7.2,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Chłopcy (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/191000/191581/178842-170x243.jpg",
+      "read_date": "2026-11-02"
+    },
+    {
+      "id": "150720",
+      "title": "Chłopcy",
+      "url": "https://lubimyczytac.pl/ksiazka/150720/chlopcy",
+      "type": "book",
+      "authors": [
+        "Jakub Ćwiek"
+      ],
+      "average_rating": 7.0,
+      "user_rating": 7.0,
+      "shelves": [
+        "Przeczytane"
+      ],
+      "cycle": "Chłopcy (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/150000/150720/170x243.jpg",
+      "read_date": "2026-10-30"
+    },
     {
       "id": "5236847",
       "title": "Mroczne lustro",
@@ -232,7 +300,7 @@
       "authors": [
         "Marissa Meyer"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -306,7 +374,7 @@
       "authors": [
         "Paweł Majka"
       ],
-      "average_rating": 6.9,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -358,7 +426,7 @@
       "authors": [
         "Brandon Sanderson"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -392,7 +460,7 @@
       "authors": [
         "Matt Dinniman"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -552,7 +620,7 @@
         "Grzegorz Gajek",
         "Monika Maciewicz"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1160,7 +1228,7 @@
       "authors": [
         "Rebecca Yarros"
       ],
-      "average_rating": 8.0,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1179,7 +1247,7 @@
       "authors": [
         "Dani Francis"
       ],
-      "average_rating": 8.3,
+      "average_rating": 8.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1288,7 +1356,7 @@
       "authors": [
         "Keri Lake"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1558,7 +1626,7 @@
       "authors": [
         "Karl Edward Wagner"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1576,7 +1644,7 @@
       "authors": [
         "Karl Edward Wagner"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1646,7 +1714,7 @@
       "authors": [
         "Stacey McEwan"
       ],
-      "average_rating": 8.6,
+      "average_rating": 8.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1680,7 +1748,7 @@
       "authors": [
         "Anthony Ryan"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1718,7 +1786,7 @@
       "authors": [
         "Jay Kristoff"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1807,7 +1875,7 @@
       "authors": [
         "Samantha Shannon"
       ],
-      "average_rating": 7.0,
+      "average_rating": 7.1,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane"
@@ -1823,7 +1891,7 @@
       "authors": [
         "Jarosław Dobrowolski"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.1,
       "user_rating": null,
       "shelves": [
         "Teraz czytam"
@@ -1839,7 +1907,7 @@
       "authors": [
         "Peter A. Flannery"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.6,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -1895,7 +1963,7 @@
       "authors": [
         "Klaudia Wyrobek"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1913,7 +1981,7 @@
       "authors": [
         "Julie Johnson"
       ],
-      "average_rating": 8.7,
+      "average_rating": 8.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1983,7 +2051,7 @@
       "authors": [
         "Tamsyn Muir"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2055,7 +2123,7 @@
       "authors": [
         "Ryan Cahill"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2200,7 +2268,7 @@
       "authors": [
         "Robert Jackson Bennett"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2542,7 +2610,7 @@
       "authors": [
         "Jarosław Kukiełka"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2811,7 +2879,7 @@
       "authors": [
         "Jonathan Maberry"
       ],
-      "average_rating": 6.9,
+      "average_rating": 6.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2865,7 +2933,7 @@
       "authors": [
         "Michał Głowacz"
       ],
-      "average_rating": 6.3,
+      "average_rating": 6.4,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -3364,7 +3432,7 @@
       "authors": [
         "Hannah Kaner"
       ],
-      "average_rating": 6.9,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3562,7 +3630,7 @@
       "authors": [
         "Mai Corland"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3718,7 +3786,7 @@
       "authors": [
         "Peter V. Brett"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3790,7 +3858,7 @@
       "authors": [
         "Jen Williams"
       ],
-      "average_rating": 7.3,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -3880,7 +3948,7 @@
       "authors": [
         "Paweł Zbroszczyk"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -4040,7 +4108,7 @@
       "authors": [
         "Joe Abercrombie"
       ],
-      "average_rating": 8.3,
+      "average_rating": 8.2,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4413,7 +4481,7 @@
       "authors": [
         "A.M. Engler"
       ],
-      "average_rating": 8.5,
+      "average_rating": 8.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4469,7 +4537,7 @@
       "authors": [
         "Ryan Cahill"
       ],
-      "average_rating": 6.6,
+      "average_rating": 6.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4487,7 +4555,7 @@
       "authors": [
         "Sabaa Tahir"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.4,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -4591,7 +4659,7 @@
       "authors": [
         "Robert M. Wegner"
       ],
-      "average_rating": 7.1,
+      "average_rating": 7.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4610,7 +4678,7 @@
       "authors": [
         "Michael Moorcock"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -6135,7 +6203,7 @@
       "url": "https://lubimyczytac.pl/ksiazka/132663/prawo-caine-a",
       "type": "book",
       "authors": [
-        "Matthew Woodring Stover"
+        "Matthew Stover"
       ],
       "average_rating": 7.4,
       "user_rating": 8.0,
@@ -6151,7 +6219,7 @@
       "url": "https://lubimyczytac.pl/ksiazka/53703/caine-czarny-noz",
       "type": "book",
       "authors": [
-        "Matthew Woodring Stover"
+        "Matthew Stover"
       ],
       "average_rating": 7.4,
       "user_rating": 8.0,
@@ -6167,7 +6235,7 @@
       "url": "https://lubimyczytac.pl/ksiazka/53702/ostrze-tyshalle-a-czesc-2",
       "type": "book",
       "authors": [
-        "Matthew Woodring Stover"
+        "Matthew Stover"
       ],
       "average_rating": 7.5,
       "user_rating": 8.0,
@@ -6256,7 +6324,7 @@
       "url": "https://lubimyczytac.pl/ksiazka/4311/ostrze-tyshalle-a-czesc-1",
       "type": "book",
       "authors": [
-        "Matthew Woodring Stover"
+        "Matthew Stover"
       ],
       "average_rating": 7.4,
       "user_rating": 7.0,
@@ -6273,7 +6341,7 @@
       "url": "https://lubimyczytac.pl/ksiazka/4058/bohaterowie-umieraja",
       "type": "book",
       "authors": [
-        "Matthew Woodring Stover"
+        "Matthew Stover"
       ],
       "average_rating": 7.4,
       "user_rating": 8.0,
@@ -9036,7 +9104,7 @@
       "authors": [
         "Scott Lynch"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
