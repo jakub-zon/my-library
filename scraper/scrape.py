@@ -591,7 +591,7 @@ def audit_shelves(books: list[dict], max_pages: int | None = None) -> list[dict]
 
 def extract_details(html: str) -> dict:
     soup = BeautifulSoup(html, "lxml")
-    details: dict = {"description": None, "genre": None, "pages": None}
+    details: dict = {"description": None, "genre": None, "pages": None, "publisher": None, "isbn": None, "dimensions": None, "height_mm": None, "bibliography_checked": True}
 
     desc_el = soup.select_one("#book-description")
     if desc_el:
@@ -605,16 +605,28 @@ def extract_details(html: str) -> dict:
     dl = soup.select_one("#book-details dl")
     if dl:
         for dt in dl.find_all("dt"):
-            label = dt.get_text(strip=True).rstrip(":").strip()
+            label = dt.get_text(" ", strip=True).rstrip(":").strip().casefold()
             dd = dt.find_next_sibling("dd")
             if not dd:
                 continue
             value = dd.get_text(" ", strip=True)
-            if label == "Kategoria":
+            if label == "kategoria":
                 details["genre"] = value or None
-            elif label == "Liczba stron":
+            elif label == "liczba stron":
                 digits = re.sub(r"\D+", "", value)
                 details["pages"] = int(digits) if digits else None
+            elif label in ("wydawnictwo", "wydawca"):
+                details["publisher"] = value or None
+            elif label in ("isbn", "isbn-13"):
+                details["isbn"] = re.sub(r"[^0-9Xx]", "", value) or None
+            elif label in ("wymiary", "format", "rozmiar"):
+                details["dimensions"] = value or None
+                m = re.search(r"(\\d+(?:[.,]\\d+)?)\\s*[x×]\\s*(\\d+(?:[.,]\\d+)?)(?:\\s*[x×]\\s*\\d+(?:[.,]\\d+)?)?\\s*(mm|cm)\\b", value, re.I)
+                if m:
+                    a, b = [float(m.group(i).replace(",", ".")) for i in (1, 2)]
+                    height = max(a, b) * (10 if m.group(3).lower() == "cm" else 1)
+                    if 100 <= height <= 500:
+                        details["height_mm"] = round(height, 1)
     return details
 
 
@@ -645,7 +657,7 @@ def _needs_enrichment(entry: dict | None, refresh: bool) -> bool:
     if entry.get("error") == "parse":
         return True  # transient, retry next run
     has_data = bool(entry.get("description") or entry.get("genre") or entry.get("pages"))
-    return not has_data
+    return not (has_data and entry.get("bibliography_checked") is True)
 
 
 def _fetch_detail_once(client: httpx.Client, url: str) -> tuple[str, int, str]:
@@ -793,7 +805,7 @@ def enrich_books(
                 title = (b.get("title") or "")[:60]
                 print(f"  [{i}/{total}] id={book_id} {title}", file=sys.stderr)
                 result, outcome = enrich_one(client, b)
-                existing[book_id] = result
+                existing[book_id] = {**existing.get(book_id, {}), **result} if outcome in ("ok", "retry-ok") else result
                 if outcome == "ok":
                     stats["ok_first"] += 1
                 elif outcome == "retry-ok":
