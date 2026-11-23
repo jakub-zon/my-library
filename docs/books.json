@@ -1,7 +1,475 @@
 {
   "source": "https://lubimyczytac.pl/ksiegozbior/4lQWYNc36af",
-  "count": 655,
+  "count": 681,
   "books": [
+    {
+      "id": "5163631",
+      "title": "Pamięć światłości",
+      "url": "https://lubimyczytac.pl/ksiazka/5163631/pamiec-swiatlosci",
+      "type": "book",
+      "authors": [
+        "Robert Jordan",
+        "Brandon Sanderson"
+      ],
+      "average_rating": 8.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Koło Czasu (tom 14)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5163000/5163631/1221185-170x243.jpg"
+    },
+    {
+      "id": "5120264",
+      "title": "Bastiony mroku",
+      "url": "https://lubimyczytac.pl/ksiazka/5120264/bastiony-mroku",
+      "type": "book",
+      "authors": [
+        "Robert Jordan",
+        "Brandon Sanderson"
+      ],
+      "average_rating": 8.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Koło Czasu (tom 13)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5120000/5120264/1162172-170x243.jpg"
+    },
+    {
+      "id": "4975124",
+      "title": "Triumf chaosu",
+      "url": "https://lubimyczytac.pl/ksiazka/4975124/triumf-chaosu",
+      "type": "book",
+      "authors": [
+        "Robert Jordan"
+      ],
+      "average_rating": 7.3,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cycle": "Koło Czasu (tom 6)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4975000/4975124/912997-170x243.jpg"
+    },
+    {
+      "id": "4963199",
+      "title": "Ognie niebios",
+      "url": "https://lubimyczytac.pl/ksiazka/4963199/ognie-niebios",
+      "type": "book",
+      "authors": [
+        "Robert Jordan"
+      ],
+      "average_rating": 7.4,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Koło Czasu (tom 5)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4963000/4963199/890824-170x243.jpg"
+    },
+    {
+      "id": "4951740",
+      "title": "Wschodzący cień",
+      "url": "https://lubimyczytac.pl/ksiazka/4951740/wschodzacy-cien",
+      "type": "book",
+      "authors": [
+        "Robert Jordan"
+      ],
+      "average_rating": 7.6,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Koło Czasu (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4951000/4951740/868285-170x243.jpg"
+    },
+    {
+      "id": "4919438",
+      "title": "Smok odrodzony",
+      "url": "https://lubimyczytac.pl/ksiazka/4919438/smok-odrodzony",
+      "type": "book",
+      "authors": [
+        "Robert Jordan"
+      ],
+      "average_rating": 7.5,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Koło Czasu (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4919000/4919438/798426-170x243.jpg"
+    },
+    {
+      "id": "5207489",
+      "title": "Wielkie polowanie",
+      "url": "https://lubimyczytac.pl/ksiazka/5207489/wielkie-polowanie",
+      "type": "book",
+      "authors": [
+        "Robert Jordan"
+      ],
+      "average_rating": 7.5,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Koło Czasu (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5207000/5207489/1303020-170x243.jpg"
+    },
+    {
+      "id": "4881543",
+      "title": "Oko świata",
+      "url": "https://lubimyczytac.pl/ksiazka/4881543/oko-swiata",
+      "type": "book",
+      "authors": [
+        "Robert Jordan"
+      ],
+      "average_rating": 7.2,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Koło Czasu (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4881000/4881543/727883-170x243.jpg"
+    },
+    {
+      "id": "5192799",
+      "title": "Nowa wiosna",
+      "url": "https://lubimyczytac.pl/ksiazka/5192799/nowa-wiosna",
+      "type": "book",
+      "authors": [
+        "Robert Jordan"
+      ],
+      "average_rating": 6.7,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Koło Czasu (tom 0)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5192000/5192799/1276864-170x243.jpg"
+    },
+    {
+      "id": "204677",
+      "title": "Okaleczony bóg",
+      "url": "https://lubimyczytac.pl/ksiazka/204677/okaleczony-bog",
+      "type": "book",
+      "authors": [
+        "Steven Erikson"
+      ],
+      "average_rating": 8.5,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Malazańska Księga Poległych (tom 10)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/204000/204677/221688-170x243.jpg"
+    },
+    {
+      "id": "196005",
+      "title": "Pył snów",
+      "url": "https://lubimyczytac.pl/ksiazka/196005/pyl-snow",
+      "type": "book",
+      "authors": [
+        "Steven Erikson"
+      ],
+      "average_rating": 8.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Malazańska Księga Poległych (tom 9)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/196000/196005/193571-170x243.jpg"
+    },
+    {
+      "id": "196003",
+      "title": "Myto ogarów",
+      "url": "https://lubimyczytac.pl/ksiazka/196003/myto-ogarow",
+      "type": "book",
+      "authors": [
+        "Steven Erikson"
+      ],
+      "average_rating": 8.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Malazańska Księga Poległych (tom 8)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/196000/196003/193570-170x243.jpg"
+    },
+    {
+      "id": "4976760",
+      "title": "Wicher śmierci",
+      "url": "https://lubimyczytac.pl/ksiazka/4976760/wicher-smierci",
+      "type": "book",
+      "authors": [
+        "Steven Erikson"
+      ],
+      "average_rating": 8.3,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Malazańska Księga Poległych (tom 7)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4976000/4976760/980183-170x243.jpg"
+    },
+    {
+      "id": "4976756",
+      "title": "Łowcy kości",
+      "url": "https://lubimyczytac.pl/ksiazka/4976756/lowcy-kosci",
+      "type": "book",
+      "authors": [
+        "Steven Erikson"
+      ],
+      "average_rating": 8.4,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Malazańska Księga Poległych (tom 6)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4976000/4976756/947277-170x243.jpg"
+    },
+    {
+      "id": "4976754",
+      "title": "Przypływy nocy",
+      "url": "https://lubimyczytac.pl/ksiazka/4976754/przyplywy-nocy",
+      "type": "book",
+      "authors": [
+        "Steven Erikson"
+      ],
+      "average_rating": 8.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Malazańska Księga Poległych (tom 5)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4976000/4976754/947276-170x243.jpg"
+    },
+    {
+      "id": "4950478",
+      "title": "Dom łańcuchów",
+      "url": "https://lubimyczytac.pl/ksiazka/4950478/dom-lancuchow",
+      "type": "book",
+      "authors": [
+        "Steven Erikson"
+      ],
+      "average_rating": 8.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Malazańska Księga Poległych (tom 4)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4950000/4950478/947275-170x243.jpg"
+    },
+    {
+      "id": "4950477",
+      "title": "Wspomnienie lodu",
+      "url": "https://lubimyczytac.pl/ksiazka/4950477/wspomnienie-lodu",
+      "type": "book",
+      "authors": [
+        "Steven Erikson"
+      ],
+      "average_rating": 8.4,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Malazańska Księga Poległych (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4950000/4950477/947274-170x243.jpg"
+    },
+    {
+      "id": "4947294",
+      "title": "Bramy Domu Umarłych",
+      "url": "https://lubimyczytac.pl/ksiazka/4947294/bramy-domu-umarlych",
+      "type": "book",
+      "authors": [
+        "Steven Erikson"
+      ],
+      "average_rating": 8.1,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Malazańska Księga Poległych (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4947000/4947294/947273-170x243.jpg"
+    },
+    {
+      "id": "4947293",
+      "title": "Ogrody Księżyca",
+      "url": "https://lubimyczytac.pl/ksiazka/4947293/ogrody-ksiezyca",
+      "type": "book",
+      "authors": [
+        "Steven Erikson"
+      ],
+      "average_rating": 7.5,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Malazańska Księga Poległych (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/4947000/4947293/947272-170x243.jpg"
+    },
+    {
+      "id": "5214863",
+      "title": "Marsz kości",
+      "url": "https://lubimyczytac.pl/ksiazka/5214863/marsz-kosci",
+      "type": "book",
+      "authors": [
+        "Yaro Kowalewski"
+      ],
+      "average_rating": 8.3,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane",
+        "Niedokończone serie"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5214000/5214863/1316181-170x243.jpg"
+    },
+    {
+      "id": "5169952",
+      "title": "Brama umarłych",
+      "url": "https://lubimyczytac.pl/ksiazka/5169952/brama-umarlych",
+      "type": "book",
+      "authors": [
+        "Yaro Kowalewski"
+      ],
+      "average_rating": 7.6,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5169000/5169952/1232680-170x243.jpg"
+    },
+    {
+      "id": "5114844",
+      "title": "Droga honoru",
+      "url": "https://lubimyczytac.pl/ksiazka/5114844/droga-honoru",
+      "type": "book",
+      "authors": [
+        "Henryk Tur"
+      ],
+      "average_rating": 6.6,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5114000/5114844/1150821-170x243.jpg"
+    },
+    {
+      "id": "5180890",
+      "title": "Rozkład i rozkosz",
+      "url": "https://lubimyczytac.pl/ksiazka/5180890/rozklad-i-rozkosz",
+      "type": "book",
+      "authors": [
+        "Henryk Tur"
+      ],
+      "average_rating": 5.8,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Z krwi i ognia (tom 1)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5180000/5180890/1321223-170x243.jpg"
+    },
+    {
+      "id": "5269068",
+      "title": "Morandor",
+      "url": "https://lubimyczytac.pl/ksiazka/5269068/morandor",
+      "type": "book",
+      "authors": [
+        "Henryk Tur"
+      ],
+      "average_rating": 4.0,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cover": "https://s.lubimyczytac.pl/upload/books/5269000/5269068/1409192-170x243.jpg"
+    },
+    {
+      "id": "5209128",
+      "title": "Ku przeznaczeniu",
+      "url": "https://lubimyczytac.pl/ksiazka/5209128/ku-przeznaczeniu",
+      "type": "book",
+      "authors": [
+        "Henryk Tur"
+      ],
+      "average_rating": 7.2,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Z krwi i ognia (tom 2)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5209000/5209128/1321221-170x243.jpg"
+    },
+    {
+      "id": "5209130",
+      "title": "Bitwy na północy",
+      "url": "https://lubimyczytac.pl/ksiazka/5209130/bitwy-na-polnocy",
+      "type": "book",
+      "authors": [
+        "Henryk Tur"
+      ],
+      "average_rating": 7.2,
+      "user_rating": null,
+      "shelves": [
+        "Chcę przeczytać",
+        "Do przeczytania",
+        "Posiadane"
+      ],
+      "cycle": "Z krwi i ognia (tom 3)",
+      "cover": "https://s.lubimyczytac.pl/upload/books/5209000/5209130/1321220-170x243.jpg"
+    },
     {
       "id": "239889",
       "title": "Chłopcy. Największa z przygód",
@@ -300,7 +768,7 @@
       "authors": [
         "Marissa Meyer"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -319,7 +787,7 @@
       "authors": [
         "John Scalzi"
       ],
-      "average_rating": 6.6,
+      "average_rating": 6.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -426,7 +894,7 @@
       "authors": [
         "Brandon Sanderson"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -479,7 +947,7 @@
       "authors": [
         "Matt Dinniman"
       ],
-      "average_rating": 7.7,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -637,7 +1105,7 @@
       "authors": [
         "Franciszek M. Piątkowski"
       ],
-      "average_rating": 7.5,
+      "average_rating": 7.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -982,7 +1450,7 @@
       "authors": [
         "Danielle L. Jensen"
       ],
-      "average_rating": 8.2,
+      "average_rating": 8.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1228,7 +1696,7 @@
       "authors": [
         "Rebecca Yarros"
       ],
-      "average_rating": 7.9,
+      "average_rating": 7.8,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1284,7 +1752,7 @@
       "authors": [
         "Shelley Parker-Chan"
       ],
-      "average_rating": 6.6,
+      "average_rating": 6.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1626,7 +2094,7 @@
       "authors": [
         "Karl Edward Wagner"
       ],
-      "average_rating": 7.0,
+      "average_rating": 7.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1644,7 +2112,7 @@
       "authors": [
         "Karl Edward Wagner"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1714,7 +2182,7 @@
       "authors": [
         "Stacey McEwan"
       ],
-      "average_rating": 8.5,
+      "average_rating": 8.4,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1731,7 +2199,7 @@
       "authors": [
         "Fonda Lee"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.3,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -1786,7 +2254,7 @@
       "authors": [
         "Jay Kristoff"
       ],
-      "average_rating": 7.0,
+      "average_rating": 7.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2017,7 +2485,7 @@
       "authors": [
         "Wojciech Wolnicki"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.5,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane"
@@ -2123,7 +2591,7 @@
       "authors": [
         "Ryan Cahill"
       ],
-      "average_rating": 7.2,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2324,7 +2792,7 @@
       "authors": [
         "Janusz Stankiewicz"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.5,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -2501,7 +2969,7 @@
       "authors": [
         "John Gwynne"
       ],
-      "average_rating": 7.8,
+      "average_rating": 7.7,
       "user_rating": 8.0,
       "shelves": [
         "Przeczytane",
@@ -2573,7 +3041,7 @@
       "authors": [
         "Katarzyna Wycisk"
       ],
-      "average_rating": 8.1,
+      "average_rating": 8.0,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2879,7 +3347,7 @@
       "authors": [
         "Jonathan Maberry"
       ],
-      "average_rating": 6.8,
+      "average_rating": 6.9,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -2950,7 +3418,7 @@
       "authors": [
         "Adam Hetmański"
       ],
-      "average_rating": 7.4,
+      "average_rating": 7.5,
       "user_rating": 7.0,
       "shelves": [
         "Przeczytane",
@@ -3630,7 +4098,7 @@
       "authors": [
         "Mai Corland"
       ],
-      "average_rating": 8.0,
+      "average_rating": 8.1,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4196,7 +4664,7 @@
       "authors": [
         "Joe Abercrombie"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.5,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -4537,7 +5005,7 @@
       "authors": [
         "Ryan Cahill"
       ],
-      "average_rating": 6.5,
+      "average_rating": 6.6,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
@@ -8657,7 +9125,7 @@
       "authors": [
         "Justin Cronin"
       ],
-      "average_rating": 7.6,
+      "average_rating": 7.7,
       "user_rating": null,
       "shelves": [
         "Chcę przeczytać",
